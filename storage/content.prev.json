@@ -1,0 +1,663 @@
+{
+  "version": 1,
+  "settings": {
+    "name": {
+      "first": "Felipe",
+      "last": "Pidi",
+      "full": "Felipe Pidi"
+    },
+    "role": "AI Creative & Design Leader",
+    "hero": {
+      "roleLines": [
+        "AI Creative &",
+        "Design Leader"
+      ],
+      "lead": "Creative direction, visual storytelling and generative AI. Building bold ideas from concept to execution.",
+      "meta": [
+        "Based in São Paulo, Brazil",
+        "Available worldwide",
+        "Selected works / 2026"
+      ],
+      "cta": "Explore the work",
+      "portraitDesktopId": "ph-hero-d",
+      "portraitMobileId": "ph-hero-m"
+    },
+    "selectedWork": {
+      "headline": [
+        "Selected",
+        "Works."
+      ],
+      "subtitle": "Creative direction, visual identities and ideas brought to life.",
+      "featuredOrder": [
+        "p-nazca",
+        "p-diniz",
+        "p-styles",
+        "p-reel"
+      ]
+    },
+    "archive": {
+      "headline": [
+        "The",
+        "Archive."
+      ],
+      "subtitle": "Different disciplines. One creative vision."
+    },
+    "about": {
+      "headline": [
+        "The person",
+        "behind the work."
+      ],
+      "portraitId": "ph-about",
+      "bio": [
+        "Felipe Pidi is an AI Creative & Design Leader based in São Paulo, Brazil. For more than twelve years he has worked across creative direction, art direction, branding, visual identity systems and integrated campaigns — work that has to hold together from a single frame to a national rollout.",
+        "He has spent the last three-plus years leading creative teams and multidisciplinary design processes. Today, as AI Creative Lead at Jotacom, he builds hybrid pipelines where traditional art direction sets the taste and generative tools carry it at scale: campaigns, visual systems and production workflows other designers can pick up and run.",
+        "Along the way he has made work for Mercado Livre, UOL, Duolingo, KFC and Óticas Diniz, among others. His method is easy to describe and hard to fake — a clear point of view, strategy that earns its place, new technology used with intent, and his own hands on the production."
+      ],
+      "disciplines": [
+        "Creative Direction",
+        "Art Direction",
+        "Design Leadership",
+        "Brand Identity",
+        "Generative AI",
+        "Visual Storytelling"
+      ],
+      "metrics": [
+        {
+          "value": "12+",
+          "label": "Years in design & creative"
+        },
+        {
+          "value": "3+",
+          "label": "Years in creative leadership"
+        },
+        {
+          "value": "10+",
+          "label": "Design professionals led"
+        }
+      ]
+    },
+    "contact": {
+      "headline": [
+        "Let's make",
+        "something",
+        "unforgettable."
+      ],
+      "copy": "Have a project, an idea or an opportunity? Let's create something worth remembering.",
+      "email": "felipe.luiz27@hotmail.com",
+      "location": "São Paulo, Brazil",
+      "availability": "Available for international projects"
+    },
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/felipe-luiz-78043597/",
+      "behance": "https://www.behance.net/felipeluiz"
+    },
+    "cv": {},
+    "footer": {
+      "signature": "Felipe Pidi © 2026",
+      "tagline": "Made with intention."
+    },
+    "seo": {
+      "title": "Felipe Pidi — AI Creative & Design Leader",
+      "description": "Portfolio of Felipe Pidi, AI Creative & Design Leader based in São Paulo. Creative direction, branding, campaigns and generative AI."
+    }
+  },
+  "categories": [
+    {
+      "id": "c-direction",
+      "slug": "direction",
+      "index": "01",
+      "title": "Creative Direction & Campaigns",
+      "filterLabel": "Direction",
+      "description": "Campaign development, creative concepts, advertising, art direction and integrated communication.",
+      "order": 1
+    },
+    {
+      "id": "c-branding",
+      "slug": "branding",
+      "index": "02",
+      "title": "Brand Identity & Design Systems",
+      "filterLabel": "Branding",
+      "description": "Branding, identity systems, visual languages, guidelines and graphic design.",
+      "order": 2
+    },
+    {
+      "id": "c-ai",
+      "slug": "generative-ai",
+      "index": "03",
+      "title": "Generative AI & Experimentation",
+      "filterLabel": "Generative AI",
+      "description": "AI workflows, creative automation, visual exploration, generative production and experimental projects.",
+      "order": 3
+    },
+    {
+      "id": "c-motion",
+      "slug": "motion",
+      "index": "04",
+      "title": "Film, Motion & Visual Storytelling",
+      "filterLabel": "Motion",
+      "description": "Film direction, motion design, audiovisual production and visual narratives.",
+      "order": 4
+    }
+  ],
+  "projects": [
+    {
+      "id": "p-nazca",
+      "slug": "nazca-experimente-sentir",
+      "title": "Nazca",
+      "subtitle": "Experimente Sentir",
+      "client": "Nazca",
+      "year": 2026,
+      "role": "Creative Direction",
+      "disciplines": [
+        "Creative Direction",
+        "Campaign",
+        "Art Direction"
+      ],
+      "categoryIds": [
+        "c-direction"
+      ],
+      "accent": "#FF6030",
+      "coverId": "ph-nazca",
+      "coverVideoId": "ph-reel",
+      "featured": true,
+      "featuredLayout": "fullbleed",
+      "archiveShape": "landscape",
+      "published": true,
+      "order": 1,
+      "overview": "Demo copy — a campaign built around the line “Experimente Sentir”. Replace this paragraph with the real overview in /admin.",
+      "challenge": "Describe the brief and the problem the campaign had to solve.",
+      "concept": "Describe the creative idea and the visual strategy behind it.",
+      "process": "Research, references, concept development, direction and production.",
+      "outcomes": "",
+      "credits": [
+        {
+          "role": "Creative Direction",
+          "name": "Felipe Pidi"
+        }
+      ],
+      "blocks": [
+        {
+          "id": "nazca-b1",
+          "type": "text",
+          "heading": "The idea",
+          "body": "A large editorial statement about the campaign. Edit or remove this block in the case study editor.",
+          "size": "xl"
+        },
+        {
+          "id": "nazca-b2",
+          "type": "video",
+          "assetId": "m-69a7b0b25b93",
+          "caption": "Reel — placeholder",
+          "autoplay": true
+        },
+        {
+          "id": "nazca-b3",
+          "type": "asymmetric",
+          "assetIds": [
+            "ph-still-b",
+            "ph-still-a",
+            "ph-still-c"
+          ]
+        },
+        {
+          "id": "nazca-b4",
+          "type": "imageText",
+          "assetId": "ph-still-a",
+          "heading": "Frame by frame",
+          "text": "Pair a key frame with a short note on direction, light or casting.",
+          "side": "right"
+        },
+        {
+          "id": "nazca-b5",
+          "type": "filmstrip",
+          "assetIds": [
+            "ph-still-a",
+            "ph-nazca",
+            "ph-still-c",
+            "ph-film",
+            "ph-still-b"
+          ]
+        },
+        {
+          "id": "nazca-b6",
+          "type": "grid3",
+          "assetIds": [
+            "ph-still-c",
+            "ph-still-b",
+            "ph-still-c"
+          ]
+        }
+      ],
+      "demo": true,
+      "createdAt": "2026-10-08T00:00:00.000Z",
+      "updatedAt": "2026-10-08T20:06:36.549Z"
+    },
+    {
+      "id": "p-diniz",
+      "slug": "oticas-diniz-national-campaign",
+      "title": "Óticas Diniz",
+      "subtitle": "National Campaign",
+      "client": "Óticas Diniz",
+      "year": 2025,
+      "role": "AI-Driven Lead Design · DDAO Creative Lab",
+      "disciplines": [
+        "Campaign",
+        "Art Direction",
+        "Generative AI"
+      ],
+      "categoryIds": [
+        "c-direction",
+        "c-ai"
+      ],
+      "accent": "#EF2917",
+      "coverId": "ph-diniz",
+      "featured": true,
+      "featuredLayout": "split",
+      "archiveShape": "poster",
+      "published": true,
+      "order": 2,
+      "overview": "Demo copy — national campaign for Óticas Diniz, developed at DDAO Creative Lab. Replace with the real case.",
+      "challenge": "",
+      "concept": "",
+      "process": "",
+      "outcomes": "",
+      "credits": [
+        {
+          "role": "AI-Driven Lead Designer",
+          "name": "Felipe Pidi"
+        }
+      ],
+      "blocks": [
+        {
+          "id": "diniz-b1",
+          "type": "grid2",
+          "assetIds": [
+            "ph-diniz",
+            "ph-still-b"
+          ]
+        },
+        {
+          "id": "diniz-b2",
+          "type": "gallery",
+          "assetIds": [
+            "ph-still-a",
+            "ph-still-b",
+            "ph-still-c",
+            "ph-diniz"
+          ]
+        }
+      ],
+      "demo": true,
+      "createdAt": "2026-10-08T00:00:00.000Z",
+      "updatedAt": "2026-10-08T00:00:00.000Z"
+    },
+    {
+      "id": "p-styles",
+      "slug": "node-styles",
+      "title": "Node Styles",
+      "subtitle": "Visual styles as reusable pipelines",
+      "client": "Jotacom",
+      "year": 2026,
+      "role": "AI Creative Lead",
+      "disciplines": [
+        "Generative AI",
+        "Creative Systems",
+        "Workflow Design"
+      ],
+      "categoryIds": [
+        "c-ai",
+        "c-branding"
+      ],
+      "accent": "#A8F5E5",
+      "coverId": "ph-styles",
+      "featured": true,
+      "featuredLayout": "poster",
+      "archiveShape": "square",
+      "published": true,
+      "order": 3,
+      "overview": "A library of visual styles built as node-based pipelines, so other designers on the team can reproduce the same aesthetic with consistency.",
+      "challenge": "",
+      "concept": "",
+      "process": "",
+      "outcomes": "Around 25 visual styles built as node pipelines.\nCreative route time down from about 2 hours to 20–30 minutes.",
+      "credits": [
+        {
+          "role": "AI Creative Lead",
+          "name": "Felipe Pidi"
+        }
+      ],
+      "blocks": [
+        {
+          "id": "styles-b1",
+          "type": "text",
+          "body": "Taste, encoded. Each style is a pipeline anyone on the squad can run.",
+          "size": "xl"
+        },
+        {
+          "id": "styles-b2",
+          "type": "grid3",
+          "assetIds": [
+            "ph-styles",
+            "ph-still-c",
+            "ph-styles"
+          ]
+        }
+      ],
+      "demo": true,
+      "createdAt": "2026-10-08T00:00:00.000Z",
+      "updatedAt": "2026-10-08T00:00:00.000Z"
+    },
+    {
+      "id": "p-reel",
+      "slug": "showreel-2026",
+      "title": "Showreel",
+      "subtitle": "Selected frames, 2026",
+      "client": "",
+      "year": 2026,
+      "role": "Direction & Edit",
+      "disciplines": [
+        "Film",
+        "Motion",
+        "Visual Storytelling"
+      ],
+      "categoryIds": [
+        "c-motion"
+      ],
+      "accent": "#138FE0",
+      "coverId": "ph-film",
+      "coverVideoId": "ph-reel",
+      "featured": true,
+      "featuredLayout": "sequence",
+      "archiveShape": "landscape",
+      "published": true,
+      "order": 4,
+      "overview": "Demo slot for a reel or film piece. Upload an MP4/WebM or paste a YouTube/Vimeo link in /admin.",
+      "challenge": "",
+      "concept": "",
+      "process": "",
+      "outcomes": "",
+      "credits": [],
+      "blocks": [
+        {
+          "id": "reel-b1",
+          "type": "video",
+          "assetId": "ph-reel",
+          "autoplay": false
+        }
+      ],
+      "demo": true,
+      "createdAt": "2026-10-08T00:00:00.000Z",
+      "updatedAt": "2026-10-08T00:00:00.000Z"
+    },
+    {
+      "id": "p-meli",
+      "slug": "mercado-livre",
+      "title": "Mercado Livre",
+      "subtitle": "Campaigns",
+      "client": "Mercado Livre",
+      "year": 2026,
+      "role": "AI Creative Lead · Jotacom",
+      "disciplines": [
+        "Campaign",
+        "Generative AI"
+      ],
+      "categoryIds": [
+        "c-direction",
+        "c-ai"
+      ],
+      "accent": "#138FE0",
+      "coverId": "ph-mercado",
+      "featured": false,
+      "featuredLayout": "fullbleed",
+      "archiveShape": "landscape",
+      "published": true,
+      "order": 5,
+      "overview": "Demo copy — campaign work for Mercado Livre at Jotacom. Replace with the real case.",
+      "challenge": "",
+      "concept": "",
+      "process": "",
+      "outcomes": "",
+      "credits": [],
+      "blocks": [],
+      "demo": true,
+      "createdAt": "2026-10-08T00:00:00.000Z",
+      "updatedAt": "2026-10-08T00:00:00.000Z"
+    },
+    {
+      "id": "p-kfc",
+      "slug": "kfc",
+      "title": "KFC",
+      "subtitle": "Art Direction",
+      "client": "KFC",
+      "year": 2021,
+      "role": "Senior Art Director · The Heart",
+      "disciplines": [
+        "Art Direction",
+        "Campaign"
+      ],
+      "categoryIds": [
+        "c-direction"
+      ],
+      "accent": "#EF2917",
+      "coverId": "ph-kfc",
+      "featured": false,
+      "featuredLayout": "fullbleed",
+      "archiveShape": "type",
+      "published": true,
+      "order": 6,
+      "overview": "Demo copy — art direction for KFC at The Heart. Replace with the real case.",
+      "challenge": "",
+      "concept": "",
+      "process": "",
+      "outcomes": "",
+      "credits": [],
+      "blocks": [],
+      "demo": true,
+      "createdAt": "2026-10-08T00:00:00.000Z",
+      "updatedAt": "2026-10-08T00:00:00.000Z"
+    },
+    {
+      "id": "p-duo",
+      "slug": "duolingo",
+      "title": "Duolingo",
+      "subtitle": "Campaign",
+      "client": "Duolingo",
+      "year": 2026,
+      "role": "AI Creative Lead · Jotacom",
+      "disciplines": [
+        "Campaign",
+        "Generative AI"
+      ],
+      "categoryIds": [
+        "c-direction",
+        "c-ai"
+      ],
+      "accent": "#A8F5E5",
+      "coverId": "ph-still-c",
+      "featured": false,
+      "featuredLayout": "fullbleed",
+      "archiveShape": "square",
+      "published": true,
+      "order": 7,
+      "overview": "Demo copy — campaign work for Duolingo at Jotacom. Replace with the real case.",
+      "challenge": "",
+      "concept": "",
+      "process": "",
+      "outcomes": "",
+      "credits": [],
+      "blocks": [],
+      "demo": true,
+      "createdAt": "2026-10-08T00:00:00.000Z",
+      "updatedAt": "2026-10-08T00:00:00.000Z"
+    }
+  ],
+  "media": [
+    {
+      "id": "m-69a7b0b25b93",
+      "kind": "video",
+      "src": "/media/m-69a7b0b25b93.mp4",
+      "alt": "Nazca Experimente sentir horizontal",
+      "width": 1920,
+      "height": 1080,
+      "mime": "video/mp4",
+      "size": 10485760,
+      "origin": "upload",
+      "createdAt": "2026-10-08T20:06:22.493Z"
+    },
+    {
+      "id": "ph-hero-d",
+      "kind": "image",
+      "src": "/placeholders/hero-desktop.jpg",
+      "alt": "Placeholder for Felipe Pidi's hero portrait (desktop)",
+      "width": 2400,
+      "height": 1350,
+      "mime": "image/jpeg",
+      "origin": "placeholder",
+      "createdAt": "2026-10-08T00:00:00.000Z"
+    },
+    {
+      "id": "ph-hero-m",
+      "kind": "image",
+      "src": "/placeholders/hero-mobile.jpg",
+      "alt": "Placeholder for Felipe Pidi's hero portrait (mobile)",
+      "width": 1080,
+      "height": 1920,
+      "mime": "image/jpeg",
+      "origin": "placeholder",
+      "createdAt": "2026-10-08T00:00:00.000Z"
+    },
+    {
+      "id": "ph-about",
+      "kind": "image",
+      "src": "/placeholders/about.jpg",
+      "alt": "Placeholder for a black-and-white portrait of Felipe Pidi",
+      "width": 1600,
+      "height": 2000,
+      "mime": "image/jpeg",
+      "origin": "placeholder",
+      "createdAt": "2026-10-08T00:00:00.000Z"
+    },
+    {
+      "id": "ph-nazca",
+      "kind": "image",
+      "src": "/placeholders/nazca.jpg",
+      "alt": "Placeholder key visual — orange sun over dunes",
+      "width": 2520,
+      "height": 1080,
+      "mime": "image/jpeg",
+      "origin": "placeholder",
+      "createdAt": "2026-10-08T00:00:00.000Z"
+    },
+    {
+      "id": "ph-diniz",
+      "kind": "image",
+      "src": "/placeholders/diniz.jpg",
+      "alt": "Placeholder campaign visual in red",
+      "width": 1600,
+      "height": 2000,
+      "mime": "image/jpeg",
+      "origin": "placeholder",
+      "createdAt": "2026-10-08T00:00:00.000Z"
+    },
+    {
+      "id": "ph-styles",
+      "kind": "image",
+      "src": "/placeholders/styles.jpg",
+      "alt": "Placeholder generative study in mint and blue",
+      "width": 1600,
+      "height": 1600,
+      "mime": "image/jpeg",
+      "origin": "placeholder",
+      "createdAt": "2026-10-08T00:00:00.000Z"
+    },
+    {
+      "id": "ph-mercado",
+      "kind": "image",
+      "src": "/placeholders/mercado.jpg",
+      "alt": "Placeholder campaign visual in blue",
+      "width": 2400,
+      "height": 1350,
+      "mime": "image/jpeg",
+      "origin": "placeholder",
+      "createdAt": "2026-10-08T00:00:00.000Z"
+    },
+    {
+      "id": "ph-kfc",
+      "kind": "image",
+      "src": "/placeholders/kfc.jpg",
+      "alt": "Placeholder art direction frame in red",
+      "width": 2400,
+      "height": 1350,
+      "mime": "image/jpeg",
+      "origin": "placeholder",
+      "createdAt": "2026-10-08T00:00:00.000Z"
+    },
+    {
+      "id": "ph-film",
+      "kind": "image",
+      "src": "/placeholders/film.jpg",
+      "alt": "Placeholder film still",
+      "width": 2520,
+      "height": 1080,
+      "mime": "image/jpeg",
+      "origin": "placeholder",
+      "createdAt": "2026-10-08T00:00:00.000Z"
+    },
+    {
+      "id": "ph-still-a",
+      "kind": "image",
+      "src": "/placeholders/still-a.jpg",
+      "alt": "Placeholder gallery still, 3:2",
+      "width": 1800,
+      "height": 1200,
+      "mime": "image/jpeg",
+      "origin": "placeholder",
+      "createdAt": "2026-10-08T00:00:00.000Z"
+    },
+    {
+      "id": "ph-still-b",
+      "kind": "image",
+      "src": "/placeholders/still-b.jpg",
+      "alt": "Placeholder gallery still, 4:5",
+      "width": 1600,
+      "height": 2000,
+      "mime": "image/jpeg",
+      "origin": "placeholder",
+      "createdAt": "2026-10-08T00:00:00.000Z"
+    },
+    {
+      "id": "ph-still-c",
+      "kind": "image",
+      "src": "/placeholders/still-c.jpg",
+      "alt": "Placeholder gallery still, 1:1",
+      "width": 1600,
+      "height": 1600,
+      "mime": "image/jpeg",
+      "origin": "placeholder",
+      "createdAt": "2026-10-08T00:00:00.000Z"
+    },
+    {
+      "id": "ph-reel-poster",
+      "kind": "image",
+      "src": "/placeholders/reel-poster.jpg",
+      "alt": "Placeholder reel poster frame",
+      "width": 1280,
+      "height": 548,
+      "mime": "image/jpeg",
+      "origin": "placeholder",
+      "createdAt": "2026-10-08T00:00:00.000Z"
+    },
+    {
+      "id": "ph-reel",
+      "kind": "video",
+      "src": "/placeholders/reel.mp4",
+      "posterId": "ph-reel-poster",
+      "alt": "Placeholder reel — slow push-in on a desert sun",
+      "width": 1280,
+      "height": 548,
+      "mime": "video/mp4",
+      "origin": "placeholder",
+      "createdAt": "2026-10-08T00:00:00.000Z"
+    }
+  ]
+}
