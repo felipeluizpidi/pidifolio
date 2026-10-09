@@ -45,7 +45,9 @@ Nenhum segredo vai para o navegador: só `NEXT_PUBLIC_SITE_URL` é público.
 - **Editor de projeto** — título, subtítulo, slug (gerado do título), cliente, ano, papel, disciplinas, categorias (várias), cor de destaque, layout em Selected Work (*full-bleed*, *split*, *poster de festival*, *film strip*), formato do card no Archive, capa e vídeo de capa, textos do case (Overview, Challenge, Concept, Process, Outcomes), créditos e **blocos do case**:
   imagem full-width · vídeo full-width · grid 2 · grid 3 · editorial assimétrico · imagem + texto · film strip horizontal · galeria com lightbox · vídeo embutido (URL) · texto editorial grande. Blocos são adicionados, configurados e reordenados por arrastar.
 - **Media** — upload por arrastar ou seletor com barra de progresso por arquivo, validação de tipo e tamanho (no navegador e de novo no servidor, inclusive pelos *magic bytes*), alt text, legenda, frame de pôster para vídeos, links do YouTube/Vimeo, filtro “só não usados”. Arquivo em uso **não pode ser excluído** — o painel mostra onde ele está sendo usado.
-- **Settings** — retratos do hero (desktop e mobile separados), textos do hero, títulos das seções, bio, disciplinas, métricas, retrato do About, e-mail, LinkedIn, Behance, CV (PDF enviado ou link), rodapé e SEO.
+- **Settings** — retratos do hero (desktop e mobile separados), textos do hero, títulos das seções, bio, disciplinas, números de carreira (faixa abaixo do hero), retrato do About, e-mail, LinkedIn, Behance, Instagram, WhatsApp, CV (PDF enviado ou link), rodapé, SEO e **Photography** (seção única do Archive: escolher, enviar e arrastar fotos).
+- **Messages** — mensagens do formulário de contato (nome, e-mail, mensagem), guardadas em `storage/messages.json`. Marcar como lida, responder por e-mail, excluir. O formulário valida os campos, tem honeypot anti-bot e limita 3 envios por IP a cada 10 min.
+- **Cores dos cases** — só a paleta do site (vermelho, laranja, azul, menta, marfim, preto); o servidor recusa outras cores.
 
 Limites de upload: imagens (JPG, PNG, WebP, AVIF) até 20 MB · vídeos (MP4, WebM) até 400 MB · PDF até 15 MB.
 

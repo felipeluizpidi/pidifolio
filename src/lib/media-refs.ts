@@ -8,6 +8,7 @@ export function findReferences(c: Content, id: string): string[] {
   if (s.hero.portraitMobileId === id) refs.push("Settings → Hero portrait (mobile)");
   if (s.about.portraitId === id) refs.push("Settings → About portrait");
   if (s.cv.assetId === id) refs.push("Settings → CV file");
+  if (s.photography.photoIds.includes(id)) refs.push("Settings → Photography");
   for (const m of c.media) if (m.posterId === id) refs.push(`Media → poster of “${m.alt || m.id}”`);
   for (const p of c.projects) {
     if (p.coverId === id) refs.push(`${p.title} → cover`);

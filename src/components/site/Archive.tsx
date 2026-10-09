@@ -4,8 +4,9 @@ import { useMemo, useState } from "react";
 import Link from "next/link";
 import { AnimatePresence, motion } from "motion/react";
 import clsx from "clsx";
-import type { Category, ResolvedProject, Settings } from "@/lib/types";
-import { Media } from "../media/Media";
+import type { Category, MediaAsset, ResolvedProject, Settings } from "@/lib/types";
+import { aspectOf, Media } from "../media/Media";
+import { Lightbox } from "../media/Lightbox";
 import { EASE, MaskLines, Reveal } from "./Motion";
 import { onAccent } from "./SelectedWork";
 
@@ -35,7 +36,7 @@ function Card({ p }: { p: ResolvedProject }) {
           <span>№ {p.number}</span>
           <span>{p.year}</span>
         </div>
-        <h3 className="t-display break-words text-[clamp(64px,9vw,150px)] transition-transform duration-700 group-hover:-translate-y-2">{p.title}</h3>
+        <h3 className="t-display break-words text-[clamp(54px,7.6vw,128px)] transition-transform duration-700 group-hover:-translate-y-2">{p.title}</h3>
         <div className="t-meta border-t pt-2" style={{ borderColor: `${fg}55` }}>
           <p>{p.subtitle}</p>
           <p className="opacity-70">{cats}</p>
@@ -54,16 +55,66 @@ function Card({ p }: { p: ResolvedProject }) {
           View ↗
         </span>
       </div>
-      <div className="mt-3 grid grid-cols-[1fr_auto] items-end gap-x-4 border-t border-ink/25 pt-2">
-        <h3 className="t-display text-[clamp(34px,4vw,64px)] leading-[0.9]">{p.title}</h3>
+      <div className="mt-3.5 grid grid-cols-[1fr_auto] items-end gap-x-4 border-t border-ink/25 pt-2.5">
+        <h3 className="t-display text-[clamp(29px,3.4vw,54px)] leading-[0.95]">{p.title}</h3>
         <span className="t-meta text-right">{p.year}</span>
-        <p className="t-meta mt-1 text-ink/60">{[p.client, cats].filter(Boolean).join(" — ")}</p>
+        <p className="t-meta col-span-2 mt-2 text-ink/60">{[p.client, cats].filter(Boolean).join(" — ")}</p>
       </div>
     </Link>
   );
 }
 
-export function Archive({ s, categories, projects }: { s: Settings; categories: Category[]; projects: ResolvedProject[] }) {
+/** The photography reel — one section, fed by Settings → Photography. */
+function Photography({ s, photos }: { s: Settings; photos: MediaAsset[] }) {
+  const [index, setIndex] = useState<number | null>(null);
+  if (!photos.length) return null;
+  const ph = s.photography;
+  return (
+    <div id="photography" className="mt-24 scroll-mt-[var(--nav-h)] border-t border-ink pt-5 md:mt-32">
+      <div className="t-meta flex justify-between">
+        <span>Scene 03b / Photography</span>
+        <span>{String(photos.length).padStart(3, "0")} frames</span>
+      </div>
+      <div className="mt-7 grid gap-9 lg:grid-cols-12">
+        <h3 className="t-display text-[clamp(61px,11vw,196px)] lg:col-span-7">
+          <MaskLines lines={ph.headline} accentIndex={1} accentClassName="text-red" />
+        </h3>
+        {ph.subtitle && (
+          <div className="flex flex-col justify-end lg:col-span-5">
+            <Reveal>
+              <p className="t-heavy text-[clamp(19px,2vw,32px)]">{ph.subtitle}</p>
+            </Reveal>
+          </div>
+        )}
+      </div>
+      <ul className="mt-12 grid grid-cols-2 gap-[calc(var(--gutter)/2)] md:grid-cols-3 lg:grid-cols-4">
+        {photos.map((a, i) => (
+          <li key={a.id}>
+            <Reveal delay={(i % 4) * 0.06}>
+              <button
+                type="button"
+                onClick={() => setIndex(i)}
+                className="group relative block w-full cursor-zoom-in overflow-hidden bg-ink"
+                style={{ aspectRatio: String(aspectOf(a, 2 / 3)) }}
+                aria-label={`Open photo: ${a.alt || `frame ${i + 1}`}`}
+              >
+                <div className="absolute inset-0 transition-transform duration-[1200ms] ease-[cubic-bezier(.2,.7,.15,1)] group-hover:scale-[1.04]">
+                  <Media asset={a} sizes="(min-width:1024px) 25vw, (min-width:768px) 33vw, 50vw" />
+                </div>
+                <span className="t-meta-sm absolute bottom-2 left-2 bg-ink/80 px-1.5 py-0.5 text-ivory">
+                  {String(i + 1).padStart(3, "0")}
+                </span>
+              </button>
+            </Reveal>
+          </li>
+        ))}
+      </ul>
+      <Lightbox items={photos} index={index} onIndex={setIndex} posters={{}} />
+    </div>
+  );
+}
+
+export function Archive({ s, categories, projects, photos }: { s: Settings; categories: Category[]; projects: ResolvedProject[]; photos: MediaAsset[] }) {
   const [filter, setFilter] = useState<string>("all");
   const [sort, setSort] = useState<Sort>("index");
 
@@ -87,36 +138,36 @@ export function Archive({ s, categories, projects }: { s: Settings; categories: 
 
   return (
     <section id="archive" aria-labelledby="archive-title" className="bg-ivory text-ink">
-      <div className="gutter pb-16 pt-[calc(var(--nav-h)+24px)] md:pb-24">
+      <div className="gutter pb-20 pt-[calc(var(--nav-h)+28px)] md:pb-28">
         <div className="t-meta flex justify-between">
           <span>Scene 03 / The Archive</span>
           <span>{String(projects.length).padStart(3, "0")} titles</span>
         </div>
 
-        <div className="mt-6 grid gap-8 lg:grid-cols-12">
-          <h2 id="archive-title" className="t-display text-[clamp(84px,17vw,300px)] lg:col-span-7">
+        <div className="mt-7 grid gap-9 lg:grid-cols-12">
+          <h2 id="archive-title" className="t-display text-[clamp(71px,14.5vw,255px)] lg:col-span-7">
             <MaskLines lines={s.archive.headline} accentIndex={1} accentClassName="text-red" />
           </h2>
           <div className="flex flex-col justify-end lg:col-span-5">
             <Reveal>
-              <p className="t-heavy text-[clamp(22px,2.4vw,38px)]">{s.archive.subtitle}</p>
+              <p className="t-heavy text-[clamp(19px,2vw,32px)]">{s.archive.subtitle}</p>
             </Reveal>
           </div>
         </div>
 
         {/* Festival program — the four disciplines */}
-        <div role="list" className="mt-12 grid grid-cols-1 border-t border-ink sm:grid-cols-2 lg:grid-cols-4">
+        <div role="list" className="mt-14 grid grid-cols-1 border-t border-ink sm:grid-cols-2 lg:grid-cols-4">
           {categories.map((c, i) => (
-            <Reveal key={c.id} role="listitem" delay={i * 0.06} className="border-b border-ink/25 py-4 sm:pr-5 lg:border-b-0 lg:border-r lg:px-4 lg:first:pl-0 lg:last:border-r-0">
-              <span className="t-display block text-[56px] text-red">{c.index}</span>
-              <h3 className="t-heavy mt-1 text-[17px]">{c.title}</h3>
-              <p className="mt-2 text-[14px] leading-snug text-ink/70">{c.description}</p>
+            <Reveal key={c.id} role="listitem" delay={i * 0.06} className="border-b border-ink/25 py-5 sm:pr-5 lg:border-b-0 lg:border-r lg:px-4 lg:first:pl-0 lg:last:border-r-0">
+              <span className="t-display block text-[48px] text-red">{c.index}</span>
+              <h3 className="t-heavy mt-2 text-[16px]">{c.title}</h3>
+              <p className="mt-2.5 text-[14px] leading-snug text-ink/70">{c.description}</p>
             </Reveal>
           ))}
         </div>
 
         {/* Controls */}
-        <div className="sticky top-[var(--nav-h)] z-20 -mx-[var(--gutter)] mt-12 flex flex-wrap items-center justify-between gap-3 border-y border-ink bg-ivory/95 px-[var(--gutter)] py-2 backdrop-blur">
+        <div className="sticky top-[var(--nav-h)] z-20 -mx-[var(--gutter)] mt-14 flex flex-wrap items-center justify-between gap-3 border-y border-ink bg-ivory/95 px-[var(--gutter)] py-2 backdrop-blur">
           <div role="group" aria-label="Filter by discipline" className="-mx-1 flex max-w-full gap-1 overflow-x-auto pb-0.5">
             {filters.map((f) => {
               const on = filter === f.id;
@@ -146,11 +197,11 @@ export function Archive({ s, categories, projects }: { s: Settings; categories: 
           </label>
         </div>
 
-        <p className="t-meta mt-4 text-ink/60" aria-live="polite">
+        <p className="t-meta mt-5 text-ink/60" aria-live="polite">
           {activeCat ? `${activeCat.index} — ${activeCat.title}` : "All disciplines"} · {visible.length} {visible.length === 1 ? "title" : "titles"}
         </p>
 
-        <motion.ul layout className="mt-6 grid grid-flow-row-dense grid-cols-1 gap-x-[var(--gutter)] gap-y-12 md:grid-cols-6 lg:grid-cols-12">
+        <motion.ul layout className="mt-7 grid grid-flow-row-dense grid-cols-1 gap-x-[var(--gutter)] gap-y-14 md:grid-cols-6 lg:grid-cols-12">
           <AnimatePresence mode="popLayout" initial={false}>
             {visible.map((p) => (
               <motion.li
@@ -169,14 +220,16 @@ export function Archive({ s, categories, projects }: { s: Settings; categories: 
         </motion.ul>
 
         {visible.length === 0 && (
-          <div className="mt-6 flex flex-col items-start gap-4 border border-dashed border-ink/40 p-8 md:p-12">
-            <span className="t-display text-[clamp(48px,7vw,110px)] text-ink/20">Coming soon.</span>
+          <div className="mt-7 flex flex-col items-start gap-5 border border-dashed border-ink/40 p-9 md:p-14">
+            <span className="t-display text-[clamp(41px,6vw,94px)] text-ink/20">Coming soon.</span>
             <p className="t-meta">No titles in this programme yet.</p>
             <button type="button" className="t-meta link-wipe" onClick={() => setFilter("all")}>
               ← Back to all disciplines
             </button>
           </div>
         )}
+
+        <Photography s={s} photos={photos} />
       </div>
     </section>
   );

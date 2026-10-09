@@ -9,8 +9,9 @@ import { z } from "zod";
 import { adminConfigProblem, clearThrottle, endSession, passwordMatches, requireAdmin, startSession, throttle } from "@/lib/auth";
 import { mutate, newId, UPLOAD_DIR } from "@/lib/store";
 import { findReferences } from "@/lib/media-refs";
+import { mutateMessages } from "@/lib/messages";
 import { parseEmbed } from "@/lib/embed";
-import { projectSchema, settingsSchema, type Project } from "@/lib/types";
+import { ACCENT_PALETTE, projectSchema, settingsSchema, type Project } from "@/lib/types";
 
 export type ActionResult = { ok: true; message?: string } | { ok: false; error: string };
 
@@ -80,6 +81,7 @@ export async function saveProject(id: string, input: unknown): Promise<ActionRes
   try {
     await requireAdmin();
     const data = editableProject.parse(input);
+    if (!ACCENT_PALETTE.includes(data.accent.toUpperCase())) throw new Error("Accent must be one of the site palette colors");
     await mutate((c) => {
       const p = c.projects.find((x) => x.id === id);
       if (!p) throw new Error("Project not found");
@@ -175,7 +177,7 @@ export async function saveSettings(input: unknown): Promise<ActionResult> {
   try {
     await requireAdmin();
     const data = settingsSchema.parse(input);
-    for (const u of [data.social.linkedin, data.social.behance, data.cv.url].filter(Boolean)) {
+    for (const u of [data.social.linkedin, data.social.behance, data.social.instagram, data.cv.url].filter(Boolean)) {
       if (!/^https:\/\//.test(u!)) throw new Error(`Links must start with https:// (${u})`);
     }
     await mutate((c) => {
@@ -183,11 +185,45 @@ export async function saveSettings(input: unknown): Promise<ActionResult> {
       for (const ref of [data.hero.portraitDesktopId, data.hero.portraitMobileId, data.about.portraitId, data.cv.assetId]) {
         if (ref && !known.has(ref)) throw new Error("A selected image no longer exists — reselect it");
       }
+      const images = new Set(c.media.filter((m) => m.kind === "image").map((m) => m.id));
+      if (data.photography.photoIds.some((id) => !images.has(id))) throw new Error("A selected photo no longer exists — reselect the photography set");
       // featured order is managed from the Projects screen
       c.settings = { ...data, selectedWork: { ...data.selectedWork, featuredOrder: c.settings.selectedWork.featuredOrder } };
     });
     publish();
     return { ok: true, message: "Settings saved" };
+  } catch (e) {
+    return fail(e);
+  }
+}
+
+/* ───────────── Messages ───────────── */
+
+export async function setMessageRead(id: string, read: boolean): Promise<ActionResult> {
+  try {
+    await requireAdmin();
+    await mutateMessages((list) => {
+      const m = list.find((x) => x.id === id);
+      if (!m) throw new Error("Message not found");
+      m.read = read;
+    });
+    revalidatePath("/admin/messages");
+    return { ok: true };
+  } catch (e) {
+    return fail(e);
+  }
+}
+
+export async function deleteMessage(id: string): Promise<ActionResult> {
+  try {
+    await requireAdmin();
+    await mutateMessages((list) => {
+      const i = list.findIndex((x) => x.id === id);
+      if (i === -1) throw new Error("Message not found");
+      list.splice(i, 1);
+    });
+    revalidatePath("/admin/messages");
+    return { ok: true, message: "Message deleted" };
   } catch (e) {
     return fail(e);
   }

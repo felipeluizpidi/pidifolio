@@ -72,7 +72,7 @@ export function Hero({ s, desktop, mobile }: { s: Settings; desktop?: MediaAsset
       {/* The name — poster-scale, cut by the frame */}
       <motion.h1
         style={{ y: typeY }}
-        className="pointer-events-none absolute inset-x-0 bottom-[184px] top-[calc(var(--nav-h)+56px)] text-red [--nm:min(40vw,28svh)] md:bottom-[64px] md:[--nm:min(27vw,41svh)]"
+        className="pointer-events-none absolute inset-x-0 bottom-[212px] top-[calc(var(--nav-h)+64px)] text-red [--nm:min(34vw,23.8svh)] md:bottom-[74px] md:[--nm:min(23vw,35svh)]"
       >
         <span className="sr-only">{s.name.full}</span>
         <span aria-hidden className="t-display absolute bottom-[calc(var(--nm)*0.86)] left-[calc(var(--gutter)-0.04em)] text-[length:var(--nm)] md:bottom-auto md:top-0">
@@ -83,25 +83,17 @@ export function Hero({ s, desktop, mobile }: { s: Settings; desktop?: MediaAsset
         </span>
       </motion.h1>
 
-      {/* Lead — sits in the empty quarter */}
-      <motion.p
-        {...fade(1.25)}
-        className="gutter absolute right-0 top-[calc(var(--nav-h)+64px)] hidden max-w-[34ch] text-right text-[15px] leading-snug text-ivory/90 md:top-[46%] md:block lg:text-[17px]"
-      >
-        {s.hero.lead}
-      </motion.p>
-
-      {/* Role + CTA — bottom-left, under the name on mobile */}
-      <div className="gutter absolute inset-x-0 bottom-0 flex items-end justify-between pb-5 md:bottom-[calc(64px+min(27vw,41svh)*0.2)] md:pb-0">
-        <div className="md:max-w-[40%]">
-          <motion.p {...fade(0.95)} className="t-heavy text-[clamp(22px,3.4vw,52px)] text-ivory">
+      {/* Role + lead — bottom-left, clear of the name on every breakpoint */}
+      <div className="gutter absolute inset-x-0 bottom-0 flex items-end justify-between pb-6 md:bottom-[calc(74px+min(23vw,35svh)*0.2)] md:pb-0">
+        <div className="md:max-w-[42%]">
+          <motion.p {...fade(0.95)} className="t-heavy text-[clamp(19px,2.9vw,44px)] text-ivory">
             {s.hero.roleLines.map((l) => (
               <span key={l} className="block">
                 {l}
               </span>
             ))}
           </motion.p>
-          <motion.p {...fade(1.3)} className="mt-3 max-w-[36ch] text-[14px] leading-snug text-ivory/85 md:hidden">
+          <motion.p {...fade(1.25)} className="mt-3.5 max-w-[38ch] text-[14px] leading-snug text-ivory/85 md:mt-5 md:text-[15px] lg:text-[17px]">
             {s.hero.lead}
           </motion.p>
         </div>

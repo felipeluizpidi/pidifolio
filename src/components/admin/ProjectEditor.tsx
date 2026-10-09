@@ -5,14 +5,14 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import clsx from "clsx";
 import { ArrowLeft, Plus, Trash2 } from "lucide-react";
-import type { Block, BlockType, Category, MediaAsset, MediaKind, Project } from "@/lib/types";
+import { ACCENT_PALETTE, type Block, type BlockType, type Category, type MediaAsset, type MediaKind, type Project } from "@/lib/types";
 import { saveProject } from "@/app/admin/actions";
 import { parseEmbed } from "@/lib/embed";
 import { Button, Field, Input, Notice, Section, Select, Textarea, Toggle } from "./ui";
 import { MediaField, MediaPicker, MediaThumb } from "./MediaKit";
 import { SortableList } from "./Sortable";
 
-const PALETTE = ["#EF2917", "#FF6030", "#138FE0", "#A8F5E5", "#F4E9D6", "#0B0B0B"];
+const PALETTE = ACCENT_PALETTE;
 
 const BLOCKS: Record<BlockType, { label: string; hint: string }> = {
   image: { label: "Full-width image", hint: "One image across the page" },
@@ -215,8 +215,7 @@ export function ProjectEditor({ project, categories, media: initialMedia }: { pr
                   aria-label={`Accent ${c}`}
                 />
               ))}
-              <input type="color" value={p.accent} onChange={(e) => set("accent", e.target.value.toUpperCase())} className="h-8 w-10 cursor-pointer border border-ivory/30 bg-transparent" aria-label="Custom accent" />
-              <span className="t-meta-sm text-ash">{p.accent}</span>
+              <span className="t-meta-sm text-ash">{p.accent} — site palette only</span>
             </div>
           </div>
           <div className="grid gap-4 sm:grid-cols-2">

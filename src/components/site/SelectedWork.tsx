@@ -60,18 +60,18 @@ function FullBleed({ p, media, i }: P) {
       <ClipReveal className="relative aspect-[4/5] overflow-hidden sm:aspect-[16/10] lg:aspect-[21/9]">
         <Cover p={p} media={media} i={i} hover={hover} sizes="100vw" mode="visible" />
         <div className="absolute inset-0 bg-[linear-gradient(to_top,rgba(11,11,11,.85),transparent_55%)]" />
-        <span className="t-display outline-type absolute left-[var(--gutter)] top-4 text-[clamp(72px,14vw,220px)] text-ivory/70">{p.number}</span>
+        <span className="t-display outline-type absolute left-[var(--gutter)] top-4 text-[clamp(61px,11.9vw,187px)] text-ivory/70">{p.number}</span>
         <div className="t-meta absolute right-[var(--gutter)] top-5 text-right">
           Project {p.number}
           <br />
           {p.client || p.title}
         </div>
         <div className="gutter absolute inset-x-0 bottom-0 pb-5 md:pb-8">
-          <h3 className="t-display text-[clamp(64px,15vw,260px)] text-ivory" style={{ letterSpacing: hover ? "0.005em" : "-0.012em", transition: "letter-spacing .8s cubic-bezier(.2,.7,.15,1)" }}>
+          <h3 className="t-display text-[clamp(54px,12.8vw,221px)] text-ivory" style={{ letterSpacing: hover ? "0.005em" : "-0.012em", transition: "letter-spacing .8s cubic-bezier(.2,.7,.15,1)" }}>
             {p.title}
           </h3>
-          <div className="mt-3 flex flex-wrap items-end justify-between gap-3 border-t border-ivory/30 pt-3">
-            <p className="t-heavy text-[clamp(18px,2.4vw,34px)]" style={{ color: p.accent }}>
+          <div className="mt-3.5 flex flex-wrap items-end justify-between gap-3.5 border-t border-ivory/30 pt-3.5">
+            <p className="t-heavy text-[clamp(16px,2vw,29px)]" style={{ color: p.accent }}>
               {p.subtitle}
             </p>
             <p className="t-meta">{metaLine(p)}</p>
@@ -97,17 +97,17 @@ function Split({ p, media, i }: P) {
       <ClipReveal from={flip ? "right" : "left"} className={clsx("relative aspect-[4/5] overflow-hidden lg:col-span-7 lg:aspect-auto lg:min-h-[86svh]", flip && "lg:order-2")}>
         <Cover p={p} media={media} i={i} hover={hover} sizes="(min-width:1024px) 58vw, 100vw" />
       </ClipReveal>
-      <div className="relative flex flex-col justify-between gap-10 p-[var(--gutter)] py-8 lg:col-span-5 lg:py-10" style={{ background: p.accent, color: fg }}>
+      <div className="relative flex flex-col justify-between gap-12 p-[var(--gutter)] py-9 lg:col-span-5 lg:py-12" style={{ background: p.accent, color: fg }}>
         <div className="flex items-start justify-between">
           <span className="t-meta">Project {p.number}</span>
           <span className="t-meta text-right">{p.client}</span>
         </div>
         <div>
-          <span className="t-display block text-[clamp(110px,18vw,300px)] leading-[0.75] opacity-90">{p.number.slice(1)}</span>
-          <h3 className="t-display mt-6 text-[clamp(56px,7.5vw,140px)]">
+          <span className="t-display block text-[clamp(94px,15.3vw,255px)] leading-[0.8] opacity-90">{p.number.slice(1)}</span>
+          <h3 className="t-display mt-10 text-[clamp(48px,6.4vw,119px)]">
             <MaskLines lines={p.title.split(" ")} />
           </h3>
-          <p className="t-heavy mt-3 text-[clamp(18px,2vw,30px)]">{p.subtitle}</p>
+          <p className="t-heavy mt-3.5 text-[clamp(16px,1.7vw,26px)]">{p.subtitle}</p>
         </div>
         <div className="flex flex-wrap items-end justify-between gap-3 border-t pt-3" style={{ borderColor: `${fg}55` }}>
           <p className="t-meta">{metaLine(p)}</p>
@@ -145,8 +145,8 @@ function Poster({ p, media, i }: P) {
         </span>
       </div>
       <div className="relative mx-auto mt-4 max-w-[1100px]">
-        <h3 className="t-display relative z-10 text-center text-[clamp(64px,13vw,220px)]">{top}</h3>
-        <div className="relative mx-auto -mt-[0.6em] w-[78%] md:w-[56%]">
+        <h3 className="t-display text-center text-[clamp(54px,11vw,187px)]">{top}</h3>
+        <div className="relative mx-auto mt-6 w-[78%] md:mt-8 md:w-[56%]">
           <ClipReveal className="relative aspect-square overflow-hidden">
             <Cover p={p} media={media} i={i} hover={hover} sizes="(min-width:768px) 56vw, 78vw" />
           </ClipReveal>
@@ -155,9 +155,9 @@ function Poster({ p, media, i }: P) {
             {p.role}
           </span>
         </div>
-        <p className="t-display relative z-10 -mt-[0.35em] text-center text-[clamp(40px,7vw,120px)]">{bottom}</p>
+        <p className="t-display mt-6 text-center text-[clamp(34px,6vw,102px)] md:mt-8">{bottom}</p>
       </div>
-      <div className="mt-6 flex flex-wrap items-end justify-between gap-3 border-t pt-3" style={{ borderColor: `${fg}55` }}>
+      <div className="mt-7 flex flex-wrap items-end justify-between gap-3.5 border-t pt-3.5" style={{ borderColor: `${fg}55` }}>
         <span className="t-meta">{metaLine(p)}</span>
         <ViewButton hover={hover} />
       </div>
@@ -165,9 +165,20 @@ function Poster({ p, media, i }: P) {
   );
 }
 
+/** Three distinct frames from the case (landscape first), else thirds of the cover. */
+function sequenceFrames(p: ResolvedProject, media: Record<string, MediaAsset>) {
+  const ids = p.blocks.flatMap((b) => ("assetIds" in b ? b.assetIds : "assetId" in b ? [b.assetId] : []));
+  const imgs = [...new Set(ids)].map((id) => media[id]).filter((m) => m?.kind === "image" && m.id !== p.cover?.id);
+  const wide = imgs.filter((m) => (m.width ?? 0) >= (m.height ?? 1));
+  const pool = [...wide, ...imgs.filter((m) => !wide.includes(m))];
+  if (!p.cover || pool.length < 2) return null;
+  return [pool[0], p.cover, pool[1]];
+}
+
 function Sequence({ p, media, i }: P) {
   const [hover, setHover] = useState(false);
   const positions = ["0% 50%", "50% 50%", "100% 50%"];
+  const frames = sequenceFrames(p, media);
   return (
     <Link
       href={`/work/${p.slug}`}
@@ -176,7 +187,7 @@ function Sequence({ p, media, i }: P) {
       onMouseLeave={() => setHover(false)}
     >
       <div className="flex flex-wrap items-end justify-between gap-x-4 gap-y-1">
-        <h3 className="t-display text-[clamp(56px,13vw,220px)]" style={{ color: p.accent }}>
+        <h3 className="t-display text-[clamp(48px,11vw,187px)]" style={{ color: p.accent }}>
           <MaskLines lines={[p.title]} />
         </h3>
         <span className="t-meta mb-3 sm:text-right">
@@ -203,7 +214,7 @@ function Sequence({ p, media, i }: P) {
                 <Cover p={p} media={media} i={i} hover={hover} sizes="33vw" mode="visible" />
               ) : (
                 <motion.div className="absolute inset-0" animate={{ scale: hover ? 1.06 : 1 }} transition={{ duration: 1.2, ease: EASE }}>
-                  <Media asset={p.cover} sizes="33vw" position={pos} />
+                  <Media asset={frames ? frames[k] : p.cover} sizes="33vw" position={frames ? undefined : pos} />
                 </motion.div>
               )}
               <span className="t-meta-sm absolute bottom-2 left-2 text-ivory/80">
@@ -213,8 +224,8 @@ function Sequence({ p, media, i }: P) {
           ))}
         </div>
       </div>
-      <div className="mt-4 flex flex-wrap items-end justify-between gap-3">
-        <p className="t-heavy text-[clamp(18px,2vw,30px)]">{p.subtitle}</p>
+      <div className="mt-5 flex flex-wrap items-end justify-between gap-3.5">
+        <p className="t-heavy text-[clamp(16px,1.7vw,26px)]">{p.subtitle}</p>
         <ViewButton hover={hover} />
       </div>
     </Link>
@@ -224,13 +235,13 @@ function Sequence({ p, media, i }: P) {
 export function SelectedWork({ s, projects, media }: { s: Settings; projects: ResolvedProject[]; media: Record<string, MediaAsset> }) {
   return (
     <section id="work" aria-labelledby="work-title" className="bg-ink">
-      <header className="relative bg-red px-[var(--gutter)] pb-6 pt-[calc(var(--nav-h)+24px)] text-ink md:pb-8">
+      <header className="relative bg-red px-[var(--gutter)] pb-7 pt-[calc(var(--nav-h)+28px)] text-ink md:pb-9">
         <div className="t-meta flex justify-between">
           <span>Scene 02 / Selected Work</span>
           <span>{String(projects.length).padStart(2, "0")} features</span>
         </div>
-        <div className="mt-6 grid gap-6 lg:grid-cols-12 lg:items-end">
-          <h2 id="work-title" className="t-display text-[clamp(84px,19vw,340px)] lg:col-span-9">
+        <div className="mt-7 grid gap-7 lg:grid-cols-12 lg:items-end">
+          <h2 id="work-title" className="t-display text-[clamp(71px,16.2vw,289px)] lg:col-span-9">
             <MaskLines lines={s.selectedWork.headline} />
           </h2>
           <Reveal className="lg:col-span-3 lg:pb-[2vw]">
@@ -242,7 +253,7 @@ export function SelectedWork({ s, projects, media }: { s: Settings; projects: Re
       {projects.length === 0 ? (
         <p className="t-meta gutter py-24 text-center text-ash">No featured projects yet — mark projects as featured in /admin.</p>
       ) : (
-        <ol className="flex flex-col gap-[var(--gutter)] py-[var(--gutter)]">
+        <ol className="flex flex-col gap-[calc(var(--gutter)*1.15)] py-[calc(var(--gutter)*1.15)]">
           {projects.map((p, i) => {
             const L = { fullbleed: FullBleed, split: Split, poster: Poster, sequence: Sequence }[p.featuredLayout];
             return (

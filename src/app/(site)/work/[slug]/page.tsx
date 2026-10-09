@@ -32,13 +32,13 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 function Chapter({ n, label, text }: { n: number; label: string; text: string }) {
   if (!text.trim()) return null;
   return (
-    <Reveal className="grid gap-4 border-t border-ivory/25 py-8 md:grid-cols-12 md:py-12">
+    <Reveal className="grid gap-5 border-t border-ivory/25 py-9 md:grid-cols-12 md:py-14">
       <p className="t-meta md:col-span-3">
         <span className="text-[var(--accent)]">Scene {String(n).padStart(2, "0")}</span>
         <br />
         {label}
       </p>
-      <div className="space-y-5 text-[clamp(19px,1.9vw,28px)] leading-[1.35] md:col-span-8 md:col-start-5">
+      <div className="space-y-6 text-[clamp(18px,1.7vw,25px)] leading-[1.4] md:col-span-8 md:col-start-5">
         {text.split(/\n{2,}/).map((t, i) => (
           <p key={i}>{t}</p>
         ))}
@@ -84,16 +84,16 @@ export default async function CasePage({ params }: { params: Promise<{ slug: str
           </span>
         </div>
         <div className="gutter pb-6">
-          <p className="t-meta mb-2">{p.categories.map((c) => c.title).join(" / ")}</p>
-          <h1 className="t-display text-[clamp(72px,17vw,320px)] text-[var(--accent)]">
+          <p className="t-meta mb-2.5">{p.categories.map((c) => c.title).join(" / ")}</p>
+          <h1 className="t-display text-[clamp(61px,14.5vw,272px)] text-[var(--accent)]">
             <MaskLines inView={false} delay={0.35} lines={[p.title]} />
           </h1>
-          {p.subtitle && <p className="t-heavy mt-2 text-[clamp(22px,3vw,48px)]">{p.subtitle}</p>}
+          {p.subtitle && <p className="t-heavy mt-2.5 text-[clamp(19px,2.6vw,41px)]">{p.subtitle}</p>}
         </div>
       </header>
 
       {/* Metadata */}
-      <dl className="gutter t-meta grid grid-cols-2 gap-y-5 border-y border-ivory/25 py-5 md:grid-cols-4">
+      <dl className="gutter t-meta grid grid-cols-2 gap-y-6 border-y border-ivory/25 py-6 md:grid-cols-4">
         {[
           ["Client", p.client || "—"],
           ["Year", String(p.year)],
@@ -107,13 +107,13 @@ export default async function CasePage({ params }: { params: Promise<{ slug: str
         ))}
       </dl>
 
-      <div className="gutter py-12 md:py-20">
+      <div className="gutter py-14 md:py-24">
         {chapters.map(([label, text]) => (text.trim() ? <Chapter key={label} n={++n} label={label} text={text} /> : null))}
       </div>
 
       {p.blocks.length > 0 && (
-        <section aria-label="Visual gallery" className="gutter pb-24">
-          <p className="t-meta mb-8 border-t border-ivory/25 pt-4">
+        <section aria-label="Visual gallery" className="gutter pb-28">
+          <p className="t-meta mb-9 border-t border-ivory/25 pt-5">
             <span className="text-[var(--accent)]">Scene {String(++n).padStart(2, "0")}</span> — Visual gallery
           </p>
           <CaseBlocks blocks={p.blocks} media={media} />
@@ -121,17 +121,17 @@ export default async function CasePage({ params }: { params: Promise<{ slug: str
       )}
 
       {p.outcomes.trim() && (
-        <section aria-label="Outcomes" className="gutter pb-20">
-          <div className="border-t border-ivory/25 pt-4">
+        <section aria-label="Outcomes" className="gutter pb-24">
+          <div className="border-t border-ivory/25 pt-5">
             <p className="t-meta">
               <span className="text-[var(--accent)]">Scene {String(++n).padStart(2, "0")}</span> — Outcomes
             </p>
-            <div role="list" className="mt-6 space-y-4">
+            <div role="list" className="mt-7 space-y-5">
               {p.outcomes
                 .split("\n")
                 .filter((l) => l.trim())
                 .map((l, i) => (
-                  <Reveal key={i} delay={i * 0.06} role="listitem" className="t-heavy max-w-[30ch] text-[clamp(26px,3.4vw,56px)]">
+                  <Reveal key={i} delay={i * 0.06} role="listitem" className="t-heavy max-w-[30ch] text-[clamp(22px,2.9vw,48px)]">
                     {l}
                   </Reveal>
                 ))}
@@ -141,9 +141,9 @@ export default async function CasePage({ params }: { params: Promise<{ slug: str
       )}
 
       {p.credits.length > 0 && (
-        <section aria-label="Credits" className="gutter py-20">
-          <p className="t-meta mb-8 text-center text-ivory/50">— Credits —</p>
-          <dl className="mx-auto max-w-[720px] space-y-3">
+        <section aria-label="Credits" className="gutter py-24">
+          <p className="t-meta mb-9 text-center text-ivory/50">— Credits —</p>
+          <dl className="mx-auto max-w-[720px] space-y-3.5">
             {p.credits.map((c, i) => (
               <div key={i} className="t-meta grid grid-cols-[1fr_auto_1fr] items-baseline gap-4">
                 <dt className="text-right text-ivory/60">{c.role}</dt>
@@ -167,10 +167,10 @@ export default async function CasePage({ params }: { params: Promise<{ slug: str
               <span>Project {next.number}</span>
             </p>
             <div>
-              <p className="t-display text-[clamp(72px,16vw,300px)]" style={{ color: next.accent }}>
+              <p className="t-display text-[clamp(61px,13.6vw,255px)]" style={{ color: next.accent }}>
                 {next.title}
               </p>
-              <p className="t-meta mt-2">Continue →</p>
+              <p className="t-meta mt-2.5">Continue →</p>
             </div>
           </div>
         </Link>

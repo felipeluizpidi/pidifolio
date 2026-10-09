@@ -11,6 +11,7 @@ export const SECTIONS = [
   { id: "home", label: "Home" },
   { id: "work", label: "Selected Work" },
   { id: "archive", label: "Archive" },
+  { id: "photography", label: "Photography" },
   { id: "about", label: "About" },
   { id: "contact", label: "Contact" },
 ] as const;
@@ -35,7 +36,7 @@ function Timecode() {
   return <span className="tabular-nums">{t ?? "00:00:00:00"}</span>;
 }
 
-export function Nav({ name, email, linkedin, behance }: { name: string; email: string; linkedin: string; behance: string }) {
+export function Nav({ name, email, links }: { name: string; email: string; links: { key: string; label: string; href: string }[] }) {
   const pathname = usePathname();
   const onHome = pathname === "/";
   const [active, setActive] = useState<string>("home");
@@ -141,7 +142,7 @@ export function Nav({ name, email, linkedin, behance }: { name: string; email: s
                       animate={{ y: "0%" }}
                       transition={{ duration: 0.6, ease: EASE, delay: 0.15 + i * 0.05 }}
                     >
-                      <span className="t-display text-[clamp(48px,15vw,120px)]">{s.label}</span>
+                      <span className="t-display text-[clamp(41px,12.8vw,102px)]">{s.label}</span>
                       <span className="t-meta">{String(i + 1).padStart(2, "0")}</span>
                     </motion.a>
                   </li>
@@ -150,8 +151,11 @@ export function Nav({ name, email, linkedin, behance }: { name: string; email: s
             </nav>
             <div className="t-meta grid grid-cols-2 gap-3">
               {email && <a href={`mailto:${email}`} className="col-span-2 normal-case tracking-normal">{email}</a>}
-              <a href={linkedin} target="_blank" rel="noreferrer">LinkedIn ↗</a>
-              <a href={behance} target="_blank" rel="noreferrer">Behance ↗</a>
+              {links.map((l) => (
+                <a key={l.key} href={l.href} target="_blank" rel="noreferrer">
+                  {l.label} ↗
+                </a>
+              ))}
             </div>
           </motion.div>
         )}

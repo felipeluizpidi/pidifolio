@@ -1,4 +1,5 @@
 import { Hero } from "@/components/site/Hero";
+import { CareerStats } from "@/components/site/CareerStats";
 import { SelectedWork } from "@/components/site/SelectedWork";
 import { Archive } from "@/components/site/Archive";
 import { About } from "@/components/site/About";
@@ -26,21 +27,23 @@ function Marquee({ items }: { items: string[] }) {
 export default async function Home() {
   const { settings: s, categories, featured, archive, media } = await getHomeData();
   const cv = cvHref(s, media);
+  const photos = s.photography.photoIds.map((id) => media[id]).filter((m) => m?.kind === "image");
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Person",
     name: s.name.full,
     jobTitle: s.role,
     address: { "@type": "PostalAddress", addressLocality: "São Paulo", addressCountry: "BR" },
-    sameAs: [s.social.linkedin, s.social.behance].filter(Boolean),
+    sameAs: [s.social.linkedin, s.social.behance, s.social.instagram].filter(Boolean),
   };
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Hero s={s} desktop={media[s.hero.portraitDesktopId ?? ""]} mobile={media[s.hero.portraitMobileId ?? ""]} />
+      <CareerStats s={s} />
       <Marquee items={s.about.disciplines} />
       <SelectedWork s={s} projects={featured} media={media} />
-      <Archive s={s} categories={categories} projects={archive} />
+      <Archive s={s} categories={categories} projects={archive} photos={photos} />
       <About s={s} portrait={media[s.about.portraitId ?? ""]} cvHref={cv} />
       <Contact s={s} cvHref={cv} />
     </>

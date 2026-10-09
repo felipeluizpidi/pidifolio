@@ -89,10 +89,10 @@ function BlockView({ b, ctx }: { b: Block; ctx: Ctx }) {
     case "grid2":
     case "grid3":
       return (
-        <div className={clsx("grid grid-cols-1 gap-[calc(var(--gutter)/2)]", b.type === "grid2" ? "md:grid-cols-2" : "sm:grid-cols-2 lg:grid-cols-3")}>
+        <div className={clsx("grid grid-cols-1 items-start gap-[calc(var(--gutter)/2)]", b.type === "grid2" ? "md:grid-cols-2" : "sm:grid-cols-2 lg:grid-cols-3")}>
           {b.assetIds.map((id, i) => (
             <Reveal key={id + i} delay={i * 0.08}>
-              <Frame id={id} ctx={ctx} sizes={b.type === "grid2" ? "(min-width:768px) 50vw, 100vw" : "(min-width:1024px) 33vw, 50vw"} ratio="aspect-[4/5]" />
+              <Frame id={id} ctx={ctx} sizes={b.type === "grid2" ? "(min-width:768px) 50vw, 100vw" : "(min-width:1024px) 33vw, 50vw"} />
             </Reveal>
           ))}
         </div>
@@ -121,13 +121,13 @@ function BlockView({ b, ctx }: { b: Block; ctx: Ctx }) {
     }
     case "imageText":
       return (
-        <div className="grid items-center gap-8 md:grid-cols-12">
+        <div className="grid items-center gap-9 md:grid-cols-12">
           <ClipReveal from={b.side === "left" ? "left" : "right"} className={clsx("md:col-span-7", b.side === "right" && "md:order-2")}>
             <Frame id={b.assetId} ctx={ctx} sizes="(min-width:768px) 58vw, 100vw" />
           </ClipReveal>
           <Reveal className="md:col-span-5">
-            {b.heading && <h3 className="t-display text-[clamp(40px,5vw,88px)] text-[var(--accent)]">{b.heading}</h3>}
-            <div className="mt-4 space-y-4 text-[17px] leading-relaxed text-ivory/85">
+            {b.heading && <h3 className="t-display text-[clamp(34px,4.3vw,75px)] text-[var(--accent)]">{b.heading}</h3>}
+            <div className="mt-5 space-y-5 text-[17px] leading-relaxed text-ivory/85">
               <Paragraphs text={b.text} />
             </div>
           </Reveal>
@@ -164,8 +164,8 @@ function BlockView({ b, ctx }: { b: Block; ctx: Ctx }) {
     case "text":
       return (
         <Reveal className="mx-auto max-w-[1200px]">
-          {b.heading && <p className="t-meta mb-4 text-[var(--accent)]">{b.heading}</p>}
-          <div className={clsx(b.size === "xl" ? "t-heavy text-[clamp(28px,4vw,64px)]" : "text-[clamp(20px,2vw,28px)] leading-snug", "space-y-6")}>
+          {b.heading && <p className="t-meta mb-5 text-[var(--accent)]">{b.heading}</p>}
+          <div className={clsx(b.size === "xl" ? "t-heavy text-[clamp(24px,3.4vw,54px)]" : "text-[clamp(19px,1.8vw,26px)] leading-snug", "space-y-7")}>
             <Paragraphs text={b.body} />
           </div>
         </Reveal>
@@ -184,7 +184,7 @@ export function CaseBlocks({ blocks, media }: { blocks: Block[]; media: Record<s
 
   return (
     <>
-      <div className="flex flex-col gap-[calc(var(--gutter)*2.5)]">
+      <div className="flex flex-col gap-[calc(var(--gutter)*2.9)]">
         {blocks.map((b) => (
           <BlockView key={b.id} b={b} ctx={ctx} />
         ))}

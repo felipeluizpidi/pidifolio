@@ -57,6 +57,9 @@ export const archiveShape = z.enum(["poster", "landscape", "square", "type"]);
 
 export const creditSchema = z.object({ role: z.string(), name: z.string() });
 
+/** The site's fixed palette — case accents never introduce new colors. */
+export const ACCENT_PALETTE = ["#EF2917", "#FF6030", "#138FE0", "#A8F5E5", "#F4E9D6", "#0B0B0B"];
+
 export const projectSchema = z.object({
   id: z.string(),
   slug: z
@@ -122,6 +125,10 @@ export const settingsSchema = z.object({
   }),
   selectedWork: z.object({ headline: z.array(z.string()), subtitle: z.string(), featuredOrder: z.array(z.string()) }),
   archive: z.object({ headline: z.array(z.string()), subtitle: z.string() }),
+  /** Single photography section inside the Archive; photos are picked in /admin → Settings. */
+  photography: z
+    .object({ headline: z.array(z.string()), subtitle: z.string(), photoIds: z.array(z.string()) })
+    .default({ headline: ["Photo", "graphy."], subtitle: "", photoIds: [] }),
   about: z.object({
     headline: z.array(z.string()),
     portraitId: z.string().optional(),
@@ -136,7 +143,13 @@ export const settingsSchema = z.object({
     location: z.string(),
     availability: z.string(),
   }),
-  social: z.object({ linkedin: z.string(), behance: z.string(), instagram: z.string().optional() }),
+  social: z.object({
+    linkedin: z.string(),
+    behance: z.string(),
+    instagram: z.string().optional(),
+    /** Digits only, with country code — e.g. 5511983829395 */
+    whatsapp: z.string().regex(/^\d{10,15}$/, "WhatsApp: digits only, with country code").or(z.literal("")).optional(),
+  }),
   cv: z.object({ assetId: z.string().optional(), url: z.string().optional() }),
   footer: z.object({ signature: z.string(), tagline: z.string() }),
   seo: z.object({ title: z.string(), description: z.string() }),
@@ -153,6 +166,21 @@ export const contentSchema = z.object({
   media: z.array(mediaAssetSchema),
 });
 export type Content = z.infer<typeof contentSchema>;
+
+/* ───────────────────────── Contact messages ───────────────────────── */
+
+export const contactMessageInput = z.object({
+  name: z.string().trim().min(2, "Please tell me your name").max(120),
+  email: z.string().trim().email("That email doesn't look right").max(200),
+  message: z.string().trim().min(10, "A few more words, please").max(4000),
+});
+
+export const contactMessageSchema = contactMessageInput.extend({
+  id: z.string(),
+  createdAt: z.string(),
+  read: z.boolean().default(false),
+});
+export type ContactMessage = z.infer<typeof contactMessageSchema>;
 
 /** Project with its resolved media, as consumed by public pages */
 export type ResolvedProject = Project & {
