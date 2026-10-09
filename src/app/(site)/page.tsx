@@ -27,7 +27,6 @@ function Marquee({ items }: { items: string[] }) {
 export default async function Home() {
   const { settings: s, categories, featured, archive, media } = await getHomeData();
   const cv = cvHref(s, media);
-  const photos = s.photography.photoIds.map((id) => media[id]).filter((m) => m?.kind === "image");
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Person",
@@ -43,7 +42,7 @@ export default async function Home() {
       <CareerStats s={s} />
       <Marquee items={s.about.disciplines} />
       <SelectedWork s={s} projects={featured} media={media} />
-      <Archive s={s} categories={categories} projects={archive} photos={photos} />
+      <Archive s={s} categories={categories} projects={archive} />
       <About s={s} portrait={media[s.about.portraitId ?? ""]} cvHref={cv} />
       <Contact s={s} cvHref={cv} />
     </>

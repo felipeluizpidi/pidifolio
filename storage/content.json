@@ -114,25 +114,6 @@
     "seo": {
       "title": "Felipe Pidi — ACD & AI Creative Lead",
       "description": "Portfolio of Felipe Pidi, Associate Creative Director and AI Creative Lead in São Paulo. 12+ years in branding, 360° campaigns and node-based AI production pipelines."
-    },
-    "photography": {
-      "headline": [
-        "Photography"
-      ],
-      "subtitle": "Portrait sessions shot as @olhosdefelipe — light, color and attitude, frame by frame.",
-      "photoIds": [
-        "m-photo-retro-01",
-        "m-photo-retro-02",
-        "m-photo-retro-03",
-        "m-photo-retro-04",
-        "m-photo-retro-05",
-        "m-photo-retro-06",
-        "m-photo-retro-07",
-        "m-photo-retro-08",
-        "m-photo-retro-09",
-        "m-photo-retro-10",
-        "m-photo-retro-11"
-      ]
     }
   },
   "categories": [
@@ -171,6 +152,15 @@
       "filterLabel": "Motion",
       "description": "Launch films, set direction, audiovisual production and visual narratives.",
       "order": 4
+    },
+    {
+      "id": "c-photo",
+      "slug": "photography",
+      "index": "05",
+      "title": "Photography",
+      "filterLabel": "Photography",
+      "description": "Portrait sessions and photo essays shot as @olhosdefelipe.",
+      "order": 5
     }
   ],
   "projects": [
@@ -1127,134 +1117,2682 @@
       "coverFocus": "center"
     },
     {
-      "id": "p-styles",
-      "slug": "node-styles",
-      "title": "Node Styles",
-      "subtitle": "Visual styles as reusable pipelines",
-      "client": "Jotacom",
-      "year": 2026,
-      "role": "AI Creative Lead",
+      "subtitle": "Institutional films",
+      "client": "Agência Ecco",
+      "role": "Head of Design · Agência Ecco",
       "disciplines": [
-        "Generative AI",
-        "Creative Systems",
-        "Workflow Design"
+        "Film",
+        "Motion Graphics",
+        "Brand Identity"
       ],
       "categoryIds": [
-        "c-ai",
+        "c-motion",
         "c-branding"
       ],
-      "accent": "#F4E9D6",
-      "coverId": "ph-styles",
+      "accent": "#FF6030",
+      "coverFocus": "center",
       "featured": false,
-      "featuredLayout": "poster",
-      "archiveShape": "square",
-      "published": false,
-      "order": 12,
-      "overview": "A library of visual styles built as node-based pipelines, so other designers on the team can reproduce the same aesthetic with consistency.",
+      "featuredLayout": "fullbleed",
+      "archiveShape": "landscape",
+      "published": true,
+      "overview": "Institutional films for Agência Ecco — the agency's own story told through its work, with animation, motion graphics and the brand's visual language.",
       "challenge": "",
       "concept": "",
       "process": "",
-      "outcomes": "Around 25 visual styles built as node pipelines.\nCreative route time down from about 2 hours to 20–30 minutes.",
+      "outcomes": "",
       "credits": [
         {
-          "role": "AI Creative Lead",
+          "role": "Head of Design",
+          "name": "Felipe Pidi"
+        },
+        {
+          "role": "Agency",
+          "name": "Agência Ecco"
+        },
+        {
+          "role": "Team",
+          "name": "Lucas Ananias · Mateus Araújo · Lucas Rossini · Caio Vinícius · Gilcileyde Ribeiro · Emanuele Freitas · Marcus David · Giovanna Marino · Marília Cerioni · Luís Silva · Cesar Augusto"
+        }
+      ],
+      "blocks": [
+        {
+          "id": "ecco-b1",
+          "type": "embed",
+          "url": "https://vimeo.com/1214066579",
+          "caption": "Institutional film"
+        },
+        {
+          "id": "ecco-b2",
+          "type": "embed",
+          "url": "https://vimeo.com/1214060301",
+          "caption": "Audiovisual"
+        }
+      ],
+      "demo": false,
+      "createdAt": "2026-10-09T16:49:20.566Z",
+      "updatedAt": "2026-10-09T16:49:20.566Z",
+      "id": "p-ecco",
+      "slug": "agencia-ecco-institutional-films",
+      "title": "Agência Ecco",
+      "year": 2026,
+      "coverId": "m-bh-cover-ecco",
+      "order": 12
+    },
+    {
+      "subtitle": "Big Brother Brasil · Multishow",
+      "client": "Multishow · Grupo Globo",
+      "role": "Head of Design · Agência Ecco",
+      "disciplines": [
+        "Packaging",
+        "Art Direction",
+        "Copy"
+      ],
+      "categoryIds": [
+        "c-direction"
+      ],
+      "accent": "#EF2917",
+      "coverFocus": "center",
+      "featured": false,
+      "featuredLayout": "fullbleed",
+      "archiveShape": "square",
+      "published": true,
+      "overview": "",
+      "challenge": "Multishow, from Grupo Globo, asked us for a fun, practical and beautiful press kit for “BBB – A Eliminação”, the show that welcomes housemates right after they leave the house.",
+      "concept": "Two creative directions shaped the storytelling. Fewer than 1% of Brazilians have ever been on the show in 24 editions — so “ex-BBB” is a lifetime title, worn with pride. And “O Brasil tá vendo” (Brazil is watching) sums up life in the house: inside or out, every eye is on them.",
+      "process": "The final kit carried a ring light and a high-end microphone — so the housemates keep shining in their content — plus a special letter announcing their official promotion to the lifetime role of “ex-BBB”.",
+      "outcomes": "",
+      "credits": [
+        {
+          "role": "Head of Design",
+          "name": "Felipe Pidi"
+        },
+        {
+          "role": "Agency",
+          "name": "Agência Ecco"
+        },
+        {
+          "role": "Team",
+          "name": "Marcus David · Luís Silva · Cesar Augusto · Gilcileyde Ribeiro"
+        }
+      ],
+      "blocks": [
+        {
+          "id": "bbb-b3",
+          "type": "image",
+          "assetId": "m-bh-bbb-01"
+        },
+        {
+          "id": "bbb-b4",
+          "type": "image",
+          "assetId": "m-bh-bbb-02"
+        },
+        {
+          "id": "bbb-b5",
+          "type": "image",
+          "assetId": "m-bh-bbb-03"
+        },
+        {
+          "id": "bbb-b6",
+          "type": "image",
+          "assetId": "m-bh-bbb-04"
+        }
+      ],
+      "demo": false,
+      "createdAt": "2026-10-09T16:49:20.566Z",
+      "updatedAt": "2026-10-09T16:49:20.566Z",
+      "id": "p-bbb",
+      "slug": "big-brother-brasil-press-kit",
+      "title": "BBB Press Kit",
+      "year": 2024,
+      "coverId": "m-bh-cover-bbb",
+      "order": 13
+    },
+    {
+      "subtitle": "Tem Linx pra Tudo",
+      "client": "Linx",
+      "role": "Head of Design · Agência Ecco",
+      "disciplines": [
+        "Campaign",
+        "Social",
+        "Editorial"
+      ],
+      "categoryIds": [
+        "c-direction",
+        "c-motion"
+      ],
+      "accent": "#FF6030",
+      "coverFocus": "center",
+      "featured": false,
+      "featuredLayout": "fullbleed",
+      "archiveShape": "landscape",
+      "published": true,
+      "overview": "",
+      "challenge": "Linx — a technology giant specialised in software for retail's digital transformation — asked us to boost the brand's communication on social media, with well-crafted copy, relevant topics and a solid visual identity.",
+      "concept": "We created the concept, visual identity and plan for “Tem Linx pra Tudo” (There's Linx for everything), Linx's first institutional campaign, showing the breadth of its products and putting the brand into the daily routine of retailers and end consumers. #TemLinxPraTudo and #TemLinxEmTodoLugar guided the rollout.",
+      "process": "Beyond social posts, we laid out rich content pieces where the identity is applied with confidence — informative, but engaging and dynamic thanks to the colors and visual elements chosen.",
+      "outcomes": "",
+      "credits": [
+        {
+          "role": "Head of Design",
+          "name": "Felipe Pidi"
+        },
+        {
+          "role": "Agency",
+          "name": "Agência Ecco"
+        },
+        {
+          "role": "Team",
+          "name": "Luís Silva · Giovanna Marino · Marcus David"
+        }
+      ],
+      "blocks": [
+        {
+          "id": "linx-b7",
+          "type": "image",
+          "assetId": "m-bh-linx-01"
+        },
+        {
+          "id": "linx-b8",
+          "type": "embed",
+          "url": "https://vimeo.com/1008586341",
+          "caption": "Tem Solução pra Tudo, Tem Linx pra Tudo"
+        },
+        {
+          "id": "linx-b9",
+          "type": "image",
+          "assetId": "m-bh-linx-02"
+        },
+        {
+          "id": "linx-b10",
+          "type": "image",
+          "assetId": "m-bh-linx-03"
+        },
+        {
+          "id": "linx-b11",
+          "type": "image",
+          "assetId": "m-bh-linx-04"
+        },
+        {
+          "id": "linx-b12",
+          "type": "image",
+          "assetId": "m-bh-linx-05"
+        },
+        {
+          "id": "linx-b13",
+          "type": "image",
+          "assetId": "m-bh-linx-06"
+        },
+        {
+          "id": "linx-b14",
+          "type": "image",
+          "assetId": "m-bh-linx-07"
+        },
+        {
+          "id": "linx-b15",
+          "type": "image",
+          "assetId": "m-bh-linx-08"
+        },
+        {
+          "id": "linx-b16",
+          "type": "image",
+          "assetId": "m-bh-linx-09"
+        },
+        {
+          "id": "linx-b17",
+          "type": "image",
+          "assetId": "m-bh-linx-10"
+        },
+        {
+          "id": "linx-b18",
+          "type": "image",
+          "assetId": "m-bh-linx-11"
+        }
+      ],
+      "demo": false,
+      "createdAt": "2026-10-09T16:49:20.566Z",
+      "updatedAt": "2026-10-09T16:49:20.566Z",
+      "id": "p-linx",
+      "slug": "linx-tem-linx-pra-tudo",
+      "title": "Linx",
+      "year": 2024,
+      "coverId": "m-bh-cover-linx",
+      "order": 14
+    },
+    {
+      "subtitle": "NowUni — back to school",
+      "client": "Uni-ball",
+      "role": "Senior Designer · Agência Ecco",
+      "disciplines": [
+        "Campaign",
+        "Social",
+        "Art Direction"
+      ],
+      "categoryIds": [
+        "c-direction"
+      ],
+      "accent": "#EF2917",
+      "coverFocus": "center",
+      "featured": false,
+      "featuredLayout": "fullbleed",
+      "archiveShape": "square",
+      "published": true,
+      "overview": "Back-to-school 2023 campaign for Uni-ball built on nostalgia — “NowUni”. Remembering who you were and passing that message on to the next generation: Uni connects generations.",
+      "challenge": "",
+      "concept": "",
+      "process": "",
+      "outcomes": "",
+      "credits": [
+        {
+          "role": "Senior Designer",
+          "name": "Felipe Pidi"
+        },
+        {
+          "role": "Agency",
+          "name": "Agência Ecco"
+        },
+        {
+          "role": "Team",
+          "name": "Marcus David · Marília Cerioni"
+        }
+      ],
+      "blocks": [
+        {
+          "id": "uniball-b19",
+          "type": "image",
+          "assetId": "m-bh-uniball-01"
+        },
+        {
+          "id": "uniball-b20",
+          "type": "image",
+          "assetId": "m-bh-uniball-02"
+        },
+        {
+          "id": "uniball-b21",
+          "type": "image",
+          "assetId": "m-bh-uniball-03"
+        },
+        {
+          "id": "uniball-b22",
+          "type": "image",
+          "assetId": "m-bh-uniball-04"
+        },
+        {
+          "id": "uniball-b23",
+          "type": "image",
+          "assetId": "m-bh-uniball-05"
+        },
+        {
+          "id": "uniball-b24",
+          "type": "image",
+          "assetId": "m-bh-uniball-06"
+        }
+      ],
+      "demo": false,
+      "createdAt": "2026-10-09T16:49:20.566Z",
+      "updatedAt": "2026-10-09T16:49:20.566Z",
+      "id": "p-uniball",
+      "slug": "uni-ball-nowuni",
+      "title": "Uni-ball",
+      "year": 2023,
+      "coverId": "m-bh-cover-uniball",
+      "order": 15
+    },
+    {
+      "subtitle": "Sistema B · brand identity",
+      "client": "Activas",
+      "role": "Head of Design · Agência Ecco",
+      "disciplines": [
+        "Brand Identity",
+        "Visual System"
+      ],
+      "categoryIds": [
+        "c-branding"
+      ],
+      "accent": "#F4E9D6",
+      "coverFocus": "center",
+      "featured": false,
+      "featuredLayout": "fullbleed",
+      "archiveShape": "square",
+      "published": true,
+      "overview": "Brand identity for Activas, part of Sistema B — a bold “B” monogram that frames nature and people, a warm palette and a flexible image system across stationery, social and merchandise.",
+      "challenge": "",
+      "concept": "",
+      "process": "",
+      "outcomes": "",
+      "credits": [
+        {
+          "role": "Head of Design",
+          "name": "Felipe Pidi"
+        },
+        {
+          "role": "Agency",
+          "name": "Agência Ecco"
+        },
+        {
+          "role": "Team",
+          "name": "Giovanna Marino · Marcus David · Marília Cerioni"
+        }
+      ],
+      "blocks": [
+        {
+          "id": "activas-b25",
+          "type": "image",
+          "assetId": "m-bh-activas-01"
+        },
+        {
+          "id": "activas-b26",
+          "type": "image",
+          "assetId": "m-bh-activas-02"
+        },
+        {
+          "id": "activas-b27",
+          "type": "image",
+          "assetId": "m-bh-activas-03"
+        },
+        {
+          "id": "activas-b28",
+          "type": "image",
+          "assetId": "m-bh-activas-04"
+        },
+        {
+          "id": "activas-b29",
+          "type": "image",
+          "assetId": "m-bh-activas-05"
+        },
+        {
+          "id": "activas-b30",
+          "type": "image",
+          "assetId": "m-bh-activas-06"
+        },
+        {
+          "id": "activas-b31",
+          "type": "image",
+          "assetId": "m-bh-activas-07"
+        },
+        {
+          "id": "activas-b32",
+          "type": "image",
+          "assetId": "m-bh-activas-08"
+        }
+      ],
+      "demo": false,
+      "createdAt": "2026-10-09T16:49:20.566Z",
+      "updatedAt": "2026-10-09T16:49:20.566Z",
+      "id": "p-activas",
+      "slug": "activas-sistema-b-branding",
+      "title": "Activas",
+      "year": 2023,
+      "coverId": "m-bh-cover-activas",
+      "order": 16
+    },
+    {
+      "subtitle": "Handmade calzones",
+      "client": "Calzany",
+      "role": "Brand Designer",
+      "disciplines": [
+        "Brand Identity",
+        "Packaging"
+      ],
+      "categoryIds": [
+        "c-branding"
+      ],
+      "accent": "#FF6030",
+      "coverFocus": "center",
+      "featured": false,
+      "featuredLayout": "fullbleed",
+      "archiveShape": "landscape",
+      "published": true,
+      "overview": "Brand identity for Calzany, handmade calzones — a playful “C” monogram, checkered patterns, bold color and a loud voice (“Huuum!”) across packaging, menu, uniforms and signage.",
+      "challenge": "",
+      "concept": "",
+      "process": "",
+      "outcomes": "",
+      "credits": [
+        {
+          "role": "Brand Design",
           "name": "Felipe Pidi"
         }
       ],
       "blocks": [
         {
-          "id": "styles-b1",
-          "type": "text",
-          "body": "Taste, encoded. Each style is a pipeline anyone on the squad can run.",
-          "size": "xl"
+          "id": "calzany-b33",
+          "type": "image",
+          "assetId": "m-bh-calzany-01"
         },
         {
-          "id": "styles-b2",
-          "type": "grid3",
-          "assetIds": [
-            "ph-styles",
-            "ph-still-c",
-            "ph-styles"
-          ]
+          "id": "calzany-b34",
+          "type": "image",
+          "assetId": "m-bh-calzany-02"
+        },
+        {
+          "id": "calzany-b35",
+          "type": "image",
+          "assetId": "m-bh-calzany-03"
+        },
+        {
+          "id": "calzany-b36",
+          "type": "image",
+          "assetId": "m-bh-calzany-04"
+        },
+        {
+          "id": "calzany-b37",
+          "type": "image",
+          "assetId": "m-bh-calzany-05"
+        },
+        {
+          "id": "calzany-b38",
+          "type": "image",
+          "assetId": "m-bh-calzany-06"
+        },
+        {
+          "id": "calzany-b39",
+          "type": "image",
+          "assetId": "m-bh-calzany-07"
+        },
+        {
+          "id": "calzany-b40",
+          "type": "image",
+          "assetId": "m-bh-calzany-08"
+        },
+        {
+          "id": "calzany-b41",
+          "type": "image",
+          "assetId": "m-bh-calzany-09"
+        },
+        {
+          "id": "calzany-b42",
+          "type": "image",
+          "assetId": "m-bh-calzany-10"
+        },
+        {
+          "id": "calzany-b43",
+          "type": "image",
+          "assetId": "m-bh-calzany-11"
+        },
+        {
+          "id": "calzany-b44",
+          "type": "image",
+          "assetId": "m-bh-calzany-12"
         }
       ],
-      "demo": true,
-      "createdAt": "2026-10-08T00:00:00.000Z",
-      "updatedAt": "2026-10-09T15:00:23.868Z",
-      "coverFocus": "center"
+      "demo": false,
+      "createdAt": "2026-10-09T16:49:20.566Z",
+      "updatedAt": "2026-10-09T16:49:20.566Z",
+      "id": "p-calzany",
+      "slug": "calzany-branding",
+      "title": "Calzany",
+      "year": 2022,
+      "coverId": "m-bh-cover-calzany",
+      "order": 17
     },
     {
-      "id": "p-meli",
-      "slug": "mercado-livre",
-      "title": "Mercado Livre",
-      "subtitle": "Campaigns",
-      "client": "Mercado Livre",
-      "year": 2026,
-      "role": "AI Creative Lead · Jotacom",
+      "subtitle": "Technology brand",
+      "client": "Kizen Technology",
+      "role": "Brand Designer",
       "disciplines": [
-        "Campaign",
-        "Generative AI"
+        "Brand Identity",
+        "Illustration"
       ],
       "categoryIds": [
-        "c-direction",
-        "c-ai"
+        "c-branding"
       ],
       "accent": "#EF2917",
-      "coverId": "ph-mercado",
-      "featured": false,
-      "featuredLayout": "fullbleed",
-      "archiveShape": "landscape",
-      "published": false,
-      "order": 13,
-      "overview": "Demo copy — campaign work for Mercado Livre at Jotacom. Replace with the real case.",
-      "challenge": "",
-      "concept": "",
-      "process": "",
-      "outcomes": "",
-      "credits": [],
-      "blocks": [],
-      "demo": true,
-      "createdAt": "2026-10-08T00:00:00.000Z",
-      "updatedAt": "2026-10-09T15:00:23.868Z",
-      "coverFocus": "center"
-    },
-    {
-      "id": "p-duo",
-      "slug": "duolingo",
-      "title": "Duolingo",
-      "subtitle": "Campaign",
-      "client": "Duolingo",
-      "year": 2026,
-      "role": "AI Creative Lead · Jotacom",
-      "disciplines": [
-        "Campaign",
-        "Generative AI"
-      ],
-      "categoryIds": [
-        "c-direction",
-        "c-ai"
-      ],
-      "accent": "#FF6030",
-      "coverId": "ph-still-c",
+      "coverFocus": "center",
       "featured": false,
       "featuredLayout": "fullbleed",
       "archiveShape": "square",
-      "published": false,
-      "order": 14,
-      "overview": "Demo copy — campaign work for Duolingo at Jotacom. Replace with the real case.",
+      "published": true,
+      "overview": "Brand identity for Kizen Technology — a radiant circular mark and a vivid color system, presented across brand guidelines and applications.",
       "challenge": "",
       "concept": "",
       "process": "",
       "outcomes": "",
-      "credits": [],
-      "blocks": [],
-      "demo": true,
-      "createdAt": "2026-10-08T00:00:00.000Z",
-      "updatedAt": "2026-10-09T15:00:23.868Z",
-      "coverFocus": "center"
+      "credits": [
+        {
+          "role": "Brand Design",
+          "name": "Felipe Pidi"
+        }
+      ],
+      "blocks": [
+        {
+          "id": "kizen-b45",
+          "type": "image",
+          "assetId": "m-bh-kizen-01"
+        }
+      ],
+      "demo": false,
+      "createdAt": "2026-10-09T16:49:20.566Z",
+      "updatedAt": "2026-10-09T16:49:20.566Z",
+      "id": "p-kizen",
+      "slug": "kizen-technology-branding",
+      "title": "Kizen",
+      "year": 2022,
+      "coverId": "m-bh-cover-kizen",
+      "order": 18
+    },
+    {
+      "subtitle": "No Frango Assado tem",
+      "client": "Rede Frango Assado",
+      "role": "Senior Art Director · The Heart",
+      "disciplines": [
+        "Campaign",
+        "Retail",
+        "Art Direction"
+      ],
+      "categoryIds": [
+        "c-direction"
+      ],
+      "accent": "#EF2917",
+      "coverFocus": "center",
+      "featured": false,
+      "featuredLayout": "fullbleed",
+      "archiveShape": "landscape",
+      "published": true,
+      "overview": "“No Frango Assado tem. No Frango Assado dá.” — campaign for Rede Frango Assado, the roadside restaurant and convenience chain, turning travel essentials into bold, color-blocked key visuals.",
+      "challenge": "",
+      "concept": "",
+      "process": "",
+      "outcomes": "",
+      "credits": [
+        {
+          "role": "Senior Art Director",
+          "name": "Felipe Pidi"
+        },
+        {
+          "role": "Agency",
+          "name": "The Heart Comunicação"
+        }
+      ],
+      "blocks": [
+        {
+          "id": "frango-b46",
+          "type": "image",
+          "assetId": "m-bh-frango-01"
+        },
+        {
+          "id": "frango-b47",
+          "type": "image",
+          "assetId": "m-bh-frango-02"
+        },
+        {
+          "id": "frango-b48",
+          "type": "image",
+          "assetId": "m-bh-frango-03"
+        },
+        {
+          "id": "frango-b49",
+          "type": "image",
+          "assetId": "m-bh-frango-04"
+        },
+        {
+          "id": "frango-b50",
+          "type": "image",
+          "assetId": "m-bh-frango-05"
+        }
+      ],
+      "demo": false,
+      "createdAt": "2026-10-09T16:49:20.566Z",
+      "updatedAt": "2026-10-09T16:49:20.566Z",
+      "id": "p-frango",
+      "slug": "rede-frango-assado",
+      "title": "Frango Assado",
+      "year": 2022,
+      "coverId": "m-bh-cover-frango",
+      "order": 19
+    },
+    {
+      "subtitle": "Shippados",
+      "client": "Imovelweb",
+      "role": "Art Director · The Heart",
+      "disciplines": [
+        "Campaign",
+        "Social",
+        "Art Direction"
+      ],
+      "categoryIds": [
+        "c-direction"
+      ],
+      "accent": "#FF6030",
+      "coverFocus": "center",
+      "featured": false,
+      "featuredLayout": "fullbleed",
+      "archiveShape": "square",
+      "published": true,
+      "overview": "“Shippados” — campaign for Imovelweb, the real-estate portal, pairing people with their ideal homes in a pop, orange, social-first visual language.",
+      "challenge": "",
+      "concept": "",
+      "process": "",
+      "outcomes": "",
+      "credits": [
+        {
+          "role": "Art Director",
+          "name": "Felipe Pidi"
+        },
+        {
+          "role": "Agency",
+          "name": "The Heart Comunicação"
+        }
+      ],
+      "blocks": [
+        {
+          "id": "imovelweb-b51",
+          "type": "image",
+          "assetId": "m-bh-imovelweb-01"
+        },
+        {
+          "id": "imovelweb-b52",
+          "type": "image",
+          "assetId": "m-bh-imovelweb-02"
+        },
+        {
+          "id": "imovelweb-b53",
+          "type": "image",
+          "assetId": "m-bh-imovelweb-03"
+        },
+        {
+          "id": "imovelweb-b54",
+          "type": "image",
+          "assetId": "m-bh-imovelweb-04"
+        },
+        {
+          "id": "imovelweb-b55",
+          "type": "image",
+          "assetId": "m-bh-imovelweb-05"
+        },
+        {
+          "id": "imovelweb-b56",
+          "type": "image",
+          "assetId": "m-bh-imovelweb-06"
+        }
+      ],
+      "demo": false,
+      "createdAt": "2026-10-09T16:49:20.566Z",
+      "updatedAt": "2026-10-09T16:49:20.566Z",
+      "id": "p-imovelweb",
+      "slug": "imovelweb-shippados",
+      "title": "Imovelweb",
+      "year": 2020,
+      "coverId": "m-bh-cover-imovelweb",
+      "order": 20
+    },
+    {
+      "subtitle": "Social media",
+      "client": "Pizza Hut Brasil",
+      "role": "Art Director",
+      "disciplines": [
+        "Social",
+        "Art Direction"
+      ],
+      "categoryIds": [
+        "c-direction"
+      ],
+      "accent": "#EF2917",
+      "coverFocus": "center",
+      "featured": false,
+      "featuredLayout": "fullbleed",
+      "archiveShape": "square",
+      "published": true,
+      "overview": "Social media for Pizza Hut Brasil — topical, conversation-driven posts for dates and pop-culture moments, from Children's Day to Halloween.",
+      "challenge": "",
+      "concept": "",
+      "process": "",
+      "outcomes": "",
+      "credits": [
+        {
+          "role": "Art Direction",
+          "name": "Felipe Pidi"
+        }
+      ],
+      "blocks": [
+        {
+          "id": "pizzahut-b57",
+          "type": "image",
+          "assetId": "m-bh-pizzahut-01"
+        },
+        {
+          "id": "pizzahut-b58",
+          "type": "image",
+          "assetId": "m-bh-pizzahut-02"
+        },
+        {
+          "id": "pizzahut-b59",
+          "type": "image",
+          "assetId": "m-bh-pizzahut-03"
+        },
+        {
+          "id": "pizzahut-b60",
+          "type": "image",
+          "assetId": "m-bh-pizzahut-04"
+        },
+        {
+          "id": "pizzahut-b61",
+          "type": "image",
+          "assetId": "m-bh-pizzahut-05"
+        },
+        {
+          "id": "pizzahut-b62",
+          "type": "image",
+          "assetId": "m-bh-pizzahut-06"
+        },
+        {
+          "id": "pizzahut-b63",
+          "type": "image",
+          "assetId": "m-bh-pizzahut-07"
+        },
+        {
+          "id": "pizzahut-b64",
+          "type": "image",
+          "assetId": "m-bh-pizzahut-08"
+        },
+        {
+          "id": "pizzahut-b65",
+          "type": "image",
+          "assetId": "m-bh-pizzahut-09"
+        },
+        {
+          "id": "pizzahut-b66",
+          "type": "image",
+          "assetId": "m-bh-pizzahut-10"
+        },
+        {
+          "id": "pizzahut-b67",
+          "type": "image",
+          "assetId": "m-bh-pizzahut-11"
+        },
+        {
+          "id": "pizzahut-b68",
+          "type": "image",
+          "assetId": "m-bh-pizzahut-12"
+        }
+      ],
+      "demo": false,
+      "createdAt": "2026-10-09T16:49:20.566Z",
+      "updatedAt": "2026-10-09T16:49:20.566Z",
+      "id": "p-pizzahut",
+      "slug": "pizza-hut-social-media",
+      "title": "Pizza Hut",
+      "year": 2019,
+      "coverId": "m-bh-cover-pizzahut",
+      "order": 21
+    },
+    {
+      "subtitle": "Financial services brand",
+      "client": "Liderança Digital",
+      "role": "Brand Designer",
+      "disciplines": [
+        "Brand Identity"
+      ],
+      "categoryIds": [
+        "c-branding"
+      ],
+      "accent": "#F4E9D6",
+      "coverFocus": "center",
+      "featured": false,
+      "featuredLayout": "fullbleed",
+      "archiveShape": "landscape",
+      "published": true,
+      "overview": "Brand design for Liderança Digital, a collections and financial-services brand.",
+      "challenge": "",
+      "concept": "",
+      "process": "",
+      "outcomes": "",
+      "credits": [
+        {
+          "role": "Brand Design",
+          "name": "Felipe Pidi"
+        }
+      ],
+      "blocks": [
+        {
+          "id": "lideranca-b69",
+          "type": "image",
+          "assetId": "m-bh-lideranca-01"
+        }
+      ],
+      "demo": false,
+      "createdAt": "2026-10-09T16:49:20.566Z",
+      "updatedAt": "2026-10-09T16:49:20.566Z",
+      "id": "p-lideranca",
+      "slug": "lideranca-digital-branding",
+      "title": "Liderança Digital",
+      "year": 2019,
+      "coverId": "m-bh-cover-lideranca",
+      "order": 22
+    },
+    {
+      "subtitle": "Insurance brand",
+      "client": "Dome Seguros",
+      "role": "Brand Designer",
+      "disciplines": [
+        "Brand Identity"
+      ],
+      "categoryIds": [
+        "c-branding"
+      ],
+      "accent": "#FF6030",
+      "coverFocus": "center",
+      "featured": false,
+      "featuredLayout": "fullbleed",
+      "archiveShape": "square",
+      "published": true,
+      "overview": "Visual identity for Dome Seguros, an insurance brand.",
+      "challenge": "",
+      "concept": "",
+      "process": "",
+      "outcomes": "",
+      "credits": [
+        {
+          "role": "Brand Design",
+          "name": "Felipe Pidi"
+        }
+      ],
+      "blocks": [
+        {
+          "id": "dome-b70",
+          "type": "image",
+          "assetId": "m-bh-dome-01"
+        },
+        {
+          "id": "dome-b71",
+          "type": "image",
+          "assetId": "m-bh-dome-02"
+        }
+      ],
+      "demo": false,
+      "createdAt": "2026-10-09T16:49:20.566Z",
+      "updatedAt": "2026-10-09T16:49:20.566Z",
+      "id": "p-dome",
+      "slug": "dome-seguros-branding",
+      "title": "Dome Seguros",
+      "year": 2019,
+      "coverId": "m-bh-cover-dome",
+      "order": 23
+    },
+    {
+      "subtitle": "Rock Day",
+      "client": "Aché · Flogoral",
+      "role": "Art Director · Grupo Rái",
+      "disciplines": [
+        "Social",
+        "Art Direction"
+      ],
+      "categoryIds": [
+        "c-direction"
+      ],
+      "accent": "#EF2917",
+      "coverFocus": "center",
+      "featured": false,
+      "featuredLayout": "fullbleed",
+      "archiveShape": "square",
+      "published": true,
+      "overview": "Special Rock Day posts for Flogoral (Aché), created at Agência Rái.",
+      "challenge": "",
+      "concept": "",
+      "process": "",
+      "outcomes": "",
+      "credits": [
+        {
+          "role": "Art Director",
+          "name": "Felipe Pidi"
+        },
+        {
+          "role": "Agency",
+          "name": "Grupo Rái"
+        }
+      ],
+      "blocks": [
+        {
+          "id": "flogoral-b72",
+          "type": "image",
+          "assetId": "m-bh-flogoral-01"
+        }
+      ],
+      "demo": false,
+      "createdAt": "2026-10-09T16:49:20.566Z",
+      "updatedAt": "2026-10-09T16:49:20.566Z",
+      "id": "p-flogoral",
+      "slug": "flogoral-dia-do-rock",
+      "title": "Flogoral",
+      "year": 2017,
+      "coverId": "m-bh-cover-flogoral",
+      "order": 24
+    },
+    {
+      "subtitle": "New chocolate boxes",
+      "client": "Lojas Ofner",
+      "role": "Art Director · Grupo Rái",
+      "disciplines": [
+        "Key Visual",
+        "Art Direction"
+      ],
+      "categoryIds": [
+        "c-direction"
+      ],
+      "accent": "#F4E9D6",
+      "coverFocus": "center",
+      "featured": false,
+      "featuredLayout": "fullbleed",
+      "archiveShape": "landscape",
+      "published": true,
+      "overview": "Key visual announcing the new chocolate boxes from Lojas Ofner, created at Grupo Rái.",
+      "challenge": "",
+      "concept": "",
+      "process": "",
+      "outcomes": "",
+      "credits": [
+        {
+          "role": "Art Director",
+          "name": "Felipe Pidi"
+        },
+        {
+          "role": "Agency",
+          "name": "Grupo Rái"
+        }
+      ],
+      "blocks": [
+        {
+          "id": "ofner-b73",
+          "type": "image",
+          "assetId": "m-bh-ofner-01"
+        }
+      ],
+      "demo": false,
+      "createdAt": "2026-10-09T16:49:20.566Z",
+      "updatedAt": "2026-10-09T16:49:20.566Z",
+      "id": "p-ofner",
+      "slug": "lojas-ofner-chocolate-boxes",
+      "title": "Ofner",
+      "year": 2017,
+      "coverId": "m-bh-cover-ofner",
+      "order": 25
+    },
+    {
+      "subtitle": "Photography studio brand",
+      "client": "Mariana Moraes Fotografia",
+      "role": "Brand Designer",
+      "disciplines": [
+        "Brand Identity"
+      ],
+      "categoryIds": [
+        "c-branding"
+      ],
+      "accent": "#FF6030",
+      "coverFocus": "center",
+      "featured": false,
+      "featuredLayout": "fullbleed",
+      "archiveShape": "square",
+      "published": true,
+      "overview": "Brand identity for photographer Mariana Moraes.",
+      "challenge": "",
+      "concept": "",
+      "process": "",
+      "outcomes": "",
+      "credits": [
+        {
+          "role": "Brand Design",
+          "name": "Felipe Pidi"
+        }
+      ],
+      "blocks": [
+        {
+          "id": "mariana-b74",
+          "type": "image",
+          "assetId": "m-bh-mariana-01"
+        }
+      ],
+      "demo": false,
+      "createdAt": "2026-10-09T16:49:20.566Z",
+      "updatedAt": "2026-10-09T16:49:20.566Z",
+      "id": "p-mariana",
+      "slug": "mariana-moraes-fotografia-branding",
+      "title": "Mariana Moraes",
+      "year": 2017,
+      "coverId": "m-bh-cover-mariana",
+      "order": 26
+    },
+    {
+      "subtitle": "Pizza Hut",
+      "client": "Pizza Hut Brasil",
+      "role": "Art Director",
+      "disciplines": [
+        "Social",
+        "Motion Graphics"
+      ],
+      "categoryIds": [
+        "c-direction",
+        "c-motion"
+      ],
+      "accent": "#EF2917",
+      "coverFocus": "center",
+      "featured": false,
+      "featuredLayout": "fullbleed",
+      "archiveShape": "type",
+      "published": true,
+      "overview": "We turned Pizza Hut's Facebook into a GIF hub — GIF Delivery.",
+      "challenge": "",
+      "concept": "",
+      "process": "",
+      "outcomes": "",
+      "credits": [
+        {
+          "role": "Art Direction",
+          "name": "Felipe Pidi"
+        },
+        {
+          "role": "Team",
+          "name": "Willian Cotô"
+        }
+      ],
+      "blocks": [
+        {
+          "id": "gifpizza-b75",
+          "type": "image",
+          "assetId": "m-bh-gifpizza-01"
+        },
+        {
+          "id": "gifpizza-b76",
+          "type": "image",
+          "assetId": "m-bh-gifpizza-02"
+        },
+        {
+          "id": "gifpizza-b77",
+          "type": "image",
+          "assetId": "m-bh-gifpizza-03"
+        },
+        {
+          "id": "gifpizza-b78",
+          "type": "image",
+          "assetId": "m-bh-gifpizza-04"
+        }
+      ],
+      "demo": false,
+      "createdAt": "2026-10-09T16:49:20.566Z",
+      "updatedAt": "2026-10-09T16:49:20.566Z",
+      "id": "p-gifpizza",
+      "slug": "pizza-hut-gif-delivery",
+      "title": "GIF Delivery",
+      "year": 2016,
+      "coverId": "m-bh-cover-gifpizza",
+      "order": 27
+    },
+    {
+      "subtitle": "Training motion graphics",
+      "client": "Technos",
+      "role": "Designer · Torrada Criativa",
+      "disciplines": [
+        "Motion Graphics",
+        "Storyboard"
+      ],
+      "categoryIds": [
+        "c-motion"
+      ],
+      "accent": "#FF6030",
+      "coverFocus": "center",
+      "featured": false,
+      "featuredLayout": "fullbleed",
+      "archiveShape": "landscape",
+      "published": true,
+      "overview": "Motion graphics for Academia Technos, the training program for Technos staff — created at Torrada Criativa.",
+      "challenge": "",
+      "concept": "",
+      "process": "",
+      "outcomes": "",
+      "credits": [
+        {
+          "role": "Storyboard & Motion",
+          "name": "Felipe Pidi · Lita Rebello"
+        },
+        {
+          "role": "Agency",
+          "name": "Torrada Criativa"
+        }
+      ],
+      "blocks": [
+        {
+          "id": "technos-b79",
+          "type": "image",
+          "assetId": "m-bh-technos-01"
+        },
+        {
+          "id": "technos-b80",
+          "type": "image",
+          "assetId": "m-bh-technos-02"
+        },
+        {
+          "id": "technos-b81",
+          "type": "image",
+          "assetId": "m-bh-technos-03"
+        },
+        {
+          "id": "technos-b82",
+          "type": "image",
+          "assetId": "m-bh-technos-04"
+        }
+      ],
+      "demo": false,
+      "createdAt": "2026-10-09T16:49:20.566Z",
+      "updatedAt": "2026-10-09T16:49:20.566Z",
+      "id": "p-technos",
+      "slug": "academia-technos-motion",
+      "title": "Academia Technos",
+      "year": 2016,
+      "coverId": "m-bh-cover-technos",
+      "order": 28
+    },
+    {
+      "subtitle": "Portrait series",
+      "client": "@olhosdefelipe",
+      "role": "Photographer",
+      "disciplines": [
+        "Photography",
+        "Portrait"
+      ],
+      "categoryIds": [
+        "c-photo"
+      ],
+      "accent": "#FF6030",
+      "coverFocus": "center",
+      "featured": false,
+      "featuredLayout": "fullbleed",
+      "archiveShape": "poster",
+      "published": true,
+      "overview": "Portrait series shot as @olhosdefelipe — neon, dusk and night light in teal and orange.",
+      "challenge": "",
+      "concept": "",
+      "process": "",
+      "outcomes": "",
+      "credits": [
+        {
+          "role": "Photography",
+          "name": "Felipe Pidi"
+        }
+      ],
+      "blocks": [
+        {
+          "id": "retro-b83",
+          "type": "image",
+          "assetId": "m-photo-retro-01"
+        },
+        {
+          "id": "retro-b84",
+          "type": "grid3",
+          "assetIds": [
+            "m-photo-retro-02",
+            "m-photo-retro-03",
+            "m-photo-retro-04"
+          ]
+        },
+        {
+          "id": "retro-b85",
+          "type": "grid3",
+          "assetIds": [
+            "m-photo-retro-05",
+            "m-photo-retro-06",
+            "m-photo-retro-07"
+          ]
+        },
+        {
+          "id": "retro-b86",
+          "type": "grid2",
+          "assetIds": [
+            "m-photo-retro-08",
+            "m-photo-retro-09"
+          ]
+        },
+        {
+          "id": "retro-b87",
+          "type": "grid2",
+          "assetIds": [
+            "m-photo-retro-10",
+            "m-photo-retro-11"
+          ]
+        }
+      ],
+      "demo": false,
+      "createdAt": "2026-10-09T16:49:20.566Z",
+      "updatedAt": "2026-10-09T16:49:20.566Z",
+      "id": "p-photo-retro",
+      "slug": "retro-portrait-series",
+      "title": "Retro",
+      "year": 2018,
+      "coverId": "m-photo-retro-01",
+      "order": 29
+    },
+    {
+      "subtitle": "Portrait session",
+      "client": "@olhosdefelipe",
+      "role": "Photographer",
+      "disciplines": [
+        "Photography",
+        "Portrait"
+      ],
+      "categoryIds": [
+        "c-photo"
+      ],
+      "accent": "#EF2917",
+      "coverFocus": "center",
+      "featured": false,
+      "featuredLayout": "fullbleed",
+      "archiveShape": "poster",
+      "published": true,
+      "overview": "Street portrait session with Adriella Stormovski, shot as @olhosdefelipe.",
+      "challenge": "",
+      "concept": "",
+      "process": "",
+      "outcomes": "",
+      "credits": [
+        {
+          "role": "Photography",
+          "name": "Felipe Pidi"
+        },
+        {
+          "role": "Model",
+          "name": "Adriella Stormovski"
+        }
+      ],
+      "blocks": [
+        {
+          "id": "adriella-b88",
+          "type": "image",
+          "assetId": "m-bh-adriella-01"
+        },
+        {
+          "id": "adriella-b89",
+          "type": "grid3",
+          "assetIds": [
+            "m-bh-adriella-02",
+            "m-bh-adriella-03",
+            "m-bh-adriella-04"
+          ]
+        },
+        {
+          "id": "adriella-b90",
+          "type": "grid3",
+          "assetIds": [
+            "m-bh-adriella-05",
+            "m-bh-adriella-06",
+            "m-bh-adriella-07"
+          ]
+        },
+        {
+          "id": "adriella-b91",
+          "type": "grid3",
+          "assetIds": [
+            "m-bh-adriella-08",
+            "m-bh-adriella-09",
+            "m-bh-adriella-10"
+          ]
+        }
+      ],
+      "demo": false,
+      "createdAt": "2026-10-09T16:49:20.566Z",
+      "updatedAt": "2026-10-09T16:49:20.566Z",
+      "id": "p-adriella",
+      "slug": "adriella-stormovski-portraits",
+      "title": "Adriella Stormovski",
+      "year": 2019,
+      "coverId": "m-bh-cover-adriella",
+      "order": 30
+    },
+    {
+      "subtitle": "Photo essay",
+      "client": "@olhosdefelipe",
+      "role": "Photographer",
+      "disciplines": [
+        "Photography",
+        "Portrait"
+      ],
+      "categoryIds": [
+        "c-photo"
+      ],
+      "accent": "#F4E9D6",
+      "coverFocus": "center",
+      "featured": false,
+      "featuredLayout": "fullbleed",
+      "archiveShape": "landscape",
+      "published": true,
+      "overview": "Night photo essay with Renata Ayumi, shot as @olhosdefelipe.",
+      "challenge": "",
+      "concept": "",
+      "process": "",
+      "outcomes": "",
+      "credits": [
+        {
+          "role": "Photography",
+          "name": "Felipe Pidi"
+        },
+        {
+          "role": "Model",
+          "name": "Renata Ayumi"
+        }
+      ],
+      "blocks": [
+        {
+          "id": "renata-b92",
+          "type": "image",
+          "assetId": "m-bh-renata-01"
+        }
+      ],
+      "demo": false,
+      "createdAt": "2026-10-09T16:49:20.566Z",
+      "updatedAt": "2026-10-09T16:49:20.566Z",
+      "id": "p-renata",
+      "slug": "renata-ayumi-photo-essay",
+      "title": "Renata Ayumi",
+      "year": 2017,
+      "coverId": "m-bh-cover-renata",
+      "order": 31
     }
   ],
   "media": [
+    {
+      "id": "m-bh-cover-ecco",
+      "kind": "image",
+      "src": "/media/bh-cover-ecco.webp",
+      "alt": "Agência Ecco — project cover",
+      "width": 2000,
+      "height": 1117,
+      "mime": "image/webp",
+      "size": 121440,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-cover-bbb",
+      "kind": "image",
+      "src": "/media/bh-cover-bbb.webp",
+      "alt": "BBB Press Kit — project cover",
+      "width": 1026,
+      "height": 732,
+      "mime": "image/webp",
+      "size": 88020,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-bbb-01",
+      "kind": "image",
+      "src": "/media/bh-bbb-01.webp",
+      "alt": "BBB Press Kit — Big Brother Brasil · Multishow, frame 1",
+      "width": 1400,
+      "height": 732,
+      "mime": "image/webp",
+      "size": 46512,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-bbb-02",
+      "kind": "image",
+      "src": "/media/bh-bbb-02.webp",
+      "alt": "BBB Press Kit — Big Brother Brasil · Multishow, frame 2",
+      "width": 1400,
+      "height": 732,
+      "mime": "image/webp",
+      "size": 45854,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-bbb-03",
+      "kind": "image",
+      "src": "/media/bh-bbb-03.webp",
+      "alt": "BBB Press Kit — Big Brother Brasil · Multishow, frame 3",
+      "width": 1400,
+      "height": 732,
+      "mime": "image/webp",
+      "size": 52228,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-bbb-04",
+      "kind": "image",
+      "src": "/media/bh-bbb-04.webp",
+      "alt": "BBB Press Kit — Big Brother Brasil · Multishow, frame 4",
+      "width": 1400,
+      "height": 732,
+      "mime": "image/webp",
+      "size": 59590,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-cover-linx",
+      "kind": "image",
+      "src": "/media/bh-cover-linx.webp",
+      "alt": "Linx — project cover",
+      "width": 1026,
+      "height": 732,
+      "mime": "image/webp",
+      "size": 216638,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-linx-01",
+      "kind": "image",
+      "src": "/media/bh-linx-01.webp",
+      "alt": "Linx — Tem Linx pra Tudo, frame 1",
+      "width": 1400,
+      "height": 732,
+      "mime": "image/webp",
+      "size": 34018,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-linx-02",
+      "kind": "image",
+      "src": "/media/bh-linx-02.webp",
+      "alt": "Linx — Tem Linx pra Tudo, frame 2",
+      "width": 1400,
+      "height": 732,
+      "mime": "image/webp",
+      "size": 136116,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-linx-03",
+      "kind": "image",
+      "src": "/media/bh-linx-03.webp",
+      "alt": "Linx — Tem Linx pra Tudo, frame 3",
+      "width": 1400,
+      "height": 732,
+      "mime": "image/webp",
+      "size": 147100,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-linx-04",
+      "kind": "image",
+      "src": "/media/bh-linx-04.webp",
+      "alt": "Linx — Tem Linx pra Tudo, frame 4",
+      "width": 1400,
+      "height": 732,
+      "mime": "image/webp",
+      "size": 110898,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-linx-05",
+      "kind": "image",
+      "src": "/media/bh-linx-05.webp",
+      "alt": "Linx — Tem Linx pra Tudo, frame 5",
+      "width": 1400,
+      "height": 732,
+      "mime": "image/webp",
+      "size": 33484,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-linx-06",
+      "kind": "image",
+      "src": "/media/bh-linx-06.webp",
+      "alt": "Linx — Tem Linx pra Tudo, frame 6",
+      "width": 1400,
+      "height": 732,
+      "mime": "image/webp",
+      "size": 222532,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-linx-07",
+      "kind": "image",
+      "src": "/media/bh-linx-07.webp",
+      "alt": "Linx — Tem Linx pra Tudo, frame 7",
+      "width": 1400,
+      "height": 732,
+      "mime": "image/webp",
+      "size": 37012,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-linx-08",
+      "kind": "image",
+      "src": "/media/bh-linx-08.webp",
+      "alt": "Linx — Tem Linx pra Tudo, frame 8",
+      "width": 1400,
+      "height": 732,
+      "mime": "image/webp",
+      "size": 247452,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-linx-09",
+      "kind": "image",
+      "src": "/media/bh-linx-09.webp",
+      "alt": "Linx — Tem Linx pra Tudo, frame 9",
+      "width": 1400,
+      "height": 732,
+      "mime": "image/webp",
+      "size": 102080,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-linx-10",
+      "kind": "image",
+      "src": "/media/bh-linx-10.webp",
+      "alt": "Linx — Tem Linx pra Tudo, frame 10",
+      "width": 1400,
+      "height": 732,
+      "mime": "image/webp",
+      "size": 210438,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-linx-11",
+      "kind": "image",
+      "src": "/media/bh-linx-11.webp",
+      "alt": "Linx — Tem Linx pra Tudo, frame 11",
+      "width": 490,
+      "height": 181,
+      "mime": "image/webp",
+      "size": 7548,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-cover-uniball",
+      "kind": "image",
+      "src": "/media/bh-cover-uniball.webp",
+      "alt": "Uni-ball — project cover",
+      "width": 808,
+      "height": 632,
+      "mime": "image/webp",
+      "size": 148272,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-uniball-01",
+      "kind": "image",
+      "src": "/media/bh-uniball-01.webp",
+      "alt": "Uni-ball — NowUni — back to school, frame 1",
+      "width": 1400,
+      "height": 1470,
+      "mime": "image/webp",
+      "size": 271068,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-uniball-02",
+      "kind": "image",
+      "src": "/media/bh-uniball-02.webp",
+      "alt": "Uni-ball — NowUni — back to school, frame 2",
+      "width": 1400,
+      "height": 732,
+      "mime": "image/webp",
+      "size": 47040,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-uniball-03",
+      "kind": "image",
+      "src": "/media/bh-uniball-03.webp",
+      "alt": "Uni-ball — NowUni — back to school, frame 3",
+      "width": 1400,
+      "height": 732,
+      "mime": "image/webp",
+      "size": 197702,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-uniball-04",
+      "kind": "image",
+      "src": "/media/bh-uniball-04.webp",
+      "alt": "Uni-ball — NowUni — back to school, frame 4",
+      "width": 1400,
+      "height": 732,
+      "mime": "image/webp",
+      "size": 211994,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-uniball-05",
+      "kind": "image",
+      "src": "/media/bh-uniball-05.webp",
+      "alt": "Uni-ball — NowUni — back to school, frame 5",
+      "width": 1400,
+      "height": 1464,
+      "mime": "image/webp",
+      "size": 342710,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-uniball-06",
+      "kind": "image",
+      "src": "/media/bh-uniball-06.webp",
+      "alt": "Uni-ball — NowUni — back to school, frame 6",
+      "width": 1400,
+      "height": 732,
+      "mime": "image/webp",
+      "size": 135406,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-cover-activas",
+      "kind": "image",
+      "src": "/media/bh-cover-activas.webp",
+      "alt": "Activas — project cover",
+      "width": 1920,
+      "height": 1080,
+      "mime": "image/webp",
+      "size": 368712,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-activas-01",
+      "kind": "image",
+      "src": "/media/bh-activas-01.webp",
+      "alt": "Activas — Sistema B · brand identity, frame 1",
+      "width": 1400,
+      "height": 788,
+      "mime": "image/webp",
+      "size": 210074,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-activas-02",
+      "kind": "image",
+      "src": "/media/bh-activas-02.webp",
+      "alt": "Activas — Sistema B · brand identity, frame 2",
+      "width": 1400,
+      "height": 788,
+      "mime": "image/webp",
+      "size": 8140,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-activas-03",
+      "kind": "image",
+      "src": "/media/bh-activas-03.webp",
+      "alt": "Activas — Sistema B · brand identity, frame 3",
+      "width": 1400,
+      "height": 788,
+      "mime": "image/webp",
+      "size": 126696,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-activas-04",
+      "kind": "image",
+      "src": "/media/bh-activas-04.webp",
+      "alt": "Activas — Sistema B · brand identity, frame 4",
+      "width": 1400,
+      "height": 788,
+      "mime": "image/webp",
+      "size": 108890,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-activas-05",
+      "kind": "image",
+      "src": "/media/bh-activas-05.webp",
+      "alt": "Activas — Sistema B · brand identity, frame 5",
+      "width": 1400,
+      "height": 788,
+      "mime": "image/webp",
+      "size": 33734,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-activas-06",
+      "kind": "image",
+      "src": "/media/bh-activas-06.webp",
+      "alt": "Activas — Sistema B · brand identity, frame 6",
+      "width": 1400,
+      "height": 788,
+      "mime": "image/webp",
+      "size": 46136,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-activas-07",
+      "kind": "image",
+      "src": "/media/bh-activas-07.webp",
+      "alt": "Activas — Sistema B · brand identity, frame 7",
+      "width": 1400,
+      "height": 788,
+      "mime": "image/webp",
+      "size": 67928,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-activas-08",
+      "kind": "image",
+      "src": "/media/bh-activas-08.webp",
+      "alt": "Activas — Sistema B · brand identity, frame 8",
+      "width": 1400,
+      "height": 1050,
+      "mime": "image/webp",
+      "size": 343632,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-cover-calzany",
+      "kind": "image",
+      "src": "/media/bh-cover-calzany.webp",
+      "alt": "Calzany — project cover",
+      "width": 1920,
+      "height": 900,
+      "mime": "image/webp",
+      "size": 354134,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-calzany-01",
+      "kind": "image",
+      "src": "/media/bh-calzany-01.webp",
+      "alt": "Calzany — Handmade calzones, frame 1",
+      "width": 1400,
+      "height": 656,
+      "mime": "image/webp",
+      "size": 10898,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-calzany-02",
+      "kind": "image",
+      "src": "/media/bh-calzany-02.webp",
+      "alt": "Calzany — Handmade calzones, frame 2",
+      "width": 1400,
+      "height": 656,
+      "mime": "image/webp",
+      "size": 13564,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-calzany-03",
+      "kind": "image",
+      "src": "/media/bh-calzany-03.webp",
+      "alt": "Calzany — Handmade calzones, frame 3",
+      "width": 1400,
+      "height": 656,
+      "mime": "image/webp",
+      "size": 84068,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-calzany-04",
+      "kind": "image",
+      "src": "/media/bh-calzany-04.webp",
+      "alt": "Calzany — Handmade calzones, frame 4",
+      "width": 1400,
+      "height": 656,
+      "mime": "image/webp",
+      "size": 171818,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-calzany-05",
+      "kind": "image",
+      "src": "/media/bh-calzany-05.webp",
+      "alt": "Calzany — Handmade calzones, frame 5",
+      "width": 1400,
+      "height": 656,
+      "mime": "image/webp",
+      "size": 103654,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-calzany-06",
+      "kind": "image",
+      "src": "/media/bh-calzany-06.webp",
+      "alt": "Calzany — Handmade calzones, frame 6",
+      "width": 1400,
+      "height": 656,
+      "mime": "image/webp",
+      "size": 156502,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-calzany-07",
+      "kind": "image",
+      "src": "/media/bh-calzany-07.webp",
+      "alt": "Calzany — Handmade calzones, frame 7",
+      "width": 1400,
+      "height": 656,
+      "mime": "image/webp",
+      "size": 118710,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-calzany-08",
+      "kind": "image",
+      "src": "/media/bh-calzany-08.webp",
+      "alt": "Calzany — Handmade calzones, frame 8",
+      "width": 1400,
+      "height": 656,
+      "mime": "image/webp",
+      "size": 112862,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-calzany-09",
+      "kind": "image",
+      "src": "/media/bh-calzany-09.webp",
+      "alt": "Calzany — Handmade calzones, frame 9",
+      "width": 1400,
+      "height": 656,
+      "mime": "image/webp",
+      "size": 156454,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-calzany-10",
+      "kind": "image",
+      "src": "/media/bh-calzany-10.webp",
+      "alt": "Calzany — Handmade calzones, frame 10",
+      "width": 1400,
+      "height": 656,
+      "mime": "image/webp",
+      "size": 132178,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-calzany-11",
+      "kind": "image",
+      "src": "/media/bh-calzany-11.webp",
+      "alt": "Calzany — Handmade calzones, frame 11",
+      "width": 1400,
+      "height": 656,
+      "mime": "image/webp",
+      "size": 59288,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-calzany-12",
+      "kind": "image",
+      "src": "/media/bh-calzany-12.webp",
+      "alt": "Calzany — Handmade calzones, frame 12",
+      "width": 1400,
+      "height": 656,
+      "mime": "image/webp",
+      "size": 255566,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-cover-imovelweb",
+      "kind": "image",
+      "src": "/media/bh-cover-imovelweb.webp",
+      "alt": "Imovelweb — project cover",
+      "width": 2000,
+      "height": 800,
+      "mime": "image/webp",
+      "size": 276048,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-imovelweb-01",
+      "kind": "image",
+      "src": "/media/bh-imovelweb-01.webp",
+      "alt": "Imovelweb — Shippados, frame 1",
+      "width": 1400,
+      "height": 824,
+      "mime": "image/webp",
+      "size": 269336,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-imovelweb-02",
+      "kind": "image",
+      "src": "/media/bh-imovelweb-02.webp",
+      "alt": "Imovelweb — Shippados, frame 2",
+      "width": 1400,
+      "height": 560,
+      "mime": "image/webp",
+      "size": 117280,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-imovelweb-03",
+      "kind": "image",
+      "src": "/media/bh-imovelweb-03.webp",
+      "alt": "Imovelweb — Shippados, frame 3",
+      "width": 1400,
+      "height": 665,
+      "mime": "image/webp",
+      "size": 120546,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-imovelweb-04",
+      "kind": "image",
+      "src": "/media/bh-imovelweb-04.webp",
+      "alt": "Imovelweb — Shippados, frame 4",
+      "width": 1400,
+      "height": 560,
+      "mime": "image/webp",
+      "size": 171586,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-imovelweb-05",
+      "kind": "image",
+      "src": "/media/bh-imovelweb-05.webp",
+      "alt": "Imovelweb — Shippados, frame 5",
+      "width": 1400,
+      "height": 560,
+      "mime": "image/webp",
+      "size": 197262,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-imovelweb-06",
+      "kind": "image",
+      "src": "/media/bh-imovelweb-06.webp",
+      "alt": "Imovelweb — Shippados, frame 6",
+      "width": 1400,
+      "height": 431,
+      "mime": "image/webp",
+      "size": 130220,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-cover-lideranca",
+      "kind": "image",
+      "src": "/media/bh-cover-lideranca.webp",
+      "alt": "Liderança Digital — project cover",
+      "width": 808,
+      "height": 632,
+      "mime": "image/webp",
+      "size": 13904,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-lideranca-01",
+      "kind": "image",
+      "src": "/media/bh-lideranca-01.webp",
+      "alt": "Liderança Digital — Financial services brand, frame 1",
+      "width": 1400,
+      "height": 10339,
+      "mime": "image/webp",
+      "size": 908142,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-cover-kizen",
+      "kind": "image",
+      "src": "/media/bh-cover-kizen.webp",
+      "alt": "Kizen — project cover",
+      "width": 808,
+      "height": 632,
+      "mime": "image/webp",
+      "size": 39290,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-kizen-01",
+      "kind": "image",
+      "src": "/media/bh-kizen-01.webp",
+      "alt": "Kizen — Technology brand, frame 1",
+      "width": 1400,
+      "height": 7150,
+      "mime": "image/webp",
+      "size": 820218,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-cover-dome",
+      "kind": "image",
+      "src": "/media/bh-cover-dome.webp",
+      "alt": "Dome Seguros — project cover",
+      "width": 808,
+      "height": 632,
+      "mime": "image/webp",
+      "size": 57090,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-dome-01",
+      "kind": "image",
+      "src": "/media/bh-dome-01.webp",
+      "alt": "Dome Seguros — Insurance brand, frame 1",
+      "width": 1400,
+      "height": 8821,
+      "mime": "image/webp",
+      "size": 608636,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-dome-02",
+      "kind": "image",
+      "src": "/media/bh-dome-02.webp",
+      "alt": "Dome Seguros — Insurance brand, frame 2",
+      "width": 1200,
+      "height": 1019,
+      "mime": "image/webp",
+      "size": 6340516,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-cover-frango",
+      "kind": "image",
+      "src": "/media/bh-cover-frango.webp",
+      "alt": "Frango Assado — project cover",
+      "width": 1920,
+      "height": 1080,
+      "mime": "image/webp",
+      "size": 356040,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-frango-01",
+      "kind": "image",
+      "src": "/media/bh-frango-01.webp",
+      "alt": "Frango Assado — No Frango Assado tem, frame 1",
+      "width": 1400,
+      "height": 788,
+      "mime": "image/webp",
+      "size": 109582,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-frango-02",
+      "kind": "image",
+      "src": "/media/bh-frango-02.webp",
+      "alt": "Frango Assado — No Frango Assado tem, frame 2",
+      "width": 1400,
+      "height": 788,
+      "mime": "image/webp",
+      "size": 122932,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-frango-03",
+      "kind": "image",
+      "src": "/media/bh-frango-03.webp",
+      "alt": "Frango Assado — No Frango Assado tem, frame 3",
+      "width": 1400,
+      "height": 788,
+      "mime": "image/webp",
+      "size": 100100,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-frango-04",
+      "kind": "image",
+      "src": "/media/bh-frango-04.webp",
+      "alt": "Frango Assado — No Frango Assado tem, frame 4",
+      "width": 1400,
+      "height": 788,
+      "mime": "image/webp",
+      "size": 108434,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-frango-05",
+      "kind": "image",
+      "src": "/media/bh-frango-05.webp",
+      "alt": "Frango Assado — No Frango Assado tem, frame 5",
+      "width": 400,
+      "height": 250,
+      "mime": "image/webp",
+      "size": 7684,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-cover-pizzahut",
+      "kind": "image",
+      "src": "/media/bh-cover-pizzahut.webp",
+      "alt": "Pizza Hut — project cover",
+      "width": 960,
+      "height": 720,
+      "mime": "image/webp",
+      "size": 100318,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-pizzahut-01",
+      "kind": "image",
+      "src": "/media/bh-pizzahut-01.webp",
+      "alt": "Pizza Hut — Social media, frame 1",
+      "width": 960,
+      "height": 720,
+      "mime": "image/webp",
+      "size": 117682,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-pizzahut-02",
+      "kind": "image",
+      "src": "/media/bh-pizzahut-02.webp",
+      "alt": "Pizza Hut — Social media, frame 2",
+      "width": 960,
+      "height": 720,
+      "mime": "image/webp",
+      "size": 142348,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-pizzahut-03",
+      "kind": "image",
+      "src": "/media/bh-pizzahut-03.webp",
+      "alt": "Pizza Hut — Social media, frame 3",
+      "width": 960,
+      "height": 720,
+      "mime": "image/webp",
+      "size": 106250,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-pizzahut-04",
+      "kind": "image",
+      "src": "/media/bh-pizzahut-04.webp",
+      "alt": "Pizza Hut — Social media, frame 4",
+      "width": 960,
+      "height": 720,
+      "mime": "image/webp",
+      "size": 69088,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-pizzahut-05",
+      "kind": "image",
+      "src": "/media/bh-pizzahut-05.webp",
+      "alt": "Pizza Hut — Social media, frame 5",
+      "width": 960,
+      "height": 720,
+      "mime": "image/webp",
+      "size": 67136,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-pizzahut-06",
+      "kind": "image",
+      "src": "/media/bh-pizzahut-06.webp",
+      "alt": "Pizza Hut — Social media, frame 6",
+      "width": 960,
+      "height": 720,
+      "mime": "image/webp",
+      "size": 79082,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-pizzahut-07",
+      "kind": "image",
+      "src": "/media/bh-pizzahut-07.webp",
+      "alt": "Pizza Hut — Social media, frame 7",
+      "width": 960,
+      "height": 720,
+      "mime": "image/webp",
+      "size": 101918,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-pizzahut-08",
+      "kind": "image",
+      "src": "/media/bh-pizzahut-08.webp",
+      "alt": "Pizza Hut — Social media, frame 8",
+      "width": 960,
+      "height": 720,
+      "mime": "image/webp",
+      "size": 157932,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-pizzahut-09",
+      "kind": "image",
+      "src": "/media/bh-pizzahut-09.webp",
+      "alt": "Pizza Hut — Social media, frame 9",
+      "width": 960,
+      "height": 720,
+      "mime": "image/webp",
+      "size": 49032,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-pizzahut-10",
+      "kind": "image",
+      "src": "/media/bh-pizzahut-10.webp",
+      "alt": "Pizza Hut — Social media, frame 10",
+      "width": 960,
+      "height": 720,
+      "mime": "image/webp",
+      "size": 174022,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-pizzahut-11",
+      "kind": "image",
+      "src": "/media/bh-pizzahut-11.webp",
+      "alt": "Pizza Hut — Social media, frame 11",
+      "width": 960,
+      "height": 720,
+      "mime": "image/webp",
+      "size": 70478,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-pizzahut-12",
+      "kind": "image",
+      "src": "/media/bh-pizzahut-12.webp",
+      "alt": "Pizza Hut — Social media, frame 12",
+      "width": 960,
+      "height": 720,
+      "mime": "image/webp",
+      "size": 99080,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-cover-gifpizza",
+      "kind": "image",
+      "src": "/media/bh-cover-gifpizza.webp",
+      "alt": "GIF Delivery — project cover",
+      "width": 600,
+      "height": 500,
+      "mime": "image/webp",
+      "size": 13096,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-gifpizza-01",
+      "kind": "image",
+      "src": "/media/bh-gifpizza-01.webp",
+      "alt": "GIF Delivery — Pizza Hut, frame 1",
+      "width": 1400,
+      "height": 790,
+      "mime": "image/webp",
+      "size": 131066,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-gifpizza-02",
+      "kind": "image",
+      "src": "/media/bh-gifpizza-02.webp",
+      "alt": "GIF Delivery — Pizza Hut, frame 2",
+      "width": 600,
+      "height": 450,
+      "mime": "image/webp",
+      "size": 5160808,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-gifpizza-03",
+      "kind": "image",
+      "src": "/media/bh-gifpizza-03.webp",
+      "alt": "GIF Delivery — Pizza Hut, frame 3",
+      "width": 600,
+      "height": 450,
+      "mime": "image/webp",
+      "size": 1170042,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-gifpizza-04",
+      "kind": "image",
+      "src": "/media/bh-gifpizza-04.webp",
+      "alt": "GIF Delivery — Pizza Hut, frame 4",
+      "width": 600,
+      "height": 450,
+      "mime": "image/webp",
+      "size": 1698370,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-cover-mariana",
+      "kind": "image",
+      "src": "/media/bh-cover-mariana.webp",
+      "alt": "Mariana Moraes — project cover",
+      "width": 1980,
+      "height": 1334,
+      "mime": "image/webp",
+      "size": 96688,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-mariana-01",
+      "kind": "image",
+      "src": "/media/bh-mariana-01.webp",
+      "alt": "Mariana Moraes — Photography studio brand, frame 1",
+      "width": 1400,
+      "height": 5946,
+      "mime": "image/webp",
+      "size": 658406,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-cover-flogoral",
+      "kind": "image",
+      "src": "/media/bh-cover-flogoral.webp",
+      "alt": "Flogoral — project cover",
+      "width": 960,
+      "height": 720,
+      "mime": "image/webp",
+      "size": 111292,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-flogoral-01",
+      "kind": "image",
+      "src": "/media/bh-flogoral-01.webp",
+      "alt": "Flogoral — Rock Day, frame 1",
+      "width": 1400,
+      "height": 5126,
+      "mime": "image/webp",
+      "size": 651728,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-cover-ofner",
+      "kind": "image",
+      "src": "/media/bh-cover-ofner.webp",
+      "alt": "Ofner — project cover",
+      "width": 1920,
+      "height": 1080,
+      "mime": "image/webp",
+      "size": 153218,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-ofner-01",
+      "kind": "image",
+      "src": "/media/bh-ofner-01.webp",
+      "alt": "Ofner — New chocolate boxes, frame 1",
+      "width": 1400,
+      "height": 13535,
+      "mime": "image/webp",
+      "size": 1658178,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-cover-technos",
+      "kind": "image",
+      "src": "/media/bh-cover-technos.webp",
+      "alt": "Academia Technos — project cover",
+      "width": 1920,
+      "height": 1080,
+      "mime": "image/webp",
+      "size": 23082,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-technos-01",
+      "kind": "image",
+      "src": "/media/bh-technos-01.webp",
+      "alt": "Academia Technos — Training motion graphics, frame 1",
+      "width": 1400,
+      "height": 788,
+      "mime": "image/webp",
+      "size": 16490,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-technos-02",
+      "kind": "image",
+      "src": "/media/bh-technos-02.webp",
+      "alt": "Academia Technos — Training motion graphics, frame 2",
+      "width": 1400,
+      "height": 788,
+      "mime": "image/webp",
+      "size": 88670,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-technos-03",
+      "kind": "image",
+      "src": "/media/bh-technos-03.webp",
+      "alt": "Academia Technos — Training motion graphics, frame 3",
+      "width": 1400,
+      "height": 788,
+      "mime": "image/webp",
+      "size": 62028,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-technos-04",
+      "kind": "image",
+      "src": "/media/bh-technos-04.webp",
+      "alt": "Academia Technos — Training motion graphics, frame 4",
+      "width": 1400,
+      "height": 788,
+      "mime": "image/webp",
+      "size": 53596,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-cover-adriella",
+      "kind": "image",
+      "src": "/media/bh-cover-adriella.webp",
+      "alt": "Adriella Stormovski — project cover",
+      "width": 2000,
+      "height": 3020,
+      "mime": "image/webp",
+      "size": 325868,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-adriella-01",
+      "kind": "image",
+      "src": "/media/bh-adriella-01.webp",
+      "alt": "Adriella Stormovski — Portrait session, frame 1",
+      "width": 1400,
+      "height": 2114,
+      "mime": "image/webp",
+      "size": 94318,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-adriella-02",
+      "kind": "image",
+      "src": "/media/bh-adriella-02.webp",
+      "alt": "Adriella Stormovski — Portrait session, frame 2",
+      "width": 1400,
+      "height": 2114,
+      "mime": "image/webp",
+      "size": 105568,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-adriella-03",
+      "kind": "image",
+      "src": "/media/bh-adriella-03.webp",
+      "alt": "Adriella Stormovski — Portrait session, frame 3",
+      "width": 1400,
+      "height": 2114,
+      "mime": "image/webp",
+      "size": 202024,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-adriella-04",
+      "kind": "image",
+      "src": "/media/bh-adriella-04.webp",
+      "alt": "Adriella Stormovski — Portrait session, frame 4",
+      "width": 1400,
+      "height": 2114,
+      "mime": "image/webp",
+      "size": 177996,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-adriella-05",
+      "kind": "image",
+      "src": "/media/bh-adriella-05.webp",
+      "alt": "Adriella Stormovski — Portrait session, frame 5",
+      "width": 1400,
+      "height": 2114,
+      "mime": "image/webp",
+      "size": 123014,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-adriella-06",
+      "kind": "image",
+      "src": "/media/bh-adriella-06.webp",
+      "alt": "Adriella Stormovski — Portrait session, frame 6",
+      "width": 1400,
+      "height": 2113,
+      "mime": "image/webp",
+      "size": 101412,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-adriella-07",
+      "kind": "image",
+      "src": "/media/bh-adriella-07.webp",
+      "alt": "Adriella Stormovski — Portrait session, frame 7",
+      "width": 1400,
+      "height": 2114,
+      "mime": "image/webp",
+      "size": 157090,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-adriella-08",
+      "kind": "image",
+      "src": "/media/bh-adriella-08.webp",
+      "alt": "Adriella Stormovski — Portrait session, frame 8",
+      "width": 1400,
+      "height": 2114,
+      "mime": "image/webp",
+      "size": 202210,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-adriella-09",
+      "kind": "image",
+      "src": "/media/bh-adriella-09.webp",
+      "alt": "Adriella Stormovski — Portrait session, frame 9",
+      "width": 1400,
+      "height": 2114,
+      "mime": "image/webp",
+      "size": 155830,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-adriella-10",
+      "kind": "image",
+      "src": "/media/bh-adriella-10.webp",
+      "alt": "Adriella Stormovski — Portrait session, frame 10",
+      "width": 1400,
+      "height": 2114,
+      "mime": "image/webp",
+      "size": 132446,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-cover-renata",
+      "kind": "image",
+      "src": "/media/bh-cover-renata.webp",
+      "alt": "Renata Ayumi — project cover",
+      "width": 1386,
+      "height": 1158,
+      "mime": "image/webp",
+      "size": 201154,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
+    {
+      "id": "m-bh-renata-01",
+      "kind": "image",
+      "src": "/media/bh-renata-01.webp",
+      "alt": "Renata Ayumi — Photo essay, frame 1",
+      "width": 1400,
+      "height": 5946,
+      "mime": "image/webp",
+      "size": 712644,
+      "origin": "upload",
+      "createdAt": "2026-10-09T16:49:20.566Z"
+    },
     {
       "id": "m-bh-cover-nazca",
       "kind": "image",

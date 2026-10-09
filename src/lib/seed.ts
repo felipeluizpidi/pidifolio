@@ -237,11 +237,6 @@ export const seedContent: Content = {
       featuredOrder: ["p-nazca", "p-diniz", "p-styles"],
     },
     archive: { headline: ["The", "Archive."], subtitle: "Different disciplines. One creative vision." },
-    photography: {
-      headline: ["Photography"],
-      subtitle: "Portrait sessions shot as @olhosdefelipe — light, color and attitude, frame by frame.",
-      photoIds: [],
-    },
     about: {
       headline: ["The person", "behind the work."],
       portraitId: "ph-about",
@@ -287,6 +282,7 @@ export const seedContent: Content = {
     { id: "c-branding", slug: "branding", index: "02", title: "Brand Identity & Design Systems", filterLabel: "Branding", description: "Branding, identity systems, visual languages, guidelines and graphic design.", order: 2 },
     { id: "c-ai", slug: "generative-ai", index: "03", title: "Generative AI & Experimentation", filterLabel: "Generative AI", description: "AI workflows, creative automation, visual exploration, generative production and experimental projects.", order: 3 },
     { id: "c-motion", slug: "motion", index: "04", title: "Film, Motion & Visual Storytelling", filterLabel: "Motion", description: "Film direction, motion design, audiovisual production and visual narratives.", order: 4 },
+    { id: "c-photo", slug: "photography", index: "05", title: "Photography", filterLabel: "Photography", description: "Portrait sessions and photo essays shot as @olhosdefelipe.", order: 5 },
   ],
   projects,
   media,

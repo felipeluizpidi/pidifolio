@@ -6,8 +6,7 @@ import { Plus, Trash2 } from "lucide-react";
 import type { MediaAsset, Settings } from "@/lib/types";
 import { saveSettings } from "@/app/admin/actions";
 import { Button, Field, Input, LinesInput, Notice, Section, Textarea } from "./ui";
-import { MediaField, MediaPicker, MediaThumb } from "./MediaKit";
-import { SortableList } from "./Sortable";
+import { MediaField } from "./MediaKit";
 
 export function SettingsForm({ settings, media: initialMedia }: { settings: Settings; media: MediaAsset[] }) {
   const router = useRouter();
@@ -18,8 +17,6 @@ export function SettingsForm({ settings, media: initialMedia }: { settings: Sett
   const [pending, start] = useTransition();
   const dirty = JSON.stringify(s) !== savedJson;
   const addMedia = (a: MediaAsset) => setMedia((m) => [a, ...m]);
-  const [pickingPhotos, setPickingPhotos] = useState(false);
-  const byId = Object.fromEntries(media.map((m) => [m.id, m]));
 
   /** Immutable update by path, e.g. up("hero", "lead", value) */
   const up = <K extends Exclude<keyof Settings, "role">, F extends keyof Settings[K]>(k: K, f: F, v: Settings[K][F]) =>
@@ -200,52 +197,6 @@ export function SettingsForm({ settings, media: initialMedia }: { settings: Sett
               </div>
             </div>
           </div>
-        </div>
-      </Section>
-
-      <Section title="Photography" hint="Shown as a Photography card and filter in the Archive; the card opens these photos in a lightbox. Add, remove and drag to reorder — upload new photos straight from the picker.">
-        <div className="grid gap-4 sm:grid-cols-2">
-          <Field label="Card title">
-            <LinesInput value={s.photography.headline} onChange={(v) => up("photography", "headline", v)} rows={2} />
-          </Field>
-          <Field label="Subtitle">
-            <Textarea rows={2} value={s.photography.subtitle} onChange={(e) => up("photography", "subtitle", e.target.value)} />
-          </Field>
-        </div>
-        <div className="space-y-3">
-          <span className="t-meta-sm block text-ash">{s.photography.photoIds.length} photos — the card and filter hide themselves when empty</span>
-          {s.photography.photoIds.length > 0 && (
-            <SortableList
-              grid
-              items={s.photography.photoIds.map((id) => ({ id }))}
-              onReorder={(next) => up("photography", "photoIds", next.map((x) => x.id))}
-              className="flex flex-wrap gap-2"
-              render={(it, handle) => (
-                <div className="flex items-center border border-ivory/15">
-                  {handle}
-                  <MediaThumb asset={byId[it.id]} media={byId} className="h-20 w-14" />
-                </div>
-              )}
-            />
-          )}
-          <Button onClick={() => setPickingPhotos(true)}>
-            <Plus className="h-3.5 w-3.5" /> {s.photography.photoIds.length ? "Add / remove photos" : "Choose photos"}
-          </Button>
-          {pickingPhotos && (
-            <MediaPicker
-              multiple
-              title="Photography"
-              media={media}
-              kinds={["image"]}
-              initial={s.photography.photoIds}
-              onUploaded={addMedia}
-              onClose={() => setPickingPhotos(false)}
-              onConfirm={(ids) => {
-                up("photography", "photoIds", ids);
-                setPickingPhotos(false);
-              }}
-            />
-          )}
         </div>
       </Section>
 

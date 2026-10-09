@@ -65,13 +65,16 @@ function Paragraphs({ text, className }: { text: string; className?: string }) {
 
 function BlockView({ b, ctx }: { b: Block; ctx: Ctx }) {
   switch (b.type) {
-    case "image":
+    case "image": {
+      // Tall presentation boards (Behance-style) stay readable instead of becoming a 7000px scroll.
+      const tall = aspectOf(ctx.media[b.assetId], 1) < 0.6;
       return (
-        <ClipReveal>
-          <Frame id={b.assetId} ctx={ctx} sizes="100vw" />
+        <ClipReveal className={tall ? "mx-auto w-full max-w-[960px]" : undefined}>
+          <Frame id={b.assetId} ctx={ctx} sizes={tall ? "(min-width:1024px) 960px, 100vw" : "100vw"} />
           <Caption>{b.caption}</Caption>
         </ClipReveal>
       );
+    }
     case "video":
       return (
         <Reveal>

@@ -184,10 +184,7 @@ export async function saveSettings(input: unknown): Promise<ActionResult> {
       const known = new Set(c.media.map((m) => m.id));
       for (const ref of [data.hero.portraitDesktopId, data.hero.portraitMobileId, data.about.portraitId, data.cv.assetId]) {
         if (ref && !known.has(ref)) throw new Error("A selected image no longer exists — reselect it");
-      }
-      const images = new Set(c.media.filter((m) => m.kind === "image").map((m) => m.id));
-      if (data.photography.photoIds.some((id) => !images.has(id))) throw new Error("A selected photo no longer exists — reselect the photography set");
-      // featured order is managed from the Projects screen
+      }      // featured order is managed from the Projects screen
       c.settings = { ...data, selectedWork: { ...data.selectedWork, featuredOrder: c.settings.selectedWork.featuredOrder } };
     });
     publish();

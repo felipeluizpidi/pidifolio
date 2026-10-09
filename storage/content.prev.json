@@ -30,10 +30,9 @@
       "subtitle": "Campaigns, brand systems and AI-driven production — directed from concept to craft.",
       "featuredOrder": [
         "p-nazca",
-        "p-diniz",
+        "p-vita",
         "p-jandaia",
-        "p-kfc",
-        "p-pentonic"
+        "p-diniz"
       ]
     },
     "archive": {
@@ -118,8 +117,7 @@
     },
     "photography": {
       "headline": [
-        "Through",
-        "the lens."
+        "Photography"
       ],
       "subtitle": "Portrait sessions shot as @olhosdefelipe — light, color and attitude, frame by frame.",
       "photoIds": [
@@ -253,358 +251,18 @@
       ],
       "demo": false,
       "createdAt": "2026-10-09T15:00:23.868Z",
-      "updatedAt": "2026-10-09T15:00:23.868Z",
+      "updatedAt": "2026-10-09T15:40:34.570Z",
       "id": "p-nazca",
       "slug": "nazca-experimente-sentir",
       "title": "Nazca",
       "year": 2026,
-      "coverId": "m-bh-nazca-01",
+      "coverId": "m-bh-cover-nazca",
       "coverVideoId": "m-69a7b0b25b93",
-      "order": 1
+      "order": 1,
+      "coverFocus": "center"
     },
     {
-      "subtitle": "AI-driven national campaign",
-      "client": "Óticas Diniz",
-      "role": "ACD (AI-Driven) · DDAO Creative Lab",
-      "disciplines": [
-        "Campaign",
-        "Art Direction",
-        "Generative AI"
-      ],
-      "categoryIds": [
-        "c-direction",
-        "c-ai"
-      ],
-      "accent": "#EF2917",
-      "featured": true,
-      "featuredLayout": "split",
-      "archiveShape": "poster",
-      "published": true,
-      "overview": "National campaign for Óticas Diniz — “Qualidade que o Brasil ama” (quality Brazil loves) — produced at DDAO Creative Lab with a hybrid AI + design workflow.",
-      "challenge": "",
-      "concept": "Casting, scenes and light generated and art-directed to read as one photographic campaign: warm city light, real-feeling faces and a bold red retail system for promos like the anniversary sale.",
-      "process": "Generative imagery (Midjourney, Visual Electric, Adobe Firefly) directed against explicit quality criteria to avoid generic outputs and keep the art-direction intent, then finished in Adobe Creative Cloud.",
-      "outcomes": "",
-      "credits": [
-        {
-          "role": "Associate Creative Director",
-          "name": "Felipe Pidi"
-        },
-        {
-          "role": "Studio",
-          "name": "DDAO Creative Lab"
-        }
-      ],
-      "blocks": [
-        {
-          "id": "diniz-b7",
-          "type": "image",
-          "assetId": "m-bh-diniz-04"
-        },
-        {
-          "id": "diniz-b8",
-          "type": "grid2",
-          "assetIds": [
-            "m-bh-diniz-06",
-            "m-bh-diniz-08"
-          ]
-        },
-        {
-          "id": "diniz-b9",
-          "type": "image",
-          "assetId": "m-bh-diniz-03"
-        },
-        {
-          "id": "diniz-b10",
-          "type": "grid2",
-          "assetIds": [
-            "m-bh-diniz-10",
-            "m-bh-diniz-01"
-          ]
-        },
-        {
-          "id": "diniz-b11",
-          "type": "gallery",
-          "assetIds": [
-            "m-bh-diniz-02",
-            "m-bh-diniz-05",
-            "m-bh-diniz-07",
-            "m-bh-diniz-09"
-          ]
-        }
-      ],
-      "demo": false,
-      "createdAt": "2026-10-09T15:00:23.868Z",
-      "updatedAt": "2026-10-09T15:00:23.868Z",
-      "id": "p-diniz",
-      "slug": "oticas-diniz-national-campaign",
-      "title": "Óticas Diniz",
-      "year": 2025,
-      "coverId": "m-bh-diniz-05",
-      "order": 2
-    },
-    {
-      "subtitle": "App brand design",
-      "client": "Cadernos Jandaia",
-      "role": "Head of Design · Agência Ecco",
-      "disciplines": [
-        "Brand Identity",
-        "Character Design",
-        "UI"
-      ],
-      "categoryIds": [
-        "c-branding",
-        "c-ai"
-      ],
-      "accent": "#A8F5E5",
-      "featured": true,
-      "featuredLayout": "poster",
-      "archiveShape": "square",
-      "published": true,
-      "overview": "",
-      "challenge": "JandaIA needed an identity that expressed its purpose — making learning easier and stronger — while staying connected to the parent brand, Cadernos Jandaia. It had to speak to students, teachers and professionals, reflect learning, tutoring and usability, and stand out in a crowded market.",
-      "concept": "We reinterpreted the speech balloon from the parent logo as a symbol of dialogue and exchange — the app's role in the user's life. A fluid, humane typeface keeps the brand approachable, and AiA, a virtual assistant, personifies the support the app offers.",
-      "process": "Modular boxes and a vibrant palette carry the flexibility and positivity of the product across app UI, characters, social and out-of-home.",
-      "outcomes": "",
-      "credits": [
-        {
-          "role": "Head of Design",
-          "name": "Felipe Pidi"
-        },
-        {
-          "role": "Agency",
-          "name": "Agência Ecco"
-        },
-        {
-          "role": "Team",
-          "name": "Lucas Ananias · Marcus David · Caio Vinícius · Giovanna Marino"
-        }
-      ],
-      "blocks": [
-        {
-          "id": "jandaia-b12",
-          "type": "image",
-          "assetId": "m-bh-jandaia-01"
-        },
-        {
-          "id": "jandaia-b13",
-          "type": "grid2",
-          "assetIds": [
-            "m-bh-jandaia-02",
-            "m-bh-jandaia-03"
-          ]
-        },
-        {
-          "id": "jandaia-b14",
-          "type": "image",
-          "assetId": "m-bh-jandaia-04"
-        },
-        {
-          "id": "jandaia-b15",
-          "type": "grid3",
-          "assetIds": [
-            "m-bh-jandaia-05",
-            "m-bh-jandaia-06",
-            "m-bh-jandaia-07"
-          ]
-        },
-        {
-          "id": "jandaia-b16",
-          "type": "image",
-          "assetId": "m-bh-jandaia-09"
-        },
-        {
-          "id": "jandaia-b17",
-          "type": "grid2",
-          "assetIds": [
-            "m-bh-jandaia-08",
-            "m-bh-jandaia-10"
-          ]
-        }
-      ],
-      "demo": false,
-      "createdAt": "2026-10-09T15:00:23.868Z",
-      "updatedAt": "2026-10-09T15:00:23.868Z",
-      "id": "p-jandaia",
-      "slug": "jandaia-app-brand-design",
-      "title": "JandaIA",
-      "year": 2024,
-      "coverId": "m-bh-jandaia-08",
-      "order": 3
-    },
-    {
-      "subtitle": "Seu Estilo em Ação",
-      "client": "CiS · Pentonic",
-      "role": "Head of Design · Agência Ecco",
-      "disciplines": [
-        "Campaign",
-        "Art Direction",
-        "Social"
-      ],
-      "categoryIds": [
-        "c-direction",
-        "c-motion"
-      ],
-      "accent": "#138FE0",
-      "featured": true,
-      "featuredLayout": "split",
-      "archiveShape": "landscape",
-      "published": true,
-      "overview": "",
-      "challenge": "Launch pentonic — the CiS pen line — as a brand of its own, with its own products and lines, through a back-to-school campaign. To build reach and awareness it also needed its own social profile, with proprietary content and a visual and verbal identity.",
-      "concept": "“pentonic — seu estilo em ação!” (your style in action) unites the products' function and minimal aesthetic into a personality. It grows from the brand's “driven by design” line, which suggests both motivation and movement.",
-      "process": "An exclusive shoot, a launch film, an original soundtrack, influencer actions and a stream of sustaining content.",
-      "outcomes": "131,582,404 impressions across the content created\n160,182 visits to the brand profile\n231,174 active engagements\n+124,200% follower growth on the page",
-      "credits": [
-        {
-          "role": "Head of Design",
-          "name": "Felipe Pidi"
-        },
-        {
-          "role": "Agency",
-          "name": "Agência Ecco"
-        },
-        {
-          "role": "Team",
-          "name": "Marcus David · Luís Silva · Marília Cerioni · Emanuele Freitas"
-        }
-      ],
-      "blocks": [
-        {
-          "id": "pentonic-b18",
-          "type": "image",
-          "assetId": "m-bh-pentonic-01"
-        },
-        {
-          "id": "pentonic-b19",
-          "type": "embed",
-          "url": "https://vimeo.com/993722141",
-          "caption": "Campaign case film"
-        },
-        {
-          "id": "pentonic-b20",
-          "type": "grid2",
-          "assetIds": [
-            "m-bh-pentonic-02",
-            "m-bh-pentonic-03"
-          ]
-        },
-        {
-          "id": "pentonic-b21",
-          "type": "image",
-          "assetId": "m-bh-pentonic-06"
-        },
-        {
-          "id": "pentonic-b22",
-          "type": "grid2",
-          "assetIds": [
-            "m-bh-pentonic-07",
-            "m-bh-pentonic-08"
-          ]
-        },
-        {
-          "id": "pentonic-b23",
-          "type": "image",
-          "assetId": "m-bh-pentonic-09"
-        },
-        {
-          "id": "pentonic-b24",
-          "type": "image",
-          "assetId": "m-bh-pentonic-10"
-        }
-      ],
-      "demo": false,
-      "createdAt": "2026-10-09T15:00:23.868Z",
-      "updatedAt": "2026-10-09T15:00:23.868Z",
-      "id": "p-pentonic",
-      "slug": "pentonic-seu-estilo-em-acao",
-      "title": "Pentonic",
-      "year": 2024,
-      "coverId": "m-bh-pentonic-05",
-      "order": 4
-    },
-    {
-      "subtitle": "Art direction",
-      "client": "KFC Brasil",
-      "role": "Senior Art Director · The Heart",
-      "disciplines": [
-        "Art Direction",
-        "Campaign",
-        "Retail"
-      ],
-      "categoryIds": [
-        "c-direction"
-      ],
-      "accent": "#EF2917",
-      "featured": true,
-      "featuredLayout": "sequence",
-      "archiveShape": "type",
-      "published": true,
-      "overview": "Art direction for KFC at The Heart: product launches, promotions and retail — from the Chicken Hot Dog and Bites to Super Bowl and Black Friday — carried through social, point of sale and out-of-home.",
-      "challenge": "",
-      "concept": "",
-      "process": "",
-      "outcomes": "",
-      "credits": [
-        {
-          "role": "Senior Art Director",
-          "name": "Felipe Pidi"
-        },
-        {
-          "role": "Agency",
-          "name": "The Heart Comunicação"
-        }
-      ],
-      "blocks": [
-        {
-          "id": "kfc-b25",
-          "type": "grid2",
-          "assetIds": [
-            "m-bh-kfc-01",
-            "m-bh-kfc-02"
-          ]
-        },
-        {
-          "id": "kfc-b26",
-          "type": "image",
-          "assetId": "m-bh-kfc-03"
-        },
-        {
-          "id": "kfc-b27",
-          "type": "grid3",
-          "assetIds": [
-            "m-bh-kfc-04",
-            "m-bh-kfc-05",
-            "m-bh-kfc-06"
-          ]
-        },
-        {
-          "id": "kfc-b28",
-          "type": "image",
-          "assetId": "m-bh-kfc-07"
-        },
-        {
-          "id": "kfc-b29",
-          "type": "grid3",
-          "assetIds": [
-            "m-bh-kfc-08",
-            "m-bh-kfc-09",
-            "m-bh-kfc-10"
-          ]
-        }
-      ],
-      "demo": false,
-      "createdAt": "2026-10-09T15:00:23.868Z",
-      "updatedAt": "2026-10-09T15:00:23.868Z",
-      "id": "p-kfc",
-      "slug": "kfc",
-      "title": "KFC",
-      "year": 2021,
-      "coverId": "m-bh-kfc-03",
-      "order": 5
-    },
-    {
-      "subtitle": "Abra, beba, VITA, repita",
+      "subtitle": "Garrafa VITA",
       "client": "Zonacriativa",
       "role": "Head of Design · Agência Ecco",
       "disciplines": [
@@ -616,10 +274,10 @@
         "c-direction",
         "c-motion"
       ],
-      "accent": "#138FE0",
-      "featured": false,
-      "featuredLayout": "fullbleed",
-      "archiveShape": "landscape",
+      "accent": "#EF2917",
+      "featured": true,
+      "featuredLayout": "split",
+      "archiveShape": "poster",
       "published": true,
       "overview": "",
       "challenge": "Zonacriativa came to us to make the VITA bottle stand out in a market saturated with similar products — a campaign that would not only grab attention but communicate what makes the product innovative and different.",
@@ -689,13 +347,359 @@
       ],
       "demo": false,
       "createdAt": "2026-10-09T15:00:23.868Z",
-      "updatedAt": "2026-10-09T15:00:23.868Z",
+      "updatedAt": "2026-10-09T15:40:34.570Z",
       "id": "p-vita",
       "slug": "zonacriativa-garrafa-vita",
-      "title": "Garrafa VITA",
+      "title": "Zona Criativa",
       "year": 2024,
-      "coverId": "m-bh-vita-02",
-      "order": 6
+      "coverId": "m-bh-cover-vita",
+      "order": 2,
+      "coverFocus": "left"
+    },
+    {
+      "subtitle": "App brand design",
+      "client": "Cadernos Jandaia",
+      "role": "Head of Design · Agência Ecco",
+      "disciplines": [
+        "Brand Identity",
+        "Character Design",
+        "UI"
+      ],
+      "categoryIds": [
+        "c-branding",
+        "c-ai"
+      ],
+      "accent": "#F4E9D6",
+      "featured": true,
+      "featuredLayout": "poster",
+      "archiveShape": "square",
+      "published": true,
+      "overview": "",
+      "challenge": "JandaIA needed an identity that expressed its purpose — making learning easier and stronger — while staying connected to the parent brand, Cadernos Jandaia. It had to speak to students, teachers and professionals, reflect learning, tutoring and usability, and stand out in a crowded market.",
+      "concept": "We reinterpreted the speech balloon from the parent logo as a symbol of dialogue and exchange — the app's role in the user's life. A fluid, humane typeface keeps the brand approachable, and AiA, a virtual assistant, personifies the support the app offers.",
+      "process": "Modular boxes and a vibrant palette carry the flexibility and positivity of the product across app UI, characters, social and out-of-home.",
+      "outcomes": "",
+      "credits": [
+        {
+          "role": "Head of Design",
+          "name": "Felipe Pidi"
+        },
+        {
+          "role": "Agency",
+          "name": "Agência Ecco"
+        },
+        {
+          "role": "Team",
+          "name": "Lucas Ananias · Marcus David · Caio Vinícius · Giovanna Marino"
+        }
+      ],
+      "blocks": [
+        {
+          "id": "jandaia-b12",
+          "type": "image",
+          "assetId": "m-bh-jandaia-01"
+        },
+        {
+          "id": "jandaia-b13",
+          "type": "grid2",
+          "assetIds": [
+            "m-bh-jandaia-02",
+            "m-bh-jandaia-03"
+          ]
+        },
+        {
+          "id": "jandaia-b14",
+          "type": "image",
+          "assetId": "m-bh-jandaia-04"
+        },
+        {
+          "id": "jandaia-b15",
+          "type": "grid3",
+          "assetIds": [
+            "m-bh-jandaia-05",
+            "m-bh-jandaia-06",
+            "m-bh-jandaia-07"
+          ]
+        },
+        {
+          "id": "jandaia-b16",
+          "type": "image",
+          "assetId": "m-bh-jandaia-09"
+        },
+        {
+          "id": "jandaia-b17",
+          "type": "grid2",
+          "assetIds": [
+            "m-bh-jandaia-08",
+            "m-bh-jandaia-10"
+          ]
+        }
+      ],
+      "demo": false,
+      "createdAt": "2026-10-09T15:00:23.868Z",
+      "updatedAt": "2026-10-09T15:40:34.570Z",
+      "id": "p-jandaia",
+      "slug": "jandaia-app-brand-design",
+      "title": "JandaIA",
+      "year": 2024,
+      "coverId": "m-bh-cover-jandaia",
+      "order": 3,
+      "coverFocus": "center"
+    },
+    {
+      "subtitle": "AI-driven national campaign",
+      "client": "Óticas Diniz",
+      "role": "ACD (AI-Driven) · DDAO Creative Lab",
+      "disciplines": [
+        "Campaign",
+        "Art Direction",
+        "Generative AI"
+      ],
+      "categoryIds": [
+        "c-direction",
+        "c-ai"
+      ],
+      "accent": "#EF2917",
+      "featured": true,
+      "featuredLayout": "split",
+      "archiveShape": "landscape",
+      "published": true,
+      "overview": "National campaign for Óticas Diniz — “Qualidade que o Brasil ama” (quality Brazil loves) — produced at DDAO Creative Lab with a hybrid AI + design workflow.",
+      "challenge": "",
+      "concept": "Casting, scenes and light generated and art-directed to read as one photographic campaign: warm city light, real-feeling faces and a bold red retail system for promos like the anniversary sale.",
+      "process": "Generative imagery (Midjourney, Visual Electric, Adobe Firefly) directed against explicit quality criteria to avoid generic outputs and keep the art-direction intent, then finished in Adobe Creative Cloud.",
+      "outcomes": "",
+      "credits": [
+        {
+          "role": "Associate Creative Director",
+          "name": "Felipe Pidi"
+        },
+        {
+          "role": "Studio",
+          "name": "DDAO Creative Lab"
+        }
+      ],
+      "blocks": [
+        {
+          "id": "diniz-b7",
+          "type": "image",
+          "assetId": "m-bh-diniz-04"
+        },
+        {
+          "id": "diniz-b8",
+          "type": "grid2",
+          "assetIds": [
+            "m-bh-diniz-06",
+            "m-bh-diniz-08"
+          ]
+        },
+        {
+          "id": "diniz-b9",
+          "type": "image",
+          "assetId": "m-bh-diniz-03"
+        },
+        {
+          "id": "diniz-b10",
+          "type": "grid2",
+          "assetIds": [
+            "m-bh-diniz-10",
+            "m-bh-diniz-01"
+          ]
+        },
+        {
+          "id": "diniz-b11",
+          "type": "gallery",
+          "assetIds": [
+            "m-bh-diniz-02",
+            "m-bh-diniz-05",
+            "m-bh-diniz-07",
+            "m-bh-diniz-09"
+          ]
+        }
+      ],
+      "demo": false,
+      "createdAt": "2026-10-09T15:00:23.868Z",
+      "updatedAt": "2026-10-09T15:40:34.570Z",
+      "id": "p-diniz",
+      "slug": "oticas-diniz-national-campaign",
+      "title": "Óticas Diniz",
+      "year": 2025,
+      "coverId": "m-bh-cover-diniz",
+      "order": 4,
+      "coverFocus": "center"
+    },
+    {
+      "subtitle": "Seu Estilo em Ação",
+      "client": "CiS · Pentonic",
+      "role": "Head of Design · Agência Ecco",
+      "disciplines": [
+        "Campaign",
+        "Art Direction",
+        "Social"
+      ],
+      "categoryIds": [
+        "c-direction",
+        "c-motion"
+      ],
+      "accent": "#FF6030",
+      "featured": false,
+      "featuredLayout": "split",
+      "archiveShape": "landscape",
+      "published": true,
+      "overview": "",
+      "challenge": "Launch pentonic — the CiS pen line — as a brand of its own, with its own products and lines, through a back-to-school campaign. To build reach and awareness it also needed its own social profile, with proprietary content and a visual and verbal identity.",
+      "concept": "“pentonic — seu estilo em ação!” (your style in action) unites the products' function and minimal aesthetic into a personality. It grows from the brand's “driven by design” line, which suggests both motivation and movement.",
+      "process": "An exclusive shoot, a launch film, an original soundtrack, influencer actions and a stream of sustaining content.",
+      "outcomes": "131,582,404 impressions across the content created\n160,182 visits to the brand profile\n231,174 active engagements\n+124,200% follower growth on the page",
+      "credits": [
+        {
+          "role": "Head of Design",
+          "name": "Felipe Pidi"
+        },
+        {
+          "role": "Agency",
+          "name": "Agência Ecco"
+        },
+        {
+          "role": "Team",
+          "name": "Marcus David · Luís Silva · Marília Cerioni · Emanuele Freitas"
+        }
+      ],
+      "blocks": [
+        {
+          "id": "pentonic-b18",
+          "type": "image",
+          "assetId": "m-bh-pentonic-01"
+        },
+        {
+          "id": "pentonic-b19",
+          "type": "embed",
+          "url": "https://vimeo.com/993722141",
+          "caption": "Campaign case film"
+        },
+        {
+          "id": "pentonic-b20",
+          "type": "grid2",
+          "assetIds": [
+            "m-bh-pentonic-02",
+            "m-bh-pentonic-03"
+          ]
+        },
+        {
+          "id": "pentonic-b21",
+          "type": "image",
+          "assetId": "m-bh-pentonic-06"
+        },
+        {
+          "id": "pentonic-b22",
+          "type": "grid2",
+          "assetIds": [
+            "m-bh-pentonic-07",
+            "m-bh-pentonic-08"
+          ]
+        },
+        {
+          "id": "pentonic-b23",
+          "type": "image",
+          "assetId": "m-bh-pentonic-09"
+        },
+        {
+          "id": "pentonic-b24",
+          "type": "image",
+          "assetId": "m-bh-pentonic-10"
+        }
+      ],
+      "demo": false,
+      "createdAt": "2026-10-09T15:00:23.868Z",
+      "updatedAt": "2026-10-09T15:40:34.570Z",
+      "id": "p-pentonic",
+      "slug": "pentonic-seu-estilo-em-acao",
+      "title": "Pentonic",
+      "year": 2024,
+      "coverId": "m-bh-cover-pentonic",
+      "order": 5,
+      "coverFocus": "left"
+    },
+    {
+      "subtitle": "Art direction",
+      "client": "KFC Brasil",
+      "role": "Senior Art Director · The Heart",
+      "disciplines": [
+        "Art Direction",
+        "Campaign",
+        "Retail"
+      ],
+      "categoryIds": [
+        "c-direction"
+      ],
+      "accent": "#EF2917",
+      "featured": false,
+      "featuredLayout": "sequence",
+      "archiveShape": "type",
+      "published": true,
+      "overview": "Art direction for KFC at The Heart: product launches, promotions and retail — from the Chicken Hot Dog and Bites to Super Bowl and Black Friday — carried through social, point of sale and out-of-home.",
+      "challenge": "",
+      "concept": "",
+      "process": "",
+      "outcomes": "",
+      "credits": [
+        {
+          "role": "Senior Art Director",
+          "name": "Felipe Pidi"
+        },
+        {
+          "role": "Agency",
+          "name": "The Heart Comunicação"
+        }
+      ],
+      "blocks": [
+        {
+          "id": "kfc-b25",
+          "type": "grid2",
+          "assetIds": [
+            "m-bh-kfc-01",
+            "m-bh-kfc-02"
+          ]
+        },
+        {
+          "id": "kfc-b26",
+          "type": "image",
+          "assetId": "m-bh-kfc-03"
+        },
+        {
+          "id": "kfc-b27",
+          "type": "grid3",
+          "assetIds": [
+            "m-bh-kfc-04",
+            "m-bh-kfc-05",
+            "m-bh-kfc-06"
+          ]
+        },
+        {
+          "id": "kfc-b28",
+          "type": "image",
+          "assetId": "m-bh-kfc-07"
+        },
+        {
+          "id": "kfc-b29",
+          "type": "grid3",
+          "assetIds": [
+            "m-bh-kfc-08",
+            "m-bh-kfc-09",
+            "m-bh-kfc-10"
+          ]
+        }
+      ],
+      "demo": false,
+      "createdAt": "2026-10-09T15:00:23.868Z",
+      "updatedAt": "2026-10-09T15:40:34.570Z",
+      "id": "p-kfc",
+      "slug": "kfc",
+      "title": "KFC",
+      "year": 2021,
+      "coverId": "m-bh-cover-kfc",
+      "order": 6,
+      "coverFocus": "center"
     },
     {
       "subtitle": "Podcast brand design",
@@ -708,7 +712,7 @@
       "categoryIds": [
         "c-branding"
       ],
-      "accent": "#FF6030",
+      "accent": "#F4E9D6",
       "featured": false,
       "featuredLayout": "fullbleed",
       "archiveShape": "square",
@@ -762,13 +766,14 @@
       ],
       "demo": false,
       "createdAt": "2026-10-09T15:00:23.868Z",
-      "updatedAt": "2026-10-09T15:00:23.868Z",
+      "updatedAt": "2026-10-09T15:40:34.570Z",
       "id": "p-pod",
       "slug": "pod-do-varejo-brand-design",
       "title": "Pod do Varejo",
       "year": 2024,
-      "coverId": "m-bh-pod-01",
-      "order": 7
+      "coverId": "m-bh-cover-pod",
+      "order": 7,
+      "coverFocus": "center"
     },
     {
       "subtitle": "Brand design",
@@ -782,7 +787,7 @@
       "categoryIds": [
         "c-branding"
       ],
-      "accent": "#A8F5E5",
+      "accent": "#EF2917",
       "featured": false,
       "featuredLayout": "fullbleed",
       "archiveShape": "square",
@@ -850,13 +855,14 @@
       ],
       "demo": false,
       "createdAt": "2026-10-09T15:00:23.868Z",
-      "updatedAt": "2026-10-09T15:00:23.868Z",
+      "updatedAt": "2026-10-09T15:40:34.570Z",
       "id": "p-hn",
       "slug": "hn-brand-design",
       "title": "HN",
       "year": 2025,
-      "coverId": "m-bh-hn-01",
-      "order": 8
+      "coverId": "m-bh-cover-hn",
+      "order": 8,
+      "coverFocus": "center"
     },
     {
       "subtitle": "Law firm brand design",
@@ -869,7 +875,7 @@
       "categoryIds": [
         "c-branding"
       ],
-      "accent": "#EF2917",
+      "accent": "#FF6030",
       "featured": false,
       "featuredLayout": "fullbleed",
       "archiveShape": "square",
@@ -932,13 +938,14 @@
       ],
       "demo": false,
       "createdAt": "2026-10-09T15:00:23.868Z",
-      "updatedAt": "2026-10-09T15:00:23.868Z",
+      "updatedAt": "2026-10-09T15:40:34.570Z",
       "id": "p-hallem",
       "slug": "hallem-advocacia-brand-design",
       "title": "Hallem",
       "year": 2025,
-      "coverId": "m-bh-hallem-01",
-      "order": 9
+      "coverId": "m-bh-cover-hallem",
+      "order": 9,
+      "coverFocus": "center"
     },
     {
       "subtitle": "Back-to-school campaign",
@@ -1022,13 +1029,14 @@
       ],
       "demo": false,
       "createdAt": "2026-10-09T15:00:23.868Z",
-      "updatedAt": "2026-10-09T15:00:23.868Z",
+      "updatedAt": "2026-10-09T15:40:34.570Z",
       "id": "p-cis",
       "slug": "desenrola-com-cis",
       "title": "Desenrola com CiS",
       "year": 2024,
-      "coverId": "m-bh-cis-01",
-      "order": 10
+      "coverId": "m-bh-cover-cis",
+      "order": 10,
+      "coverFocus": "left"
     },
     {
       "subtitle": "Powered by people",
@@ -1041,7 +1049,7 @@
       "categoryIds": [
         "c-branding"
       ],
-      "accent": "#138FE0",
+      "accent": "#F4E9D6",
       "featured": false,
       "featuredLayout": "fullbleed",
       "archiveShape": "square",
@@ -1109,13 +1117,14 @@
       ],
       "demo": false,
       "createdAt": "2026-10-09T15:00:23.868Z",
-      "updatedAt": "2026-10-09T15:00:23.868Z",
+      "updatedAt": "2026-10-09T15:40:34.570Z",
       "id": "p-exacta",
       "slug": "exacta-works-branding",
       "title": "Exacta Works",
       "year": 2023,
-      "coverId": "m-bh-exacta-01",
-      "order": 11
+      "coverId": "m-bh-cover-exacta",
+      "order": 11,
+      "coverFocus": "center"
     },
     {
       "id": "p-styles",
@@ -1134,7 +1143,7 @@
         "c-ai",
         "c-branding"
       ],
-      "accent": "#A8F5E5",
+      "accent": "#F4E9D6",
       "coverId": "ph-styles",
       "featured": false,
       "featuredLayout": "poster",
@@ -1171,7 +1180,8 @@
       ],
       "demo": true,
       "createdAt": "2026-10-08T00:00:00.000Z",
-      "updatedAt": "2026-10-09T15:00:23.868Z"
+      "updatedAt": "2026-10-09T15:00:23.868Z",
+      "coverFocus": "center"
     },
     {
       "id": "p-meli",
@@ -1189,7 +1199,7 @@
         "c-direction",
         "c-ai"
       ],
-      "accent": "#138FE0",
+      "accent": "#EF2917",
       "coverId": "ph-mercado",
       "featured": false,
       "featuredLayout": "fullbleed",
@@ -1205,7 +1215,8 @@
       "blocks": [],
       "demo": true,
       "createdAt": "2026-10-08T00:00:00.000Z",
-      "updatedAt": "2026-10-09T15:00:23.868Z"
+      "updatedAt": "2026-10-09T15:00:23.868Z",
+      "coverFocus": "center"
     },
     {
       "id": "p-duo",
@@ -1223,7 +1234,7 @@
         "c-direction",
         "c-ai"
       ],
-      "accent": "#A8F5E5",
+      "accent": "#FF6030",
       "coverId": "ph-still-c",
       "featured": false,
       "featuredLayout": "fullbleed",
@@ -1239,10 +1250,143 @@
       "blocks": [],
       "demo": true,
       "createdAt": "2026-10-08T00:00:00.000Z",
-      "updatedAt": "2026-10-09T15:00:23.868Z"
+      "updatedAt": "2026-10-09T15:00:23.868Z",
+      "coverFocus": "center"
     }
   ],
   "media": [
+    {
+      "id": "m-bh-cover-nazca",
+      "kind": "image",
+      "src": "/media/bh-cover-nazca.webp",
+      "alt": "Nazca — project cover",
+      "width": 1400,
+      "height": 656,
+      "mime": "image/webp",
+      "size": 232042,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:40:34.570Z"
+    },
+    {
+      "id": "m-bh-cover-vita",
+      "kind": "image",
+      "src": "/media/bh-cover-vita.webp",
+      "alt": "Garrafa VITA — project cover",
+      "width": 1026,
+      "height": 732,
+      "mime": "image/webp",
+      "size": 170724,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:40:34.570Z"
+    },
+    {
+      "id": "m-bh-cover-jandaia",
+      "kind": "image",
+      "src": "/media/bh-cover-jandaia.webp",
+      "alt": "JandaIA — project cover",
+      "width": 810,
+      "height": 634,
+      "mime": "image/webp",
+      "size": 57822,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:40:34.570Z"
+    },
+    {
+      "id": "m-bh-cover-diniz",
+      "kind": "image",
+      "src": "/media/bh-cover-diniz.webp",
+      "alt": "Óticas Diniz — project cover",
+      "width": 2000,
+      "height": 1034,
+      "mime": "image/webp",
+      "size": 378650,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:40:34.570Z"
+    },
+    {
+      "id": "m-bh-cover-hn",
+      "kind": "image",
+      "src": "/media/bh-cover-hn.webp",
+      "alt": "HN — project cover",
+      "width": 1920,
+      "height": 1080,
+      "mime": "image/webp",
+      "size": 344864,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:40:34.570Z"
+    },
+    {
+      "id": "m-bh-cover-hallem",
+      "kind": "image",
+      "src": "/media/bh-cover-hallem.webp",
+      "alt": "Hallem — project cover",
+      "width": 1920,
+      "height": 1648,
+      "mime": "image/webp",
+      "size": 277236,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:40:34.570Z"
+    },
+    {
+      "id": "m-bh-cover-cis",
+      "kind": "image",
+      "src": "/media/bh-cover-cis.webp",
+      "alt": "Desenrola com CiS — project cover",
+      "width": 1378,
+      "height": 1080,
+      "mime": "image/webp",
+      "size": 196692,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:40:34.570Z"
+    },
+    {
+      "id": "m-bh-cover-pentonic",
+      "kind": "image",
+      "src": "/media/bh-cover-pentonic.webp",
+      "alt": "Pentonic — project cover",
+      "width": 1026,
+      "height": 732,
+      "mime": "image/webp",
+      "size": 111440,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:40:34.570Z"
+    },
+    {
+      "id": "m-bh-cover-exacta",
+      "kind": "image",
+      "src": "/media/bh-cover-exacta.webp",
+      "alt": "Exacta Works — project cover",
+      "width": 1024,
+      "height": 768,
+      "mime": "image/webp",
+      "size": 88126,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:40:34.570Z"
+    },
+    {
+      "id": "m-bh-cover-pod",
+      "kind": "image",
+      "src": "/media/bh-cover-pod.webp",
+      "alt": "Pod do Varejo — project cover",
+      "width": 810,
+      "height": 634,
+      "mime": "image/webp",
+      "size": 18866,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:40:34.570Z"
+    },
+    {
+      "id": "m-bh-cover-kfc",
+      "kind": "image",
+      "src": "/media/bh-cover-kfc.webp",
+      "alt": "KFC — project cover",
+      "width": 1920,
+      "height": 1080,
+      "mime": "image/webp",
+      "size": 221478,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:40:34.570Z"
+    },
     {
       "id": "m-bh-nazca-01",
       "kind": "image",

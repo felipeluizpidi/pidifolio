@@ -130,10 +130,6 @@ export const settingsSchema = z.object({
   }),
   selectedWork: z.object({ headline: z.array(z.string()), subtitle: z.string(), featuredOrder: z.array(z.string()) }),
   archive: z.object({ headline: z.array(z.string()), subtitle: z.string() }),
-  /** Photography card + filter in the Archive (opens a lightbox); photos are picked in /admin → Settings. */
-  photography: z
-    .object({ headline: z.array(z.string()), subtitle: z.string(), photoIds: z.array(z.string()) })
-    .default({ headline: ["Photography"], subtitle: "", photoIds: [] }),
   about: z.object({
     headline: z.array(z.string()),
     portraitId: z.string().optional(),
