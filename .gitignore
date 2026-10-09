@@ -2,7 +2,9 @@ node_modules
 .next
 .env*.local
 .env
-storage/uploads/*
-!storage/uploads/.gitkeep
+# Uploads are versioned so the deployed site has the images (see README → Deploy).
+# Contact-form inbox: private, never commit.
+storage/messages.json
+storage/*.tmp
 next-env.d.ts
 *.tsbuildinfo
