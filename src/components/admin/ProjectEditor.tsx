@@ -240,6 +240,13 @@ export function ProjectEditor({ project, categories, media: initialMedia }: { pr
             <MediaField label="Cover image" value={p.coverId} onChange={(v) => set("coverId", v)} kinds={["image"]} media={media} onUploaded={addMedia} />
             <MediaField label="Cover video (optional, silent preview)" value={p.coverVideoId} onChange={(v) => set("coverVideoId", v)} kinds={["video"]} media={media} onUploaded={addMedia} />
           </div>
+          <Field label="Cover focus" hint="Which side of the cover to keep when a layout crops it (e.g. text on the left)">
+            <Select value={p.coverFocus} onChange={(e) => set("coverFocus", e.target.value as Project["coverFocus"])}>
+              <option value="left">Left</option>
+              <option value="center">Center</option>
+              <option value="right">Right</option>
+            </Select>
+          </Field>
         </Section>
       </div>
 

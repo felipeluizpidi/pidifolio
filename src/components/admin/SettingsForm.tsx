@@ -203,9 +203,9 @@ export function SettingsForm({ settings, media: initialMedia }: { settings: Sett
         </div>
       </Section>
 
-      <Section title="Photography" hint="One section inside the Archive. Add, remove and drag to reorder — upload new photos straight from the picker.">
+      <Section title="Photography" hint="Shown as a Photography card and filter in the Archive; the card opens these photos in a lightbox. Add, remove and drag to reorder — upload new photos straight from the picker.">
         <div className="grid gap-4 sm:grid-cols-2">
-          <Field label="Headline lines">
+          <Field label="Card title">
             <LinesInput value={s.photography.headline} onChange={(v) => up("photography", "headline", v)} rows={2} />
           </Field>
           <Field label="Subtitle">
@@ -213,7 +213,7 @@ export function SettingsForm({ settings, media: initialMedia }: { settings: Sett
           </Field>
         </div>
         <div className="space-y-3">
-          <span className="t-meta-sm block text-ash">{s.photography.photoIds.length} photos — the section hides itself when empty</span>
+          <span className="t-meta-sm block text-ash">{s.photography.photoIds.length} photos — the card and filter hide themselves when empty</span>
           {s.photography.photoIds.length > 0 && (
             <SortableList
               grid

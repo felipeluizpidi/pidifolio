@@ -6,33 +6,34 @@
       "last": "Pidi",
       "full": "Felipe Pidi"
     },
-    "role": "AI Creative & Design Leader",
+    "role": "Associate Creative Director & AI Creative Lead",
     "hero": {
       "roleLines": [
-        "AI Creative &",
-        "Design Leader"
+        "ACD &",
+        "AI Creative Lead"
       ],
-      "lead": "Creative direction, visual storytelling and generative AI. Building bold ideas from concept to execution.",
+      "lead": "Branding, 360° campaigns and node-based AI pipelines — 12+ years turning strategy into visual systems whole teams can run.",
       "meta": [
         "Based in São Paulo, Brazil",
         "Available worldwide",
-        "Selected works / 2026"
+        "Selected works / 2014—2026"
       ],
       "cta": "Explore the work",
       "portraitDesktopId": "ph-hero-d",
-      "portraitMobileId": "ph-hero-m"
+      "portraitMobileId": "ph-hero-d"
     },
     "selectedWork": {
       "headline": [
         "Selected",
         "Works."
       ],
-      "subtitle": "Creative direction, visual identities and ideas brought to life.",
+      "subtitle": "Campaigns, brand systems and AI-driven production — directed from concept to craft.",
       "featuredOrder": [
         "p-nazca",
         "p-diniz",
-        "p-styles",
-        "p-reel"
+        "p-jandaia",
+        "p-kfc",
+        "p-pentonic"
       ]
     },
     "archive": {
@@ -49,30 +50,43 @@
       ],
       "portraitId": "ph-about",
       "bio": [
-        "Felipe Pidi is an AI Creative & Design Leader based in São Paulo, Brazil. For more than twelve years he has worked across creative direction, art direction, branding, visual identity systems and integrated campaigns — work that has to hold together from a single frame to a national rollout.",
-        "He has spent the last three-plus years leading creative teams and multidisciplinary design processes. Today, as AI Creative Lead at Jotacom, he builds hybrid pipelines where traditional art direction sets the taste and generative tools carry it at scale: campaigns, visual systems and production workflows other designers can pick up and run.",
-        "Along the way he has made work for Mercado Livre, UOL, Duolingo, KFC and Óticas Diniz, among others. His method is easy to describe and hard to fake — a clear point of view, strategy that earns its place, new technology used with intent, and his own hands on the production."
+        "Felipe Pidi has been building creative processes since 2014 — but the work was never only about making good pieces. Across 12+ years in advertising, branding and 360° campaigns, he learned to turn strategy into visual language, and visual language into something a whole team can execute with consistency.",
+        "He has worked on integrated campaigns, films, retail and brand identities, on productions with crews of 30+. As Head of Design at Agência Ecco he led a team of 10+ designers and redesigned the flow between creative, planning and accounts — cutting rework by 28% and speeding up delivery by 25%.",
+        "Today, as AI Creative Lead at Jotacom, he applies the same logic to AI. Not just generating images, but building repeatable creative systems: around 25 visual styles structured as node pipelines in Flora and Magnific, turning ~2 hours of trial and error into 20–30 minutes while protecting art direction and brand identity. AI doesn't replace creative thinking — it demands more direction.",
+        "Brands along the way: Mercado Livre, UOL, NIO, Duolingo, KFC, Mercedes-Benz, PwC, CPFL, Stabilo, Uni-ball, Posca, Dr. Scholl's, Banco24Horas, Linx, Starbucks, Pizza Hut and Óticas Diniz."
       ],
       "disciplines": [
         "Creative Direction",
         "Art Direction",
-        "Design Leadership",
         "Brand Identity",
-        "Generative AI",
-        "Visual Storytelling"
+        "AI Creative Systems",
+        "Design Leadership",
+        "Set & Film Direction"
       ],
       "metrics": [
         {
           "value": "12+",
-          "label": "Years in design & creative"
+          "label": "Years in advertising, branding & 360° campaigns"
         },
         {
-          "value": "3+",
-          "label": "Years in creative leadership"
+          "value": "120+",
+          "label": "Campaigns delivered"
+        },
+        {
+          "value": "15+",
+          "label": "Brand identity systems"
         },
         {
           "value": "10+",
-          "label": "Design professionals led"
+          "label": "Designers led as Head of Design"
+        },
+        {
+          "value": "−28%",
+          "label": "Rework after redesigning the creative workflow"
+        },
+        {
+          "value": "+25%",
+          "label": "Faster delivery across the design team"
         }
       ]
     },
@@ -82,14 +96,16 @@
         "something",
         "unforgettable."
       ],
-      "copy": "Have a project, an idea or an opportunity? Let's create something worth remembering.",
+      "copy": "Need a creative lead who designs the workflow, not just the work? Let's talk — campaigns, brands and AI production at scale.",
       "email": "felipe.luiz27@hotmail.com",
       "location": "São Paulo, Brazil",
-      "availability": "Available for international projects"
+      "availability": "Freelance & full-time · Remote worldwide"
     },
     "social": {
       "linkedin": "https://www.linkedin.com/in/felipe-luiz-78043597/",
-      "behance": "https://www.behance.net/felipeluiz"
+      "behance": "https://www.behance.net/felipeluiz",
+      "instagram": "https://www.instagram.com/olhosdefelipe/",
+      "whatsapp": "5511983829395"
     },
     "cv": {},
     "footer": {
@@ -97,8 +113,28 @@
       "tagline": "Made with intention."
     },
     "seo": {
-      "title": "Felipe Pidi — AI Creative & Design Leader",
-      "description": "Portfolio of Felipe Pidi, AI Creative & Design Leader based in São Paulo. Creative direction, branding, campaigns and generative AI."
+      "title": "Felipe Pidi — ACD & AI Creative Lead",
+      "description": "Portfolio of Felipe Pidi, Associate Creative Director and AI Creative Lead in São Paulo. 12+ years in branding, 360° campaigns and node-based AI production pipelines."
+    },
+    "photography": {
+      "headline": [
+        "Through",
+        "the lens."
+      ],
+      "subtitle": "Portrait sessions shot as @olhosdefelipe — light, color and attitude, frame by frame.",
+      "photoIds": [
+        "m-photo-retro-01",
+        "m-photo-retro-02",
+        "m-photo-retro-03",
+        "m-photo-retro-04",
+        "m-photo-retro-05",
+        "m-photo-retro-06",
+        "m-photo-retro-07",
+        "m-photo-retro-08",
+        "m-photo-retro-09",
+        "m-photo-retro-10",
+        "m-photo-retro-11"
+      ]
     }
   },
   "categories": [
@@ -135,44 +171,41 @@
       "index": "04",
       "title": "Film, Motion & Visual Storytelling",
       "filterLabel": "Motion",
-      "description": "Film direction, motion design, audiovisual production and visual narratives.",
+      "description": "Launch films, set direction, audiovisual production and visual narratives.",
       "order": 4
     }
   ],
   "projects": [
     {
-      "id": "p-nazca",
-      "slug": "nazca-experimente-sentir",
-      "title": "Nazca",
       "subtitle": "Experimente Sentir",
-      "client": "Nazca",
-      "year": 2026,
-      "role": "Creative Direction",
+      "client": "Nazca Cosméticos",
+      "role": "Art Direction",
       "disciplines": [
-        "Creative Direction",
         "Campaign",
-        "Art Direction"
+        "Art Direction",
+        "Photography"
       ],
       "categoryIds": [
         "c-direction"
       ],
       "accent": "#FF6030",
-      "coverId": "ph-nazca",
-      "coverVideoId": "m-69a7b0b25b93",
       "featured": true,
       "featuredLayout": "fullbleed",
       "archiveShape": "landscape",
       "published": true,
-      "order": 1,
-      "overview": "Demo copy — a campaign built around the line “Experimente Sentir”. Replace this paragraph with the real overview in /admin.",
-      "challenge": "Describe the brief and the problem the campaign had to solve.",
-      "concept": "Describe the creative idea and the visual strategy behind it.",
-      "process": "Research, references, concept development, direction and production.",
+      "overview": "#ExperimenteSentir — a haircare campaign for Nazca built around sensation. Every phase of hair care becomes a feeling to try: “Sinta cada versão de você” (feel every version of you).",
+      "challenge": "",
+      "concept": "Warm, skin-close photography and an editorial type system carry one sensory idea across key visuals, product shots, social and out-of-home.",
+      "process": "",
       "outcomes": "",
       "credits": [
         {
-          "role": "Creative Direction",
+          "role": "Art Direction",
           "name": "Felipe Pidi"
+        },
+        {
+          "role": "Team",
+          "name": "Cesar Augusto"
         }
       ],
       "blocks": [
@@ -180,66 +213,59 @@
           "id": "nazca-b1",
           "type": "text",
           "heading": "The idea",
-          "body": "A large editorial statement about the campaign. Edit or remove this block in the case study editor.",
+          "body": "Cada fase tem um jeito de sentir — every phase has its own way of feeling.",
           "size": "xl"
         },
         {
           "id": "nazca-b2",
           "type": "video",
           "assetId": "m-69a7b0b25b93",
-          "caption": "Reel — placeholder",
           "autoplay": true
         },
         {
           "id": "nazca-b3",
-          "type": "asymmetric",
-          "assetIds": [
-            "ph-still-b",
-            "ph-still-a",
-            "ph-still-c"
-          ]
+          "type": "image",
+          "assetId": "m-bh-nazca-02"
         },
         {
           "id": "nazca-b4",
-          "type": "imageText",
-          "assetId": "ph-still-a",
-          "heading": "Frame by frame",
-          "text": "Pair a key frame with a short note on direction, light or casting.",
-          "side": "right"
+          "type": "grid2",
+          "assetIds": [
+            "m-bh-nazca-03",
+            "m-bh-nazca-04"
+          ]
         },
         {
           "id": "nazca-b5",
-          "type": "filmstrip",
-          "assetIds": [
-            "ph-still-a",
-            "ph-nazca",
-            "ph-still-c",
-            "ph-film",
-            "ph-still-b"
-          ]
+          "type": "image",
+          "assetId": "m-bh-nazca-06"
         },
         {
           "id": "nazca-b6",
-          "type": "grid3",
+          "type": "filmstrip",
           "assetIds": [
-            "ph-still-c",
-            "ph-still-b",
-            "ph-still-c"
+            "m-bh-nazca-05",
+            "m-bh-nazca-07",
+            "m-bh-nazca-08",
+            "m-bh-nazca-01"
           ]
         }
       ],
-      "demo": true,
-      "createdAt": "2026-10-08T00:00:00.000Z",
-      "updatedAt": "2026-10-08T20:07:42.729Z"
+      "demo": false,
+      "createdAt": "2026-10-09T15:00:23.868Z",
+      "updatedAt": "2026-10-09T15:00:23.868Z",
+      "id": "p-nazca",
+      "slug": "nazca-experimente-sentir",
+      "title": "Nazca",
+      "year": 2026,
+      "coverId": "m-bh-nazca-01",
+      "coverVideoId": "m-69a7b0b25b93",
+      "order": 1
     },
     {
-      "id": "p-diniz",
-      "slug": "oticas-diniz-national-campaign",
-      "title": "Óticas Diniz",
-      "subtitle": "National Campaign",
+      "subtitle": "AI-driven national campaign",
       "client": "Óticas Diniz",
-      "year": 2025,
-      "role": "AI-Driven Lead Design · DDAO Creative Lab",
+      "role": "ACD (AI-Driven) · DDAO Creative Lab",
       "disciplines": [
         "Campaign",
         "Art Direction",
@@ -250,46 +276,846 @@
         "c-ai"
       ],
       "accent": "#EF2917",
-      "coverId": "ph-diniz",
       "featured": true,
       "featuredLayout": "split",
       "archiveShape": "poster",
       "published": true,
-      "order": 2,
-      "overview": "Demo copy — national campaign for Óticas Diniz, developed at DDAO Creative Lab. Replace with the real case.",
+      "overview": "National campaign for Óticas Diniz — “Qualidade que o Brasil ama” (quality Brazil loves) — produced at DDAO Creative Lab with a hybrid AI + design workflow.",
+      "challenge": "",
+      "concept": "Casting, scenes and light generated and art-directed to read as one photographic campaign: warm city light, real-feeling faces and a bold red retail system for promos like the anniversary sale.",
+      "process": "Generative imagery (Midjourney, Visual Electric, Adobe Firefly) directed against explicit quality criteria to avoid generic outputs and keep the art-direction intent, then finished in Adobe Creative Cloud.",
+      "outcomes": "",
+      "credits": [
+        {
+          "role": "Associate Creative Director",
+          "name": "Felipe Pidi"
+        },
+        {
+          "role": "Studio",
+          "name": "DDAO Creative Lab"
+        }
+      ],
+      "blocks": [
+        {
+          "id": "diniz-b7",
+          "type": "image",
+          "assetId": "m-bh-diniz-04"
+        },
+        {
+          "id": "diniz-b8",
+          "type": "grid2",
+          "assetIds": [
+            "m-bh-diniz-06",
+            "m-bh-diniz-08"
+          ]
+        },
+        {
+          "id": "diniz-b9",
+          "type": "image",
+          "assetId": "m-bh-diniz-03"
+        },
+        {
+          "id": "diniz-b10",
+          "type": "grid2",
+          "assetIds": [
+            "m-bh-diniz-10",
+            "m-bh-diniz-01"
+          ]
+        },
+        {
+          "id": "diniz-b11",
+          "type": "gallery",
+          "assetIds": [
+            "m-bh-diniz-02",
+            "m-bh-diniz-05",
+            "m-bh-diniz-07",
+            "m-bh-diniz-09"
+          ]
+        }
+      ],
+      "demo": false,
+      "createdAt": "2026-10-09T15:00:23.868Z",
+      "updatedAt": "2026-10-09T15:00:23.868Z",
+      "id": "p-diniz",
+      "slug": "oticas-diniz-national-campaign",
+      "title": "Óticas Diniz",
+      "year": 2025,
+      "coverId": "m-bh-diniz-05",
+      "order": 2
+    },
+    {
+      "subtitle": "App brand design",
+      "client": "Cadernos Jandaia",
+      "role": "Head of Design · Agência Ecco",
+      "disciplines": [
+        "Brand Identity",
+        "Character Design",
+        "UI"
+      ],
+      "categoryIds": [
+        "c-branding",
+        "c-ai"
+      ],
+      "accent": "#A8F5E5",
+      "featured": true,
+      "featuredLayout": "poster",
+      "archiveShape": "square",
+      "published": true,
+      "overview": "",
+      "challenge": "JandaIA needed an identity that expressed its purpose — making learning easier and stronger — while staying connected to the parent brand, Cadernos Jandaia. It had to speak to students, teachers and professionals, reflect learning, tutoring and usability, and stand out in a crowded market.",
+      "concept": "We reinterpreted the speech balloon from the parent logo as a symbol of dialogue and exchange — the app's role in the user's life. A fluid, humane typeface keeps the brand approachable, and AiA, a virtual assistant, personifies the support the app offers.",
+      "process": "Modular boxes and a vibrant palette carry the flexibility and positivity of the product across app UI, characters, social and out-of-home.",
+      "outcomes": "",
+      "credits": [
+        {
+          "role": "Head of Design",
+          "name": "Felipe Pidi"
+        },
+        {
+          "role": "Agency",
+          "name": "Agência Ecco"
+        },
+        {
+          "role": "Team",
+          "name": "Lucas Ananias · Marcus David · Caio Vinícius · Giovanna Marino"
+        }
+      ],
+      "blocks": [
+        {
+          "id": "jandaia-b12",
+          "type": "image",
+          "assetId": "m-bh-jandaia-01"
+        },
+        {
+          "id": "jandaia-b13",
+          "type": "grid2",
+          "assetIds": [
+            "m-bh-jandaia-02",
+            "m-bh-jandaia-03"
+          ]
+        },
+        {
+          "id": "jandaia-b14",
+          "type": "image",
+          "assetId": "m-bh-jandaia-04"
+        },
+        {
+          "id": "jandaia-b15",
+          "type": "grid3",
+          "assetIds": [
+            "m-bh-jandaia-05",
+            "m-bh-jandaia-06",
+            "m-bh-jandaia-07"
+          ]
+        },
+        {
+          "id": "jandaia-b16",
+          "type": "image",
+          "assetId": "m-bh-jandaia-09"
+        },
+        {
+          "id": "jandaia-b17",
+          "type": "grid2",
+          "assetIds": [
+            "m-bh-jandaia-08",
+            "m-bh-jandaia-10"
+          ]
+        }
+      ],
+      "demo": false,
+      "createdAt": "2026-10-09T15:00:23.868Z",
+      "updatedAt": "2026-10-09T15:00:23.868Z",
+      "id": "p-jandaia",
+      "slug": "jandaia-app-brand-design",
+      "title": "JandaIA",
+      "year": 2024,
+      "coverId": "m-bh-jandaia-08",
+      "order": 3
+    },
+    {
+      "subtitle": "Seu Estilo em Ação",
+      "client": "CiS · Pentonic",
+      "role": "Head of Design · Agência Ecco",
+      "disciplines": [
+        "Campaign",
+        "Art Direction",
+        "Social"
+      ],
+      "categoryIds": [
+        "c-direction",
+        "c-motion"
+      ],
+      "accent": "#138FE0",
+      "featured": true,
+      "featuredLayout": "split",
+      "archiveShape": "landscape",
+      "published": true,
+      "overview": "",
+      "challenge": "Launch pentonic — the CiS pen line — as a brand of its own, with its own products and lines, through a back-to-school campaign. To build reach and awareness it also needed its own social profile, with proprietary content and a visual and verbal identity.",
+      "concept": "“pentonic — seu estilo em ação!” (your style in action) unites the products' function and minimal aesthetic into a personality. It grows from the brand's “driven by design” line, which suggests both motivation and movement.",
+      "process": "An exclusive shoot, a launch film, an original soundtrack, influencer actions and a stream of sustaining content.",
+      "outcomes": "131,582,404 impressions across the content created\n160,182 visits to the brand profile\n231,174 active engagements\n+124,200% follower growth on the page",
+      "credits": [
+        {
+          "role": "Head of Design",
+          "name": "Felipe Pidi"
+        },
+        {
+          "role": "Agency",
+          "name": "Agência Ecco"
+        },
+        {
+          "role": "Team",
+          "name": "Marcus David · Luís Silva · Marília Cerioni · Emanuele Freitas"
+        }
+      ],
+      "blocks": [
+        {
+          "id": "pentonic-b18",
+          "type": "image",
+          "assetId": "m-bh-pentonic-01"
+        },
+        {
+          "id": "pentonic-b19",
+          "type": "embed",
+          "url": "https://vimeo.com/993722141",
+          "caption": "Campaign case film"
+        },
+        {
+          "id": "pentonic-b20",
+          "type": "grid2",
+          "assetIds": [
+            "m-bh-pentonic-02",
+            "m-bh-pentonic-03"
+          ]
+        },
+        {
+          "id": "pentonic-b21",
+          "type": "image",
+          "assetId": "m-bh-pentonic-06"
+        },
+        {
+          "id": "pentonic-b22",
+          "type": "grid2",
+          "assetIds": [
+            "m-bh-pentonic-07",
+            "m-bh-pentonic-08"
+          ]
+        },
+        {
+          "id": "pentonic-b23",
+          "type": "image",
+          "assetId": "m-bh-pentonic-09"
+        },
+        {
+          "id": "pentonic-b24",
+          "type": "image",
+          "assetId": "m-bh-pentonic-10"
+        }
+      ],
+      "demo": false,
+      "createdAt": "2026-10-09T15:00:23.868Z",
+      "updatedAt": "2026-10-09T15:00:23.868Z",
+      "id": "p-pentonic",
+      "slug": "pentonic-seu-estilo-em-acao",
+      "title": "Pentonic",
+      "year": 2024,
+      "coverId": "m-bh-pentonic-05",
+      "order": 4
+    },
+    {
+      "subtitle": "Art direction",
+      "client": "KFC Brasil",
+      "role": "Senior Art Director · The Heart",
+      "disciplines": [
+        "Art Direction",
+        "Campaign",
+        "Retail"
+      ],
+      "categoryIds": [
+        "c-direction"
+      ],
+      "accent": "#EF2917",
+      "featured": true,
+      "featuredLayout": "sequence",
+      "archiveShape": "type",
+      "published": true,
+      "overview": "Art direction for KFC at The Heart: product launches, promotions and retail — from the Chicken Hot Dog and Bites to Super Bowl and Black Friday — carried through social, point of sale and out-of-home.",
       "challenge": "",
       "concept": "",
       "process": "",
       "outcomes": "",
       "credits": [
         {
-          "role": "AI-Driven Lead Designer",
+          "role": "Senior Art Director",
           "name": "Felipe Pidi"
+        },
+        {
+          "role": "Agency",
+          "name": "The Heart Comunicação"
         }
       ],
       "blocks": [
         {
-          "id": "diniz-b1",
+          "id": "kfc-b25",
           "type": "grid2",
           "assetIds": [
-            "ph-diniz",
-            "ph-still-b"
+            "m-bh-kfc-01",
+            "m-bh-kfc-02"
           ]
         },
         {
-          "id": "diniz-b2",
-          "type": "gallery",
+          "id": "kfc-b26",
+          "type": "image",
+          "assetId": "m-bh-kfc-03"
+        },
+        {
+          "id": "kfc-b27",
+          "type": "grid3",
           "assetIds": [
-            "ph-still-a",
-            "ph-still-b",
-            "ph-still-c",
-            "ph-diniz"
+            "m-bh-kfc-04",
+            "m-bh-kfc-05",
+            "m-bh-kfc-06"
+          ]
+        },
+        {
+          "id": "kfc-b28",
+          "type": "image",
+          "assetId": "m-bh-kfc-07"
+        },
+        {
+          "id": "kfc-b29",
+          "type": "grid3",
+          "assetIds": [
+            "m-bh-kfc-08",
+            "m-bh-kfc-09",
+            "m-bh-kfc-10"
           ]
         }
       ],
-      "demo": true,
-      "createdAt": "2026-10-08T00:00:00.000Z",
-      "updatedAt": "2026-10-08T00:00:00.000Z"
+      "demo": false,
+      "createdAt": "2026-10-09T15:00:23.868Z",
+      "updatedAt": "2026-10-09T15:00:23.868Z",
+      "id": "p-kfc",
+      "slug": "kfc",
+      "title": "KFC",
+      "year": 2021,
+      "coverId": "m-bh-kfc-03",
+      "order": 5
+    },
+    {
+      "subtitle": "Abra, beba, VITA, repita",
+      "client": "Zonacriativa",
+      "role": "Head of Design · Agência Ecco",
+      "disciplines": [
+        "Campaign",
+        "Photography",
+        "Film"
+      ],
+      "categoryIds": [
+        "c-direction",
+        "c-motion"
+      ],
+      "accent": "#138FE0",
+      "featured": false,
+      "featuredLayout": "fullbleed",
+      "archiveShape": "landscape",
+      "published": true,
+      "overview": "",
+      "challenge": "Zonacriativa came to us to make the VITA bottle stand out in a market saturated with similar products — a campaign that would not only grab attention but communicate what makes the product innovative and different.",
+      "concept": "A complete digital campaign: influencer management, an exclusive shoot, a high-impact landing page, strategic social posts and a press kit — one integrated approach to communicate the product's innovation.",
+      "process": "",
+      "outcomes": "",
+      "credits": [
+        {
+          "role": "Head of Design",
+          "name": "Felipe Pidi"
+        },
+        {
+          "role": "Agency",
+          "name": "Agência Ecco"
+        },
+        {
+          "role": "Team",
+          "name": "Marcus David · Marília Cerioni · Cesar Augusto · Luís Silva"
+        }
+      ],
+      "blocks": [
+        {
+          "id": "vita-b30",
+          "type": "image",
+          "assetId": "m-bh-vita-01"
+        },
+        {
+          "id": "vita-b31",
+          "type": "embed",
+          "url": "https://vimeo.com/1008578451",
+          "caption": "Hero film"
+        },
+        {
+          "id": "vita-b32",
+          "type": "grid2",
+          "assetIds": [
+            "m-bh-vita-03",
+            "m-bh-vita-04"
+          ]
+        },
+        {
+          "id": "vita-b33",
+          "type": "imageText",
+          "assetId": "m-bh-vita-06",
+          "heading": "Cold 24h, hot 12h",
+          "text": "A product promise turned into a bold, color-blocked visual language for social, landing page and press kit.",
+          "side": "left"
+        },
+        {
+          "id": "vita-b34",
+          "type": "image",
+          "assetId": "m-bh-vita-07"
+        },
+        {
+          "id": "vita-b35",
+          "type": "grid2",
+          "assetIds": [
+            "m-bh-vita-05",
+            "m-bh-vita-09"
+          ]
+        },
+        {
+          "id": "vita-b36",
+          "type": "image",
+          "assetId": "m-bh-vita-08"
+        }
+      ],
+      "demo": false,
+      "createdAt": "2026-10-09T15:00:23.868Z",
+      "updatedAt": "2026-10-09T15:00:23.868Z",
+      "id": "p-vita",
+      "slug": "zonacriativa-garrafa-vita",
+      "title": "Garrafa VITA",
+      "year": 2024,
+      "coverId": "m-bh-vita-02",
+      "order": 6
+    },
+    {
+      "subtitle": "Podcast brand design",
+      "client": "Linx Retail",
+      "role": "Head of Design · Agência Ecco",
+      "disciplines": [
+        "Brand Identity",
+        "Illustration"
+      ],
+      "categoryIds": [
+        "c-branding"
+      ],
+      "accent": "#FF6030",
+      "featured": false,
+      "featuredLayout": "fullbleed",
+      "archiveShape": "square",
+      "published": true,
+      "overview": "",
+      "challenge": "Linx Retail — the largest software house in Latin America — asked us to create the visual identity of its new podcast, PDV, the Pod do Varejo, and turn its premises into a striking, representative image.",
+      "concept": "An identity that talks to the present while keeping an essence both nostalgic and futuristic. A vivid palette inspired by the Linx parent brand, a logo drawn as speech balloons for conversation and exchange, and graphics for different forms of expression and identity.",
+      "process": "",
+      "outcomes": "",
+      "credits": [
+        {
+          "role": "Head of Design",
+          "name": "Felipe Pidi"
+        },
+        {
+          "role": "Agency",
+          "name": "Agência Ecco"
+        },
+        {
+          "role": "Team",
+          "name": "Lucas Ananias · Marcus David · Luís Silva"
+        }
+      ],
+      "blocks": [
+        {
+          "id": "pod-b37",
+          "type": "image",
+          "assetId": "m-bh-pod-01"
+        },
+        {
+          "id": "pod-b38",
+          "type": "image",
+          "assetId": "m-bh-pod-02"
+        },
+        {
+          "id": "pod-b39",
+          "type": "grid2",
+          "assetIds": [
+            "m-bh-pod-03",
+            "m-bh-pod-04"
+          ]
+        },
+        {
+          "id": "pod-b40",
+          "type": "grid2",
+          "assetIds": [
+            "m-bh-pod-05",
+            "m-bh-pod-06"
+          ]
+        }
+      ],
+      "demo": false,
+      "createdAt": "2026-10-09T15:00:23.868Z",
+      "updatedAt": "2026-10-09T15:00:23.868Z",
+      "id": "p-pod",
+      "slug": "pod-do-varejo-brand-design",
+      "title": "Pod do Varejo",
+      "year": 2024,
+      "coverId": "m-bh-pod-01",
+      "order": 7
+    },
+    {
+      "subtitle": "Brand design",
+      "client": "HN",
+      "role": "Head of Design · Agência Ecco",
+      "disciplines": [
+        "Brand Identity",
+        "Packaging",
+        "Illustration"
+      ],
+      "categoryIds": [
+        "c-branding"
+      ],
+      "accent": "#A8F5E5",
+      "featured": false,
+      "featuredLayout": "fullbleed",
+      "archiveShape": "square",
+      "published": true,
+      "overview": "Brand identity for HN, a healthcare-supplies brand whose promise is caring for those who care — “Cuidamos de quem cuida”. A friendly plus-shaped symbol, a bright color system and an illustration language run from packaging to uniforms and campaign.",
+      "challenge": "",
+      "concept": "",
+      "process": "",
+      "outcomes": "",
+      "credits": [
+        {
+          "role": "Head of Design",
+          "name": "Felipe Pidi"
+        },
+        {
+          "role": "Agency",
+          "name": "Agência Ecco"
+        },
+        {
+          "role": "Team",
+          "name": "Lucas Ananias · Marcus David · Cesar Augusto · Luís Silva · Marília Cerioni"
+        }
+      ],
+      "blocks": [
+        {
+          "id": "hn-b41",
+          "type": "image",
+          "assetId": "m-bh-hn-01"
+        },
+        {
+          "id": "hn-b42",
+          "type": "grid2",
+          "assetIds": [
+            "m-bh-hn-03",
+            "m-bh-hn-02"
+          ]
+        },
+        {
+          "id": "hn-b43",
+          "type": "image",
+          "assetId": "m-bh-hn-06"
+        },
+        {
+          "id": "hn-b44",
+          "type": "grid3",
+          "assetIds": [
+            "m-bh-hn-04",
+            "m-bh-hn-05",
+            "m-bh-hn-07"
+          ]
+        },
+        {
+          "id": "hn-b45",
+          "type": "image",
+          "assetId": "m-bh-hn-09"
+        },
+        {
+          "id": "hn-b46",
+          "type": "grid2",
+          "assetIds": [
+            "m-bh-hn-08",
+            "m-bh-hn-10"
+          ]
+        }
+      ],
+      "demo": false,
+      "createdAt": "2026-10-09T15:00:23.868Z",
+      "updatedAt": "2026-10-09T15:00:23.868Z",
+      "id": "p-hn",
+      "slug": "hn-brand-design",
+      "title": "HN",
+      "year": 2025,
+      "coverId": "m-bh-hn-01",
+      "order": 8
+    },
+    {
+      "subtitle": "Law firm brand design",
+      "client": "Hallem Advocacia",
+      "role": "Head of Design · Agência Ecco",
+      "disciplines": [
+        "Brand Identity",
+        "Editorial"
+      ],
+      "categoryIds": [
+        "c-branding"
+      ],
+      "accent": "#EF2917",
+      "featured": false,
+      "featuredLayout": "fullbleed",
+      "archiveShape": "square",
+      "published": true,
+      "overview": "Brand design for Hallem Advocacia, a law firm that wanted to sound human — “somos jurídicos, mas sem juridiquês” (legal, without the legalese). A script wordmark, a warm orange-and-purple palette and editorial layouts across stationery, signage and social.",
+      "challenge": "",
+      "concept": "",
+      "process": "",
+      "outcomes": "",
+      "credits": [
+        {
+          "role": "Head of Design",
+          "name": "Felipe Pidi"
+        },
+        {
+          "role": "Agency",
+          "name": "Agência Ecco"
+        },
+        {
+          "role": "Team",
+          "name": "Lucas Ananias · Marcus David · Luís Silva · Marília Cerioni"
+        }
+      ],
+      "blocks": [
+        {
+          "id": "hallem-b47",
+          "type": "image",
+          "assetId": "m-bh-hallem-03"
+        },
+        {
+          "id": "hallem-b48",
+          "type": "grid2",
+          "assetIds": [
+            "m-bh-hallem-02",
+            "m-bh-hallem-04"
+          ]
+        },
+        {
+          "id": "hallem-b49",
+          "type": "image",
+          "assetId": "m-bh-hallem-05"
+        },
+        {
+          "id": "hallem-b50",
+          "type": "grid3",
+          "assetIds": [
+            "m-bh-hallem-06",
+            "m-bh-hallem-07",
+            "m-bh-hallem-08"
+          ]
+        },
+        {
+          "id": "hallem-b51",
+          "type": "grid2",
+          "assetIds": [
+            "m-bh-hallem-09",
+            "m-bh-hallem-10"
+          ]
+        }
+      ],
+      "demo": false,
+      "createdAt": "2026-10-09T15:00:23.868Z",
+      "updatedAt": "2026-10-09T15:00:23.868Z",
+      "id": "p-hallem",
+      "slug": "hallem-advocacia-brand-design",
+      "title": "Hallem",
+      "year": 2025,
+      "coverId": "m-bh-hallem-01",
+      "order": 9
+    },
+    {
+      "subtitle": "Back-to-school campaign",
+      "client": "CiS",
+      "role": "Head of Design · Agência Ecco",
+      "disciplines": [
+        "Campaign",
+        "Photography",
+        "Film"
+      ],
+      "categoryIds": [
+        "c-direction",
+        "c-motion"
+      ],
+      "accent": "#FF6030",
+      "featured": false,
+      "featuredLayout": "fullbleed",
+      "archiveShape": "landscape",
+      "published": true,
+      "overview": "",
+      "challenge": "A back-to-school campaign for CiS — a stationery brand with almost 30 years of history and a varied portfolio — to strengthen its digital presence with a concept that reinforced its upbeat, proprietary tone of voice.",
+      "concept": "The narrative captures the brand's essence — practical, fun solutions for everyday challenges — and spotlights the hero product's main attribute: the Spiro line. “Desenrolar” means to sort things out: with CiS, you sort out whatever comes.",
+      "process": "The visual identity was built to carry what the line means to its consumers: creativity, authenticity, joy, consistency and that famous power to desenrolar in any situation.",
+      "outcomes": "",
+      "credits": [
+        {
+          "role": "Head of Design",
+          "name": "Felipe Pidi"
+        },
+        {
+          "role": "Agency",
+          "name": "Agência Ecco"
+        },
+        {
+          "role": "Team",
+          "name": "Giovanna Marino · Marcus David · Gilcileyde Ribeiro · Marília Cerioni · Luís Silva"
+        }
+      ],
+      "blocks": [
+        {
+          "id": "cis-b52",
+          "type": "text",
+          "heading": "Manifesto",
+          "body": "Desenrolar é ter atitude, é tirar onda, é encontrar respostas. Com a CiS, a gente desenrola o que vier!",
+          "size": "xl"
+        },
+        {
+          "id": "cis-b53",
+          "type": "image",
+          "assetId": "m-bh-cis-01"
+        },
+        {
+          "id": "cis-b54",
+          "type": "embed",
+          "url": "https://vimeo.com/996388926",
+          "caption": "Launch film — back to school 2024"
+        },
+        {
+          "id": "cis-b55",
+          "type": "image",
+          "assetId": "m-bh-cis-02"
+        },
+        {
+          "id": "cis-b56",
+          "type": "grid3",
+          "assetIds": [
+            "m-bh-cis-03",
+            "m-bh-cis-04",
+            "m-bh-cis-05"
+          ]
+        },
+        {
+          "id": "cis-b57",
+          "type": "grid3",
+          "assetIds": [
+            "m-bh-cis-06",
+            "m-bh-cis-07",
+            "m-bh-cis-08"
+          ]
+        }
+      ],
+      "demo": false,
+      "createdAt": "2026-10-09T15:00:23.868Z",
+      "updatedAt": "2026-10-09T15:00:23.868Z",
+      "id": "p-cis",
+      "slug": "desenrola-com-cis",
+      "title": "Desenrola com CiS",
+      "year": 2024,
+      "coverId": "m-bh-cis-01",
+      "order": 10
+    },
+    {
+      "subtitle": "Powered by people",
+      "client": "Exacta Works",
+      "role": "Head of Design · Agência Ecco",
+      "disciplines": [
+        "Brand Identity",
+        "Visual System"
+      ],
+      "categoryIds": [
+        "c-branding"
+      ],
+      "accent": "#138FE0",
+      "featured": false,
+      "featuredLayout": "fullbleed",
+      "archiveShape": "square",
+      "published": true,
+      "overview": "Identity for Exacta Works, a technology company — “Powered by people”. Luminous blue-to-violet gradients and a human profile bring warmth to a tech brand, applied across digital, events and merchandise.",
+      "challenge": "",
+      "concept": "",
+      "process": "",
+      "outcomes": "",
+      "credits": [
+        {
+          "role": "Head of Design",
+          "name": "Felipe Pidi"
+        },
+        {
+          "role": "Agency",
+          "name": "Agência Ecco"
+        },
+        {
+          "role": "Team",
+          "name": "Marília Cerioni · Marcus David · Giovanna Marino"
+        }
+      ],
+      "blocks": [
+        {
+          "id": "exacta-b58",
+          "type": "image",
+          "assetId": "m-bh-exacta-01"
+        },
+        {
+          "id": "exacta-b59",
+          "type": "grid2",
+          "assetIds": [
+            "m-bh-exacta-02",
+            "m-bh-exacta-03"
+          ]
+        },
+        {
+          "id": "exacta-b60",
+          "type": "image",
+          "assetId": "m-bh-exacta-04"
+        },
+        {
+          "id": "exacta-b61",
+          "type": "grid2",
+          "assetIds": [
+            "m-bh-exacta-05",
+            "m-bh-exacta-06"
+          ]
+        },
+        {
+          "id": "exacta-b62",
+          "type": "image",
+          "assetId": "m-bh-exacta-07"
+        },
+        {
+          "id": "exacta-b63",
+          "type": "grid3",
+          "assetIds": [
+            "m-bh-exacta-08",
+            "m-bh-exacta-09",
+            "m-bh-exacta-10"
+          ]
+        }
+      ],
+      "demo": false,
+      "createdAt": "2026-10-09T15:00:23.868Z",
+      "updatedAt": "2026-10-09T15:00:23.868Z",
+      "id": "p-exacta",
+      "slug": "exacta-works-branding",
+      "title": "Exacta Works",
+      "year": 2023,
+      "coverId": "m-bh-exacta-01",
+      "order": 11
     },
     {
       "id": "p-styles",
@@ -310,11 +1136,11 @@
       ],
       "accent": "#A8F5E5",
       "coverId": "ph-styles",
-      "featured": true,
+      "featured": false,
       "featuredLayout": "poster",
       "archiveShape": "square",
-      "published": true,
-      "order": 3,
+      "published": false,
+      "order": 12,
       "overview": "A library of visual styles built as node-based pipelines, so other designers on the team can reproduce the same aesthetic with consistency.",
       "challenge": "",
       "concept": "",
@@ -345,49 +1171,7 @@
       ],
       "demo": true,
       "createdAt": "2026-10-08T00:00:00.000Z",
-      "updatedAt": "2026-10-08T00:00:00.000Z"
-    },
-    {
-      "id": "p-reel",
-      "slug": "showreel-2026",
-      "title": "Showreel",
-      "subtitle": "Selected frames, 2026",
-      "client": "",
-      "year": 2026,
-      "role": "Direction & Edit",
-      "disciplines": [
-        "Film",
-        "Motion",
-        "Visual Storytelling"
-      ],
-      "categoryIds": [
-        "c-motion"
-      ],
-      "accent": "#138FE0",
-      "coverId": "ph-film",
-      "coverVideoId": "ph-reel",
-      "featured": true,
-      "featuredLayout": "sequence",
-      "archiveShape": "landscape",
-      "published": true,
-      "order": 4,
-      "overview": "Demo slot for a reel or film piece. Upload an MP4/WebM or paste a YouTube/Vimeo link in /admin.",
-      "challenge": "",
-      "concept": "",
-      "process": "",
-      "outcomes": "",
-      "credits": [],
-      "blocks": [
-        {
-          "id": "reel-b1",
-          "type": "video",
-          "assetId": "ph-reel",
-          "autoplay": false
-        }
-      ],
-      "demo": true,
-      "createdAt": "2026-10-08T00:00:00.000Z",
-      "updatedAt": "2026-10-08T00:00:00.000Z"
+      "updatedAt": "2026-10-09T15:00:23.868Z"
     },
     {
       "id": "p-meli",
@@ -410,8 +1194,8 @@
       "featured": false,
       "featuredLayout": "fullbleed",
       "archiveShape": "landscape",
-      "published": true,
-      "order": 5,
+      "published": false,
+      "order": 13,
       "overview": "Demo copy — campaign work for Mercado Livre at Jotacom. Replace with the real case.",
       "challenge": "",
       "concept": "",
@@ -421,40 +1205,7 @@
       "blocks": [],
       "demo": true,
       "createdAt": "2026-10-08T00:00:00.000Z",
-      "updatedAt": "2026-10-08T00:00:00.000Z"
-    },
-    {
-      "id": "p-kfc",
-      "slug": "kfc",
-      "title": "KFC",
-      "subtitle": "Art Direction",
-      "client": "KFC",
-      "year": 2021,
-      "role": "Senior Art Director · The Heart",
-      "disciplines": [
-        "Art Direction",
-        "Campaign"
-      ],
-      "categoryIds": [
-        "c-direction"
-      ],
-      "accent": "#EF2917",
-      "coverId": "ph-kfc",
-      "featured": false,
-      "featuredLayout": "fullbleed",
-      "archiveShape": "type",
-      "published": true,
-      "order": 6,
-      "overview": "Demo copy — art direction for KFC at The Heart. Replace with the real case.",
-      "challenge": "",
-      "concept": "",
-      "process": "",
-      "outcomes": "",
-      "credits": [],
-      "blocks": [],
-      "demo": true,
-      "createdAt": "2026-10-08T00:00:00.000Z",
-      "updatedAt": "2026-10-08T00:00:00.000Z"
+      "updatedAt": "2026-10-09T15:00:23.868Z"
     },
     {
       "id": "p-duo",
@@ -477,8 +1228,8 @@
       "featured": false,
       "featuredLayout": "fullbleed",
       "archiveShape": "square",
-      "published": true,
-      "order": 7,
+      "published": false,
+      "order": 14,
       "overview": "Demo copy — campaign work for Duolingo at Jotacom. Replace with the real case.",
       "challenge": "",
       "concept": "",
@@ -488,10 +1239,1365 @@
       "blocks": [],
       "demo": true,
       "createdAt": "2026-10-08T00:00:00.000Z",
-      "updatedAt": "2026-10-08T00:00:00.000Z"
+      "updatedAt": "2026-10-09T15:00:23.868Z"
     }
   ],
   "media": [
+    {
+      "id": "m-bh-nazca-01",
+      "kind": "image",
+      "src": "/media/bh-nazca-01.webp",
+      "alt": "Nazca — Experimente Sentir, frame 1",
+      "width": 1400,
+      "height": 656,
+      "mime": "image/webp",
+      "size": 188962,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-nazca-02",
+      "kind": "image",
+      "src": "/media/bh-nazca-02.webp",
+      "alt": "Nazca — Experimente Sentir, frame 2",
+      "width": 1400,
+      "height": 656,
+      "mime": "image/webp",
+      "size": 174412,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-nazca-03",
+      "kind": "image",
+      "src": "/media/bh-nazca-03.webp",
+      "alt": "Nazca — Experimente Sentir, frame 3",
+      "width": 1400,
+      "height": 656,
+      "mime": "image/webp",
+      "size": 178006,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-nazca-04",
+      "kind": "image",
+      "src": "/media/bh-nazca-04.webp",
+      "alt": "Nazca — Experimente Sentir, frame 4",
+      "width": 1400,
+      "height": 656,
+      "mime": "image/webp",
+      "size": 184870,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-nazca-05",
+      "kind": "image",
+      "src": "/media/bh-nazca-05.webp",
+      "alt": "Nazca — Experimente Sentir, frame 5",
+      "width": 1400,
+      "height": 656,
+      "mime": "image/webp",
+      "size": 290492,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-nazca-06",
+      "kind": "image",
+      "src": "/media/bh-nazca-06.webp",
+      "alt": "Nazca — Experimente Sentir, frame 6",
+      "width": 1400,
+      "height": 656,
+      "mime": "image/webp",
+      "size": 385190,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-nazca-07",
+      "kind": "image",
+      "src": "/media/bh-nazca-07.webp",
+      "alt": "Nazca — Experimente Sentir, frame 7",
+      "width": 1400,
+      "height": 656,
+      "mime": "image/webp",
+      "size": 145718,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-nazca-08",
+      "kind": "image",
+      "src": "/media/bh-nazca-08.webp",
+      "alt": "Nazca — Experimente Sentir, frame 8",
+      "width": 1400,
+      "height": 656,
+      "mime": "image/webp",
+      "size": 152722,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-diniz-01",
+      "kind": "image",
+      "src": "/media/bh-diniz-01.webp",
+      "alt": "Óticas Diniz — national campaign, frame 1",
+      "width": 1400,
+      "height": 788,
+      "mime": "image/webp",
+      "size": 124358,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-diniz-02",
+      "kind": "image",
+      "src": "/media/bh-diniz-02.webp",
+      "alt": "Óticas Diniz — national campaign, frame 2",
+      "width": 1400,
+      "height": 788,
+      "mime": "image/webp",
+      "size": 160854,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-diniz-03",
+      "kind": "image",
+      "src": "/media/bh-diniz-03.webp",
+      "alt": "Óticas Diniz — national campaign, frame 3",
+      "width": 1400,
+      "height": 788,
+      "mime": "image/webp",
+      "size": 217554,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-diniz-04",
+      "kind": "image",
+      "src": "/media/bh-diniz-04.webp",
+      "alt": "Óticas Diniz — national campaign, frame 4",
+      "width": 1400,
+      "height": 788,
+      "mime": "image/webp",
+      "size": 268608,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-diniz-05",
+      "kind": "image",
+      "src": "/media/bh-diniz-05.webp",
+      "alt": "Óticas Diniz — national campaign, frame 5",
+      "width": 1400,
+      "height": 788,
+      "mime": "image/webp",
+      "size": 123402,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-diniz-06",
+      "kind": "image",
+      "src": "/media/bh-diniz-06.webp",
+      "alt": "Óticas Diniz — national campaign, frame 6",
+      "width": 1400,
+      "height": 788,
+      "mime": "image/webp",
+      "size": 219402,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-diniz-07",
+      "kind": "image",
+      "src": "/media/bh-diniz-07.webp",
+      "alt": "Óticas Diniz — national campaign, frame 7",
+      "width": 1400,
+      "height": 788,
+      "mime": "image/webp",
+      "size": 113266,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-diniz-08",
+      "kind": "image",
+      "src": "/media/bh-diniz-08.webp",
+      "alt": "Óticas Diniz — national campaign, frame 8",
+      "width": 1400,
+      "height": 788,
+      "mime": "image/webp",
+      "size": 228974,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-diniz-09",
+      "kind": "image",
+      "src": "/media/bh-diniz-09.webp",
+      "alt": "Óticas Diniz — national campaign, frame 9",
+      "width": 1400,
+      "height": 788,
+      "mime": "image/webp",
+      "size": 144566,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-diniz-10",
+      "kind": "image",
+      "src": "/media/bh-diniz-10.webp",
+      "alt": "Óticas Diniz — national campaign, frame 10",
+      "width": 1400,
+      "height": 788,
+      "mime": "image/webp",
+      "size": 303492,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-vita-01",
+      "kind": "image",
+      "src": "/media/bh-vita-01.webp",
+      "alt": "Garrafa VITA — Zonacriativa, frame 1",
+      "width": 1400,
+      "height": 732,
+      "mime": "image/webp",
+      "size": 137230,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-vita-02",
+      "kind": "image",
+      "src": "/media/bh-vita-02.webp",
+      "alt": "Garrafa VITA — Zonacriativa, frame 2",
+      "width": 1400,
+      "height": 732,
+      "mime": "image/webp",
+      "size": 93378,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-vita-03",
+      "kind": "image",
+      "src": "/media/bh-vita-03.webp",
+      "alt": "Garrafa VITA — Zonacriativa, frame 3",
+      "width": 1400,
+      "height": 732,
+      "mime": "image/webp",
+      "size": 205922,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-vita-04",
+      "kind": "image",
+      "src": "/media/bh-vita-04.webp",
+      "alt": "Garrafa VITA — Zonacriativa, frame 4",
+      "width": 1400,
+      "height": 732,
+      "mime": "image/webp",
+      "size": 68604,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-vita-05",
+      "kind": "image",
+      "src": "/media/bh-vita-05.webp",
+      "alt": "Garrafa VITA — Zonacriativa, frame 5",
+      "width": 1400,
+      "height": 732,
+      "mime": "image/webp",
+      "size": 151796,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-vita-06",
+      "kind": "image",
+      "src": "/media/bh-vita-06.webp",
+      "alt": "Garrafa VITA — Zonacriativa, frame 6",
+      "width": 1400,
+      "height": 1408,
+      "mime": "image/webp",
+      "size": 433030,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-vita-07",
+      "kind": "image",
+      "src": "/media/bh-vita-07.webp",
+      "alt": "Garrafa VITA — Zonacriativa, frame 7",
+      "width": 1400,
+      "height": 732,
+      "mime": "image/webp",
+      "size": 203572,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-vita-08",
+      "kind": "image",
+      "src": "/media/bh-vita-08.webp",
+      "alt": "Garrafa VITA — Zonacriativa, frame 8",
+      "width": 1400,
+      "height": 732,
+      "mime": "image/webp",
+      "size": 101588,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-vita-09",
+      "kind": "image",
+      "src": "/media/bh-vita-09.webp",
+      "alt": "Garrafa VITA — Zonacriativa, frame 9",
+      "width": 1400,
+      "height": 732,
+      "mime": "image/webp",
+      "size": 227146,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-jandaia-01",
+      "kind": "image",
+      "src": "/media/bh-jandaia-01.webp",
+      "alt": "JandaIA — brand design, frame 1",
+      "width": 1400,
+      "height": 788,
+      "mime": "image/webp",
+      "size": 115648,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-jandaia-02",
+      "kind": "image",
+      "src": "/media/bh-jandaia-02.webp",
+      "alt": "JandaIA — brand design, frame 2",
+      "width": 1400,
+      "height": 788,
+      "mime": "image/webp",
+      "size": 8916,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-jandaia-03",
+      "kind": "image",
+      "src": "/media/bh-jandaia-03.webp",
+      "alt": "JandaIA — brand design, frame 3",
+      "width": 1400,
+      "height": 788,
+      "mime": "image/webp",
+      "size": 49768,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-jandaia-04",
+      "kind": "image",
+      "src": "/media/bh-jandaia-04.webp",
+      "alt": "JandaIA — brand design, frame 4",
+      "width": 1400,
+      "height": 788,
+      "mime": "image/webp",
+      "size": 21456,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-jandaia-05",
+      "kind": "image",
+      "src": "/media/bh-jandaia-05.webp",
+      "alt": "JandaIA — brand design, frame 5",
+      "width": 1400,
+      "height": 788,
+      "mime": "image/webp",
+      "size": 40764,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-jandaia-06",
+      "kind": "image",
+      "src": "/media/bh-jandaia-06.webp",
+      "alt": "JandaIA — brand design, frame 6",
+      "width": 1400,
+      "height": 788,
+      "mime": "image/webp",
+      "size": 42060,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-jandaia-07",
+      "kind": "image",
+      "src": "/media/bh-jandaia-07.webp",
+      "alt": "JandaIA — brand design, frame 7",
+      "width": 1400,
+      "height": 788,
+      "mime": "image/webp",
+      "size": 23514,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-jandaia-08",
+      "kind": "image",
+      "src": "/media/bh-jandaia-08.webp",
+      "alt": "JandaIA — brand design, frame 8",
+      "width": 1400,
+      "height": 788,
+      "mime": "image/webp",
+      "size": 8036,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-jandaia-09",
+      "kind": "image",
+      "src": "/media/bh-jandaia-09.webp",
+      "alt": "JandaIA — brand design, frame 9",
+      "width": 1400,
+      "height": 788,
+      "mime": "image/webp",
+      "size": 48530,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-jandaia-10",
+      "kind": "image",
+      "src": "/media/bh-jandaia-10.webp",
+      "alt": "JandaIA — brand design, frame 10",
+      "width": 1400,
+      "height": 788,
+      "mime": "image/webp",
+      "size": 81814,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-hn-01",
+      "kind": "image",
+      "src": "/media/bh-hn-01.webp",
+      "alt": "HN — brand design, frame 1",
+      "width": 1400,
+      "height": 788,
+      "mime": "image/webp",
+      "size": 37642,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-hn-02",
+      "kind": "image",
+      "src": "/media/bh-hn-02.webp",
+      "alt": "HN — brand design, frame 2",
+      "width": 1400,
+      "height": 788,
+      "mime": "image/webp",
+      "size": 9994,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-hn-03",
+      "kind": "image",
+      "src": "/media/bh-hn-03.webp",
+      "alt": "HN — brand design, frame 3",
+      "width": 1400,
+      "height": 788,
+      "mime": "image/webp",
+      "size": 16080,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-hn-04",
+      "kind": "image",
+      "src": "/media/bh-hn-04.webp",
+      "alt": "HN — brand design, frame 4",
+      "width": 1400,
+      "height": 788,
+      "mime": "image/webp",
+      "size": 42590,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-hn-05",
+      "kind": "image",
+      "src": "/media/bh-hn-05.webp",
+      "alt": "HN — brand design, frame 5",
+      "width": 1400,
+      "height": 788,
+      "mime": "image/webp",
+      "size": 31642,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-hn-06",
+      "kind": "image",
+      "src": "/media/bh-hn-06.webp",
+      "alt": "HN — brand design, frame 6",
+      "width": 1400,
+      "height": 788,
+      "mime": "image/webp",
+      "size": 92906,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-hn-07",
+      "kind": "image",
+      "src": "/media/bh-hn-07.webp",
+      "alt": "HN — brand design, frame 7",
+      "width": 1400,
+      "height": 788,
+      "mime": "image/webp",
+      "size": 74278,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-hn-08",
+      "kind": "image",
+      "src": "/media/bh-hn-08.webp",
+      "alt": "HN — brand design, frame 8",
+      "width": 1400,
+      "height": 788,
+      "mime": "image/webp",
+      "size": 47984,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-hn-09",
+      "kind": "image",
+      "src": "/media/bh-hn-09.webp",
+      "alt": "HN — brand design, frame 9",
+      "width": 1400,
+      "height": 788,
+      "mime": "image/webp",
+      "size": 63540,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-hn-10",
+      "kind": "image",
+      "src": "/media/bh-hn-10.webp",
+      "alt": "HN — brand design, frame 10",
+      "width": 1400,
+      "height": 788,
+      "mime": "image/webp",
+      "size": 155266,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-hallem-01",
+      "kind": "image",
+      "src": "/media/bh-hallem-01.webp",
+      "alt": "Hallem Advocacia — brand design, frame 1",
+      "width": 1400,
+      "height": 788,
+      "mime": "image/webp",
+      "size": 156664,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-hallem-02",
+      "kind": "image",
+      "src": "/media/bh-hallem-02.webp",
+      "alt": "Hallem Advocacia — brand design, frame 2",
+      "width": 1200,
+      "height": 675,
+      "mime": "image/webp",
+      "size": 11108,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-hallem-03",
+      "kind": "image",
+      "src": "/media/bh-hallem-03.webp",
+      "alt": "Hallem Advocacia — brand design, frame 3",
+      "width": 1200,
+      "height": 675,
+      "mime": "image/webp",
+      "size": 87194,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-hallem-04",
+      "kind": "image",
+      "src": "/media/bh-hallem-04.webp",
+      "alt": "Hallem Advocacia — brand design, frame 4",
+      "width": 1200,
+      "height": 675,
+      "mime": "image/webp",
+      "size": 11060,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-hallem-05",
+      "kind": "image",
+      "src": "/media/bh-hallem-05.webp",
+      "alt": "Hallem Advocacia — brand design, frame 5",
+      "width": 1200,
+      "height": 675,
+      "mime": "image/webp",
+      "size": 85196,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-hallem-06",
+      "kind": "image",
+      "src": "/media/bh-hallem-06.webp",
+      "alt": "Hallem Advocacia — brand design, frame 6",
+      "width": 1200,
+      "height": 675,
+      "mime": "image/webp",
+      "size": 40022,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-hallem-07",
+      "kind": "image",
+      "src": "/media/bh-hallem-07.webp",
+      "alt": "Hallem Advocacia — brand design, frame 7",
+      "width": 1200,
+      "height": 675,
+      "mime": "image/webp",
+      "size": 27490,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-hallem-08",
+      "kind": "image",
+      "src": "/media/bh-hallem-08.webp",
+      "alt": "Hallem Advocacia — brand design, frame 8",
+      "width": 1200,
+      "height": 675,
+      "mime": "image/webp",
+      "size": 25608,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-hallem-09",
+      "kind": "image",
+      "src": "/media/bh-hallem-09.webp",
+      "alt": "Hallem Advocacia — brand design, frame 9",
+      "width": 1200,
+      "height": 675,
+      "mime": "image/webp",
+      "size": 66784,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-hallem-10",
+      "kind": "image",
+      "src": "/media/bh-hallem-10.webp",
+      "alt": "Hallem Advocacia — brand design, frame 10",
+      "width": 1200,
+      "height": 675,
+      "mime": "image/webp",
+      "size": 48086,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-pod-01",
+      "kind": "image",
+      "src": "/media/bh-pod-01.webp",
+      "alt": "Pod do Varejo — brand design, frame 1",
+      "width": 1400,
+      "height": 788,
+      "mime": "image/webp",
+      "size": 85480,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-pod-02",
+      "kind": "image",
+      "src": "/media/bh-pod-02.webp",
+      "alt": "Pod do Varejo — brand design, frame 2",
+      "width": 1400,
+      "height": 788,
+      "mime": "image/webp",
+      "size": 60700,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-pod-03",
+      "kind": "image",
+      "src": "/media/bh-pod-03.webp",
+      "alt": "Pod do Varejo — brand design, frame 3",
+      "width": 1400,
+      "height": 788,
+      "mime": "image/webp",
+      "size": 74432,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-pod-04",
+      "kind": "image",
+      "src": "/media/bh-pod-04.webp",
+      "alt": "Pod do Varejo — brand design, frame 4",
+      "width": 1400,
+      "height": 788,
+      "mime": "image/webp",
+      "size": 61148,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-pod-05",
+      "kind": "image",
+      "src": "/media/bh-pod-05.webp",
+      "alt": "Pod do Varejo — brand design, frame 5",
+      "width": 1400,
+      "height": 788,
+      "mime": "image/webp",
+      "size": 54556,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-pod-06",
+      "kind": "image",
+      "src": "/media/bh-pod-06.webp",
+      "alt": "Pod do Varejo — brand design, frame 6",
+      "width": 1400,
+      "height": 788,
+      "mime": "image/webp",
+      "size": 27922,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-cis-01",
+      "kind": "image",
+      "src": "/media/bh-cis-01.webp",
+      "alt": "Desenrola com CiS — campaign, frame 1",
+      "width": 1400,
+      "height": 788,
+      "mime": "image/webp",
+      "size": 128708,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-cis-02",
+      "kind": "image",
+      "src": "/media/bh-cis-02.webp",
+      "alt": "Desenrola com CiS — campaign, frame 2",
+      "width": 1400,
+      "height": 788,
+      "mime": "image/webp",
+      "size": 256802,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-cis-03",
+      "kind": "image",
+      "src": "/media/bh-cis-03.webp",
+      "alt": "Desenrola com CiS — campaign, frame 3",
+      "width": 1400,
+      "height": 2100,
+      "mime": "image/webp",
+      "size": 137842,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-cis-04",
+      "kind": "image",
+      "src": "/media/bh-cis-04.webp",
+      "alt": "Desenrola com CiS — campaign, frame 4",
+      "width": 1400,
+      "height": 2100,
+      "mime": "image/webp",
+      "size": 236712,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-cis-05",
+      "kind": "image",
+      "src": "/media/bh-cis-05.webp",
+      "alt": "Desenrola com CiS — campaign, frame 5",
+      "width": 1400,
+      "height": 2100,
+      "mime": "image/webp",
+      "size": 315012,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-cis-06",
+      "kind": "image",
+      "src": "/media/bh-cis-06.webp",
+      "alt": "Desenrola com CiS — campaign, frame 6",
+      "width": 1400,
+      "height": 2100,
+      "mime": "image/webp",
+      "size": 250852,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-cis-07",
+      "kind": "image",
+      "src": "/media/bh-cis-07.webp",
+      "alt": "Desenrola com CiS — campaign, frame 7",
+      "width": 1400,
+      "height": 2100,
+      "mime": "image/webp",
+      "size": 106336,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-cis-08",
+      "kind": "image",
+      "src": "/media/bh-cis-08.webp",
+      "alt": "Desenrola com CiS — campaign, frame 8",
+      "width": 1400,
+      "height": 2100,
+      "mime": "image/webp",
+      "size": 360758,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-pentonic-01",
+      "kind": "image",
+      "src": "/media/bh-pentonic-01.webp",
+      "alt": "Pentonic — Seu Estilo em Ação, frame 1",
+      "width": 1400,
+      "height": 732,
+      "mime": "image/webp",
+      "size": 68068,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-pentonic-02",
+      "kind": "image",
+      "src": "/media/bh-pentonic-02.webp",
+      "alt": "Pentonic — Seu Estilo em Ação, frame 2",
+      "width": 1400,
+      "height": 732,
+      "mime": "image/webp",
+      "size": 45154,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-pentonic-03",
+      "kind": "image",
+      "src": "/media/bh-pentonic-03.webp",
+      "alt": "Pentonic — Seu Estilo em Ação, frame 3",
+      "width": 1400,
+      "height": 732,
+      "mime": "image/webp",
+      "size": 101190,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-pentonic-04",
+      "kind": "image",
+      "src": "/media/bh-pentonic-04.webp",
+      "alt": "Pentonic — Seu Estilo em Ação, frame 4",
+      "width": 1400,
+      "height": 732,
+      "mime": "image/webp",
+      "size": 124858,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-pentonic-05",
+      "kind": "image",
+      "src": "/media/bh-pentonic-05.webp",
+      "alt": "Pentonic — Seu Estilo em Ação, frame 5",
+      "width": 1400,
+      "height": 732,
+      "mime": "image/webp",
+      "size": 149212,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-pentonic-06",
+      "kind": "image",
+      "src": "/media/bh-pentonic-06.webp",
+      "alt": "Pentonic — Seu Estilo em Ação, frame 6",
+      "width": 1400,
+      "height": 732,
+      "mime": "image/webp",
+      "size": 134532,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-pentonic-07",
+      "kind": "image",
+      "src": "/media/bh-pentonic-07.webp",
+      "alt": "Pentonic — Seu Estilo em Ação, frame 7",
+      "width": 1400,
+      "height": 732,
+      "mime": "image/webp",
+      "size": 168014,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-pentonic-08",
+      "kind": "image",
+      "src": "/media/bh-pentonic-08.webp",
+      "alt": "Pentonic — Seu Estilo em Ação, frame 8",
+      "width": 1400,
+      "height": 732,
+      "mime": "image/webp",
+      "size": 73452,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-pentonic-09",
+      "kind": "image",
+      "src": "/media/bh-pentonic-09.webp",
+      "alt": "Pentonic — Seu Estilo em Ação, frame 9",
+      "width": 1400,
+      "height": 732,
+      "mime": "image/webp",
+      "size": 220008,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-pentonic-10",
+      "kind": "image",
+      "src": "/media/bh-pentonic-10.webp",
+      "alt": "Pentonic — Seu Estilo em Ação, frame 10",
+      "width": 1400,
+      "height": 732,
+      "mime": "image/webp",
+      "size": 99214,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-exacta-01",
+      "kind": "image",
+      "src": "/media/bh-exacta-01.webp",
+      "alt": "Exacta Works — branding, frame 1",
+      "width": 1400,
+      "height": 1102,
+      "mime": "image/webp",
+      "size": 73076,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-exacta-02",
+      "kind": "image",
+      "src": "/media/bh-exacta-02.webp",
+      "alt": "Exacta Works — branding, frame 2",
+      "width": 1400,
+      "height": 735,
+      "mime": "image/webp",
+      "size": 100428,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-exacta-03",
+      "kind": "image",
+      "src": "/media/bh-exacta-03.webp",
+      "alt": "Exacta Works — branding, frame 3",
+      "width": 1400,
+      "height": 735,
+      "mime": "image/webp",
+      "size": 115710,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-exacta-04",
+      "kind": "image",
+      "src": "/media/bh-exacta-04.webp",
+      "alt": "Exacta Works — branding, frame 4",
+      "width": 1400,
+      "height": 735,
+      "mime": "image/webp",
+      "size": 102254,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-exacta-05",
+      "kind": "image",
+      "src": "/media/bh-exacta-05.webp",
+      "alt": "Exacta Works — branding, frame 5",
+      "width": 1400,
+      "height": 735,
+      "mime": "image/webp",
+      "size": 104718,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-exacta-06",
+      "kind": "image",
+      "src": "/media/bh-exacta-06.webp",
+      "alt": "Exacta Works — branding, frame 6",
+      "width": 1400,
+      "height": 735,
+      "mime": "image/webp",
+      "size": 118412,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-exacta-07",
+      "kind": "image",
+      "src": "/media/bh-exacta-07.webp",
+      "alt": "Exacta Works — branding, frame 7",
+      "width": 1400,
+      "height": 1470,
+      "mime": "image/webp",
+      "size": 191872,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-exacta-08",
+      "kind": "image",
+      "src": "/media/bh-exacta-08.webp",
+      "alt": "Exacta Works — branding, frame 8",
+      "width": 1400,
+      "height": 735,
+      "mime": "image/webp",
+      "size": 58900,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-exacta-09",
+      "kind": "image",
+      "src": "/media/bh-exacta-09.webp",
+      "alt": "Exacta Works — branding, frame 9",
+      "width": 1400,
+      "height": 735,
+      "mime": "image/webp",
+      "size": 80538,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-exacta-10",
+      "kind": "image",
+      "src": "/media/bh-exacta-10.webp",
+      "alt": "Exacta Works — branding, frame 10",
+      "width": 1400,
+      "height": 735,
+      "mime": "image/webp",
+      "size": 165950,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-kfc-01",
+      "kind": "image",
+      "src": "/media/bh-kfc-01.webp",
+      "alt": "KFC — art direction, frame 1",
+      "width": 1400,
+      "height": 2121,
+      "mime": "image/webp",
+      "size": 850290,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-kfc-02",
+      "kind": "image",
+      "src": "/media/bh-kfc-02.webp",
+      "alt": "KFC — art direction, frame 2",
+      "width": 1400,
+      "height": 2121,
+      "mime": "image/webp",
+      "size": 529312,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-kfc-03",
+      "kind": "image",
+      "src": "/media/bh-kfc-03.webp",
+      "alt": "KFC — art direction, frame 3",
+      "width": 1400,
+      "height": 788,
+      "mime": "image/webp",
+      "size": 240378,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-kfc-04",
+      "kind": "image",
+      "src": "/media/bh-kfc-04.webp",
+      "alt": "KFC — art direction, frame 4",
+      "width": 1080,
+      "height": 1920,
+      "mime": "image/webp",
+      "size": 430900,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-kfc-05",
+      "kind": "image",
+      "src": "/media/bh-kfc-05.webp",
+      "alt": "KFC — art direction, frame 5",
+      "width": 1080,
+      "height": 1920,
+      "mime": "image/webp",
+      "size": 459522,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-kfc-06",
+      "kind": "image",
+      "src": "/media/bh-kfc-06.webp",
+      "alt": "KFC — art direction, frame 6",
+      "width": 1080,
+      "height": 1920,
+      "mime": "image/webp",
+      "size": 426264,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-kfc-07",
+      "kind": "image",
+      "src": "/media/bh-kfc-07.webp",
+      "alt": "KFC — art direction, frame 7",
+      "width": 1400,
+      "height": 788,
+      "mime": "image/webp",
+      "size": 65068,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-kfc-08",
+      "kind": "image",
+      "src": "/media/bh-kfc-08.webp",
+      "alt": "KFC — art direction, frame 8",
+      "width": 1400,
+      "height": 1050,
+      "mime": "image/webp",
+      "size": 107616,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-kfc-09",
+      "kind": "image",
+      "src": "/media/bh-kfc-09.webp",
+      "alt": "KFC — art direction, frame 9",
+      "width": 1400,
+      "height": 1131,
+      "mime": "image/webp",
+      "size": 85636,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-bh-kfc-10",
+      "kind": "image",
+      "src": "/media/bh-kfc-10.webp",
+      "alt": "KFC — art direction, frame 10",
+      "width": 1400,
+      "height": 1050,
+      "mime": "image/webp",
+      "size": 77486,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-photo-retro-01",
+      "kind": "image",
+      "src": "/media/photo-retro-01.webp",
+      "alt": "Portrait session, Retro 2018 — frame 1",
+      "caption": "@olhosdefelipe — Retro, 2018",
+      "width": 1590,
+      "height": 2400,
+      "mime": "image/webp",
+      "size": 370498,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-photo-retro-02",
+      "kind": "image",
+      "src": "/media/photo-retro-02.webp",
+      "alt": "Portrait session, Retro 2018 — frame 2",
+      "caption": "@olhosdefelipe — Retro, 2018",
+      "width": 1590,
+      "height": 2400,
+      "mime": "image/webp",
+      "size": 108042,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-photo-retro-03",
+      "kind": "image",
+      "src": "/media/photo-retro-03.webp",
+      "alt": "Portrait session, Retro 2018 — frame 3",
+      "caption": "@olhosdefelipe — Retro, 2018",
+      "width": 1590,
+      "height": 2400,
+      "mime": "image/webp",
+      "size": 98136,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-photo-retro-04",
+      "kind": "image",
+      "src": "/media/photo-retro-04.webp",
+      "alt": "Portrait session, Retro 2018 — frame 4",
+      "caption": "@olhosdefelipe — Retro, 2018",
+      "width": 1587,
+      "height": 2400,
+      "mime": "image/webp",
+      "size": 281880,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-photo-retro-05",
+      "kind": "image",
+      "src": "/media/photo-retro-05.webp",
+      "alt": "Portrait session, Retro 2018 — frame 5",
+      "caption": "@olhosdefelipe — Retro, 2018",
+      "width": 1590,
+      "height": 2400,
+      "mime": "image/webp",
+      "size": 369992,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-photo-retro-06",
+      "kind": "image",
+      "src": "/media/photo-retro-06.webp",
+      "alt": "Portrait session, Retro 2018 — frame 6",
+      "caption": "@olhosdefelipe — Retro, 2018",
+      "width": 1589,
+      "height": 2400,
+      "mime": "image/webp",
+      "size": 207712,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-photo-retro-07",
+      "kind": "image",
+      "src": "/media/photo-retro-07.webp",
+      "alt": "Portrait session, Retro 2018 — frame 7",
+      "caption": "@olhosdefelipe — Retro, 2018",
+      "width": 1590,
+      "height": 2400,
+      "mime": "image/webp",
+      "size": 166842,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-photo-retro-08",
+      "kind": "image",
+      "src": "/media/photo-retro-08.webp",
+      "alt": "Portrait session, Retro 2018 — frame 8",
+      "caption": "@olhosdefelipe — Retro, 2018",
+      "width": 1590,
+      "height": 2400,
+      "mime": "image/webp",
+      "size": 115698,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-photo-retro-09",
+      "kind": "image",
+      "src": "/media/photo-retro-09.webp",
+      "alt": "Portrait session, Retro 2018 — frame 9",
+      "caption": "@olhosdefelipe — Retro, 2018",
+      "width": 1590,
+      "height": 2400,
+      "mime": "image/webp",
+      "size": 221890,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-photo-retro-10",
+      "kind": "image",
+      "src": "/media/photo-retro-10.webp",
+      "alt": "Portrait session, Retro 2018 — frame 10",
+      "caption": "@olhosdefelipe — Retro, 2018",
+      "width": 1590,
+      "height": 2400,
+      "mime": "image/webp",
+      "size": 78742,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
+    {
+      "id": "m-photo-retro-11",
+      "kind": "image",
+      "src": "/media/photo-retro-11.webp",
+      "alt": "Portrait session, Retro 2018 — frame 11",
+      "caption": "@olhosdefelipe — Retro, 2018",
+      "width": 1589,
+      "height": 2400,
+      "mime": "image/webp",
+      "size": 122618,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:00:23.868Z"
+    },
     {
       "id": "m-69a7b0b25b93",
       "kind": "video",
@@ -633,29 +2739,6 @@
       "width": 1600,
       "height": 1600,
       "mime": "image/jpeg",
-      "origin": "placeholder",
-      "createdAt": "2026-10-08T00:00:00.000Z"
-    },
-    {
-      "id": "ph-reel-poster",
-      "kind": "image",
-      "src": "/placeholders/reel-poster.jpg",
-      "alt": "Placeholder reel poster frame",
-      "width": 1280,
-      "height": 548,
-      "mime": "image/jpeg",
-      "origin": "placeholder",
-      "createdAt": "2026-10-08T00:00:00.000Z"
-    },
-    {
-      "id": "ph-reel",
-      "kind": "video",
-      "src": "/placeholders/reel.mp4",
-      "posterId": "ph-reel-poster",
-      "alt": "Placeholder reel — slow push-in on a desert sun",
-      "width": 1280,
-      "height": 548,
-      "mime": "video/mp4",
       "origin": "placeholder",
       "createdAt": "2026-10-08T00:00:00.000Z"
     }

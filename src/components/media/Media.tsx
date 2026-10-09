@@ -43,6 +43,9 @@ export function Media({ asset, sizes, priority, className, imgClassName, emptyLa
   );
 }
 
+/** object-position for a project's cover focus */
+export const focusPosition = (focus?: "left" | "center" | "right") => (focus === "left" ? "0% 50%" : focus === "right" ? "100% 50%" : undefined);
+
 export function aspectOf(asset?: MediaAsset, fallback = 16 / 9) {
   return asset?.width && asset?.height ? asset.width / asset.height : fallback;
 }

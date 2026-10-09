@@ -30,10 +30,9 @@
       "subtitle": "Campaigns, brand systems and AI-driven production — directed from concept to craft.",
       "featuredOrder": [
         "p-nazca",
-        "p-diniz",
+        "p-vita",
         "p-jandaia",
-        "p-kfc",
-        "p-pentonic"
+        "p-diniz"
       ]
     },
     "archive": {
@@ -118,8 +117,7 @@
     },
     "photography": {
       "headline": [
-        "Through",
-        "the lens."
+        "Photography"
       ],
       "subtitle": "Portrait sessions shot as @olhosdefelipe — light, color and attitude, frame by frame.",
       "photoIds": [
@@ -253,95 +251,110 @@
       ],
       "demo": false,
       "createdAt": "2026-10-09T15:00:23.868Z",
-      "updatedAt": "2026-10-09T15:00:23.868Z",
+      "updatedAt": "2026-10-09T15:40:34.570Z",
       "id": "p-nazca",
       "slug": "nazca-experimente-sentir",
       "title": "Nazca",
       "year": 2026,
-      "coverId": "m-bh-nazca-01",
+      "coverId": "m-bh-cover-nazca",
       "coverVideoId": "m-69a7b0b25b93",
-      "order": 1
+      "order": 1,
+      "coverFocus": "center"
     },
     {
-      "subtitle": "AI-driven national campaign",
-      "client": "Óticas Diniz",
-      "role": "ACD (AI-Driven) · DDAO Creative Lab",
+      "subtitle": "Garrafa VITA",
+      "client": "Zonacriativa",
+      "role": "Head of Design · Agência Ecco",
       "disciplines": [
         "Campaign",
-        "Art Direction",
-        "Generative AI"
+        "Photography",
+        "Film"
       ],
       "categoryIds": [
         "c-direction",
-        "c-ai"
+        "c-motion"
       ],
-      "accent": "#EF2917",
+      "accent": "#138FE0",
       "featured": true,
       "featuredLayout": "split",
       "archiveShape": "poster",
       "published": true,
-      "overview": "National campaign for Óticas Diniz — “Qualidade que o Brasil ama” (quality Brazil loves) — produced at DDAO Creative Lab with a hybrid AI + design workflow.",
-      "challenge": "",
-      "concept": "Casting, scenes and light generated and art-directed to read as one photographic campaign: warm city light, real-feeling faces and a bold red retail system for promos like the anniversary sale.",
-      "process": "Generative imagery (Midjourney, Visual Electric, Adobe Firefly) directed against explicit quality criteria to avoid generic outputs and keep the art-direction intent, then finished in Adobe Creative Cloud.",
+      "overview": "",
+      "challenge": "Zonacriativa came to us to make the VITA bottle stand out in a market saturated with similar products — a campaign that would not only grab attention but communicate what makes the product innovative and different.",
+      "concept": "A complete digital campaign: influencer management, an exclusive shoot, a high-impact landing page, strategic social posts and a press kit — one integrated approach to communicate the product's innovation.",
+      "process": "",
       "outcomes": "",
       "credits": [
         {
-          "role": "Associate Creative Director",
+          "role": "Head of Design",
           "name": "Felipe Pidi"
         },
         {
-          "role": "Studio",
-          "name": "DDAO Creative Lab"
+          "role": "Agency",
+          "name": "Agência Ecco"
+        },
+        {
+          "role": "Team",
+          "name": "Marcus David · Marília Cerioni · Cesar Augusto · Luís Silva"
         }
       ],
       "blocks": [
         {
-          "id": "diniz-b7",
+          "id": "vita-b30",
           "type": "image",
-          "assetId": "m-bh-diniz-04"
+          "assetId": "m-bh-vita-01"
         },
         {
-          "id": "diniz-b8",
+          "id": "vita-b31",
+          "type": "embed",
+          "url": "https://vimeo.com/1008578451",
+          "caption": "Hero film"
+        },
+        {
+          "id": "vita-b32",
           "type": "grid2",
           "assetIds": [
-            "m-bh-diniz-06",
-            "m-bh-diniz-08"
+            "m-bh-vita-03",
+            "m-bh-vita-04"
           ]
         },
         {
-          "id": "diniz-b9",
-          "type": "image",
-          "assetId": "m-bh-diniz-03"
+          "id": "vita-b33",
+          "type": "imageText",
+          "assetId": "m-bh-vita-06",
+          "heading": "Cold 24h, hot 12h",
+          "text": "A product promise turned into a bold, color-blocked visual language for social, landing page and press kit.",
+          "side": "left"
         },
         {
-          "id": "diniz-b10",
+          "id": "vita-b34",
+          "type": "image",
+          "assetId": "m-bh-vita-07"
+        },
+        {
+          "id": "vita-b35",
           "type": "grid2",
           "assetIds": [
-            "m-bh-diniz-10",
-            "m-bh-diniz-01"
+            "m-bh-vita-05",
+            "m-bh-vita-09"
           ]
         },
         {
-          "id": "diniz-b11",
-          "type": "gallery",
-          "assetIds": [
-            "m-bh-diniz-02",
-            "m-bh-diniz-05",
-            "m-bh-diniz-07",
-            "m-bh-diniz-09"
-          ]
+          "id": "vita-b36",
+          "type": "image",
+          "assetId": "m-bh-vita-08"
         }
       ],
       "demo": false,
       "createdAt": "2026-10-09T15:00:23.868Z",
-      "updatedAt": "2026-10-09T15:00:23.868Z",
-      "id": "p-diniz",
-      "slug": "oticas-diniz-national-campaign",
-      "title": "Óticas Diniz",
-      "year": 2025,
-      "coverId": "m-bh-diniz-05",
-      "order": 2
+      "updatedAt": "2026-10-09T15:40:34.570Z",
+      "id": "p-vita",
+      "slug": "zonacriativa-garrafa-vita",
+      "title": "Zona Criativa",
+      "year": 2024,
+      "coverId": "m-bh-cover-vita",
+      "order": 2,
+      "coverFocus": "left"
     },
     {
       "subtitle": "App brand design",
@@ -424,13 +437,96 @@
       ],
       "demo": false,
       "createdAt": "2026-10-09T15:00:23.868Z",
-      "updatedAt": "2026-10-09T15:00:23.868Z",
+      "updatedAt": "2026-10-09T15:40:34.570Z",
       "id": "p-jandaia",
       "slug": "jandaia-app-brand-design",
       "title": "JandaIA",
       "year": 2024,
-      "coverId": "m-bh-jandaia-08",
-      "order": 3
+      "coverId": "m-bh-cover-jandaia",
+      "order": 3,
+      "coverFocus": "center"
+    },
+    {
+      "subtitle": "AI-driven national campaign",
+      "client": "Óticas Diniz",
+      "role": "ACD (AI-Driven) · DDAO Creative Lab",
+      "disciplines": [
+        "Campaign",
+        "Art Direction",
+        "Generative AI"
+      ],
+      "categoryIds": [
+        "c-direction",
+        "c-ai"
+      ],
+      "accent": "#EF2917",
+      "featured": true,
+      "featuredLayout": "split",
+      "archiveShape": "landscape",
+      "published": true,
+      "overview": "National campaign for Óticas Diniz — “Qualidade que o Brasil ama” (quality Brazil loves) — produced at DDAO Creative Lab with a hybrid AI + design workflow.",
+      "challenge": "",
+      "concept": "Casting, scenes and light generated and art-directed to read as one photographic campaign: warm city light, real-feeling faces and a bold red retail system for promos like the anniversary sale.",
+      "process": "Generative imagery (Midjourney, Visual Electric, Adobe Firefly) directed against explicit quality criteria to avoid generic outputs and keep the art-direction intent, then finished in Adobe Creative Cloud.",
+      "outcomes": "",
+      "credits": [
+        {
+          "role": "Associate Creative Director",
+          "name": "Felipe Pidi"
+        },
+        {
+          "role": "Studio",
+          "name": "DDAO Creative Lab"
+        }
+      ],
+      "blocks": [
+        {
+          "id": "diniz-b7",
+          "type": "image",
+          "assetId": "m-bh-diniz-04"
+        },
+        {
+          "id": "diniz-b8",
+          "type": "grid2",
+          "assetIds": [
+            "m-bh-diniz-06",
+            "m-bh-diniz-08"
+          ]
+        },
+        {
+          "id": "diniz-b9",
+          "type": "image",
+          "assetId": "m-bh-diniz-03"
+        },
+        {
+          "id": "diniz-b10",
+          "type": "grid2",
+          "assetIds": [
+            "m-bh-diniz-10",
+            "m-bh-diniz-01"
+          ]
+        },
+        {
+          "id": "diniz-b11",
+          "type": "gallery",
+          "assetIds": [
+            "m-bh-diniz-02",
+            "m-bh-diniz-05",
+            "m-bh-diniz-07",
+            "m-bh-diniz-09"
+          ]
+        }
+      ],
+      "demo": false,
+      "createdAt": "2026-10-09T15:00:23.868Z",
+      "updatedAt": "2026-10-09T15:40:34.570Z",
+      "id": "p-diniz",
+      "slug": "oticas-diniz-national-campaign",
+      "title": "Óticas Diniz",
+      "year": 2025,
+      "coverId": "m-bh-cover-diniz",
+      "order": 4,
+      "coverFocus": "center"
     },
     {
       "subtitle": "Seu Estilo em Ação",
@@ -446,7 +542,7 @@
         "c-motion"
       ],
       "accent": "#138FE0",
-      "featured": true,
+      "featured": false,
       "featuredLayout": "split",
       "archiveShape": "landscape",
       "published": true,
@@ -515,13 +611,14 @@
       ],
       "demo": false,
       "createdAt": "2026-10-09T15:00:23.868Z",
-      "updatedAt": "2026-10-09T15:00:23.868Z",
+      "updatedAt": "2026-10-09T15:40:34.570Z",
       "id": "p-pentonic",
       "slug": "pentonic-seu-estilo-em-acao",
       "title": "Pentonic",
       "year": 2024,
-      "coverId": "m-bh-pentonic-05",
-      "order": 4
+      "coverId": "m-bh-cover-pentonic",
+      "order": 5,
+      "coverFocus": "left"
     },
     {
       "subtitle": "Art direction",
@@ -536,7 +633,7 @@
         "c-direction"
       ],
       "accent": "#EF2917",
-      "featured": true,
+      "featured": false,
       "featuredLayout": "sequence",
       "archiveShape": "type",
       "published": true,
@@ -595,107 +692,14 @@
       ],
       "demo": false,
       "createdAt": "2026-10-09T15:00:23.868Z",
-      "updatedAt": "2026-10-09T15:00:23.868Z",
+      "updatedAt": "2026-10-09T15:40:34.570Z",
       "id": "p-kfc",
       "slug": "kfc",
       "title": "KFC",
       "year": 2021,
-      "coverId": "m-bh-kfc-03",
-      "order": 5
-    },
-    {
-      "subtitle": "Abra, beba, VITA, repita",
-      "client": "Zonacriativa",
-      "role": "Head of Design · Agência Ecco",
-      "disciplines": [
-        "Campaign",
-        "Photography",
-        "Film"
-      ],
-      "categoryIds": [
-        "c-direction",
-        "c-motion"
-      ],
-      "accent": "#138FE0",
-      "featured": false,
-      "featuredLayout": "fullbleed",
-      "archiveShape": "landscape",
-      "published": true,
-      "overview": "",
-      "challenge": "Zonacriativa came to us to make the VITA bottle stand out in a market saturated with similar products — a campaign that would not only grab attention but communicate what makes the product innovative and different.",
-      "concept": "A complete digital campaign: influencer management, an exclusive shoot, a high-impact landing page, strategic social posts and a press kit — one integrated approach to communicate the product's innovation.",
-      "process": "",
-      "outcomes": "",
-      "credits": [
-        {
-          "role": "Head of Design",
-          "name": "Felipe Pidi"
-        },
-        {
-          "role": "Agency",
-          "name": "Agência Ecco"
-        },
-        {
-          "role": "Team",
-          "name": "Marcus David · Marília Cerioni · Cesar Augusto · Luís Silva"
-        }
-      ],
-      "blocks": [
-        {
-          "id": "vita-b30",
-          "type": "image",
-          "assetId": "m-bh-vita-01"
-        },
-        {
-          "id": "vita-b31",
-          "type": "embed",
-          "url": "https://vimeo.com/1008578451",
-          "caption": "Hero film"
-        },
-        {
-          "id": "vita-b32",
-          "type": "grid2",
-          "assetIds": [
-            "m-bh-vita-03",
-            "m-bh-vita-04"
-          ]
-        },
-        {
-          "id": "vita-b33",
-          "type": "imageText",
-          "assetId": "m-bh-vita-06",
-          "heading": "Cold 24h, hot 12h",
-          "text": "A product promise turned into a bold, color-blocked visual language for social, landing page and press kit.",
-          "side": "left"
-        },
-        {
-          "id": "vita-b34",
-          "type": "image",
-          "assetId": "m-bh-vita-07"
-        },
-        {
-          "id": "vita-b35",
-          "type": "grid2",
-          "assetIds": [
-            "m-bh-vita-05",
-            "m-bh-vita-09"
-          ]
-        },
-        {
-          "id": "vita-b36",
-          "type": "image",
-          "assetId": "m-bh-vita-08"
-        }
-      ],
-      "demo": false,
-      "createdAt": "2026-10-09T15:00:23.868Z",
-      "updatedAt": "2026-10-09T15:00:23.868Z",
-      "id": "p-vita",
-      "slug": "zonacriativa-garrafa-vita",
-      "title": "Garrafa VITA",
-      "year": 2024,
-      "coverId": "m-bh-vita-02",
-      "order": 6
+      "coverId": "m-bh-cover-kfc",
+      "order": 6,
+      "coverFocus": "center"
     },
     {
       "subtitle": "Podcast brand design",
@@ -762,13 +766,14 @@
       ],
       "demo": false,
       "createdAt": "2026-10-09T15:00:23.868Z",
-      "updatedAt": "2026-10-09T15:00:23.868Z",
+      "updatedAt": "2026-10-09T15:40:34.570Z",
       "id": "p-pod",
       "slug": "pod-do-varejo-brand-design",
       "title": "Pod do Varejo",
       "year": 2024,
-      "coverId": "m-bh-pod-01",
-      "order": 7
+      "coverId": "m-bh-cover-pod",
+      "order": 7,
+      "coverFocus": "center"
     },
     {
       "subtitle": "Brand design",
@@ -850,13 +855,14 @@
       ],
       "demo": false,
       "createdAt": "2026-10-09T15:00:23.868Z",
-      "updatedAt": "2026-10-09T15:00:23.868Z",
+      "updatedAt": "2026-10-09T15:40:34.570Z",
       "id": "p-hn",
       "slug": "hn-brand-design",
       "title": "HN",
       "year": 2025,
-      "coverId": "m-bh-hn-01",
-      "order": 8
+      "coverId": "m-bh-cover-hn",
+      "order": 8,
+      "coverFocus": "center"
     },
     {
       "subtitle": "Law firm brand design",
@@ -932,13 +938,14 @@
       ],
       "demo": false,
       "createdAt": "2026-10-09T15:00:23.868Z",
-      "updatedAt": "2026-10-09T15:00:23.868Z",
+      "updatedAt": "2026-10-09T15:40:34.570Z",
       "id": "p-hallem",
       "slug": "hallem-advocacia-brand-design",
       "title": "Hallem",
       "year": 2025,
-      "coverId": "m-bh-hallem-01",
-      "order": 9
+      "coverId": "m-bh-cover-hallem",
+      "order": 9,
+      "coverFocus": "center"
     },
     {
       "subtitle": "Back-to-school campaign",
@@ -1022,13 +1029,14 @@
       ],
       "demo": false,
       "createdAt": "2026-10-09T15:00:23.868Z",
-      "updatedAt": "2026-10-09T15:00:23.868Z",
+      "updatedAt": "2026-10-09T15:40:34.570Z",
       "id": "p-cis",
       "slug": "desenrola-com-cis",
       "title": "Desenrola com CiS",
       "year": 2024,
-      "coverId": "m-bh-cis-01",
-      "order": 10
+      "coverId": "m-bh-cover-cis",
+      "order": 10,
+      "coverFocus": "left"
     },
     {
       "subtitle": "Powered by people",
@@ -1109,13 +1117,14 @@
       ],
       "demo": false,
       "createdAt": "2026-10-09T15:00:23.868Z",
-      "updatedAt": "2026-10-09T15:00:23.868Z",
+      "updatedAt": "2026-10-09T15:40:34.570Z",
       "id": "p-exacta",
       "slug": "exacta-works-branding",
       "title": "Exacta Works",
       "year": 2023,
-      "coverId": "m-bh-exacta-01",
-      "order": 11
+      "coverId": "m-bh-cover-exacta",
+      "order": 11,
+      "coverFocus": "center"
     },
     {
       "id": "p-styles",
@@ -1171,7 +1180,8 @@
       ],
       "demo": true,
       "createdAt": "2026-10-08T00:00:00.000Z",
-      "updatedAt": "2026-10-09T15:00:23.868Z"
+      "updatedAt": "2026-10-09T15:00:23.868Z",
+      "coverFocus": "center"
     },
     {
       "id": "p-meli",
@@ -1205,7 +1215,8 @@
       "blocks": [],
       "demo": true,
       "createdAt": "2026-10-08T00:00:00.000Z",
-      "updatedAt": "2026-10-09T15:00:23.868Z"
+      "updatedAt": "2026-10-09T15:00:23.868Z",
+      "coverFocus": "center"
     },
     {
       "id": "p-duo",
@@ -1239,10 +1250,143 @@
       "blocks": [],
       "demo": true,
       "createdAt": "2026-10-08T00:00:00.000Z",
-      "updatedAt": "2026-10-09T15:00:23.868Z"
+      "updatedAt": "2026-10-09T15:00:23.868Z",
+      "coverFocus": "center"
     }
   ],
   "media": [
+    {
+      "id": "m-bh-cover-nazca",
+      "kind": "image",
+      "src": "/media/bh-cover-nazca.webp",
+      "alt": "Nazca — project cover",
+      "width": 1400,
+      "height": 656,
+      "mime": "image/webp",
+      "size": 232042,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:40:34.570Z"
+    },
+    {
+      "id": "m-bh-cover-vita",
+      "kind": "image",
+      "src": "/media/bh-cover-vita.webp",
+      "alt": "Garrafa VITA — project cover",
+      "width": 1026,
+      "height": 732,
+      "mime": "image/webp",
+      "size": 170724,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:40:34.570Z"
+    },
+    {
+      "id": "m-bh-cover-jandaia",
+      "kind": "image",
+      "src": "/media/bh-cover-jandaia.webp",
+      "alt": "JandaIA — project cover",
+      "width": 810,
+      "height": 634,
+      "mime": "image/webp",
+      "size": 57822,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:40:34.570Z"
+    },
+    {
+      "id": "m-bh-cover-diniz",
+      "kind": "image",
+      "src": "/media/bh-cover-diniz.webp",
+      "alt": "Óticas Diniz — project cover",
+      "width": 2000,
+      "height": 1034,
+      "mime": "image/webp",
+      "size": 378650,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:40:34.570Z"
+    },
+    {
+      "id": "m-bh-cover-hn",
+      "kind": "image",
+      "src": "/media/bh-cover-hn.webp",
+      "alt": "HN — project cover",
+      "width": 1920,
+      "height": 1080,
+      "mime": "image/webp",
+      "size": 344864,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:40:34.570Z"
+    },
+    {
+      "id": "m-bh-cover-hallem",
+      "kind": "image",
+      "src": "/media/bh-cover-hallem.webp",
+      "alt": "Hallem — project cover",
+      "width": 1920,
+      "height": 1648,
+      "mime": "image/webp",
+      "size": 277236,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:40:34.570Z"
+    },
+    {
+      "id": "m-bh-cover-cis",
+      "kind": "image",
+      "src": "/media/bh-cover-cis.webp",
+      "alt": "Desenrola com CiS — project cover",
+      "width": 1378,
+      "height": 1080,
+      "mime": "image/webp",
+      "size": 196692,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:40:34.570Z"
+    },
+    {
+      "id": "m-bh-cover-pentonic",
+      "kind": "image",
+      "src": "/media/bh-cover-pentonic.webp",
+      "alt": "Pentonic — project cover",
+      "width": 1026,
+      "height": 732,
+      "mime": "image/webp",
+      "size": 111440,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:40:34.570Z"
+    },
+    {
+      "id": "m-bh-cover-exacta",
+      "kind": "image",
+      "src": "/media/bh-cover-exacta.webp",
+      "alt": "Exacta Works — project cover",
+      "width": 1024,
+      "height": 768,
+      "mime": "image/webp",
+      "size": 88126,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:40:34.570Z"
+    },
+    {
+      "id": "m-bh-cover-pod",
+      "kind": "image",
+      "src": "/media/bh-cover-pod.webp",
+      "alt": "Pod do Varejo — project cover",
+      "width": 810,
+      "height": 634,
+      "mime": "image/webp",
+      "size": 18866,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:40:34.570Z"
+    },
+    {
+      "id": "m-bh-cover-kfc",
+      "kind": "image",
+      "src": "/media/bh-cover-kfc.webp",
+      "alt": "KFC — project cover",
+      "width": 1920,
+      "height": 1080,
+      "mime": "image/webp",
+      "size": 221478,
+      "origin": "upload",
+      "createdAt": "2026-10-09T15:40:34.570Z"
+    },
     {
       "id": "m-bh-nazca-01",
       "kind": "image",

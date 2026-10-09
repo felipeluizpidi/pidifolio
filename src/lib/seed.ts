@@ -61,6 +61,7 @@ const base = (p: Partial<Project> & Pick<Project, "id" | "slug" | "title" | "yea
   disciplines: [],
   categoryIds: [],
   accent: "#EF2917",
+  coverFocus: "center",
   featured: false,
   featuredLayout: "fullbleed",
   archiveShape: "landscape",
@@ -237,7 +238,7 @@ export const seedContent: Content = {
     },
     archive: { headline: ["The", "Archive."], subtitle: "Different disciplines. One creative vision." },
     photography: {
-      headline: ["Through", "the lens."],
+      headline: ["Photography"],
       subtitle: "Portrait sessions shot as @olhosdefelipe — light, color and attitude, frame by frame.",
       photoIds: [],
     },

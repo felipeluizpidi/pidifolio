@@ -1,7 +1,7 @@
 import { readContent } from "./store";
 import type { Content, MediaAsset, Project, ResolvedProject } from "./types";
 
-export const pad = (n: number, len = 3) => String(n).padStart(len, "0");
+export const pad = (n: number, len = 2) => String(n).padStart(len, "0");
 
 export function mediaMap(content: Content) {
   return new Map(content.media.map((m) => [m.id, m]));

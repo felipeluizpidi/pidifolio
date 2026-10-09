@@ -5,7 +5,7 @@ import Link from "next/link";
 import { motion } from "motion/react";
 import clsx from "clsx";
 import type { MediaAsset, ResolvedProject, Settings } from "@/lib/types";
-import { Media } from "../media/Media";
+import { focusPosition, Media } from "../media/Media";
 import { AmbientVideo } from "../media/Video";
 import { ClipReveal, EASE, MaskLines, Reveal } from "./Motion";
 
@@ -26,7 +26,7 @@ function Cover({ p, media, hover, sizes, mode = "hover", priority }: P & { hover
   return (
     <>
       <motion.div className="absolute inset-0" animate={{ scale: hover ? 1.04 : 1 }} transition={{ duration: 1.2, ease: EASE }}>
-        <Media asset={p.cover} sizes={sizes} priority={priority} emptyLabel="Cover image" />
+        <Media asset={p.cover} sizes={sizes} priority={priority} emptyLabel="Cover image" position={focusPosition(p.coverFocus)} />
         {p.coverVideo?.kind === "video" && <AmbientVideo src={p.coverVideo.src} poster={poster} active={hover} mode={mode} />}
       </motion.div>
     </>
@@ -103,7 +103,7 @@ function Split({ p, media, i }: P) {
           <span className="t-meta text-right">{p.client}</span>
         </div>
         <div>
-          <span className="t-display block text-[clamp(94px,15.3vw,255px)] leading-[0.8] opacity-90">{p.number.slice(1)}</span>
+          <span className="t-display block text-[clamp(94px,15.3vw,255px)] leading-[0.8] opacity-90">{p.number}</span>
           <h3 className="t-display mt-10 text-[clamp(48px,6.4vw,119px)]">
             <MaskLines lines={p.title.split(" ")} />
           </h3>
@@ -258,7 +258,8 @@ export function SelectedWork({ s, projects, media }: { s: Settings; projects: Re
             const L = { fullbleed: FullBleed, split: Split, poster: Poster, sequence: Sequence }[p.featuredLayout];
             return (
               <li key={p.id}>
-                <L p={p} media={media} i={i} />
+                {/* Featured reels are numbered on their own: 01, 02, 03… */}
+                <L p={{ ...p, number: String(i + 1).padStart(2, "0") }} media={media} i={i} />
               </li>
             );
           })}

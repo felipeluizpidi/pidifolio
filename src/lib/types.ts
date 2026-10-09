@@ -77,6 +77,8 @@ export const projectSchema = z.object({
   accent: z.string().regex(/^#[0-9a-fA-F]{6}$/).default("#EF2917"),
   coverId: z.string().optional(),
   coverVideoId: z.string().optional(),
+  /** Which side of the cover survives when a layout crops it */
+  coverFocus: z.enum(["left", "center", "right"]).default("center"),
   featured: z.boolean().default(false),
   featuredLayout: featuredLayout.default("fullbleed"),
   archiveShape: archiveShape.default("landscape"),
@@ -125,10 +127,10 @@ export const settingsSchema = z.object({
   }),
   selectedWork: z.object({ headline: z.array(z.string()), subtitle: z.string(), featuredOrder: z.array(z.string()) }),
   archive: z.object({ headline: z.array(z.string()), subtitle: z.string() }),
-  /** Single photography section inside the Archive; photos are picked in /admin → Settings. */
+  /** Photography card + filter in the Archive (opens a lightbox); photos are picked in /admin → Settings. */
   photography: z
     .object({ headline: z.array(z.string()), subtitle: z.string(), photoIds: z.array(z.string()) })
-    .default({ headline: ["Photo", "graphy."], subtitle: "", photoIds: [] }),
+    .default({ headline: ["Photography"], subtitle: "", photoIds: [] }),
   about: z.object({
     headline: z.array(z.string()),
     portraitId: z.string().optional(),

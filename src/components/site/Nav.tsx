@@ -11,7 +11,6 @@ export const SECTIONS = [
   { id: "home", label: "Home" },
   { id: "work", label: "Selected Work" },
   { id: "archive", label: "Archive" },
-  { id: "photography", label: "Photography" },
   { id: "about", label: "About" },
   { id: "contact", label: "Contact" },
 ] as const;
