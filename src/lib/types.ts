@@ -57,8 +57,11 @@ export const archiveShape = z.enum(["poster", "landscape", "square", "type"]);
 
 export const creditSchema = z.object({ role: z.string(), name: z.string() });
 
-/** The site's fixed palette — case accents never introduce new colors. */
-export const ACCENT_PALETTE = ["#EF2917", "#FF6030", "#138FE0", "#A8F5E5", "#F4E9D6", "#0B0B0B"];
+/**
+ * The site's fixed palette (red, orange, ivory on ink) — case accents never introduce new colors.
+ * Ink is the page background, so it can't be an accent; blue/mint tokens are not part of the visual palette.
+ */
+export const ACCENT_PALETTE = ["#EF2917", "#FF6030", "#F4E9D6"];
 
 export const projectSchema = z.object({
   id: z.string(),

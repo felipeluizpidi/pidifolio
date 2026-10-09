@@ -274,7 +274,7 @@
         "c-direction",
         "c-motion"
       ],
-      "accent": "#138FE0",
+      "accent": "#EF2917",
       "featured": true,
       "featuredLayout": "split",
       "archiveShape": "poster",
@@ -369,7 +369,7 @@
         "c-branding",
         "c-ai"
       ],
-      "accent": "#A8F5E5",
+      "accent": "#F4E9D6",
       "featured": true,
       "featuredLayout": "poster",
       "archiveShape": "square",
@@ -541,7 +541,7 @@
         "c-direction",
         "c-motion"
       ],
-      "accent": "#138FE0",
+      "accent": "#FF6030",
       "featured": false,
       "featuredLayout": "split",
       "archiveShape": "landscape",
@@ -712,7 +712,7 @@
       "categoryIds": [
         "c-branding"
       ],
-      "accent": "#FF6030",
+      "accent": "#F4E9D6",
       "featured": false,
       "featuredLayout": "fullbleed",
       "archiveShape": "square",
@@ -787,7 +787,7 @@
       "categoryIds": [
         "c-branding"
       ],
-      "accent": "#A8F5E5",
+      "accent": "#EF2917",
       "featured": false,
       "featuredLayout": "fullbleed",
       "archiveShape": "square",
@@ -875,7 +875,7 @@
       "categoryIds": [
         "c-branding"
       ],
-      "accent": "#EF2917",
+      "accent": "#FF6030",
       "featured": false,
       "featuredLayout": "fullbleed",
       "archiveShape": "square",
@@ -1049,7 +1049,7 @@
       "categoryIds": [
         "c-branding"
       ],
-      "accent": "#138FE0",
+      "accent": "#F4E9D6",
       "featured": false,
       "featuredLayout": "fullbleed",
       "archiveShape": "square",
@@ -1143,7 +1143,7 @@
         "c-ai",
         "c-branding"
       ],
-      "accent": "#A8F5E5",
+      "accent": "#F4E9D6",
       "coverId": "ph-styles",
       "featured": false,
       "featuredLayout": "poster",
@@ -1199,7 +1199,7 @@
         "c-direction",
         "c-ai"
       ],
-      "accent": "#138FE0",
+      "accent": "#EF2917",
       "coverId": "ph-mercado",
       "featured": false,
       "featuredLayout": "fullbleed",
@@ -1234,7 +1234,7 @@
         "c-direction",
         "c-ai"
       ],
-      "accent": "#A8F5E5",
+      "accent": "#FF6030",
       "coverId": "ph-still-c",
       "featured": false,
       "featuredLayout": "fullbleed",

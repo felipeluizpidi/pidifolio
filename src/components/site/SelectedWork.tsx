@@ -59,15 +59,16 @@ function FullBleed({ p, media, i }: P) {
     >
       <ClipReveal className="relative aspect-[4/5] overflow-hidden sm:aspect-[16/10] lg:aspect-[21/9]">
         <Cover p={p} media={media} i={i} hover={hover} sizes="100vw" mode="visible" />
-        <div className="absolute inset-0 bg-[linear-gradient(to_top,rgba(11,11,11,.85),transparent_55%)]" />
-        <span className="t-display outline-type absolute left-[var(--gutter)] top-4 text-[clamp(61px,11.9vw,187px)] text-ivory/70">{p.number}</span>
+        <div className="absolute inset-0 bg-[linear-gradient(to_top,rgba(11,11,11,.88),rgba(11,11,11,.35)_55%,transparent_80%)]" />
         <div className="t-meta absolute right-[var(--gutter)] top-5 text-right">
           Project {p.number}
           <br />
           {p.client || p.title}
         </div>
         <div className="gutter absolute inset-x-0 bottom-0 pb-5 md:pb-8">
-          <h3 className="t-display text-[clamp(54px,12.8vw,221px)] text-ivory" style={{ letterSpacing: hover ? "0.005em" : "-0.012em", transition: "letter-spacing .8s cubic-bezier(.2,.7,.15,1)" }}>
+          {/* Number sits on the text block, same as the split / poster / sequence reels */}
+          <span className="t-display block text-[clamp(72px,11.5vw,190px)] leading-[0.8] text-ivory opacity-90">{p.number}</span>
+          <h3 className="t-display mt-6 text-[clamp(54px,12.8vw,221px)] text-ivory md:mt-8" style={{ letterSpacing: hover ? "0.005em" : "-0.012em", transition: "letter-spacing .8s cubic-bezier(.2,.7,.15,1)" }}>
             {p.title}
           </h3>
           <div className="mt-3.5 flex flex-wrap items-end justify-between gap-3.5 border-t border-ivory/30 pt-3.5">
