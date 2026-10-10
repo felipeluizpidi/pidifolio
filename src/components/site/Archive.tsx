@@ -17,6 +17,19 @@ const SORTS: { id: Sort; label: string }[] = [
   { id: "az", label: "A–Z" },
 ];
 
+/** Archive shows at most this many titles until "View more" is pressed. */
+const PREVIEW_COUNT = 6;
+
+/** First titles for the collapsed Archive, trimmed so the last desktop row has no gap
+ *  (landscape cards take 2 of 3 slots per row, the others 1). */
+function previewOf(list: ResolvedProject[]) {
+  if (list.length <= PREVIEW_COUNT) return list;
+  const out = list.slice(0, PREVIEW_COUNT);
+  const slots = (ps: ResolvedProject[]) => ps.reduce((n, p) => n + (p.archiveShape === "landscape" ? 2 : 1), 0);
+  while (out.length > 1 && slots(out) % 3 !== 0) out.pop();
+  return out;
+}
+
 const SHAPE = {
   poster: { span: "md:col-span-3 lg:col-span-4", ratio: "aspect-[4/5]" },
   landscape: { span: "md:col-span-6 lg:col-span-8", ratio: "aspect-[4/5] md:aspect-[16/10]" },
@@ -66,6 +79,7 @@ function Card({ p }: { p: ResolvedProject }) {
 export function Archive({ s, categories, projects }: { s: Settings; categories: Category[]; projects: ResolvedProject[] }) {
   const [filter, setFilter] = useState<string>("all");
   const [sort, setSort] = useState<Sort>("index");
+  const [expanded, setExpanded] = useState(false);
 
   const counts = useMemo(() => {
     const c: Record<string, number> = { all: projects.length };
@@ -81,6 +95,9 @@ export function Archive({ s, categories, projects }: { s: Settings; categories: 
     if (sort === "az") sorted.sort((a, b) => a.title.localeCompare(b.title));
     return sorted;
   }, [projects, filter, sort]);
+
+  const shown = expanded ? visible : previewOf(visible);
+  const hidden = visible.length - shown.length;
 
   const filters = [{ id: "all", label: "All" }, ...categories.map((c) => ({ id: c.id, label: c.filterLabel }))];
   const activeCat = categories.find((c) => c.id === filter);
@@ -125,7 +142,10 @@ export function Archive({ s, categories, projects }: { s: Settings; categories: 
                   key={f.id}
                   type="button"
                   aria-pressed={on}
-                  onClick={() => setFilter(f.id)}
+                  onClick={() => {
+                    setFilter(f.id);
+                    setExpanded(false);
+                  }}
                   className={clsx("t-meta flex h-10 shrink-0 items-center gap-1.5 px-3 transition-colors", on ? "bg-ink text-ivory" : "hover:bg-ink/10")}
                 >
                   {f.label}
@@ -152,7 +172,7 @@ export function Archive({ s, categories, projects }: { s: Settings; categories: 
 
         <motion.ul layout className="mt-7 grid grid-flow-row-dense grid-cols-1 gap-x-[var(--gutter)] gap-y-14 md:grid-cols-6 lg:grid-cols-12">
           <AnimatePresence mode="popLayout" initial={false}>
-            {visible.map((p) => (
+            {shown.map((p) => (
               <motion.li
                 layout
                 key={p.id}
@@ -167,6 +187,19 @@ export function Archive({ s, categories, projects }: { s: Settings; categories: 
             ))}
           </AnimatePresence>
         </motion.ul>
+
+        {hidden > 0 && (
+          <div className="mt-14 flex justify-center border-t border-ink pt-7">
+            <button
+              type="button"
+              aria-expanded={false}
+              onClick={() => setExpanded(true)}
+              className="t-meta flex h-12 items-center gap-2 border border-ink px-6 transition-colors hover:bg-ink hover:text-ivory"
+            >
+              View more <sup className="text-[9px] opacity-60">+{String(hidden).padStart(2, "0")}</sup>
+            </button>
+          </div>
+        )}
 
         {visible.length === 0 && (
           <div className="mt-7 flex flex-col items-start gap-5 border border-dashed border-ink/40 p-9 md:p-14">

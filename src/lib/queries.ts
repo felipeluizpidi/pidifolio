@@ -33,12 +33,14 @@ export async function getHomeData() {
     .filter((p): p is ResolvedProject => !!p && p.featured);
   // Featured projects not yet placed in the order list go last.
   for (const p of projects) if (p.featured && !ordered.includes(p)) ordered.push(p);
+  const featured = ordered.slice(0, 6);
   const m = mediaMap(content);
   return {
     settings: content.settings,
     categories: [...content.categories].sort((a, b) => a.order - b.order),
-    featured: ordered.slice(0, 6),
-    archive: projects,
+    featured,
+    // Projects already shown in Selected Work are left out of the Archive.
+    archive: projects.filter((p) => !featured.includes(p)),
     media: Object.fromEntries(m) as Record<string, MediaAsset>,
   };
 }
