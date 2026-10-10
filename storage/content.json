@@ -454,7 +454,7 @@
         "c-ai"
       ],
       "accent": "#EF2917",
-      "coverId": "m-bh-cover-diniz",
+      "coverId": "m-5a9befb00618",
       "coverFocus": "center",
       "featured": true,
       "featuredLayout": "split",
@@ -516,7 +516,7 @@
       ],
       "demo": false,
       "createdAt": "2026-10-09T15:00:23.868Z",
-      "updatedAt": "2026-10-09T15:40:34.570Z"
+      "updatedAt": "2026-10-10T21:23:39.388Z"
     },
     {
       "id": "p-pentonic",
@@ -2485,6 +2485,18 @@
     }
   ],
   "media": [
+    {
+      "id": "m-5a9befb00618",
+      "kind": "image",
+      "src": "/media/m-5a9befb00618.png",
+      "alt": "MODELO ESTILO 9K TRAT",
+      "width": 2765,
+      "height": 2458,
+      "mime": "image/png",
+      "size": 10485760,
+      "origin": "upload",
+      "createdAt": "2026-10-10T21:23:29.976Z"
+    },
     {
       "id": "m-c723599d0e33",
       "kind": "image",
