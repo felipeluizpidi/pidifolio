@@ -8,3 +8,6 @@ storage/messages.json
 storage/*.tmp
 next-env.d.ts
 *.tsbuildinfo
+
+# macOS
+.DS_Store
