@@ -56,13 +56,13 @@ export function Hero({ s, desktop, mobile }: { s: Settings; desktop?: MediaAsset
       </motion.div>
 
       {/* Top metadata */}
-      <div className="gutter absolute inset-x-0 top-[calc(var(--nav-h)+8px)] flex justify-between">
-        <motion.p className="t-meta" {...fade(1.0)}>
+      <div className="gutter absolute inset-x-0 top-[calc(var(--nav-h)+8px)] flex justify-between gap-4">
+        <motion.p className="t-meta max-w-[48%] md:max-w-none" {...fade(1.0)}>
           Frame 001 / Creative Direction
           <br />
           <span className="text-ivory/60">35mm / Digital / Art Direction</span>
         </motion.p>
-        <motion.ul className="t-meta text-right" {...fade(1.1)}>
+        <motion.ul className="t-meta max-w-[48%] text-right md:max-w-none" {...fade(1.1)}>
           {s.hero.meta.slice(0, 2).map((m) => (
             <li key={m}>{m}</li>
           ))}
@@ -72,10 +72,10 @@ export function Hero({ s, desktop, mobile }: { s: Settings; desktop?: MediaAsset
       {/* The name — poster-scale, cut by the frame */}
       <motion.h1
         style={{ y: typeY }}
-        className="pointer-events-none absolute inset-x-0 bottom-[212px] top-[calc(var(--nav-h)+64px)] text-red [--nm:min(34vw,23.8svh)] md:bottom-[74px] md:[--nm:min(23vw,35svh)]"
+        className="pointer-events-none absolute inset-x-0 bottom-[150px] top-[calc(var(--nav-h)+64px)] text-red [--nm:min(22vw,15svh)] md:bottom-[74px] md:[--nm:min(23vw,35svh)]"
       >
         <span className="sr-only">{s.name.full}</span>
-        <span aria-hidden className="t-display absolute bottom-[calc(var(--nm)*0.86)] left-[calc(var(--gutter)-0.04em)] text-[length:var(--nm)] md:bottom-auto md:top-0">
+        <span aria-hidden className="t-display absolute bottom-[calc(var(--nm)*1.02)] left-[calc(var(--gutter)-0.04em)] text-[length:var(--nm)] md:bottom-auto md:top-0">
           <MaskLines inView={false} lines={[first]} delay={0.45} />
         </span>
         <span aria-hidden className="t-display absolute bottom-0 left-[calc(var(--gutter)-0.04em)] text-[length:var(--nm)] md:left-auto md:right-[calc(var(--gutter)-0.02em)]">
