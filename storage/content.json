@@ -608,11 +608,6 @@
           "assetId": "m-bh-pentonic-09"
         },
         {
-          "id": "pentonic-b25",
-          "type": "image",
-          "assetId": "m-pentonic-shoot-01"
-        },
-        {
           "id": "pentonic-b26",
           "type": "grid2",
           "assetIds": [
@@ -656,7 +651,7 @@
       ],
       "demo": false,
       "createdAt": "2026-10-09T15:00:23.868Z",
-      "updatedAt": "2026-10-11T16:02:56.854Z"
+      "updatedAt": "2026-10-11T16:06:20.933Z"
     },
     {
       "id": "p-kfc",
