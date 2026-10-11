@@ -178,7 +178,9 @@
         "Photography"
       ],
       "categoryIds": [
-        "c-direction"
+        "c-direction",
+        "c-ai",
+        "c-branding"
       ],
       "accent": "#FF6030",
       "coverId": "m-bh-cover-nazca",
@@ -249,7 +251,7 @@
       ],
       "demo": false,
       "createdAt": "2026-10-09T15:00:23.868Z",
-      "updatedAt": "2026-10-09T15:40:34.570Z"
+      "updatedAt": "2026-10-10T21:25:16.379Z"
     },
     {
       "id": "p-vita",
@@ -575,6 +577,11 @@
           "caption": "Campaign case film"
         },
         {
+          "id": "pentonic-b24",
+          "type": "image",
+          "assetId": "m-bh-pentonic-10"
+        },
+        {
           "id": "pentonic-b20",
           "type": "grid2",
           "assetIds": [
@@ -591,8 +598,8 @@
           "id": "pentonic-b22",
           "type": "grid2",
           "assetIds": [
-            "m-bh-pentonic-07",
-            "m-bh-pentonic-08"
+            "m-bh-pentonic-08",
+            "m-bh-pentonic-07"
           ]
         },
         {
@@ -601,14 +608,55 @@
           "assetId": "m-bh-pentonic-09"
         },
         {
-          "id": "pentonic-b24",
+          "id": "pentonic-b25",
           "type": "image",
-          "assetId": "m-bh-pentonic-10"
+          "assetId": "m-pentonic-shoot-01"
+        },
+        {
+          "id": "pentonic-b26",
+          "type": "grid2",
+          "assetIds": [
+            "m-pentonic-shoot-02",
+            "m-pentonic-shoot-06"
+          ]
+        },
+        {
+          "id": "pentonic-b27",
+          "type": "grid3",
+          "assetIds": [
+            "m-pentonic-shoot-03",
+            "m-pentonic-shoot-04",
+            "m-pentonic-shoot-05"
+          ]
+        },
+        {
+          "id": "pentonic-b28",
+          "type": "grid3",
+          "assetIds": [
+            "m-pentonic-social-01",
+            "m-pentonic-social-02",
+            "m-pentonic-social-03"
+          ]
+        },
+        {
+          "id": "pentonic-b29",
+          "type": "grid3",
+          "assetIds": [
+            "m-pentonic-social-04",
+            "m-pentonic-social-05",
+            "m-pentonic-social-06"
+          ]
+        },
+        {
+          "id": "pentonic-b30",
+          "type": "image",
+          "assetId": "m-pentonic-crew-01",
+          "caption": "The crew"
         }
       ],
       "demo": false,
       "createdAt": "2026-10-09T15:00:23.868Z",
-      "updatedAt": "2026-10-09T15:40:34.570Z"
+      "updatedAt": "2026-10-11T16:02:56.854Z"
     },
     {
       "id": "p-kfc",
@@ -5447,6 +5495,149 @@
       "mime": "image/jpeg",
       "origin": "placeholder",
       "createdAt": "2026-10-08T00:00:00.000Z"
+    },
+    {
+      "id": "m-pentonic-shoot-01",
+      "kind": "image",
+      "src": "/media/pentonic-shoot-01.webp",
+      "alt": "Pentonic campaign — model in full orange look walking with tote bag",
+      "width": 720,
+      "height": 1080,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-11T16:02:56.854Z"
+    },
+    {
+      "id": "m-pentonic-shoot-02",
+      "kind": "image",
+      "src": "/media/pentonic-shoot-02.webp",
+      "alt": "Pentonic gel pen set, hands exchanging the product",
+      "width": 1400,
+      "height": 2100,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-11T16:02:56.854Z"
+    },
+    {
+      "id": "m-pentonic-shoot-03",
+      "kind": "image",
+      "src": "/media/pentonic-shoot-03.webp",
+      "alt": "Portrait — model holding three Pentonic Gel pens",
+      "width": 1400,
+      "height": 2100,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-11T16:02:56.854Z"
+    },
+    {
+      "id": "m-pentonic-shoot-04",
+      "kind": "image",
+      "src": "/media/pentonic-shoot-04.webp",
+      "alt": "Portrait — model with blue eye makeup holding a Pentonic pen",
+      "width": 1400,
+      "height": 2100,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-11T16:02:56.854Z"
+    },
+    {
+      "id": "m-pentonic-shoot-05",
+      "kind": "image",
+      "src": "/media/pentonic-shoot-05.webp",
+      "alt": "Portrait — model holding a Pentonic Gel pen to the face",
+      "width": 1400,
+      "height": 2100,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-11T16:02:56.854Z"
+    },
+    {
+      "id": "m-pentonic-shoot-06",
+      "kind": "image",
+      "src": "/media/pentonic-shoot-06.webp",
+      "alt": "Two models posing together with a fan of Pentonic pens",
+      "width": 1781,
+      "height": 2500,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-11T16:02:56.854Z"
+    },
+    {
+      "id": "m-pentonic-social-01",
+      "kind": "image",
+      "src": "/media/pentonic-social-01.webp",
+      "alt": "Social post — Pentonic cola em bastão (glue stick)",
+      "width": 1080,
+      "height": 1350,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-11T16:02:56.854Z"
+    },
+    {
+      "id": "m-pentonic-social-02",
+      "kind": "image",
+      "src": "/media/pentonic-social-02.webp",
+      "alt": "Social post — emoji-only engagement post",
+      "width": 1080,
+      "height": 1350,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-11T16:02:56.854Z"
+    },
+    {
+      "id": "m-pentonic-social-03",
+      "kind": "image",
+      "src": "/media/pentonic-social-03.webp",
+      "alt": "Social post — Elegância minimalista, energia poderosa",
+      "width": 1080,
+      "height": 1350,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-11T16:02:56.854Z"
+    },
+    {
+      "id": "m-pentonic-social-04",
+      "kind": "image",
+      "src": "/media/pentonic-social-04.webp",
+      "alt": "Social post — Escolha um produto Pentonic e passe para o lado (cover)",
+      "width": 1080,
+      "height": 1350,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-11T16:02:56.854Z"
+    },
+    {
+      "id": "m-pentonic-social-05",
+      "kind": "image",
+      "src": "/media/pentonic-social-05.webp",
+      "alt": "Social post — Pentonic RT 0.7mm Gel, blue background",
+      "width": 1080,
+      "height": 1350,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-11T16:02:56.854Z"
+    },
+    {
+      "id": "m-pentonic-social-06",
+      "kind": "image",
+      "src": "/media/pentonic-social-06.webp",
+      "alt": "Social post — full Pentonic product lineup flat lay",
+      "width": 1080,
+      "height": 1350,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-11T16:02:56.854Z"
+    },
+    {
+      "id": "m-pentonic-crew-01",
+      "kind": "image",
+      "src": "/media/pentonic-crew-01.webp",
+      "alt": "The Pentonic campaign crew",
+      "width": 1280,
+      "height": 853,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-11T16:02:56.854Z"
     }
   ]
 }

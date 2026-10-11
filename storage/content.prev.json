@@ -178,7 +178,9 @@
         "Photography"
       ],
       "categoryIds": [
-        "c-direction"
+        "c-direction",
+        "c-ai",
+        "c-branding"
       ],
       "accent": "#FF6030",
       "coverId": "m-bh-cover-nazca",
@@ -249,7 +251,7 @@
       ],
       "demo": false,
       "createdAt": "2026-10-09T15:00:23.868Z",
-      "updatedAt": "2026-10-09T15:40:34.570Z"
+      "updatedAt": "2026-10-10T21:25:16.379Z"
     },
     {
       "id": "p-vita",
@@ -454,7 +456,7 @@
         "c-ai"
       ],
       "accent": "#EF2917",
-      "coverId": "m-bh-cover-diniz",
+      "coverId": "m-5a9befb00618",
       "coverFocus": "center",
       "featured": true,
       "featuredLayout": "split",
@@ -516,7 +518,7 @@
       ],
       "demo": false,
       "createdAt": "2026-10-09T15:00:23.868Z",
-      "updatedAt": "2026-10-09T15:40:34.570Z"
+      "updatedAt": "2026-10-10T21:23:39.388Z"
     },
     {
       "id": "p-pentonic",
