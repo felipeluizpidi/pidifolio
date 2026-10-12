@@ -16,6 +16,7 @@ const RULES: Record<string, { ext: string; kind: MediaAsset["kind"]; max: number
   "image/png": { ext: "png", kind: "image", max: 20 * MB, magic: (b) => b.subarray(0, 8).equals(Buffer.from([0x89, 0x50, 0x4e, 0x47, 0x0d, 0x0a, 0x1a, 0x0a])) },
   "image/webp": { ext: "webp", kind: "image", max: 20 * MB, magic: (b) => b.toString("ascii", 0, 4) === "RIFF" && b.toString("ascii", 8, 12) === "WEBP" },
   "image/avif": { ext: "avif", kind: "image", max: 20 * MB, magic: (b) => b.toString("ascii", 4, 8) === "ftyp" && /avi[fs]/.test(b.toString("ascii", 8, 12)) },
+  "image/gif": { ext: "gif", kind: "image", max: 20 * MB, magic: (b) => b.toString("ascii", 0, 3) === "GIF" },
   "video/mp4": { ext: "mp4", kind: "video", max: 400 * MB, magic: (b) => b.toString("ascii", 4, 8) === "ftyp" },
   "video/webm": { ext: "webm", kind: "video", max: 400 * MB, magic: (b) => b.subarray(0, 4).equals(Buffer.from([0x1a, 0x45, 0xdf, 0xa3])) },
   "application/pdf": { ext: "pdf", kind: "file", max: 15 * MB, magic: (b) => b.toString("ascii", 0, 5) === "%PDF-" },
@@ -39,7 +40,7 @@ export async function POST(req: Request) {
 
   const type = (req.headers.get("content-type") ?? "").split(";")[0].trim().toLowerCase();
   const rule = RULES[type];
-  if (!rule) return err(415, "Unsupported file type. Use JPG, PNG, WebP, AVIF, MP4, WebM or PDF.");
+  if (!rule) return err(415, "Unsupported file type. Use JPG, PNG, WebP, AVIF, GIF, MP4, WebM or PDF.");
   const declared = Number(req.headers.get("content-length") ?? 0);
   if (declared > rule.max) return err(413, `File too large. Max ${rule.max / MB} MB for ${type}.`);
   if (!req.body) return err(400, "Empty upload");

@@ -271,11 +271,11 @@
         "c-motion"
       ],
       "accent": "#EF2917",
-      "coverId": "m-bd3aeeccb717",
+      "coverId": "m-91216d1deb1a",
       "coverFocus": "center",
       "featured": true,
       "featuredLayout": "split",
-      "archiveShape": "poster",
+      "archiveShape": "landscape",
       "published": true,
       "order": 2,
       "overview": "",
@@ -307,7 +307,7 @@
           "id": "vita-b31",
           "type": "video",
           "caption": "Hero film",
-          "assetId": "m-3f08d646e82c",
+          "assetId": "m-a9cec85482a0",
           "autoplay": false
         },
         {
@@ -343,11 +343,170 @@
           "id": "vita-b36",
           "type": "image",
           "assetId": "m-bh-vita-08"
+        },
+        {
+          "id": "vita-b40",
+          "type": "text",
+          "heading": "The film",
+          "body": "The full campaign brought together in one piece — from concept to final cut.",
+          "size": "xl"
+        },
+        {
+          "id": "vita-b41",
+          "type": "video",
+          "caption": "VITA Tumbler — Final presentation",
+          "assetId": "m-334d69501a73",
+          "autoplay": false
+        },
+        {
+          "id": "vita-b42",
+          "type": "text",
+          "heading": "Shooting",
+          "body": "A dedicated shoot exploring color, movement and the product in everyday life."
+        },
+        {
+          "id": "vita-b43",
+          "type": "image",
+          "assetId": "m-vita2-shoot-10"
+        },
+        {
+          "id": "vita-b44",
+          "type": "grid3",
+          "assetIds": [
+            "m-vita2-shoot-01",
+            "m-vita2-shoot-02",
+            "m-vita2-shoot-03"
+          ]
+        },
+        {
+          "id": "vita-b45",
+          "type": "grid2",
+          "assetIds": [
+            "m-vita2-shoot-04",
+            "m-vita2-shoot-05"
+          ]
+        },
+        {
+          "id": "vita-b46",
+          "type": "imageText",
+          "assetId": "m-vita2-shoot-06",
+          "heading": "Poolside",
+          "text": "Color-blocked styling that keeps the product the hero, even against a loud background.",
+          "side": "right"
+        },
+        {
+          "id": "vita-b47",
+          "type": "grid3",
+          "assetIds": [
+            "m-vita2-shoot-07",
+            "m-vita2-shoot-08",
+            "m-vita2-shoot-09"
+          ]
+        },
+        {
+          "id": "vita-b48",
+          "type": "grid3",
+          "assetIds": [
+            "m-vita2-shoot-11",
+            "m-vita2-shoot-12",
+            "m-vita2-shoot-13"
+          ]
+        },
+        {
+          "id": "vita-b49",
+          "type": "image",
+          "assetId": "m-vita2-shoot-gif-01",
+          "caption": "Product reveal, looping clip"
+        },
+        {
+          "id": "vita-b50",
+          "type": "text",
+          "heading": "Social",
+          "body": "Daily content for the brand's own channel — product drops, lifestyle loops and seasonal colorways."
+        },
+        {
+          "id": "vita-b51",
+          "type": "grid2",
+          "assetIds": [
+            "m-vita2-social-gif-01",
+            "m-vita2-social-gif-02"
+          ]
+        },
+        {
+          "id": "vita-b52",
+          "type": "imageText",
+          "assetId": "m-vita2-social-gif-03",
+          "heading": "24h cold, 12h hot",
+          "text": "The product promise distilled into a single looping shot for stories.",
+          "side": "left"
+        },
+        {
+          "id": "vita-b53",
+          "type": "grid3",
+          "assetIds": [
+            "m-vita2-social-elem-01",
+            "m-vita2-social-elem-02",
+            "m-vita2-social-elem-03"
+          ]
+        },
+        {
+          "id": "vita-b54",
+          "type": "grid3",
+          "assetIds": [
+            "m-vita2-social-elem-04",
+            "m-vita2-social-elem-05",
+            "m-vita2-social-elem-06"
+          ]
+        },
+        {
+          "id": "vita-b55",
+          "type": "text",
+          "heading": "Press kit",
+          "body": "Unboxing visuals and packaging details prepared for media and partners."
+        },
+        {
+          "id": "vita-b56",
+          "type": "grid3",
+          "assetIds": [
+            "m-vita2-presskit-01",
+            "m-vita2-presskit-02",
+            "m-vita2-presskit-03"
+          ]
+        },
+        {
+          "id": "vita-b57",
+          "type": "grid3",
+          "assetIds": [
+            "m-vita2-presskit-04",
+            "m-vita2-presskit-05",
+            "m-vita2-presskit-06"
+          ]
+        },
+        {
+          "id": "vita-b58",
+          "type": "image",
+          "assetId": "m-vita2-presskit-07"
+        },
+        {
+          "id": "vita-b59",
+          "type": "text",
+          "heading": "Backstage & crew",
+          "body": "On set with the team that made it happen."
+        },
+        {
+          "id": "vita-b60",
+          "type": "filmstrip",
+          "assetIds": [
+            "m-vita2-crew-gif-01",
+            "m-vita2-crew-gif-02",
+            "m-vita2-crew-gif-03",
+            "m-vita2-crew-gif-04"
+          ]
         }
       ],
       "demo": false,
       "createdAt": "2026-10-09T15:00:23.868Z",
-      "updatedAt": "2026-10-12T16:42:05.963Z"
+      "updatedAt": "2026-10-12T17:31:23.926Z"
     },
     {
       "id": "p-jandaia",
@@ -574,8 +733,8 @@
         {
           "id": "pentonic-b19",
           "type": "video",
-          "caption": "Campaign case film",
           "assetId": "m-d91eecf643b3",
+          "caption": "Campaign case film",
           "autoplay": false
         },
         {
@@ -1042,8 +1201,8 @@
         {
           "id": "cis-b54",
           "type": "video",
-          "caption": "Launch film — back to school 2024",
           "assetId": "m-40e62288e6ef",
+          "caption": "Launch film — back to school 2024",
           "autoplay": false
         },
         {
@@ -1210,15 +1369,15 @@
         {
           "id": "ecco-b1",
           "type": "video",
-          "caption": "Institutional film",
           "assetId": "m-ea9ce8b79bcc",
+          "caption": "Institutional film",
           "autoplay": false
         },
         {
           "id": "ecco-b2",
           "type": "video",
-          "caption": "Audiovisual",
           "assetId": "m-285ad2d1ed50",
+          "caption": "Audiovisual",
           "autoplay": false
         }
       ],
@@ -1348,8 +1507,8 @@
         {
           "id": "linx-b8",
           "type": "video",
-          "caption": "Tem Solução pra Tudo, Tem Linx pra Tudo",
           "assetId": "m-f1b918fab987",
+          "caption": "Tem Solução pra Tudo, Tem Linx pra Tudo",
           "autoplay": false
         },
         {
@@ -2535,14 +2694,134 @@
   ],
   "media": [
     {
+      "id": "m-334d69501a73",
+      "kind": "embed",
+      "src": "https://vimeo.com/1235128404",
+      "provider": "vimeo",
+      "alt": "VITA Tumbler Final Apresentação",
+      "width": 1920,
+      "height": 1080,
+      "posterId": "m-4b07d1aef5b2",
+      "origin": "remote",
+      "createdAt": "2026-10-12T17:31:23.926Z"
+    },
+    {
+      "id": "m-4b07d1aef5b2",
+      "kind": "image",
+      "src": "/media/m-4b07d1aef5b2.jpg",
+      "alt": "VITA Tumbler Final Apresentação — video cover",
+      "width": 1280,
+      "height": 2276,
+      "mime": "image/jpeg",
+      "size": 313917,
+      "origin": "upload",
+      "createdAt": "2026-10-12T17:31:23.926Z"
+    },
+    {
+      "id": "m-a9cec85482a0",
+      "kind": "embed",
+      "src": "https://vimeo.com/1008578451",
+      "provider": "vimeo",
+      "alt": "Ecco Vita ZC Hero Final",
+      "width": 1920,
+      "height": 1080,
+      "posterId": "m-18427d7b807c",
+      "origin": "remote",
+      "createdAt": "2026-10-12T17:31:22.826Z"
+    },
+    {
+      "id": "m-18427d7b807c",
+      "kind": "image",
+      "src": "/media/m-18427d7b807c.jpg",
+      "alt": "Ecco Vita ZC Hero Final — video cover",
+      "width": 1280,
+      "height": 720,
+      "mime": "image/jpeg",
+      "size": 49188,
+      "origin": "upload",
+      "createdAt": "2026-10-12T17:31:22.826Z"
+    },
+    {
+      "id": "m-91216d1deb1a",
+      "kind": "image",
+      "src": "/media/m-91216d1deb1a.png",
+      "alt": "1080 HERO VITA",
+      "width": 1920,
+      "height": 1080,
+      "mime": "image/png",
+      "size": 4113906,
+      "origin": "upload",
+      "createdAt": "2026-10-12T17:10:05.098Z"
+    },
+    {
+      "id": "m-ad5795d3c53d",
+      "kind": "image",
+      "src": "/media/m-ad5795d3c53d.png",
+      "alt": "HERO VITA",
+      "width": 3840,
+      "height": 2160,
+      "mime": "image/png",
+      "size": 10452992,
+      "origin": "upload",
+      "createdAt": "2026-10-12T17:08:39.783Z"
+    },
+    {
+      "id": "m-c815d6488c55",
+      "kind": "image",
+      "src": "/media/m-c815d6488c55.png",
+      "alt": "V4 PPT VITA 001",
+      "width": 3840,
+      "height": 2160,
+      "mime": "image/png",
+      "size": 10436608,
+      "origin": "upload",
+      "createdAt": "2026-10-12T17:07:20.778Z"
+    },
+    {
+      "id": "m-01725dc0d648",
+      "kind": "image",
+      "src": "/media/m-01725dc0d648.png",
+      "alt": "V3 PPT VITA 001",
+      "width": 3840,
+      "height": 2160,
+      "mime": "image/png",
+      "size": 10469376,
+      "origin": "upload",
+      "createdAt": "2026-10-12T17:07:03.735Z"
+    },
+    {
+      "id": "m-2bef26cfa4b1",
+      "kind": "image",
+      "src": "/media/m-2bef26cfa4b1.png",
+      "alt": "V3 PPT VITA 001",
+      "width": 3840,
+      "height": 2160,
+      "mime": "image/png",
+      "size": 10452992,
+      "origin": "upload",
+      "createdAt": "2026-10-12T17:06:49.724Z"
+    },
+    {
+      "id": "m-62f0cb422348",
+      "kind": "image",
+      "src": "/media/m-62f0cb422348.png",
+      "alt": "bh vita 02",
+      "width": 1400,
+      "height": 732,
+      "mime": "image/png",
+      "size": 1023432,
+      "origin": "upload",
+      "createdAt": "2026-10-12T16:57:20.835Z"
+    },
+    {
       "id": "m-f1b918fab987",
       "kind": "embed",
       "src": "https://vimeo.com/1008586341",
-      "provider": "vimeo",
+      "posterId": "m-fe46ba33ab92",
       "alt": "Tem Solução pra Tudo Tem Linx pra Tudo",
       "width": 1920,
       "height": 1080,
-      "posterId": "m-fe46ba33ab92",
+      "provider": "vimeo",
       "origin": "remote",
       "createdAt": "2026-10-12T16:42:09.875Z"
     },
@@ -2562,11 +2841,11 @@
       "id": "m-285ad2d1ed50",
       "kind": "embed",
       "src": "https://vimeo.com/1214060301",
-      "provider": "vimeo",
+      "posterId": "m-7780bb8d0fd2",
       "alt": "Video - Audiovisual",
       "width": 1920,
       "height": 1080,
-      "posterId": "m-7780bb8d0fd2",
+      "provider": "vimeo",
       "origin": "remote",
       "createdAt": "2026-10-12T16:42:09.309Z"
     },
@@ -2586,11 +2865,11 @@
       "id": "m-ea9ce8b79bcc",
       "kind": "embed",
       "src": "https://vimeo.com/1214066579",
-      "provider": "vimeo",
+      "posterId": "m-4d788d7b6b54",
       "alt": "Ecco_Behance_Videos institucionais_290726",
       "width": 1920,
       "height": 1080,
-      "posterId": "m-4d788d7b6b54",
+      "provider": "vimeo",
       "origin": "remote",
       "createdAt": "2026-10-12T16:42:08.252Z"
     },
@@ -2610,11 +2889,11 @@
       "id": "m-40e62288e6ef",
       "kind": "embed",
       "src": "https://vimeo.com/996388926",
-      "provider": "vimeo",
+      "posterId": "m-5c94225b48b3",
       "alt": "Lançamento - Campanha de Volta às Aulas da CiS - 2024",
       "width": 1920,
       "height": 1080,
-      "posterId": "m-5c94225b48b3",
+      "provider": "vimeo",
       "origin": "remote",
       "createdAt": "2026-10-12T16:42:07.649Z"
     },
@@ -2634,11 +2913,11 @@
       "id": "m-d91eecf643b3",
       "kind": "embed",
       "src": "https://vimeo.com/993722141",
-      "provider": "vimeo",
+      "posterId": "m-a3210321fbcc",
       "alt": "Ecco Case VA Pentonic",
       "width": 1920,
       "height": 1080,
-      "posterId": "m-a3210321fbcc",
+      "provider": "vimeo",
       "origin": "remote",
       "createdAt": "2026-10-12T16:42:06.675Z"
     },
@@ -2658,11 +2937,11 @@
       "id": "m-3f08d646e82c",
       "kind": "embed",
       "src": "https://vimeo.com/1008578451",
-      "provider": "vimeo",
+      "posterId": "m-91792aa958b8",
       "alt": "Ecco Vita ZC Hero Final",
       "width": 1920,
       "height": 1080,
-      "posterId": "m-91792aa958b8",
+      "provider": "vimeo",
       "origin": "remote",
       "createdAt": "2026-10-12T16:42:05.963Z"
     },
@@ -5795,6 +6074,380 @@
       "mime": "image/webp",
       "origin": "upload",
       "createdAt": "2026-10-11T16:02:56.854Z"
+    },
+    {
+      "id": "m-vita2-shoot-01",
+      "kind": "image",
+      "src": "/media/vita2-shoot-01.webp",
+      "alt": "Abra, beba, VITA, repita — styled bottle shot 1",
+      "width": 1080,
+      "height": 1080,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-12T17:31:17.428Z"
+    },
+    {
+      "id": "m-vita2-shoot-02",
+      "kind": "image",
+      "src": "/media/vita2-shoot-02.webp",
+      "alt": "Abra, beba, VITA, repita — styled bottle shot 2",
+      "width": 1080,
+      "height": 1080,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-12T17:31:17.428Z"
+    },
+    {
+      "id": "m-vita2-shoot-03",
+      "kind": "image",
+      "src": "/media/vita2-shoot-03.webp",
+      "alt": "Abra, beba, VITA, repita — styled bottle shot 3",
+      "width": 1080,
+      "height": 1080,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-12T17:31:17.428Z"
+    },
+    {
+      "id": "m-vita2-shoot-04",
+      "kind": "image",
+      "src": "/media/vita2-shoot-04.webp",
+      "alt": "Abra, beba, VITA, repita — styled bottle shot 4",
+      "width": 1080,
+      "height": 1080,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-12T17:31:17.428Z"
+    },
+    {
+      "id": "m-vita2-shoot-05",
+      "kind": "image",
+      "src": "/media/vita2-shoot-05.webp",
+      "alt": "VITA bottles by the pool, shot 1",
+      "width": 1080,
+      "height": 1080,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-12T17:31:17.428Z"
+    },
+    {
+      "id": "m-vita2-shoot-06",
+      "kind": "image",
+      "src": "/media/vita2-shoot-06.webp",
+      "alt": "VITA bottles by the pool, shot 2",
+      "width": 1080,
+      "height": 1080,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-12T17:31:17.428Z"
+    },
+    {
+      "id": "m-vita2-shoot-07",
+      "kind": "image",
+      "src": "/media/vita2-shoot-07.webp",
+      "alt": "Lifestyle portrait with the VITA bottle at the gym",
+      "width": 1400,
+      "height": 1750,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-12T17:31:17.428Z"
+    },
+    {
+      "id": "m-vita2-shoot-08",
+      "kind": "image",
+      "src": "/media/vita2-shoot-08.webp",
+      "alt": "Close-up lifestyle portrait with the VITA tumbler",
+      "width": 1400,
+      "height": 1750,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-12T17:31:17.428Z"
+    },
+    {
+      "id": "m-vita2-shoot-09",
+      "kind": "image",
+      "src": "/media/vita2-shoot-09.webp",
+      "alt": "Lifestyle portrait, on-camera interview setup",
+      "width": 1400,
+      "height": 1750,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-12T17:31:17.428Z"
+    },
+    {
+      "id": "m-vita2-shoot-10",
+      "kind": "image",
+      "src": "/media/vita2-shoot-10.webp",
+      "alt": "Full-length lifestyle shot with the VITA bottle on steps",
+      "width": 1400,
+      "height": 2493,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-12T17:31:17.428Z"
+    },
+    {
+      "id": "m-vita2-shoot-11",
+      "kind": "image",
+      "src": "/media/vita2-shoot-11.webp",
+      "alt": "Sport styling with the VITA bottle, shot 1",
+      "width": 1080,
+      "height": 1350,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-12T17:31:17.428Z"
+    },
+    {
+      "id": "m-vita2-shoot-12",
+      "kind": "image",
+      "src": "/media/vita2-shoot-12.webp",
+      "alt": "Sport styling with the VITA bottle, shot 2",
+      "width": 1080,
+      "height": 1350,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-12T17:31:17.428Z"
+    },
+    {
+      "id": "m-vita2-shoot-13",
+      "kind": "image",
+      "src": "/media/vita2-shoot-13.webp",
+      "alt": "Sport styling with the VITA bottle, shot 3",
+      "width": 1080,
+      "height": 1350,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-12T17:31:17.428Z"
+    },
+    {
+      "id": "m-vita2-shoot-gif-01",
+      "kind": "image",
+      "src": "/media/vita2-shoot-gif-01.gif",
+      "alt": "VITA tumbler reveal — looping clip",
+      "width": 240,
+      "height": 427,
+      "mime": "image/gif",
+      "origin": "upload",
+      "createdAt": "2026-10-12T17:31:17.428Z"
+    },
+    {
+      "id": "m-vita2-social-elem-01",
+      "kind": "image",
+      "src": "/media/vita2-social-elem-01.webp",
+      "alt": "VITA tumbler, Candy colorway",
+      "width": 1080,
+      "height": 1350,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-12T17:31:17.428Z"
+    },
+    {
+      "id": "m-vita2-social-elem-02",
+      "kind": "image",
+      "src": "/media/vita2-social-elem-02.webp",
+      "alt": "VITA tumbler, Hortelã colorway",
+      "width": 1080,
+      "height": 1350,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-12T17:31:17.428Z"
+    },
+    {
+      "id": "m-vita2-social-elem-03",
+      "kind": "image",
+      "src": "/media/vita2-social-elem-03.webp",
+      "alt": "VITA tumbler, Jade colorway",
+      "width": 1080,
+      "height": 1350,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-12T17:31:17.428Z"
+    },
+    {
+      "id": "m-vita2-social-elem-04",
+      "kind": "image",
+      "src": "/media/vita2-social-elem-04.webp",
+      "alt": "VITA tumbler, Lunar colorway",
+      "width": 1080,
+      "height": 1350,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-12T17:31:17.428Z"
+    },
+    {
+      "id": "m-vita2-social-elem-05",
+      "kind": "image",
+      "src": "/media/vita2-social-elem-05.webp",
+      "alt": "VITA tumbler, Neve colorway",
+      "width": 1080,
+      "height": 1350,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-12T17:31:17.428Z"
+    },
+    {
+      "id": "m-vita2-social-elem-06",
+      "kind": "image",
+      "src": "/media/vita2-social-elem-06.webp",
+      "alt": "VITA tumbler, Oceano colorway",
+      "width": 1080,
+      "height": 1350,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-12T17:31:17.428Z"
+    },
+    {
+      "id": "m-vita2-social-gif-01",
+      "kind": "image",
+      "src": "/media/vita2-social-gif-01.gif",
+      "alt": "Social content — walking with the VITA bottle, looping clip",
+      "width": 240,
+      "height": 427,
+      "mime": "image/gif",
+      "origin": "upload",
+      "createdAt": "2026-10-12T17:31:17.428Z"
+    },
+    {
+      "id": "m-vita2-social-gif-02",
+      "kind": "image",
+      "src": "/media/vita2-social-gif-02.gif",
+      "alt": "Social content — changing settings, looping clip",
+      "width": 240,
+      "height": 427,
+      "mime": "image/gif",
+      "origin": "upload",
+      "createdAt": "2026-10-12T17:31:17.428Z"
+    },
+    {
+      "id": "m-vita2-social-gif-03",
+      "kind": "image",
+      "src": "/media/vita2-social-gif-03.gif",
+      "alt": "Social content — 24h cold, 12h hot, looping clip",
+      "width": 240,
+      "height": 240,
+      "mime": "image/gif",
+      "origin": "upload",
+      "createdAt": "2026-10-12T17:31:17.428Z"
+    },
+    {
+      "id": "m-vita2-presskit-01",
+      "kind": "image",
+      "src": "/media/vita2-presskit-01.webp",
+      "alt": "VITA press kit visual 1",
+      "width": 1080,
+      "height": 1080,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-12T17:31:17.428Z"
+    },
+    {
+      "id": "m-vita2-presskit-02",
+      "kind": "image",
+      "src": "/media/vita2-presskit-02.webp",
+      "alt": "VITA press kit visual 2",
+      "width": 1080,
+      "height": 1080,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-12T17:31:17.428Z"
+    },
+    {
+      "id": "m-vita2-presskit-03",
+      "kind": "image",
+      "src": "/media/vita2-presskit-03.webp",
+      "alt": "VITA press kit visual 3",
+      "width": 1080,
+      "height": 1080,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-12T17:31:17.428Z"
+    },
+    {
+      "id": "m-vita2-presskit-04",
+      "kind": "image",
+      "src": "/media/vita2-presskit-04.webp",
+      "alt": "VITA press kit visual 4",
+      "width": 1080,
+      "height": 1080,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-12T17:31:17.428Z"
+    },
+    {
+      "id": "m-vita2-presskit-05",
+      "kind": "image",
+      "src": "/media/vita2-presskit-05.webp",
+      "alt": "VITA press kit visual 5",
+      "width": 1080,
+      "height": 1080,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-12T17:31:17.428Z"
+    },
+    {
+      "id": "m-vita2-presskit-06",
+      "kind": "image",
+      "src": "/media/vita2-presskit-06.webp",
+      "alt": "VITA press kit visual 6",
+      "width": 1080,
+      "height": 1080,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-12T17:31:17.428Z"
+    },
+    {
+      "id": "m-vita2-presskit-07",
+      "kind": "image",
+      "src": "/media/vita2-presskit-07.webp",
+      "alt": "VITA press kit visual 7",
+      "width": 1080,
+      "height": 1080,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-12T17:31:17.428Z"
+    },
+    {
+      "id": "m-vita2-crew-gif-01",
+      "kind": "image",
+      "src": "/media/vita2-crew-gif-01.gif",
+      "alt": "Behind the scenes — recap clip",
+      "width": 240,
+      "height": 427,
+      "mime": "image/gif",
+      "origin": "upload",
+      "createdAt": "2026-10-12T17:31:17.428Z"
+    },
+    {
+      "id": "m-vita2-crew-gif-02",
+      "kind": "image",
+      "src": "/media/vita2-crew-gif-02.gif",
+      "alt": "Behind the scenes — on set, looping clip",
+      "width": 240,
+      "height": 427,
+      "mime": "image/gif",
+      "origin": "upload",
+      "createdAt": "2026-10-12T17:31:17.428Z"
+    },
+    {
+      "id": "m-vita2-crew-gif-03",
+      "kind": "image",
+      "src": "/media/vita2-crew-gif-03.gif",
+      "alt": "Behind the scenes — directing the shot, looping clip",
+      "width": 240,
+      "height": 427,
+      "mime": "image/gif",
+      "origin": "upload",
+      "createdAt": "2026-10-12T17:31:17.428Z"
+    },
+    {
+      "id": "m-vita2-crew-gif-04",
+      "kind": "image",
+      "src": "/media/vita2-crew-gif-04.gif",
+      "alt": "Behind the scenes — on location, looping clip",
+      "width": 240,
+      "height": 427,
+      "mime": "image/gif",
+      "origin": "upload",
+      "createdAt": "2026-10-12T17:31:17.428Z"
     }
   ]
 }

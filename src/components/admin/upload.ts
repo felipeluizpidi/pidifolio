@@ -1,12 +1,13 @@
 import type { MediaAsset } from "@/lib/types";
 
-export const ACCEPT = "image/jpeg,image/png,image/webp,image/avif,video/mp4,video/webm,application/pdf";
+export const ACCEPT = "image/jpeg,image/png,image/webp,image/avif,image/gif,video/mp4,video/webm,application/pdf";
 const MB = 1024 * 1024;
 const LIMITS: Record<string, number> = {
   "image/jpeg": 20 * MB,
   "image/png": 20 * MB,
   "image/webp": 20 * MB,
   "image/avif": 20 * MB,
+  "image/gif": 20 * MB,
   "video/mp4": 400 * MB,
   "video/webm": 400 * MB,
   "application/pdf": 15 * MB,
@@ -15,7 +16,7 @@ const LIMITS: Record<string, number> = {
 /** Client-side pre-check (the server re-validates everything). */
 export function precheck(file: File): string | null {
   const limit = LIMITS[file.type];
-  if (!limit) return `${file.name}: unsupported type (${file.type || "unknown"}). Use JPG, PNG, WebP, AVIF, MP4, WebM or PDF.`;
+  if (!limit) return `${file.name}: unsupported type (${file.type || "unknown"}). Use JPG, PNG, WebP, AVIF, GIF, MP4, WebM or PDF.`;
   if (file.size > limit) return `${file.name}: ${(file.size / MB).toFixed(1)} MB is over the ${limit / MB} MB limit.`;
   return null;
 }
