@@ -203,7 +203,8 @@
         },
         {
           "role": "Team",
-          "name": "Cesar Augusto"
+          "name": "Cesar Augusto",
+          "url": "https://www.instagram.com/cesar_rsantos/"
         }
       ],
       "blocks": [
@@ -251,12 +252,12 @@
       ],
       "demo": false,
       "createdAt": "2026-10-09T15:00:23.868Z",
-      "updatedAt": "2026-10-10T21:25:16.379Z"
+      "updatedAt": "2026-10-12T22:46:29.633Z"
     },
     {
       "id": "p-vita",
       "slug": "zonacriativa-garrafa-vita",
-      "title": "Zona Criativa",
+      "title": "Zonacriativa",
       "subtitle": "Garrafa VITA",
       "client": "Zonacriativa",
       "year": 2024,
@@ -278,11 +279,11 @@
       "archiveShape": "landscape",
       "published": true,
       "order": 2,
-      "overview": "",
+      "overview": "“Abra, beba, VITA, repita!” — the launch campaign for the VITA thermal bottle, Zonacriativa’s new flagship line, with its own shoot, launch film, social campaign and press kit.",
       "challenge": "Zonacriativa came to us to make the VITA bottle stand out in a market saturated with similar products — a campaign that would not only grab attention but communicate what makes the product innovative and different.",
       "concept": "A complete digital campaign: influencer management, an exclusive shoot, a high-impact landing page, strategic social posts and a press kit — one integrated approach to communicate the product's innovation.",
-      "process": "",
-      "outcomes": "",
+      "process": "A single shoot carried the whole campaign: launch film, product stills, social content and press-kit visuals, all built around one color-blocked, lifestyle-first language. The bottle moved through gym, home and poolside scenes to make “cold 24h, hot 12h” feel like a daily habit rather than a spec sheet.",
+      "outcomes": "18,000,000+ impacts across the campaign's content\n4,300,000+ accounts reached on Instagram alone\n635,000+ content views on TikTok\n27,000+ landing page views\n+94% growth in the resellers section of Zonacriativa's site, H1 2024",
       "credits": [
         {
           "role": "Head of Design",
@@ -290,11 +291,103 @@
         },
         {
           "role": "Agency",
-          "name": "Agência Ecco"
+          "name": "Agência Ecco",
+          "url": "https://www.instagram.com/agenciaecco/"
         },
         {
-          "role": "Team",
-          "name": "Marcus David · Marília Cerioni · Cesar Augusto · Luís Silva"
+          "role": "Commercial Direction",
+          "name": "Ísis Vasques",
+          "url": "https://www.instagram.com/isis.vasques/"
+        },
+        {
+          "role": "Commercial Direction",
+          "name": "Marcelo Manha",
+          "url": "https://www.instagram.com/manha25/"
+        },
+        {
+          "role": "Account Service",
+          "name": "Thaís Macena",
+          "url": "https://www.instagram.com/thatamacena/"
+        },
+        {
+          "role": "Planning",
+          "name": "Lívia Maturana",
+          "url": "https://www.instagram.com/liviamaturana/"
+        },
+        {
+          "role": "Media",
+          "name": "Dayane Silva",
+          "url": "https://www.instagram.com/eusoudayane/"
+        },
+        {
+          "role": "Copywriting",
+          "name": "Marília Cerioni",
+          "url": "https://www.instagram.com/macerioni/"
+        },
+        {
+          "role": "Copywriting",
+          "name": "Jonathas Fragal",
+          "url": "https://www.instagram.com/jonathasfragal/"
+        },
+        {
+          "role": "Copywriting",
+          "name": "Rafaela Martuscelli",
+          "url": "https://www.instagram.com/rafamartuscelli/"
+        },
+        {
+          "role": "Social Media",
+          "name": "Gabrielle Felippe",
+          "url": "https://www.instagram.com/gabs_mfs/"
+        },
+        {
+          "role": "Social Media Coordinator",
+          "name": "Luís Silva",
+          "url": "https://www.instagram.com/silvaluis_/"
+        },
+        {
+          "role": "Creative Direction",
+          "name": "Cesar Augusto",
+          "url": "https://www.instagram.com/cesar_rsantos/"
+        },
+        {
+          "role": "Creative Direction",
+          "name": "Marcus David",
+          "url": "https://www.instagram.com/md.frame/"
+        },
+        {
+          "role": "Art Direction",
+          "name": "Caio Vinícius",
+          "url": "https://www.instagram.com/caioka/"
+        },
+        {
+          "role": "Photography & Editing",
+          "name": "Gilcileyde Ribeiro",
+          "url": "https://www.instagram.com/gilcileyderibeiro/"
+        },
+        {
+          "role": "Photography & Editing",
+          "name": "Welber Luiz",
+          "url": "https://www.instagram.com/welberroots/"
+        },
+        {
+          "role": "Model",
+          "name": "Sayuri Kogati",
+          "url": "https://www.instagram.com/sayurikogati/"
+        },
+        {
+          "role": "Model",
+          "name": "Thiago Vieira Luccio",
+          "url": "https://www.instagram.com/thiagovieiraluccio/"
+        },
+        {
+          "role": "Makeup",
+          "name": "Bianca Megda",
+          "url": "https://www.instagram.com/biancamegdabeauty/"
+        },
+        {
+          "role": "Stylist",
+          "name": "Renatta Serra",
+          "url": "https://www.instagram.com/renatta_serra/"
         }
       ],
       "blocks": [
@@ -306,8 +399,8 @@
         {
           "id": "vita-b31",
           "type": "video",
-          "caption": "Hero film",
           "assetId": "m-a9cec85482a0",
+          "caption": "Hero film",
           "autoplay": false
         },
         {
@@ -329,20 +422,12 @@
         {
           "id": "vita-b34",
           "type": "image",
-          "assetId": "m-bh-vita-07"
-        },
-        {
-          "id": "vita-b35",
-          "type": "grid2",
-          "assetIds": [
-            "m-bh-vita-05",
-            "m-bh-vita-09"
-          ]
+          "assetId": "m-bh-vita-05"
         },
         {
           "id": "vita-b36",
           "type": "image",
-          "assetId": "m-bh-vita-08"
+          "assetId": "m-bh-vita-09"
         },
         {
           "id": "vita-b40",
@@ -354,15 +439,16 @@
         {
           "id": "vita-b41",
           "type": "video",
-          "caption": "VITA Tumbler — Final presentation",
           "assetId": "m-334d69501a73",
+          "caption": "VITA Tumbler — Final presentation",
           "autoplay": false
         },
         {
           "id": "vita-b42",
           "type": "text",
           "heading": "Shooting",
-          "body": "A dedicated shoot exploring color, movement and the product in everyday life."
+          "body": "A dedicated shoot exploring color, movement and the product in everyday life.",
+          "size": "lg"
         },
         {
           "id": "vita-b43",
@@ -382,25 +468,16 @@
           "id": "vita-b45",
           "type": "grid2",
           "assetIds": [
-            "m-vita2-shoot-04",
-            "m-vita2-shoot-05"
+            "m-vita2-shoot-05",
+            "m-vita2-shoot-06"
           ]
-        },
-        {
-          "id": "vita-b46",
-          "type": "imageText",
-          "assetId": "m-vita2-shoot-06",
-          "heading": "Poolside",
-          "text": "Color-blocked styling that keeps the product the hero, even against a loud background.",
-          "side": "right"
         },
         {
           "id": "vita-b47",
           "type": "grid3",
           "assetIds": [
             "m-vita2-shoot-07",
-            "m-vita2-shoot-08",
-            "m-vita2-shoot-09"
+            "m-vita2-shoot-08"
           ]
         },
         {
@@ -422,7 +499,8 @@
           "id": "vita-b50",
           "type": "text",
           "heading": "Social",
-          "body": "Daily content for the brand's own channel — product drops, lifestyle loops and seasonal colorways."
+          "body": "Daily content for the brand's own channel — product drops, lifestyle loops and seasonal colorways.",
+          "size": "lg"
         },
         {
           "id": "vita-b51",
@@ -462,7 +540,8 @@
           "id": "vita-b55",
           "type": "text",
           "heading": "Press kit",
-          "body": "Unboxing visuals and packaging details prepared for media and partners."
+          "body": "Unboxing visuals and packaging details prepared for media and partners.",
+          "size": "lg"
         },
         {
           "id": "vita-b56",
@@ -477,21 +556,17 @@
           "id": "vita-b57",
           "type": "grid3",
           "assetIds": [
-            "m-vita2-presskit-04",
             "m-vita2-presskit-05",
-            "m-vita2-presskit-06"
+            "m-vita2-presskit-06",
+            "m-vita2-presskit-07"
           ]
-        },
-        {
-          "id": "vita-b58",
-          "type": "image",
-          "assetId": "m-vita2-presskit-07"
         },
         {
           "id": "vita-b59",
           "type": "text",
           "heading": "Backstage & crew",
-          "body": "On set with the team that made it happen."
+          "body": "On set with the team that made it happen.",
+          "size": "lg"
         },
         {
           "id": "vita-b60",
@@ -506,7 +581,7 @@
       ],
       "demo": false,
       "createdAt": "2026-10-09T15:00:23.868Z",
-      "updatedAt": "2026-10-12T17:31:23.926Z"
+      "updatedAt": "2026-10-12T22:46:44.874Z"
     },
     {
       "id": "p-jandaia",
@@ -545,11 +620,26 @@
         },
         {
           "role": "Agency",
-          "name": "Agência Ecco"
+          "name": "Agência Ecco",
+          "url": "https://www.instagram.com/agenciaecco/"
         },
         {
           "role": "Team",
-          "name": "Lucas Ananias · Marcus David · Caio Vinícius · Giovanna Marino"
+          "name": "Lucas Ananias"
+        },
+        {
+          "role": "Team",
+          "name": "Marcus David",
+          "url": "https://www.instagram.com/md.frame/"
+        },
+        {
+          "role": "Team",
+          "name": "Caio Vinícius",
+          "url": "https://www.instagram.com/caioka/"
+        },
+        {
+          "role": "Team",
+          "name": "Giovanna Marino"
         }
       ],
       "blocks": [
@@ -596,7 +686,7 @@
       ],
       "demo": false,
       "createdAt": "2026-10-09T15:00:23.868Z",
-      "updatedAt": "2026-10-09T15:40:34.570Z"
+      "updatedAt": "2026-10-12T22:46:29.633Z"
     },
     {
       "id": "p-diniz",
@@ -717,11 +807,27 @@
         },
         {
           "role": "Agency",
-          "name": "Agência Ecco"
+          "name": "Agência Ecco",
+          "url": "https://www.instagram.com/agenciaecco/"
         },
         {
           "role": "Team",
-          "name": "Marcus David · Luís Silva · Marília Cerioni · Emanuele Freitas"
+          "name": "Marcus David",
+          "url": "https://www.instagram.com/md.frame/"
+        },
+        {
+          "role": "Team",
+          "name": "Luís Silva",
+          "url": "https://www.instagram.com/silvaluis_/"
+        },
+        {
+          "role": "Team",
+          "name": "Marília Cerioni",
+          "url": "https://www.instagram.com/macerioni/"
+        },
+        {
+          "role": "Team",
+          "name": "Emanuele Freitas"
         }
       ],
       "blocks": [
@@ -812,7 +918,7 @@
       ],
       "demo": false,
       "createdAt": "2026-10-09T15:00:23.868Z",
-      "updatedAt": "2026-10-12T16:42:06.675Z"
+      "updatedAt": "2026-10-12T22:46:29.633Z"
     },
     {
       "id": "p-kfc",
@@ -930,11 +1036,22 @@
         },
         {
           "role": "Agency",
-          "name": "Agência Ecco"
+          "name": "Agência Ecco",
+          "url": "https://www.instagram.com/agenciaecco/"
         },
         {
           "role": "Team",
-          "name": "Lucas Ananias · Marcus David · Luís Silva"
+          "name": "Lucas Ananias"
+        },
+        {
+          "role": "Team",
+          "name": "Marcus David",
+          "url": "https://www.instagram.com/md.frame/"
+        },
+        {
+          "role": "Team",
+          "name": "Luís Silva",
+          "url": "https://www.instagram.com/silvaluis_/"
         }
       ],
       "blocks": [
@@ -967,7 +1084,7 @@
       ],
       "demo": false,
       "createdAt": "2026-10-09T15:00:23.868Z",
-      "updatedAt": "2026-10-09T15:40:34.570Z"
+      "updatedAt": "2026-10-12T22:46:29.633Z"
     },
     {
       "id": "p-hn",
@@ -1005,11 +1122,32 @@
         },
         {
           "role": "Agency",
-          "name": "Agência Ecco"
+          "name": "Agência Ecco",
+          "url": "https://www.instagram.com/agenciaecco/"
         },
         {
           "role": "Team",
-          "name": "Lucas Ananias · Marcus David · Cesar Augusto · Luís Silva · Marília Cerioni"
+          "name": "Lucas Ananias"
+        },
+        {
+          "role": "Team",
+          "name": "Marcus David",
+          "url": "https://www.instagram.com/md.frame/"
+        },
+        {
+          "role": "Team",
+          "name": "Cesar Augusto",
+          "url": "https://www.instagram.com/cesar_rsantos/"
+        },
+        {
+          "role": "Team",
+          "name": "Luís Silva",
+          "url": "https://www.instagram.com/silvaluis_/"
+        },
+        {
+          "role": "Team",
+          "name": "Marília Cerioni",
+          "url": "https://www.instagram.com/macerioni/"
         }
       ],
       "blocks": [
@@ -1056,7 +1194,7 @@
       ],
       "demo": false,
       "createdAt": "2026-10-09T15:00:23.868Z",
-      "updatedAt": "2026-10-09T15:40:34.570Z"
+      "updatedAt": "2026-10-12T22:46:29.633Z"
     },
     {
       "id": "p-hallem",
@@ -1093,11 +1231,27 @@
         },
         {
           "role": "Agency",
-          "name": "Agência Ecco"
+          "name": "Agência Ecco",
+          "url": "https://www.instagram.com/agenciaecco/"
         },
         {
           "role": "Team",
-          "name": "Lucas Ananias · Marcus David · Luís Silva · Marília Cerioni"
+          "name": "Lucas Ananias"
+        },
+        {
+          "role": "Team",
+          "name": "Marcus David",
+          "url": "https://www.instagram.com/md.frame/"
+        },
+        {
+          "role": "Team",
+          "name": "Luís Silva",
+          "url": "https://www.instagram.com/silvaluis_/"
+        },
+        {
+          "role": "Team",
+          "name": "Marília Cerioni",
+          "url": "https://www.instagram.com/macerioni/"
         }
       ],
       "blocks": [
@@ -1139,7 +1293,7 @@
       ],
       "demo": false,
       "createdAt": "2026-10-09T15:00:23.868Z",
-      "updatedAt": "2026-10-09T15:40:34.570Z"
+      "updatedAt": "2026-10-12T22:46:29.633Z"
     },
     {
       "id": "p-cis",
@@ -1178,11 +1332,32 @@
         },
         {
           "role": "Agency",
-          "name": "Agência Ecco"
+          "name": "Agência Ecco",
+          "url": "https://www.instagram.com/agenciaecco/"
         },
         {
           "role": "Team",
-          "name": "Giovanna Marino · Marcus David · Gilcileyde Ribeiro · Marília Cerioni · Luís Silva"
+          "name": "Giovanna Marino"
+        },
+        {
+          "role": "Team",
+          "name": "Marcus David",
+          "url": "https://www.instagram.com/md.frame/"
+        },
+        {
+          "role": "Team",
+          "name": "Gilcileyde Ribeiro",
+          "url": "https://www.instagram.com/gilcileyderibeiro/"
+        },
+        {
+          "role": "Team",
+          "name": "Marília Cerioni",
+          "url": "https://www.instagram.com/macerioni/"
+        },
+        {
+          "role": "Team",
+          "name": "Luís Silva",
+          "url": "https://www.instagram.com/silvaluis_/"
         }
       ],
       "blocks": [
@@ -1231,7 +1406,7 @@
       ],
       "demo": false,
       "createdAt": "2026-10-09T15:00:23.868Z",
-      "updatedAt": "2026-10-12T16:42:07.649Z"
+      "updatedAt": "2026-10-12T22:46:29.633Z"
     },
     {
       "id": "p-exacta",
@@ -1268,11 +1443,22 @@
         },
         {
           "role": "Agency",
-          "name": "Agência Ecco"
+          "name": "Agência Ecco",
+          "url": "https://www.instagram.com/agenciaecco/"
         },
         {
           "role": "Team",
-          "name": "Marília Cerioni · Marcus David · Giovanna Marino"
+          "name": "Marília Cerioni",
+          "url": "https://www.instagram.com/macerioni/"
+        },
+        {
+          "role": "Team",
+          "name": "Marcus David",
+          "url": "https://www.instagram.com/md.frame/"
+        },
+        {
+          "role": "Team",
+          "name": "Giovanna Marino"
         }
       ],
       "blocks": [
@@ -1319,7 +1505,7 @@
       ],
       "demo": false,
       "createdAt": "2026-10-09T15:00:23.868Z",
-      "updatedAt": "2026-10-09T15:40:34.570Z"
+      "updatedAt": "2026-10-12T22:46:29.633Z"
     },
     {
       "id": "p-ecco",
@@ -1358,11 +1544,58 @@
         },
         {
           "role": "Agency",
-          "name": "Agência Ecco"
+          "name": "Agência Ecco",
+          "url": "https://www.instagram.com/agenciaecco/"
         },
         {
           "role": "Team",
-          "name": "Lucas Ananias · Mateus Araújo · Lucas Rossini · Caio Vinícius · Gilcileyde Ribeiro · Emanuele Freitas · Marcus David · Giovanna Marino · Marília Cerioni · Luís Silva · Cesar Augusto"
+          "name": "Lucas Ananias"
+        },
+        {
+          "role": "Team",
+          "name": "Mateus Araújo"
+        },
+        {
+          "role": "Team",
+          "name": "Lucas Rossini"
+        },
+        {
+          "role": "Team",
+          "name": "Caio Vinícius",
+          "url": "https://www.instagram.com/caioka/"
+        },
+        {
+          "role": "Team",
+          "name": "Gilcileyde Ribeiro",
+          "url": "https://www.instagram.com/gilcileyderibeiro/"
+        },
+        {
+          "role": "Team",
+          "name": "Emanuele Freitas"
+        },
+        {
+          "role": "Team",
+          "name": "Marcus David",
+          "url": "https://www.instagram.com/md.frame/"
+        },
+        {
+          "role": "Team",
+          "name": "Giovanna Marino"
+        },
+        {
+          "role": "Team",
+          "name": "Marília Cerioni",
+          "url": "https://www.instagram.com/macerioni/"
+        },
+        {
+          "role": "Team",
+          "name": "Luís Silva",
+          "url": "https://www.instagram.com/silvaluis_/"
+        },
+        {
+          "role": "Team",
+          "name": "Cesar Augusto",
+          "url": "https://www.instagram.com/cesar_rsantos/"
         }
       ],
       "blocks": [
@@ -1383,7 +1616,7 @@
       ],
       "demo": false,
       "createdAt": "2026-10-09T16:49:20.566Z",
-      "updatedAt": "2026-10-12T16:42:09.309Z"
+      "updatedAt": "2026-10-12T22:46:29.633Z"
     },
     {
       "id": "p-bbb",
@@ -1421,11 +1654,28 @@
         },
         {
           "role": "Agency",
-          "name": "Agência Ecco"
+          "name": "Agência Ecco",
+          "url": "https://www.instagram.com/agenciaecco/"
         },
         {
           "role": "Team",
-          "name": "Marcus David · Luís Silva · Cesar Augusto · Gilcileyde Ribeiro"
+          "name": "Marcus David",
+          "url": "https://www.instagram.com/md.frame/"
+        },
+        {
+          "role": "Team",
+          "name": "Luís Silva",
+          "url": "https://www.instagram.com/silvaluis_/"
+        },
+        {
+          "role": "Team",
+          "name": "Cesar Augusto",
+          "url": "https://www.instagram.com/cesar_rsantos/"
+        },
+        {
+          "role": "Team",
+          "name": "Gilcileyde Ribeiro",
+          "url": "https://www.instagram.com/gilcileyderibeiro/"
         }
       ],
       "blocks": [
@@ -1452,7 +1702,7 @@
       ],
       "demo": false,
       "createdAt": "2026-10-09T16:49:20.566Z",
-      "updatedAt": "2026-10-09T16:49:20.566Z"
+      "updatedAt": "2026-10-12T22:46:29.633Z"
     },
     {
       "id": "p-linx",
@@ -1491,11 +1741,22 @@
         },
         {
           "role": "Agency",
-          "name": "Agência Ecco"
+          "name": "Agência Ecco",
+          "url": "https://www.instagram.com/agenciaecco/"
         },
         {
           "role": "Team",
-          "name": "Luís Silva · Giovanna Marino · Marcus David"
+          "name": "Luís Silva",
+          "url": "https://www.instagram.com/silvaluis_/"
+        },
+        {
+          "role": "Team",
+          "name": "Giovanna Marino"
+        },
+        {
+          "role": "Team",
+          "name": "Marcus David",
+          "url": "https://www.instagram.com/md.frame/"
         }
       ],
       "blocks": [
@@ -1564,7 +1825,7 @@
       ],
       "demo": false,
       "createdAt": "2026-10-09T16:49:20.566Z",
-      "updatedAt": "2026-10-12T16:42:09.875Z"
+      "updatedAt": "2026-10-12T22:46:29.633Z"
     },
     {
       "id": "p-uniball",
@@ -1602,11 +1863,18 @@
         },
         {
           "role": "Agency",
-          "name": "Agência Ecco"
+          "name": "Agência Ecco",
+          "url": "https://www.instagram.com/agenciaecco/"
         },
         {
           "role": "Team",
-          "name": "Marcus David · Marília Cerioni"
+          "name": "Marcus David",
+          "url": "https://www.instagram.com/md.frame/"
+        },
+        {
+          "role": "Team",
+          "name": "Marília Cerioni",
+          "url": "https://www.instagram.com/macerioni/"
         }
       ],
       "blocks": [
@@ -1643,7 +1911,7 @@
       ],
       "demo": false,
       "createdAt": "2026-10-09T16:49:20.566Z",
-      "updatedAt": "2026-10-09T16:49:20.566Z"
+      "updatedAt": "2026-10-12T22:46:29.633Z"
     },
     {
       "id": "p-activas",
@@ -1680,11 +1948,22 @@
         },
         {
           "role": "Agency",
-          "name": "Agência Ecco"
+          "name": "Agência Ecco",
+          "url": "https://www.instagram.com/agenciaecco/"
         },
         {
           "role": "Team",
-          "name": "Giovanna Marino · Marcus David · Marília Cerioni"
+          "name": "Giovanna Marino"
+        },
+        {
+          "role": "Team",
+          "name": "Marcus David",
+          "url": "https://www.instagram.com/md.frame/"
+        },
+        {
+          "role": "Team",
+          "name": "Marília Cerioni",
+          "url": "https://www.instagram.com/macerioni/"
         }
       ],
       "blocks": [
@@ -1731,7 +2010,7 @@
       ],
       "demo": false,
       "createdAt": "2026-10-09T16:49:20.566Z",
-      "updatedAt": "2026-10-09T16:49:20.566Z"
+      "updatedAt": "2026-10-12T22:46:29.633Z"
     },
     {
       "id": "p-calzany",
@@ -2697,11 +2976,11 @@
       "id": "m-334d69501a73",
       "kind": "embed",
       "src": "https://vimeo.com/1235128404",
-      "provider": "vimeo",
+      "posterId": "m-4b07d1aef5b2",
       "alt": "VITA Tumbler Final Apresentação",
       "width": 1920,
       "height": 1080,
-      "posterId": "m-4b07d1aef5b2",
+      "provider": "vimeo",
       "origin": "remote",
       "createdAt": "2026-10-12T17:31:23.926Z"
     },
@@ -2721,11 +3000,11 @@
       "id": "m-a9cec85482a0",
       "kind": "embed",
       "src": "https://vimeo.com/1008578451",
-      "provider": "vimeo",
+      "posterId": "m-18427d7b807c",
       "alt": "Ecco Vita ZC Hero Final",
       "width": 1920,
       "height": 1080,
-      "posterId": "m-18427d7b807c",
+      "provider": "vimeo",
       "origin": "remote",
       "createdAt": "2026-10-12T17:31:22.826Z"
     },

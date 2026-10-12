@@ -305,9 +305,10 @@
         },
         {
           "id": "vita-b31",
-          "type": "embed",
-          "url": "https://vimeo.com/1008578451",
-          "caption": "Hero film"
+          "type": "video",
+          "caption": "Hero film",
+          "assetId": "m-a9cec85482a0",
+          "autoplay": false
         },
         {
           "id": "vita-b32",
@@ -352,9 +353,10 @@
         },
         {
           "id": "vita-b41",
-          "type": "embed",
-          "url": "https://vimeo.com/1235128404",
-          "caption": "VITA Tumbler — Final presentation"
+          "type": "video",
+          "caption": "VITA Tumbler — Final presentation",
+          "assetId": "m-334d69501a73",
+          "autoplay": false
         },
         {
           "id": "vita-b42",
@@ -504,7 +506,7 @@
       ],
       "demo": false,
       "createdAt": "2026-10-09T15:00:23.868Z",
-      "updatedAt": "2026-10-12T17:31:17.428Z"
+      "updatedAt": "2026-10-12T17:31:23.926Z"
     },
     {
       "id": "p-jandaia",
@@ -2691,6 +2693,54 @@
     }
   ],
   "media": [
+    {
+      "id": "m-334d69501a73",
+      "kind": "embed",
+      "src": "https://vimeo.com/1235128404",
+      "provider": "vimeo",
+      "alt": "VITA Tumbler Final Apresentação",
+      "width": 1920,
+      "height": 1080,
+      "posterId": "m-4b07d1aef5b2",
+      "origin": "remote",
+      "createdAt": "2026-10-12T17:31:23.926Z"
+    },
+    {
+      "id": "m-4b07d1aef5b2",
+      "kind": "image",
+      "src": "/media/m-4b07d1aef5b2.jpg",
+      "alt": "VITA Tumbler Final Apresentação — video cover",
+      "width": 1280,
+      "height": 2276,
+      "mime": "image/jpeg",
+      "size": 313917,
+      "origin": "upload",
+      "createdAt": "2026-10-12T17:31:23.926Z"
+    },
+    {
+      "id": "m-a9cec85482a0",
+      "kind": "embed",
+      "src": "https://vimeo.com/1008578451",
+      "provider": "vimeo",
+      "alt": "Ecco Vita ZC Hero Final",
+      "width": 1920,
+      "height": 1080,
+      "posterId": "m-18427d7b807c",
+      "origin": "remote",
+      "createdAt": "2026-10-12T17:31:22.826Z"
+    },
+    {
+      "id": "m-18427d7b807c",
+      "kind": "image",
+      "src": "/media/m-18427d7b807c.jpg",
+      "alt": "Ecco Vita ZC Hero Final — video cover",
+      "width": 1280,
+      "height": 720,
+      "mime": "image/jpeg",
+      "size": 49188,
+      "origin": "upload",
+      "createdAt": "2026-10-12T17:31:22.826Z"
+    },
     {
       "id": "m-91216d1deb1a",
       "kind": "image",

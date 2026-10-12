@@ -148,7 +148,15 @@ export default async function CasePage({ params }: { params: Promise<{ slug: str
               <div key={i} className="t-meta grid grid-cols-[1fr_auto_1fr] items-baseline gap-4">
                 <dt className="text-right text-ivory/60">{c.role}</dt>
                 <span aria-hidden className="h-px w-8 translate-y-[-3px] bg-ivory/30 md:w-16" />
-                <dd>{c.name}</dd>
+                <dd>
+                  {c.url ? (
+                    <a href={c.url} target="_blank" rel="noreferrer" className="link-wipe">
+                      {c.name}
+                    </a>
+                  ) : (
+                    c.name
+                  )}
+                </dd>
               </div>
             ))}
           </dl>

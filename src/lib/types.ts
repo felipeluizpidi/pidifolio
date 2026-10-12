@@ -55,7 +55,8 @@ export type BlockType = Block["type"];
 export const featuredLayout = z.enum(["fullbleed", "split", "poster", "sequence"]);
 export const archiveShape = z.enum(["poster", "landscape", "square", "type"]);
 
-export const creditSchema = z.object({ role: z.string(), name: z.string() });
+/** `url` is optional — when set (e.g. an Instagram profile), the name links out to it. */
+export const creditSchema = z.object({ role: z.string(), name: z.string(), url: z.string().url().optional() });
 
 /**
  * The site's fixed palette (red, orange, ivory on ink) — case accents never introduce new colors.

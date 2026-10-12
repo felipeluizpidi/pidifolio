@@ -18,7 +18,7 @@ Preferências e decisões acumuladas no desenvolvimento deste portfólio. Valem 
 ## Decisões de layout já tomadas
 - Fontes de títulos/hero 15% menores e +15% de espaçamento entre blocos de texto (já aplicado — manter o padrão).
 - Faixa **"Career in numbers"** logo abaixo do hero (números reais do LinkedIn; editáveis em Settings → About).
-- **Selected Work**: numeração **01, 02, 03, 04** na ordem **01 Nazca · 02 Zona Criativa · 03 JandaIA · 04 Óticas Diniz**. O número fica junto ao título (mesmo padrão nos 4).
+- **Selected Work**: numeração **01, 02, 03, 04** na ordem **01 Nazca · 02 Zonacriativa · 03 JandaIA · 04 Óticas Diniz**. O número fica junto ao título (mesmo padrão nos 4).
 - Archive: barra de filtros **não** é fixa (sem `sticky`). Numeração de 2 dígitos em todo o site.
 - **Fotografia** é uma categoria normal (05 — Photography), com cases iguais aos outros. Não existe mais seção/lightbox separada.
 - Sem Showreel.

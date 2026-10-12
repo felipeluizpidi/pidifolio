@@ -283,6 +283,11 @@ export function ProjectEditor({ project, categories, media: initialMedia }: { pr
           <div key={i} className="flex gap-2">
             <Input placeholder="Role" value={c.role} onChange={(e) => set("credits", p.credits.map((x, j) => (j === i ? { ...x, role: e.target.value } : x)))} />
             <Input placeholder="Name" value={c.name} onChange={(e) => set("credits", p.credits.map((x, j) => (j === i ? { ...x, name: e.target.value } : x)))} />
+            <Input
+              placeholder="Link (optional, e.g. Instagram)"
+              value={c.url ?? ""}
+              onChange={(e) => set("credits", p.credits.map((x, j) => (j === i ? { ...x, url: e.target.value || undefined } : x)))}
+            />
             <Button variant="ghost" aria-label="Remove credit" onClick={() => set("credits", p.credits.filter((_, j) => j !== i))}>
               <Trash2 className="h-4 w-4" />
             </Button>
