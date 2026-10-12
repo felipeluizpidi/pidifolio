@@ -271,8 +271,8 @@
         "c-motion"
       ],
       "accent": "#EF2917",
-      "coverId": "m-bh-cover-vita",
-      "coverFocus": "left",
+      "coverId": "m-bd3aeeccb717",
+      "coverFocus": "center",
       "featured": true,
       "featuredLayout": "split",
       "archiveShape": "poster",
@@ -305,9 +305,10 @@
         },
         {
           "id": "vita-b31",
-          "type": "embed",
-          "url": "https://vimeo.com/1008578451",
-          "caption": "Hero film"
+          "type": "video",
+          "caption": "Hero film",
+          "assetId": "m-3f08d646e82c",
+          "autoplay": false
         },
         {
           "id": "vita-b32",
@@ -346,7 +347,7 @@
       ],
       "demo": false,
       "createdAt": "2026-10-09T15:00:23.868Z",
-      "updatedAt": "2026-10-09T15:40:34.570Z"
+      "updatedAt": "2026-10-12T16:42:05.963Z"
     },
     {
       "id": "p-jandaia",
@@ -572,9 +573,10 @@
         },
         {
           "id": "pentonic-b19",
-          "type": "embed",
-          "url": "https://vimeo.com/993722141",
-          "caption": "Campaign case film"
+          "type": "video",
+          "caption": "Campaign case film",
+          "assetId": "m-d91eecf643b3",
+          "autoplay": false
         },
         {
           "id": "pentonic-b24",
@@ -651,7 +653,7 @@
       ],
       "demo": false,
       "createdAt": "2026-10-09T15:00:23.868Z",
-      "updatedAt": "2026-10-11T16:06:20.933Z"
+      "updatedAt": "2026-10-12T16:42:06.675Z"
     },
     {
       "id": "p-kfc",
@@ -1039,9 +1041,10 @@
         },
         {
           "id": "cis-b54",
-          "type": "embed",
-          "url": "https://vimeo.com/996388926",
-          "caption": "Launch film — back to school 2024"
+          "type": "video",
+          "caption": "Launch film — back to school 2024",
+          "assetId": "m-40e62288e6ef",
+          "autoplay": false
         },
         {
           "id": "cis-b55",
@@ -1069,7 +1072,7 @@
       ],
       "demo": false,
       "createdAt": "2026-10-09T15:00:23.868Z",
-      "updatedAt": "2026-10-09T15:40:34.570Z"
+      "updatedAt": "2026-10-12T16:42:07.649Z"
     },
     {
       "id": "p-exacta",
@@ -1206,20 +1209,22 @@
       "blocks": [
         {
           "id": "ecco-b1",
-          "type": "embed",
-          "url": "https://vimeo.com/1214066579",
-          "caption": "Institutional film"
+          "type": "video",
+          "caption": "Institutional film",
+          "assetId": "m-ea9ce8b79bcc",
+          "autoplay": false
         },
         {
           "id": "ecco-b2",
-          "type": "embed",
-          "url": "https://vimeo.com/1214060301",
-          "caption": "Audiovisual"
+          "type": "video",
+          "caption": "Audiovisual",
+          "assetId": "m-285ad2d1ed50",
+          "autoplay": false
         }
       ],
       "demo": false,
       "createdAt": "2026-10-09T16:49:20.566Z",
-      "updatedAt": "2026-10-09T16:49:20.566Z"
+      "updatedAt": "2026-10-12T16:42:09.309Z"
     },
     {
       "id": "p-bbb",
@@ -1342,9 +1347,10 @@
         },
         {
           "id": "linx-b8",
-          "type": "embed",
-          "url": "https://vimeo.com/1008586341",
-          "caption": "Tem Solução pra Tudo, Tem Linx pra Tudo"
+          "type": "video",
+          "caption": "Tem Solução pra Tudo, Tem Linx pra Tudo",
+          "assetId": "m-f1b918fab987",
+          "autoplay": false
         },
         {
           "id": "linx-b9",
@@ -1399,7 +1405,7 @@
       ],
       "demo": false,
       "createdAt": "2026-10-09T16:49:20.566Z",
-      "updatedAt": "2026-10-09T16:49:20.566Z"
+      "updatedAt": "2026-10-12T16:42:09.875Z"
     },
     {
       "id": "p-uniball",
@@ -2528,6 +2534,162 @@
     }
   ],
   "media": [
+    {
+      "id": "m-f1b918fab987",
+      "kind": "embed",
+      "src": "https://vimeo.com/1008586341",
+      "provider": "vimeo",
+      "alt": "Tem Solução pra Tudo Tem Linx pra Tudo",
+      "width": 1920,
+      "height": 1080,
+      "posterId": "m-fe46ba33ab92",
+      "origin": "remote",
+      "createdAt": "2026-10-12T16:42:09.875Z"
+    },
+    {
+      "id": "m-fe46ba33ab92",
+      "kind": "image",
+      "src": "/media/m-fe46ba33ab92.jpg",
+      "alt": "Tem Solução pra Tudo Tem Linx pra Tudo — video cover",
+      "width": 1280,
+      "height": 960,
+      "mime": "image/jpeg",
+      "size": 8211,
+      "origin": "upload",
+      "createdAt": "2026-10-12T16:42:09.875Z"
+    },
+    {
+      "id": "m-285ad2d1ed50",
+      "kind": "embed",
+      "src": "https://vimeo.com/1214060301",
+      "provider": "vimeo",
+      "alt": "Video - Audiovisual",
+      "width": 1920,
+      "height": 1080,
+      "posterId": "m-7780bb8d0fd2",
+      "origin": "remote",
+      "createdAt": "2026-10-12T16:42:09.309Z"
+    },
+    {
+      "id": "m-7780bb8d0fd2",
+      "kind": "image",
+      "src": "/media/m-7780bb8d0fd2.jpg",
+      "alt": "Video - Audiovisual — video cover",
+      "width": 1280,
+      "height": 960,
+      "mime": "image/jpeg",
+      "size": 159706,
+      "origin": "upload",
+      "createdAt": "2026-10-12T16:42:09.309Z"
+    },
+    {
+      "id": "m-ea9ce8b79bcc",
+      "kind": "embed",
+      "src": "https://vimeo.com/1214066579",
+      "provider": "vimeo",
+      "alt": "Ecco_Behance_Videos institucionais_290726",
+      "width": 1920,
+      "height": 1080,
+      "posterId": "m-4d788d7b6b54",
+      "origin": "remote",
+      "createdAt": "2026-10-12T16:42:08.252Z"
+    },
+    {
+      "id": "m-4d788d7b6b54",
+      "kind": "image",
+      "src": "/media/m-4d788d7b6b54.jpg",
+      "alt": "Ecco_Behance_Videos institucionais_290726 — video cover",
+      "width": 1280,
+      "height": 720,
+      "mime": "image/jpeg",
+      "size": 16457,
+      "origin": "upload",
+      "createdAt": "2026-10-12T16:42:08.252Z"
+    },
+    {
+      "id": "m-40e62288e6ef",
+      "kind": "embed",
+      "src": "https://vimeo.com/996388926",
+      "provider": "vimeo",
+      "alt": "Lançamento - Campanha de Volta às Aulas da CiS - 2024",
+      "width": 1920,
+      "height": 1080,
+      "posterId": "m-5c94225b48b3",
+      "origin": "remote",
+      "createdAt": "2026-10-12T16:42:07.649Z"
+    },
+    {
+      "id": "m-5c94225b48b3",
+      "kind": "image",
+      "src": "/media/m-5c94225b48b3.jpg",
+      "alt": "Lançamento - Campanha de Volta às Aulas da CiS - 2024 — video cover",
+      "width": 1280,
+      "height": 960,
+      "mime": "image/jpeg",
+      "size": 56110,
+      "origin": "upload",
+      "createdAt": "2026-10-12T16:42:07.649Z"
+    },
+    {
+      "id": "m-d91eecf643b3",
+      "kind": "embed",
+      "src": "https://vimeo.com/993722141",
+      "provider": "vimeo",
+      "alt": "Ecco Case VA Pentonic",
+      "width": 1920,
+      "height": 1080,
+      "posterId": "m-a3210321fbcc",
+      "origin": "remote",
+      "createdAt": "2026-10-12T16:42:06.675Z"
+    },
+    {
+      "id": "m-a3210321fbcc",
+      "kind": "image",
+      "src": "/media/m-a3210321fbcc.jpg",
+      "alt": "Ecco Case VA Pentonic — video cover",
+      "width": 1280,
+      "height": 960,
+      "mime": "image/jpeg",
+      "size": 73308,
+      "origin": "upload",
+      "createdAt": "2026-10-12T16:42:06.675Z"
+    },
+    {
+      "id": "m-3f08d646e82c",
+      "kind": "embed",
+      "src": "https://vimeo.com/1008578451",
+      "provider": "vimeo",
+      "alt": "Ecco Vita ZC Hero Final",
+      "width": 1920,
+      "height": 1080,
+      "posterId": "m-91792aa958b8",
+      "origin": "remote",
+      "createdAt": "2026-10-12T16:42:05.963Z"
+    },
+    {
+      "id": "m-91792aa958b8",
+      "kind": "image",
+      "src": "/media/m-91792aa958b8.jpg",
+      "alt": "Ecco Vita ZC Hero Final — video cover",
+      "width": 1280,
+      "height": 720,
+      "mime": "image/jpeg",
+      "size": 49188,
+      "origin": "upload",
+      "createdAt": "2026-10-12T16:42:05.963Z"
+    },
+    {
+      "id": "m-bd3aeeccb717",
+      "kind": "image",
+      "src": "/media/m-bd3aeeccb717.png",
+      "alt": "PPT VITA 001",
+      "width": 1920,
+      "height": 1080,
+      "mime": "image/png",
+      "size": 3343676,
+      "origin": "upload",
+      "createdAt": "2026-10-12T16:34:05.489Z"
+    },
     {
       "id": "m-5a9befb00618",
       "kind": "image",
