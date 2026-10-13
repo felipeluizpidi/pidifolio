@@ -192,18 +192,100 @@
       "published": true,
       "order": 1,
       "overview": "#ExperimenteSentir — a haircare campaign for Nazca built around sensation. Every phase of hair care becomes a feeling to try: “Sinta cada versão de você” (feel every version of you).",
-      "challenge": "",
+      "challenge": "Nazca, a national haircare and skincare brand with 40+ years in the market, first needed to rethink its presence on social media — then, as results came in, was invited to lead the brand's full repositioning.",
       "concept": "Warm, skin-close photography and an editorial type system carry one sensory idea across key visuals, product shots, social and out-of-home.",
-      "process": "",
-      "outcomes": "",
+      "process": "A full on- and off-line communication plan covering every touchpoint, from retail to digital: press kits, films, social media, campaigns and influencer/B2B partnerships, with always-on content produced in-house. One brand diagnostic set a clear verbal tone and a visual identity built to carry that renewed strength and care.",
+      "outcomes": "+581% average engagement\n+277% reach\n+44% LinkedIn followers\n+4,457% TikTok followers",
       "credits": [
         {
-          "role": "Art Direction",
-          "name": "Felipe Pidi"
+          "role": "Agency",
+          "name": "Agência Ecco",
+          "url": "https://www.instagram.com/agenciaecco/"
         },
         {
-          "role": "Team",
-          "name": "Cesar Augusto"
+          "role": "Creative Direction",
+          "name": "Felipe Pidi",
+          "url": "https://www.instagram.com/felipepidi/"
+        },
+        {
+          "role": "Creative Direction",
+          "name": "Giovana Zane",
+          "url": "https://www.instagram.com/giovanazane/"
+        },
+        {
+          "role": "Creative Direction",
+          "name": "Emanuele Freitas",
+          "url": "https://www.instagram.com/emanuele_freitas/"
+        },
+        {
+          "role": "Social Media",
+          "name": "Giovana Zane",
+          "url": "https://www.instagram.com/giovanazane/"
+        },
+        {
+          "role": "Account Executive",
+          "name": "Viviane Bomfim",
+          "url": "https://www.instagram.com/vivizbomfim/"
+        },
+        {
+          "role": "Audiovisual Direction & Photography",
+          "name": "Cesar Augusto",
+          "url": "https://www.instagram.com/cesar_rsantos/"
+        },
+        {
+          "role": "Audiovisual Direction & Photography",
+          "name": "Gilcileyde Ribeiro",
+          "url": "https://www.instagram.com/gilcileyderibeiro/"
+        },
+        {
+          "role": "Audiovisual Direction & Photography",
+          "name": "Welber Luiz",
+          "url": "https://www.instagram.com/welberroots/"
+        },
+        {
+          "role": "Makeup",
+          "name": "Bianca Megda",
+          "url": "https://www.instagram.com/biancamegdabeauty/"
+        },
+        {
+          "role": "Stylist",
+          "name": "Jung Wan Lamberti",
+          "url": "https://www.instagram.com/aquele.jun/"
+        },
+        {
+          "role": "Model",
+          "name": "Camila Marcelino",
+          "url": "https://www.instagram.com/kmila_marcelino/"
+        },
+        {
+          "role": "Model",
+          "name": "Amanda Duque",
+          "url": "https://www.instagram.com/amandasduque/"
+        },
+        {
+          "role": "Model",
+          "name": "Julia Marques",
+          "url": "https://www.instagram.com/jumarquesof/"
+        },
+        {
+          "role": "Model",
+          "name": "Claudia Akemi",
+          "url": "https://www.instagram.com/claudinhaakemi/"
+        },
+        {
+          "role": "Model",
+          "name": "Melissa Mattos",
+          "url": "https://www.instagram.com/mattosmel_/"
+        },
+        {
+          "role": "Nazca Team",
+          "name": "Artur Almeida",
+          "url": "https://www.instagram.com/madebysensee/"
+        },
+        {
+          "role": "Nazca Team",
+          "name": "Tamires Lima",
+          "url": "https://www.instagram.com/tami_rockn/"
         }
       ],
       "blocks": [
@@ -221,42 +303,94 @@
           "autoplay": true
         },
         {
-          "id": "nazca-b3",
+          "id": "nazca-b11",
           "type": "image",
           "assetId": "m-bh-nazca-02"
         },
         {
-          "id": "nazca-b4",
-          "type": "grid2",
-          "assetIds": [
-            "m-bh-nazca-03",
-            "m-bh-nazca-04"
-          ]
+          "id": "nazca-b12",
+          "type": "image",
+          "assetId": "m-bh-nazca-03"
         },
         {
-          "id": "nazca-b5",
+          "id": "nazca-b13",
+          "type": "image",
+          "assetId": "m-bh-nazca-04"
+        },
+        {
+          "id": "nazca-b14",
           "type": "image",
           "assetId": "m-bh-nazca-06"
         },
         {
-          "id": "nazca-b6",
+          "id": "nazca-b15",
+          "type": "image",
+          "assetId": "m-bh-nazca-05"
+        },
+        {
+          "id": "nazca-b16",
+          "type": "image",
+          "assetId": "m-bh-nazca-07"
+        },
+        {
+          "id": "nazca-b17",
+          "type": "image",
+          "assetId": "m-bh-nazca-08"
+        },
+        {
+          "id": "nazca-b18",
+          "type": "image",
+          "assetId": "m-bh-nazca-01"
+        },
+        {
+          "id": "nazca-b20",
+          "type": "text",
+          "heading": "Shooting",
+          "body": "On set for the campaign — color, texture and the product in hand.",
+          "size": "lg"
+        },
+        {
+          "id": "nazca-b21",
+          "type": "gallery",
+          "assetIds": [
+            "m-nazca-shoot-01",
+            "m-nazca-shoot-02",
+            "m-nazca-shoot-03",
+            "m-nazca-shoot-04",
+            "m-nazca-shoot-05",
+            "m-nazca-shoot-06",
+            "m-nazca-shoot-07",
+            "m-nazca-shoot-08",
+            "m-nazca-shoot-09",
+            "m-nazca-shoot-10"
+          ]
+        },
+        {
+          "id": "nazca-b22",
+          "type": "text",
+          "heading": "Backstage & crew",
+          "body": "On set with the team that made it happen.",
+          "size": "lg"
+        },
+        {
+          "id": "nazca-b23",
           "type": "filmstrip",
           "assetIds": [
-            "m-bh-nazca-05",
-            "m-bh-nazca-07",
-            "m-bh-nazca-08",
-            "m-bh-nazca-01"
+            "m-nazca-crew-01",
+            "m-nazca-crew-02",
+            "m-nazca-crew-slate-01",
+            "m-nazca-crew-slate-02"
           ]
         }
       ],
       "demo": false,
       "createdAt": "2026-10-09T15:00:23.868Z",
-      "updatedAt": "2026-10-10T21:25:16.379Z"
+      "updatedAt": "2026-10-13T00:18:19.627Z"
     },
     {
       "id": "p-vita",
       "slug": "zonacriativa-garrafa-vita",
-      "title": "Zona Criativa",
+      "title": "Zonacriativa",
       "subtitle": "Garrafa VITA",
       "client": "Zonacriativa",
       "year": 2024,
@@ -278,23 +412,115 @@
       "archiveShape": "landscape",
       "published": true,
       "order": 2,
-      "overview": "",
+      "overview": "“Abra, beba, VITA, repita!” — the launch campaign for the VITA thermal bottle, Zonacriativa’s new flagship line, with its own shoot, launch film, social campaign and press kit.",
       "challenge": "Zonacriativa came to us to make the VITA bottle stand out in a market saturated with similar products — a campaign that would not only grab attention but communicate what makes the product innovative and different.",
       "concept": "A complete digital campaign: influencer management, an exclusive shoot, a high-impact landing page, strategic social posts and a press kit — one integrated approach to communicate the product's innovation.",
-      "process": "",
-      "outcomes": "",
+      "process": "A single shoot carried the whole campaign: launch film, product stills, social content and press-kit visuals, all built around one color-blocked, lifestyle-first language. The bottle moved through gym, home and poolside scenes to make “cold 24h, hot 12h” feel like a daily habit rather than a spec sheet.",
+      "outcomes": "18M+ impacts across the campaign's content\n4.3M+ accounts reached on Instagram alone\n635K+ content views on TikTok\n27K+ landing page views\n+94% growth in the resellers section of Zonacriativa's site, H1 2024",
       "credits": [
         {
-          "role": "Head of Design",
+          "role": "Head of Design · Audiovisual Direction · Shoot Creative Direction · Art Direction",
           "name": "Felipe Pidi"
         },
         {
           "role": "Agency",
-          "name": "Agência Ecco"
+          "name": "Agência Ecco",
+          "url": "https://www.instagram.com/agenciaecco/"
         },
         {
-          "role": "Team",
-          "name": "Marcus David · Marília Cerioni · Cesar Augusto · Luís Silva"
+          "role": "Commercial Direction",
+          "name": "Ísis Vasques",
+          "url": "https://www.instagram.com/isis.vasques/"
+        },
+        {
+          "role": "Commercial Direction",
+          "name": "Marcelo Manha",
+          "url": "https://www.instagram.com/manha25/"
+        },
+        {
+          "role": "Account Service",
+          "name": "Thaís Macena",
+          "url": "https://www.instagram.com/thatamacena/"
+        },
+        {
+          "role": "Planning",
+          "name": "Lívia Maturana",
+          "url": "https://www.instagram.com/liviamaturana/"
+        },
+        {
+          "role": "Media",
+          "name": "Dayane Silva",
+          "url": "https://www.instagram.com/eusoudayane/"
+        },
+        {
+          "role": "Copywriting",
+          "name": "Marília Cerioni",
+          "url": "https://www.instagram.com/macerioni/"
+        },
+        {
+          "role": "Copywriting",
+          "name": "Jonathas Fragal",
+          "url": "https://www.instagram.com/jonathasfragal/"
+        },
+        {
+          "role": "Copywriting",
+          "name": "Rafaela Martuscelli",
+          "url": "https://www.instagram.com/rafamartuscelli/"
+        },
+        {
+          "role": "Social Media",
+          "name": "Gabrielle Felippe",
+          "url": "https://www.instagram.com/gabs_mfs/"
+        },
+        {
+          "role": "Social Media Coordinator",
+          "name": "Luís Silva",
+          "url": "https://www.instagram.com/silvaluis_/"
+        },
+        {
+          "role": "Creative Direction",
+          "name": "Cesar Augusto",
+          "url": "https://www.instagram.com/cesar_rsantos/"
+        },
+        {
+          "role": "Creative Direction",
+          "name": "Marcus David",
+          "url": "https://www.instagram.com/md.frame/"
+        },
+        {
+          "role": "Art Direction",
+          "name": "Caio Vinícius",
+          "url": "https://www.instagram.com/caioka/"
+        },
+        {
+          "role": "Photography & Editing",
+          "name": "Gilcileyde Ribeiro",
+          "url": "https://www.instagram.com/gilcileyderibeiro/"
+        },
+        {
+          "role": "Photography & Editing",
+          "name": "Welber Luiz",
+          "url": "https://www.instagram.com/welberroots/"
+        },
+        {
+          "role": "Model",
+          "name": "Sayuri Kogati",
+          "url": "https://www.instagram.com/sayurikogati/"
+        },
+        {
+          "role": "Model",
+          "name": "Thiago Vieira Luccio",
+          "url": "https://www.instagram.com/thiagovieiraluccio/"
+        },
+        {
+          "role": "Makeup",
+          "name": "Bianca Megda",
+          "url": "https://www.instagram.com/biancamegdabeauty/"
+        },
+        {
+          "role": "Stylist",
+          "name": "Renatta Serra",
+          "url": "https://www.instagram.com/renatta_serra/"
         }
       ],
       "blocks": [
@@ -306,8 +532,8 @@
         {
           "id": "vita-b31",
           "type": "video",
-          "caption": "Hero film",
           "assetId": "m-a9cec85482a0",
+          "caption": "Hero film",
           "autoplay": false
         },
         {
@@ -329,20 +555,12 @@
         {
           "id": "vita-b34",
           "type": "image",
-          "assetId": "m-bh-vita-07"
-        },
-        {
-          "id": "vita-b35",
-          "type": "grid2",
-          "assetIds": [
-            "m-bh-vita-05",
-            "m-bh-vita-09"
-          ]
+          "assetId": "m-bh-vita-05"
         },
         {
           "id": "vita-b36",
           "type": "image",
-          "assetId": "m-bh-vita-08"
+          "assetId": "m-bh-vita-09"
         },
         {
           "id": "vita-b40",
@@ -354,20 +572,25 @@
         {
           "id": "vita-b41",
           "type": "video",
-          "caption": "VITA Tumbler — Final presentation",
           "assetId": "m-334d69501a73",
+          "caption": "VITA Tumbler — Final presentation",
           "autoplay": false
         },
         {
           "id": "vita-b42",
           "type": "text",
           "heading": "Shooting",
-          "body": "A dedicated shoot exploring color, movement and the product in everyday life."
+          "body": "A dedicated shoot exploring color, movement and the product in everyday life.",
+          "size": "lg"
         },
         {
           "id": "vita-b43",
-          "type": "image",
-          "assetId": "m-vita2-shoot-10"
+          "type": "asymmetric",
+          "assetIds": [
+            "m-vita2-shoot-10",
+            "m-vita2-shoot-09",
+            "m-vita2-shoot-04"
+          ]
         },
         {
           "id": "vita-b44",
@@ -382,25 +605,16 @@
           "id": "vita-b45",
           "type": "grid2",
           "assetIds": [
-            "m-vita2-shoot-04",
-            "m-vita2-shoot-05"
+            "m-vita2-shoot-05",
+            "m-vita2-shoot-06"
           ]
         },
         {
-          "id": "vita-b46",
-          "type": "imageText",
-          "assetId": "m-vita2-shoot-06",
-          "heading": "Poolside",
-          "text": "Color-blocked styling that keeps the product the hero, even against a loud background.",
-          "side": "right"
-        },
-        {
           "id": "vita-b47",
-          "type": "grid3",
+          "type": "grid2",
           "assetIds": [
             "m-vita2-shoot-07",
-            "m-vita2-shoot-08",
-            "m-vita2-shoot-09"
+            "m-vita2-shoot-08"
           ]
         },
         {
@@ -413,32 +627,21 @@
           ]
         },
         {
-          "id": "vita-b49",
-          "type": "image",
-          "assetId": "m-vita2-shoot-gif-01",
-          "caption": "Product reveal, looping clip"
-        },
-        {
           "id": "vita-b50",
           "type": "text",
           "heading": "Social",
-          "body": "Daily content for the brand's own channel — product drops, lifestyle loops and seasonal colorways."
+          "body": "Daily content for the brand's own channel — product drops, lifestyle loops and the 'cold 24h, hot 12h' promise distilled into a single looping shot for stories.",
+          "size": "lg"
         },
         {
           "id": "vita-b51",
-          "type": "grid2",
+          "type": "gallery",
           "assetIds": [
+            "m-vita2-shoot-gif-01",
             "m-vita2-social-gif-01",
-            "m-vita2-social-gif-02"
+            "m-vita2-social-gif-02",
+            "m-vita2-social-gif-03"
           ]
-        },
-        {
-          "id": "vita-b52",
-          "type": "imageText",
-          "assetId": "m-vita2-social-gif-03",
-          "heading": "24h cold, 12h hot",
-          "text": "The product promise distilled into a single looping shot for stories.",
-          "side": "left"
         },
         {
           "id": "vita-b53",
@@ -462,7 +665,8 @@
           "id": "vita-b55",
           "type": "text",
           "heading": "Press kit",
-          "body": "Unboxing visuals and packaging details prepared for media and partners."
+          "body": "Unboxing visuals and packaging details prepared for media and partners.",
+          "size": "lg"
         },
         {
           "id": "vita-b56",
@@ -477,36 +681,32 @@
           "id": "vita-b57",
           "type": "grid3",
           "assetIds": [
-            "m-vita2-presskit-04",
             "m-vita2-presskit-05",
-            "m-vita2-presskit-06"
+            "m-vita2-presskit-06",
+            "m-vita2-presskit-07"
           ]
-        },
-        {
-          "id": "vita-b58",
-          "type": "image",
-          "assetId": "m-vita2-presskit-07"
         },
         {
           "id": "vita-b59",
           "type": "text",
           "heading": "Backstage & crew",
-          "body": "On set with the team that made it happen."
+          "body": "On set with the team that made it happen.",
+          "size": "lg"
         },
         {
           "id": "vita-b60",
           "type": "filmstrip",
           "assetIds": [
-            "m-vita2-crew-gif-01",
-            "m-vita2-crew-gif-02",
-            "m-vita2-crew-gif-03",
-            "m-vita2-crew-gif-04"
+            "m-vita2-crew-clip-01",
+            "m-vita2-crew-clip-02",
+            "m-vita2-crew-clip-03",
+            "m-vita2-crew-clip-04"
           ]
         }
       ],
       "demo": false,
       "createdAt": "2026-10-09T15:00:23.868Z",
-      "updatedAt": "2026-10-12T17:31:23.926Z"
+      "updatedAt": "2026-10-12T23:59:53.668Z"
     },
     {
       "id": "p-jandaia",
@@ -526,14 +726,14 @@
         "c-ai"
       ],
       "accent": "#F4E9D6",
-      "coverId": "m-bh-cover-jandaia",
-      "coverFocus": "center",
+      "coverId": "m-8bf1e73be0fb",
+      "coverFocus": "right",
       "featured": true,
       "featuredLayout": "poster",
       "archiveShape": "square",
       "published": true,
       "order": 3,
-      "overview": "",
+      "overview": "Cadernos Jandaia, a stationery brand with decades of history, built JandaIA: an AI-powered app that stores, catalogs, organizes and gets more out of what students write in their physical notebooks — a digital extension of the brand, not a separate product.",
       "challenge": "JandaIA needed an identity that expressed its purpose — making learning easier and stronger — while staying connected to the parent brand, Cadernos Jandaia. It had to speak to students, teachers and professionals, reflect learning, tutoring and usability, and stand out in a crowded market.",
       "concept": "We reinterpreted the speech balloon from the parent logo as a symbol of dialogue and exchange — the app's role in the user's life. A fluid, humane typeface keeps the brand approachable, and AiA, a virtual assistant, personifies the support the app offers.",
       "process": "Modular boxes and a vibrant palette carry the flexibility and positivity of the product across app UI, characters, social and out-of-home.",
@@ -545,11 +745,43 @@
         },
         {
           "role": "Agency",
-          "name": "Agência Ecco"
+          "name": "Agência Ecco",
+          "url": "https://www.instagram.com/agenciaecco/"
         },
         {
-          "role": "Team",
-          "name": "Lucas Ananias · Marcus David · Caio Vinícius · Giovanna Marino"
+          "role": "Commercial Direction",
+          "name": "Ísis Vasques",
+          "url": "https://www.instagram.com/isis.vasques/"
+        },
+        {
+          "role": "Commercial Direction",
+          "name": "Marcelo Manha",
+          "url": "https://www.instagram.com/manha25/"
+        },
+        {
+          "role": "Account Service",
+          "name": "Thaís Macena",
+          "url": "https://www.instagram.com/thatamacena/"
+        },
+        {
+          "role": "Design",
+          "name": "Caio Vinícius",
+          "url": "https://www.instagram.com/caioka/"
+        },
+        {
+          "role": "Design",
+          "name": "Giovanna Marino",
+          "url": "https://www.instagram.com/ogigimari_/"
+        },
+        {
+          "role": "Design",
+          "name": "Lucas Ananias",
+          "url": "https://www.instagram.com/elnanias/"
+        },
+        {
+          "role": "Design",
+          "name": "Marcus David",
+          "url": "https://www.instagram.com/md.frame/"
         }
       ],
       "blocks": [
@@ -592,11 +824,110 @@
             "m-bh-jandaia-08",
             "m-bh-jandaia-10"
           ]
+        },
+        {
+          "id": "jandaia-b20",
+          "type": "text",
+          "heading": "The film",
+          "body": "A short film introducing AiA, the virtual assistant at the heart of the app.",
+          "size": "lg"
+        },
+        {
+          "id": "jandaia-b21",
+          "type": "video",
+          "assetId": "m-jandaia-video-01",
+          "autoplay": false
+        },
+        {
+          "id": "jandaia-b22",
+          "type": "text",
+          "heading": "Key Visual",
+          "body": "The campaign photography — real students and professionals, phone in hand, carrying the brand's voice.",
+          "size": "lg"
+        },
+        {
+          "id": "jandaia-b23",
+          "type": "gallery",
+          "assetIds": [
+            "m-jandaia-kv-01",
+            "m-jandaia-kv-02",
+            "m-jandaia-kv-03",
+            "m-jandaia-kv-04",
+            "m-jandaia-kv-05",
+            "m-jandaia-kv-06"
+          ]
+        },
+        {
+          "id": "jandaia-b24",
+          "type": "text",
+          "heading": "App",
+          "body": "Home, search and the AiA chat — the product the identity had to carry.",
+          "size": "lg"
+        },
+        {
+          "id": "jandaia-b25",
+          "type": "grid2",
+          "assetIds": [
+            "m-jandaia-app-01",
+            "m-jandaia-app-02"
+          ]
+        },
+        {
+          "id": "jandaia-b26",
+          "type": "text",
+          "heading": "Brand system",
+          "body": "Colors, wordmark, the AiA character set and type carry the identity from app to out-of-home.",
+          "size": "lg"
+        },
+        {
+          "id": "jandaia-b27",
+          "type": "gallery",
+          "assetIds": [
+            "m-jandaia-brand-01",
+            "m-jandaia-brand-02",
+            "m-jandaia-brand-03",
+            "m-jandaia-brand-04",
+            "m-jandaia-brand-05",
+            "m-jandaia-brand-06",
+            "m-jandaia-brand-07"
+          ]
+        },
+        {
+          "id": "jandaia-b28",
+          "type": "text",
+          "heading": "Out-of-home",
+          "body": "Billboards, screens and transit media translating the app into the physical world.",
+          "size": "lg"
+        },
+        {
+          "id": "jandaia-b29",
+          "type": "gallery",
+          "assetIds": [
+            "m-jandaia-ooh-01",
+            "m-jandaia-ooh-02",
+            "m-jandaia-ooh-03",
+            "m-jandaia-ooh-04",
+            "m-jandaia-ooh-05",
+            "m-jandaia-ooh-06",
+            "m-jandaia-ooh-07"
+          ]
+        },
+        {
+          "id": "jandaia-b30",
+          "type": "text",
+          "heading": "Social",
+          "body": "Launch posts for the brand's own channels.",
+          "size": "lg"
+        },
+        {
+          "id": "jandaia-b31",
+          "type": "image",
+          "assetId": "m-jandaia-social-01"
         }
       ],
       "demo": false,
       "createdAt": "2026-10-09T15:00:23.868Z",
-      "updatedAt": "2026-10-09T15:40:34.570Z"
+      "updatedAt": "2026-10-13T17:09:05.798Z"
     },
     {
       "id": "p-diniz",
@@ -709,7 +1040,7 @@
       "challenge": "Launch pentonic — the CiS pen line — as a brand of its own, with its own products and lines, through a back-to-school campaign. To build reach and awareness it also needed its own social profile, with proprietary content and a visual and verbal identity.",
       "concept": "“pentonic — seu estilo em ação!” (your style in action) unites the products' function and minimal aesthetic into a personality. It grows from the brand's “driven by design” line, which suggests both motivation and movement.",
       "process": "An exclusive shoot, a launch film, an original soundtrack, influencer actions and a stream of sustaining content.",
-      "outcomes": "131,582,404 impressions across the content created\n160,182 visits to the brand profile\n231,174 active engagements\n+124,200% follower growth on the page",
+      "outcomes": "131.6M impressions across the content created\n160K visits to the brand profile\n231K active engagements\n+124,200% follower growth on the page",
       "credits": [
         {
           "role": "Head of Design",
@@ -717,11 +1048,27 @@
         },
         {
           "role": "Agency",
-          "name": "Agência Ecco"
+          "name": "Agência Ecco",
+          "url": "https://www.instagram.com/agenciaecco/"
         },
         {
           "role": "Team",
-          "name": "Marcus David · Luís Silva · Marília Cerioni · Emanuele Freitas"
+          "name": "Marcus David",
+          "url": "https://www.instagram.com/md.frame/"
+        },
+        {
+          "role": "Team",
+          "name": "Luís Silva",
+          "url": "https://www.instagram.com/silvaluis_/"
+        },
+        {
+          "role": "Team",
+          "name": "Marília Cerioni",
+          "url": "https://www.instagram.com/macerioni/"
+        },
+        {
+          "role": "Team",
+          "name": "Emanuele Freitas"
         }
       ],
       "blocks": [
@@ -812,7 +1159,7 @@
       ],
       "demo": false,
       "createdAt": "2026-10-09T15:00:23.868Z",
-      "updatedAt": "2026-10-12T16:42:06.675Z"
+      "updatedAt": "2026-10-12T23:59:53.668Z"
     },
     {
       "id": "p-kfc",
@@ -930,11 +1277,22 @@
         },
         {
           "role": "Agency",
-          "name": "Agência Ecco"
+          "name": "Agência Ecco",
+          "url": "https://www.instagram.com/agenciaecco/"
         },
         {
           "role": "Team",
-          "name": "Lucas Ananias · Marcus David · Luís Silva"
+          "name": "Lucas Ananias"
+        },
+        {
+          "role": "Team",
+          "name": "Marcus David",
+          "url": "https://www.instagram.com/md.frame/"
+        },
+        {
+          "role": "Team",
+          "name": "Luís Silva",
+          "url": "https://www.instagram.com/silvaluis_/"
         }
       ],
       "blocks": [
@@ -967,7 +1325,7 @@
       ],
       "demo": false,
       "createdAt": "2026-10-09T15:00:23.868Z",
-      "updatedAt": "2026-10-09T15:40:34.570Z"
+      "updatedAt": "2026-10-12T22:46:29.633Z"
     },
     {
       "id": "p-hn",
@@ -1005,11 +1363,32 @@
         },
         {
           "role": "Agency",
-          "name": "Agência Ecco"
+          "name": "Agência Ecco",
+          "url": "https://www.instagram.com/agenciaecco/"
         },
         {
           "role": "Team",
-          "name": "Lucas Ananias · Marcus David · Cesar Augusto · Luís Silva · Marília Cerioni"
+          "name": "Lucas Ananias"
+        },
+        {
+          "role": "Team",
+          "name": "Marcus David",
+          "url": "https://www.instagram.com/md.frame/"
+        },
+        {
+          "role": "Team",
+          "name": "Cesar Augusto",
+          "url": "https://www.instagram.com/cesar_rsantos/"
+        },
+        {
+          "role": "Team",
+          "name": "Luís Silva",
+          "url": "https://www.instagram.com/silvaluis_/"
+        },
+        {
+          "role": "Team",
+          "name": "Marília Cerioni",
+          "url": "https://www.instagram.com/macerioni/"
         }
       ],
       "blocks": [
@@ -1056,7 +1435,7 @@
       ],
       "demo": false,
       "createdAt": "2026-10-09T15:00:23.868Z",
-      "updatedAt": "2026-10-09T15:40:34.570Z"
+      "updatedAt": "2026-10-12T22:46:29.633Z"
     },
     {
       "id": "p-hallem",
@@ -1093,11 +1472,27 @@
         },
         {
           "role": "Agency",
-          "name": "Agência Ecco"
+          "name": "Agência Ecco",
+          "url": "https://www.instagram.com/agenciaecco/"
         },
         {
           "role": "Team",
-          "name": "Lucas Ananias · Marcus David · Luís Silva · Marília Cerioni"
+          "name": "Lucas Ananias"
+        },
+        {
+          "role": "Team",
+          "name": "Marcus David",
+          "url": "https://www.instagram.com/md.frame/"
+        },
+        {
+          "role": "Team",
+          "name": "Luís Silva",
+          "url": "https://www.instagram.com/silvaluis_/"
+        },
+        {
+          "role": "Team",
+          "name": "Marília Cerioni",
+          "url": "https://www.instagram.com/macerioni/"
         }
       ],
       "blocks": [
@@ -1139,7 +1534,7 @@
       ],
       "demo": false,
       "createdAt": "2026-10-09T15:00:23.868Z",
-      "updatedAt": "2026-10-09T15:40:34.570Z"
+      "updatedAt": "2026-10-12T22:46:29.633Z"
     },
     {
       "id": "p-cis",
@@ -1178,11 +1573,32 @@
         },
         {
           "role": "Agency",
-          "name": "Agência Ecco"
+          "name": "Agência Ecco",
+          "url": "https://www.instagram.com/agenciaecco/"
         },
         {
           "role": "Team",
-          "name": "Giovanna Marino · Marcus David · Gilcileyde Ribeiro · Marília Cerioni · Luís Silva"
+          "name": "Giovanna Marino"
+        },
+        {
+          "role": "Team",
+          "name": "Marcus David",
+          "url": "https://www.instagram.com/md.frame/"
+        },
+        {
+          "role": "Team",
+          "name": "Gilcileyde Ribeiro",
+          "url": "https://www.instagram.com/gilcileyderibeiro/"
+        },
+        {
+          "role": "Team",
+          "name": "Marília Cerioni",
+          "url": "https://www.instagram.com/macerioni/"
+        },
+        {
+          "role": "Team",
+          "name": "Luís Silva",
+          "url": "https://www.instagram.com/silvaluis_/"
         }
       ],
       "blocks": [
@@ -1231,7 +1647,7 @@
       ],
       "demo": false,
       "createdAt": "2026-10-09T15:00:23.868Z",
-      "updatedAt": "2026-10-12T16:42:07.649Z"
+      "updatedAt": "2026-10-12T22:46:29.633Z"
     },
     {
       "id": "p-exacta",
@@ -1268,11 +1684,22 @@
         },
         {
           "role": "Agency",
-          "name": "Agência Ecco"
+          "name": "Agência Ecco",
+          "url": "https://www.instagram.com/agenciaecco/"
         },
         {
           "role": "Team",
-          "name": "Marília Cerioni · Marcus David · Giovanna Marino"
+          "name": "Marília Cerioni",
+          "url": "https://www.instagram.com/macerioni/"
+        },
+        {
+          "role": "Team",
+          "name": "Marcus David",
+          "url": "https://www.instagram.com/md.frame/"
+        },
+        {
+          "role": "Team",
+          "name": "Giovanna Marino"
         }
       ],
       "blocks": [
@@ -1319,7 +1746,7 @@
       ],
       "demo": false,
       "createdAt": "2026-10-09T15:00:23.868Z",
-      "updatedAt": "2026-10-09T15:40:34.570Z"
+      "updatedAt": "2026-10-12T22:46:29.633Z"
     },
     {
       "id": "p-ecco",
@@ -1358,11 +1785,58 @@
         },
         {
           "role": "Agency",
-          "name": "Agência Ecco"
+          "name": "Agência Ecco",
+          "url": "https://www.instagram.com/agenciaecco/"
         },
         {
           "role": "Team",
-          "name": "Lucas Ananias · Mateus Araújo · Lucas Rossini · Caio Vinícius · Gilcileyde Ribeiro · Emanuele Freitas · Marcus David · Giovanna Marino · Marília Cerioni · Luís Silva · Cesar Augusto"
+          "name": "Lucas Ananias"
+        },
+        {
+          "role": "Team",
+          "name": "Mateus Araújo"
+        },
+        {
+          "role": "Team",
+          "name": "Lucas Rossini"
+        },
+        {
+          "role": "Team",
+          "name": "Caio Vinícius",
+          "url": "https://www.instagram.com/caioka/"
+        },
+        {
+          "role": "Team",
+          "name": "Gilcileyde Ribeiro",
+          "url": "https://www.instagram.com/gilcileyderibeiro/"
+        },
+        {
+          "role": "Team",
+          "name": "Emanuele Freitas"
+        },
+        {
+          "role": "Team",
+          "name": "Marcus David",
+          "url": "https://www.instagram.com/md.frame/"
+        },
+        {
+          "role": "Team",
+          "name": "Giovanna Marino"
+        },
+        {
+          "role": "Team",
+          "name": "Marília Cerioni",
+          "url": "https://www.instagram.com/macerioni/"
+        },
+        {
+          "role": "Team",
+          "name": "Luís Silva",
+          "url": "https://www.instagram.com/silvaluis_/"
+        },
+        {
+          "role": "Team",
+          "name": "Cesar Augusto",
+          "url": "https://www.instagram.com/cesar_rsantos/"
         }
       ],
       "blocks": [
@@ -1383,7 +1857,7 @@
       ],
       "demo": false,
       "createdAt": "2026-10-09T16:49:20.566Z",
-      "updatedAt": "2026-10-12T16:42:09.309Z"
+      "updatedAt": "2026-10-12T22:46:29.633Z"
     },
     {
       "id": "p-bbb",
@@ -1421,11 +1895,28 @@
         },
         {
           "role": "Agency",
-          "name": "Agência Ecco"
+          "name": "Agência Ecco",
+          "url": "https://www.instagram.com/agenciaecco/"
         },
         {
           "role": "Team",
-          "name": "Marcus David · Luís Silva · Cesar Augusto · Gilcileyde Ribeiro"
+          "name": "Marcus David",
+          "url": "https://www.instagram.com/md.frame/"
+        },
+        {
+          "role": "Team",
+          "name": "Luís Silva",
+          "url": "https://www.instagram.com/silvaluis_/"
+        },
+        {
+          "role": "Team",
+          "name": "Cesar Augusto",
+          "url": "https://www.instagram.com/cesar_rsantos/"
+        },
+        {
+          "role": "Team",
+          "name": "Gilcileyde Ribeiro",
+          "url": "https://www.instagram.com/gilcileyderibeiro/"
         }
       ],
       "blocks": [
@@ -1452,7 +1943,7 @@
       ],
       "demo": false,
       "createdAt": "2026-10-09T16:49:20.566Z",
-      "updatedAt": "2026-10-09T16:49:20.566Z"
+      "updatedAt": "2026-10-12T22:46:29.633Z"
     },
     {
       "id": "p-linx",
@@ -1491,11 +1982,22 @@
         },
         {
           "role": "Agency",
-          "name": "Agência Ecco"
+          "name": "Agência Ecco",
+          "url": "https://www.instagram.com/agenciaecco/"
         },
         {
           "role": "Team",
-          "name": "Luís Silva · Giovanna Marino · Marcus David"
+          "name": "Luís Silva",
+          "url": "https://www.instagram.com/silvaluis_/"
+        },
+        {
+          "role": "Team",
+          "name": "Giovanna Marino"
+        },
+        {
+          "role": "Team",
+          "name": "Marcus David",
+          "url": "https://www.instagram.com/md.frame/"
         }
       ],
       "blocks": [
@@ -1564,7 +2066,7 @@
       ],
       "demo": false,
       "createdAt": "2026-10-09T16:49:20.566Z",
-      "updatedAt": "2026-10-12T16:42:09.875Z"
+      "updatedAt": "2026-10-12T22:46:29.633Z"
     },
     {
       "id": "p-uniball",
@@ -1602,11 +2104,18 @@
         },
         {
           "role": "Agency",
-          "name": "Agência Ecco"
+          "name": "Agência Ecco",
+          "url": "https://www.instagram.com/agenciaecco/"
         },
         {
           "role": "Team",
-          "name": "Marcus David · Marília Cerioni"
+          "name": "Marcus David",
+          "url": "https://www.instagram.com/md.frame/"
+        },
+        {
+          "role": "Team",
+          "name": "Marília Cerioni",
+          "url": "https://www.instagram.com/macerioni/"
         }
       ],
       "blocks": [
@@ -1643,7 +2152,7 @@
       ],
       "demo": false,
       "createdAt": "2026-10-09T16:49:20.566Z",
-      "updatedAt": "2026-10-09T16:49:20.566Z"
+      "updatedAt": "2026-10-12T22:46:29.633Z"
     },
     {
       "id": "p-activas",
@@ -1680,11 +2189,22 @@
         },
         {
           "role": "Agency",
-          "name": "Agência Ecco"
+          "name": "Agência Ecco",
+          "url": "https://www.instagram.com/agenciaecco/"
         },
         {
           "role": "Team",
-          "name": "Giovanna Marino · Marcus David · Marília Cerioni"
+          "name": "Giovanna Marino"
+        },
+        {
+          "role": "Team",
+          "name": "Marcus David",
+          "url": "https://www.instagram.com/md.frame/"
+        },
+        {
+          "role": "Team",
+          "name": "Marília Cerioni",
+          "url": "https://www.instagram.com/macerioni/"
         }
       ],
       "blocks": [
@@ -1731,7 +2251,7 @@
       ],
       "demo": false,
       "createdAt": "2026-10-09T16:49:20.566Z",
-      "updatedAt": "2026-10-09T16:49:20.566Z"
+      "updatedAt": "2026-10-12T22:46:29.633Z"
     },
     {
       "id": "p-calzany",
@@ -2694,14 +3214,26 @@
   ],
   "media": [
     {
+      "id": "m-8bf1e73be0fb",
+      "kind": "image",
+      "src": "/media/m-8bf1e73be0fb.png",
+      "alt": "NOVO KV Janda.IA HERO COVER",
+      "width": 1920,
+      "height": 1080,
+      "mime": "image/png",
+      "size": 2872325,
+      "origin": "upload",
+      "createdAt": "2026-10-13T17:08:57.868Z"
+    },
+    {
       "id": "m-334d69501a73",
       "kind": "embed",
       "src": "https://vimeo.com/1235128404",
-      "provider": "vimeo",
+      "posterId": "m-4b07d1aef5b2",
       "alt": "VITA Tumbler Final Apresentação",
       "width": 1920,
       "height": 1080,
-      "posterId": "m-4b07d1aef5b2",
+      "provider": "vimeo",
       "origin": "remote",
       "createdAt": "2026-10-12T17:31:23.926Z"
     },
@@ -2721,11 +3253,11 @@
       "id": "m-a9cec85482a0",
       "kind": "embed",
       "src": "https://vimeo.com/1008578451",
-      "provider": "vimeo",
+      "posterId": "m-18427d7b807c",
       "alt": "Ecco Vita ZC Hero Final",
       "width": 1920,
       "height": 1080,
-      "posterId": "m-18427d7b807c",
+      "provider": "vimeo",
       "origin": "remote",
       "createdAt": "2026-10-12T17:31:22.826Z"
     },
@@ -6223,8 +6755,8 @@
       "kind": "image",
       "src": "/media/vita2-shoot-gif-01.gif",
       "alt": "VITA tumbler reveal — looping clip",
-      "width": 240,
-      "height": 427,
+      "width": 360,
+      "height": 640,
       "mime": "image/gif",
       "origin": "upload",
       "createdAt": "2026-10-12T17:31:17.428Z"
@@ -6300,8 +6832,8 @@
       "kind": "image",
       "src": "/media/vita2-social-gif-01.gif",
       "alt": "Social content — walking with the VITA bottle, looping clip",
-      "width": 240,
-      "height": 427,
+      "width": 360,
+      "height": 640,
       "mime": "image/gif",
       "origin": "upload",
       "createdAt": "2026-10-12T17:31:17.428Z"
@@ -6311,8 +6843,8 @@
       "kind": "image",
       "src": "/media/vita2-social-gif-02.gif",
       "alt": "Social content — changing settings, looping clip",
-      "width": 240,
-      "height": 427,
+      "width": 360,
+      "height": 640,
       "mime": "image/gif",
       "origin": "upload",
       "createdAt": "2026-10-12T17:31:17.428Z"
@@ -6322,8 +6854,8 @@
       "kind": "image",
       "src": "/media/vita2-social-gif-03.gif",
       "alt": "Social content — 24h cold, 12h hot, looping clip",
-      "width": 240,
-      "height": 240,
+      "width": 360,
+      "height": 360,
       "mime": "image/gif",
       "origin": "upload",
       "createdAt": "2026-10-12T17:31:17.428Z"
@@ -6406,48 +6938,526 @@
       "createdAt": "2026-10-12T17:31:17.428Z"
     },
     {
-      "id": "m-vita2-crew-gif-01",
+      "id": "m-vita2-crew-poster-01",
       "kind": "image",
-      "src": "/media/vita2-crew-gif-01.gif",
-      "alt": "Behind the scenes — recap clip",
-      "width": 240,
-      "height": 427,
-      "mime": "image/gif",
+      "src": "/media/vita2-crew-poster-01.webp",
+      "alt": "Behind the scenes — recap clip, poster frame",
+      "width": 640,
+      "height": 1138,
+      "mime": "image/webp",
       "origin": "upload",
-      "createdAt": "2026-10-12T17:31:17.428Z"
+      "createdAt": "2026-10-12T23:55:02.698Z"
     },
     {
-      "id": "m-vita2-crew-gif-02",
-      "kind": "image",
-      "src": "/media/vita2-crew-gif-02.gif",
-      "alt": "Behind the scenes — on set, looping clip",
-      "width": 240,
-      "height": 427,
-      "mime": "image/gif",
+      "id": "m-vita2-crew-clip-01",
+      "kind": "video",
+      "src": "/media/vita2-crew-clip-01.mp4",
+      "posterId": "m-vita2-crew-poster-01",
+      "alt": "Behind the scenes — recap clip, looping video",
+      "width": 640,
+      "height": 1138,
+      "mime": "video/mp4",
       "origin": "upload",
-      "createdAt": "2026-10-12T17:31:17.428Z"
+      "createdAt": "2026-10-12T23:55:02.698Z"
     },
     {
-      "id": "m-vita2-crew-gif-03",
+      "id": "m-vita2-crew-poster-02",
       "kind": "image",
-      "src": "/media/vita2-crew-gif-03.gif",
-      "alt": "Behind the scenes — directing the shot, looping clip",
-      "width": 240,
-      "height": 427,
-      "mime": "image/gif",
+      "src": "/media/vita2-crew-poster-02.webp",
+      "alt": "Behind the scenes — on set, poster frame",
+      "width": 640,
+      "height": 1138,
+      "mime": "image/webp",
       "origin": "upload",
-      "createdAt": "2026-10-12T17:31:17.428Z"
+      "createdAt": "2026-10-12T23:55:02.698Z"
     },
     {
-      "id": "m-vita2-crew-gif-04",
-      "kind": "image",
-      "src": "/media/vita2-crew-gif-04.gif",
-      "alt": "Behind the scenes — on location, looping clip",
-      "width": 240,
-      "height": 427,
-      "mime": "image/gif",
+      "id": "m-vita2-crew-clip-02",
+      "kind": "video",
+      "src": "/media/vita2-crew-clip-02.mp4",
+      "posterId": "m-vita2-crew-poster-02",
+      "alt": "Behind the scenes — on set, looping video",
+      "width": 640,
+      "height": 1138,
+      "mime": "video/mp4",
       "origin": "upload",
-      "createdAt": "2026-10-12T17:31:17.428Z"
+      "createdAt": "2026-10-12T23:55:02.698Z"
+    },
+    {
+      "id": "m-vita2-crew-poster-03",
+      "kind": "image",
+      "src": "/media/vita2-crew-poster-03.webp",
+      "alt": "Behind the scenes — directing the shot, poster frame",
+      "width": 640,
+      "height": 1138,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-12T23:55:02.698Z"
+    },
+    {
+      "id": "m-vita2-crew-clip-03",
+      "kind": "video",
+      "src": "/media/vita2-crew-clip-03.mp4",
+      "posterId": "m-vita2-crew-poster-03",
+      "alt": "Behind the scenes — directing the shot, looping video",
+      "width": 640,
+      "height": 1138,
+      "mime": "video/mp4",
+      "origin": "upload",
+      "createdAt": "2026-10-12T23:55:02.698Z"
+    },
+    {
+      "id": "m-vita2-crew-poster-04",
+      "kind": "image",
+      "src": "/media/vita2-crew-poster-04.webp",
+      "alt": "Behind the scenes — on location, poster frame",
+      "width": 640,
+      "height": 1138,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-12T23:55:02.698Z"
+    },
+    {
+      "id": "m-vita2-crew-clip-04",
+      "kind": "video",
+      "src": "/media/vita2-crew-clip-04.mp4",
+      "posterId": "m-vita2-crew-poster-04",
+      "alt": "Behind the scenes — on location, looping video",
+      "width": 640,
+      "height": 1138,
+      "mime": "video/mp4",
+      "origin": "upload",
+      "createdAt": "2026-10-12T23:55:02.698Z"
+    },
+    {
+      "id": "m-nazca-shoot-01",
+      "kind": "image",
+      "src": "/media/nazca-shoot-01.webp",
+      "alt": "Close portrait, Nazca hair products shoot 1",
+      "width": 1400,
+      "height": 1750,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-13T00:13:09.874Z"
+    },
+    {
+      "id": "m-nazca-shoot-02",
+      "kind": "image",
+      "src": "/media/nazca-shoot-02.webp",
+      "alt": "Nazca shoot, product in hand",
+      "width": 1400,
+      "height": 1750,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-13T00:13:09.874Z"
+    },
+    {
+      "id": "m-nazca-shoot-03",
+      "kind": "image",
+      "src": "/media/nazca-shoot-03.webp",
+      "alt": "Origem Cachos conditioner pour",
+      "width": 1400,
+      "height": 1750,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-13T00:13:09.874Z"
+    },
+    {
+      "id": "m-nazca-shoot-04",
+      "kind": "image",
+      "src": "/media/nazca-shoot-04.webp",
+      "alt": "Nazca shoot, sensory detail",
+      "width": 1400,
+      "height": 1750,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-13T00:13:09.874Z"
+    },
+    {
+      "id": "m-nazca-shoot-05",
+      "kind": "image",
+      "src": "/media/nazca-shoot-05.webp",
+      "alt": "Nazca shoot, product in hand 2",
+      "width": 1400,
+      "height": 1750,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-13T00:13:09.874Z"
+    },
+    {
+      "id": "m-nazca-shoot-06",
+      "kind": "image",
+      "src": "/media/nazca-shoot-06.webp",
+      "alt": "Nazca shoot, portrait detail",
+      "width": 1400,
+      "height": 1750,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-13T00:13:09.874Z"
+    },
+    {
+      "id": "m-nazca-shoot-07",
+      "kind": "image",
+      "src": "/media/nazca-shoot-07.webp",
+      "alt": "Blue serum pouring over hand",
+      "width": 1400,
+      "height": 1750,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-13T00:13:09.874Z"
+    },
+    {
+      "id": "m-nazca-shoot-08",
+      "kind": "image",
+      "src": "/media/nazca-shoot-08.webp",
+      "alt": "Nazca shoot, product texture",
+      "width": 1400,
+      "height": 1750,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-13T00:13:09.874Z"
+    },
+    {
+      "id": "m-nazca-shoot-09",
+      "kind": "image",
+      "src": "/media/nazca-shoot-09.webp",
+      "alt": "Nazca shoot, portrait detail 2",
+      "width": 1400,
+      "height": 1750,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-13T00:13:09.874Z"
+    },
+    {
+      "id": "m-nazca-shoot-10",
+      "kind": "image",
+      "src": "/media/nazca-shoot-10.webp",
+      "alt": "Nazca shoot, product in hand 3",
+      "width": 1400,
+      "height": 1750,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-13T00:13:09.874Z"
+    },
+    {
+      "id": "m-nazca-crew-01",
+      "kind": "image",
+      "src": "/media/nazca-crew-01.webp",
+      "alt": "Backstage — on set with the Nazca shoot crew",
+      "width": 1200,
+      "height": 1200,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-13T00:13:09.874Z"
+    },
+    {
+      "id": "m-nazca-crew-02",
+      "kind": "image",
+      "src": "/media/nazca-crew-02.webp",
+      "alt": "Backstage — reviewing the shot list",
+      "width": 1200,
+      "height": 1200,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-13T00:13:09.874Z"
+    },
+    {
+      "id": "m-nazca-crew-slate-01",
+      "kind": "image",
+      "src": "/media/nazca-crew-slate-01.webp",
+      "alt": "Agência Ecco — agency",
+      "width": 1200,
+      "height": 800,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-13T00:18:19.627Z"
+    },
+    {
+      "id": "m-nazca-crew-slate-02",
+      "kind": "image",
+      "src": "/media/nazca-crew-slate-02.webp",
+      "alt": "Nazca — client",
+      "width": 1200,
+      "height": 800,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-13T00:18:19.627Z"
+    },
+    {
+      "id": "m-jandaia-video-poster",
+      "kind": "image",
+      "src": "/media/jandaia-video-poster.webp",
+      "alt": "JandaIA — campaign film, poster frame",
+      "width": 1600,
+      "height": 900,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-13T17:05:40.532Z"
+    },
+    {
+      "id": "m-jandaia-video-01",
+      "kind": "video",
+      "src": "/media/jandaia-video-01.mp4",
+      "posterId": "m-jandaia-video-poster",
+      "alt": "JandaIA — campaign film",
+      "width": 1920,
+      "height": 1080,
+      "mime": "video/mp4",
+      "origin": "upload",
+      "createdAt": "2026-10-13T17:05:40.532Z"
+    },
+    {
+      "id": "m-jandaia-kv-01",
+      "kind": "image",
+      "src": "/media/jandaia-kv-01.webp",
+      "alt": "JandaIA key visual — portrait with app",
+      "width": 1080,
+      "height": 1920,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-13T17:05:40.532Z"
+    },
+    {
+      "id": "m-jandaia-kv-02",
+      "kind": "image",
+      "src": "/media/jandaia-kv-02.webp",
+      "alt": "JandaIA key visual — your biggest study ally",
+      "width": 1600,
+      "height": 900,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-13T17:05:40.532Z"
+    },
+    {
+      "id": "m-jandaia-kv-03",
+      "kind": "image",
+      "src": "/media/jandaia-kv-03.webp",
+      "alt": "JandaIA key visual — student selfie, outdoor",
+      "width": 1600,
+      "height": 900,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-13T17:05:40.532Z"
+    },
+    {
+      "id": "m-jandaia-kv-04",
+      "kind": "image",
+      "src": "/media/jandaia-kv-04.webp",
+      "alt": "JandaIA key visual — student selfie, park",
+      "width": 1600,
+      "height": 900,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-13T17:05:40.532Z"
+    },
+    {
+      "id": "m-jandaia-kv-05",
+      "kind": "image",
+      "src": "/media/jandaia-kv-05.webp",
+      "alt": "JandaIA key visual — student with backpack",
+      "width": 1600,
+      "height": 900,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-13T17:05:40.532Z"
+    },
+    {
+      "id": "m-jandaia-kv-06",
+      "kind": "image",
+      "src": "/media/jandaia-kv-06.webp",
+      "alt": "JandaIA key visual — professional with tablet",
+      "width": 1600,
+      "height": 900,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-13T17:05:40.532Z"
+    },
+    {
+      "id": "m-jandaia-app-01",
+      "kind": "image",
+      "src": "/media/jandaia-app-01.webp",
+      "alt": "JandaIA app — home and AiA chat screens",
+      "width": 1600,
+      "height": 900,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-13T17:05:40.532Z"
+    },
+    {
+      "id": "m-jandaia-app-02",
+      "kind": "image",
+      "src": "/media/jandaia-app-02.webp",
+      "alt": "JandaIA app — notebook screen on phone",
+      "width": 1600,
+      "height": 900,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-13T17:05:40.532Z"
+    },
+    {
+      "id": "m-jandaia-brand-01",
+      "kind": "image",
+      "src": "/media/jandaia-brand-01.webp",
+      "alt": "JandaIA brand colors",
+      "width": 1600,
+      "height": 900,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-13T17:05:40.532Z"
+    },
+    {
+      "id": "m-jandaia-brand-02",
+      "kind": "image",
+      "src": "/media/jandaia-brand-02.webp",
+      "alt": "JandaIA wordmark",
+      "width": 1600,
+      "height": 900,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-13T17:05:40.532Z"
+    },
+    {
+      "id": "m-jandaia-brand-03",
+      "kind": "image",
+      "src": "/media/jandaia-brand-03.webp",
+      "alt": "JandaIA — AiA character variants",
+      "width": 1600,
+      "height": 900,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-13T17:05:40.532Z"
+    },
+    {
+      "id": "m-jandaia-brand-04",
+      "kind": "image",
+      "src": "/media/jandaia-brand-04.webp",
+      "alt": "JandaIA typography — Public Sans",
+      "width": 1600,
+      "height": 900,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-13T17:05:40.532Z"
+    },
+    {
+      "id": "m-jandaia-brand-05",
+      "kind": "image",
+      "src": "/media/jandaia-brand-05.webp",
+      "alt": "JandaIA app icon on a phone",
+      "width": 1600,
+      "height": 900,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-13T17:05:40.532Z"
+    },
+    {
+      "id": "m-jandaia-brand-06",
+      "kind": "image",
+      "src": "/media/jandaia-brand-06.webp",
+      "alt": "JandaIA brand moodboard",
+      "width": 1600,
+      "height": 900,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-13T17:05:40.532Z"
+    },
+    {
+      "id": "m-jandaia-brand-07",
+      "kind": "image",
+      "src": "/media/jandaia-brand-07.webp",
+      "alt": "JandaIA brand system overview",
+      "width": 1600,
+      "height": 900,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-13T17:05:40.532Z"
+    },
+    {
+      "id": "m-jandaia-ooh-01",
+      "kind": "image",
+      "src": "/media/jandaia-ooh-01.webp",
+      "alt": "JandaIA — LED billboard mockup",
+      "width": 1600,
+      "height": 1067,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-13T17:05:40.532Z"
+    },
+    {
+      "id": "m-jandaia-ooh-02",
+      "kind": "image",
+      "src": "/media/jandaia-ooh-02.webp",
+      "alt": "JandaIA — indoor billboard mockup",
+      "width": 1600,
+      "height": 1067,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-13T17:05:40.532Z"
+    },
+    {
+      "id": "m-jandaia-ooh-03",
+      "kind": "image",
+      "src": "/media/jandaia-ooh-03.webp",
+      "alt": "JandaIA — circular LED screen mockup",
+      "width": 1600,
+      "height": 1067,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-13T17:05:40.532Z"
+    },
+    {
+      "id": "m-jandaia-ooh-04",
+      "kind": "image",
+      "src": "/media/jandaia-ooh-04.webp",
+      "alt": "JandaIA — vertical billboard mockup",
+      "width": 1600,
+      "height": 1067,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-13T17:05:40.532Z"
+    },
+    {
+      "id": "m-jandaia-ooh-05",
+      "kind": "image",
+      "src": "/media/jandaia-ooh-05.webp",
+      "alt": "JandaIA — digital screen mockup",
+      "width": 1600,
+      "height": 1067,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-13T17:05:40.532Z"
+    },
+    {
+      "id": "m-jandaia-ooh-06",
+      "kind": "image",
+      "src": "/media/jandaia-ooh-06.webp",
+      "alt": "JandaIA — subway column mockup",
+      "width": 1600,
+      "height": 900,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-13T17:05:40.532Z"
+    },
+    {
+      "id": "m-jandaia-ooh-07",
+      "kind": "image",
+      "src": "/media/jandaia-ooh-07.webp",
+      "alt": "JandaIA — digital totem mockup",
+      "width": 1600,
+      "height": 900,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-13T17:05:40.532Z"
+    },
+    {
+      "id": "m-jandaia-social-01",
+      "kind": "image",
+      "src": "/media/jandaia-social-01.webp",
+      "alt": "JandaIA — Instagram post mockups",
+      "width": 1600,
+      "height": 900,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-13T17:05:40.532Z"
     }
   ]
 }

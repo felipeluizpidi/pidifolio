@@ -346,7 +346,8 @@
           "id": "nazca-b20",
           "type": "text",
           "heading": "Shooting",
-          "body": "On set for the campaign — color, texture and the product in hand."
+          "body": "On set for the campaign — color, texture and the product in hand.",
+          "size": "lg"
         },
         {
           "id": "nazca-b21",
@@ -368,7 +369,8 @@
           "id": "nazca-b22",
           "type": "text",
           "heading": "Backstage & crew",
-          "body": "On set with the team that made it happen."
+          "body": "On set with the team that made it happen.",
+          "size": "lg"
         },
         {
           "id": "nazca-b23",
@@ -724,8 +726,8 @@
         "c-ai"
       ],
       "accent": "#F4E9D6",
-      "coverId": "m-bh-cover-jandaia",
-      "coverFocus": "center",
+      "coverId": "m-8bf1e73be0fb",
+      "coverFocus": "right",
       "featured": true,
       "featuredLayout": "poster",
       "archiveShape": "square",
@@ -784,62 +786,11 @@
       ],
       "blocks": [
         {
-          "id": "jandaia-b12",
-          "type": "image",
-          "assetId": "m-bh-jandaia-01"
-        },
-        {
-          "id": "jandaia-b13",
-          "type": "grid2",
-          "assetIds": [
-            "m-bh-jandaia-02",
-            "m-bh-jandaia-03"
-          ]
-        },
-        {
-          "id": "jandaia-b14",
-          "type": "image",
-          "assetId": "m-bh-jandaia-04"
-        },
-        {
-          "id": "jandaia-b15",
-          "type": "grid3",
-          "assetIds": [
-            "m-bh-jandaia-05",
-            "m-bh-jandaia-06",
-            "m-bh-jandaia-07"
-          ]
-        },
-        {
-          "id": "jandaia-b16",
-          "type": "image",
-          "assetId": "m-bh-jandaia-09"
-        },
-        {
-          "id": "jandaia-b17",
-          "type": "grid2",
-          "assetIds": [
-            "m-bh-jandaia-08",
-            "m-bh-jandaia-10"
-          ]
-        },
-        {
-          "id": "jandaia-b20",
-          "type": "text",
-          "heading": "The film",
-          "body": "A short film introducing AiA, the virtual assistant at the heart of the app."
-        },
-        {
-          "id": "jandaia-b21",
-          "type": "video",
-          "assetId": "m-jandaia-video-01",
-          "autoplay": false
-        },
-        {
           "id": "jandaia-b22",
           "type": "text",
           "heading": "Key Visual",
-          "body": "The campaign photography — real students and professionals, phone in hand, carrying the brand's voice."
+          "body": "The campaign photography — real students and professionals, phone in hand, carrying the brand's voice.",
+          "size": "lg"
         },
         {
           "id": "jandaia-b23",
@@ -857,7 +808,8 @@
           "id": "jandaia-b24",
           "type": "text",
           "heading": "App",
-          "body": "Home, search and the AiA chat — the product the identity had to carry."
+          "body": "Home, search and the AiA chat — the product the identity had to carry.",
+          "size": "lg"
         },
         {
           "id": "jandaia-b25",
@@ -871,55 +823,99 @@
           "id": "jandaia-b26",
           "type": "text",
           "heading": "Brand system",
-          "body": "Colors, wordmark, the AiA character set and type carry the identity from app to out-of-home."
+          "body": "Colors, wordmark, the AiA character set and type carry the identity from app to out-of-home.",
+          "size": "lg"
         },
         {
           "id": "jandaia-b27",
-          "type": "gallery",
+          "type": "image",
+          "assetId": "m-jandaia-brand-06"
+        },
+        {
+          "id": "jandaia-b27b",
+          "type": "grid2",
+          "assetIds": [
+            "m-jandaia-brand-02",
+            "m-jandaia-brand-05"
+          ]
+        },
+        {
+          "id": "jandaia-b27c",
+          "type": "grid3",
           "assetIds": [
             "m-jandaia-brand-01",
-            "m-jandaia-brand-02",
             "m-jandaia-brand-03",
-            "m-jandaia-brand-04",
-            "m-jandaia-brand-05",
-            "m-jandaia-brand-06",
-            "m-jandaia-brand-07"
+            "m-jandaia-brand-04"
           ]
+        },
+        {
+          "id": "jandaia-b27d",
+          "type": "image",
+          "assetId": "m-jandaia-brand-07"
         },
         {
           "id": "jandaia-b28",
           "type": "text",
           "heading": "Out-of-home",
-          "body": "Billboards, screens and transit media translating the app into the physical world."
+          "body": "Billboards, screens and transit media translating the app into the physical world.",
+          "size": "lg"
+        },
+        {
+          "id": "jandaia-b29a",
+          "type": "grid2",
+          "assetIds": [
+            "m-jandaia-ooh-01",
+            "m-jandaia-ooh-04"
+          ]
         },
         {
           "id": "jandaia-b29",
-          "type": "gallery",
+          "type": "image",
+          "assetId": "m-jandaia-ooh-02"
+        },
+        {
+          "id": "jandaia-b29c",
+          "type": "grid3",
           "assetIds": [
-            "m-jandaia-ooh-01",
-            "m-jandaia-ooh-02",
             "m-jandaia-ooh-03",
-            "m-jandaia-ooh-04",
-            "m-jandaia-ooh-05",
             "m-jandaia-ooh-06",
             "m-jandaia-ooh-07"
           ]
         },
         {
+          "id": "jandaia-b29d",
+          "type": "image",
+          "assetId": "m-jandaia-ooh-05"
+        },
+        {
           "id": "jandaia-b30",
           "type": "text",
           "heading": "Social",
-          "body": "Launch posts for the brand's own channels."
+          "body": "Launch posts for the brand's own channels.",
+          "size": "lg"
         },
         {
           "id": "jandaia-b31",
           "type": "image",
           "assetId": "m-jandaia-social-01"
+        },
+        {
+          "id": "jandaia-b20",
+          "type": "text",
+          "heading": "The film",
+          "body": "A short film introducing AiA, the virtual assistant at the heart of the app.",
+          "size": "lg"
+        },
+        {
+          "id": "jandaia-b21",
+          "type": "video",
+          "assetId": "m-jandaia-video-01",
+          "autoplay": false
         }
       ],
       "demo": false,
       "createdAt": "2026-10-09T15:00:23.868Z",
-      "updatedAt": "2026-10-13T17:05:40.532Z"
+      "updatedAt": "2026-10-13T17:14:02.382Z"
     },
     {
       "id": "p-diniz",
@@ -3205,6 +3201,18 @@
     }
   ],
   "media": [
+    {
+      "id": "m-8bf1e73be0fb",
+      "kind": "image",
+      "src": "/media/m-8bf1e73be0fb.png",
+      "alt": "NOVO KV Janda.IA HERO COVER",
+      "width": 1920,
+      "height": 1080,
+      "mime": "image/png",
+      "size": 2872325,
+      "origin": "upload",
+      "createdAt": "2026-10-13T17:08:57.868Z"
+    },
     {
       "id": "m-334d69501a73",
       "kind": "embed",
@@ -6932,11 +6940,11 @@
       "id": "m-vita2-crew-clip-01",
       "kind": "video",
       "src": "/media/vita2-crew-clip-01.mp4",
+      "posterId": "m-vita2-crew-poster-01",
       "alt": "Behind the scenes — recap clip, looping video",
       "width": 640,
       "height": 1138,
       "mime": "video/mp4",
-      "posterId": "m-vita2-crew-poster-01",
       "origin": "upload",
       "createdAt": "2026-10-12T23:55:02.698Z"
     },
@@ -6955,11 +6963,11 @@
       "id": "m-vita2-crew-clip-02",
       "kind": "video",
       "src": "/media/vita2-crew-clip-02.mp4",
+      "posterId": "m-vita2-crew-poster-02",
       "alt": "Behind the scenes — on set, looping video",
       "width": 640,
       "height": 1138,
       "mime": "video/mp4",
-      "posterId": "m-vita2-crew-poster-02",
       "origin": "upload",
       "createdAt": "2026-10-12T23:55:02.698Z"
     },
@@ -6978,11 +6986,11 @@
       "id": "m-vita2-crew-clip-03",
       "kind": "video",
       "src": "/media/vita2-crew-clip-03.mp4",
+      "posterId": "m-vita2-crew-poster-03",
       "alt": "Behind the scenes — directing the shot, looping video",
       "width": 640,
       "height": 1138,
       "mime": "video/mp4",
-      "posterId": "m-vita2-crew-poster-03",
       "origin": "upload",
       "createdAt": "2026-10-12T23:55:02.698Z"
     },
@@ -7001,11 +7009,11 @@
       "id": "m-vita2-crew-clip-04",
       "kind": "video",
       "src": "/media/vita2-crew-clip-04.mp4",
+      "posterId": "m-vita2-crew-poster-04",
       "alt": "Behind the scenes — on location, looping video",
       "width": 640,
       "height": 1138,
       "mime": "video/mp4",
-      "posterId": "m-vita2-crew-poster-04",
       "origin": "upload",
       "createdAt": "2026-10-12T23:55:02.698Z"
     },
@@ -7178,13 +7186,13 @@
       "id": "m-jandaia-video-01",
       "kind": "video",
       "src": "/media/jandaia-video-01.mp4",
+      "posterId": "m-jandaia-video-poster",
       "alt": "JandaIA — campaign film",
       "width": 1920,
       "height": 1080,
       "mime": "video/mp4",
       "origin": "upload",
-      "createdAt": "2026-10-13T17:05:40.532Z",
-      "posterId": "m-jandaia-video-poster"
+      "createdAt": "2026-10-13T17:05:40.532Z"
     },
     {
       "id": "m-jandaia-kv-01",
