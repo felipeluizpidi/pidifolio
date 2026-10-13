@@ -2792,6 +2792,24 @@
           "id": "pizzahut-b68",
           "type": "image",
           "assetId": "m-bh-pizzahut-12"
+        },
+        {
+          "id": "pizzahut-grid-extra-1",
+          "type": "grid3",
+          "assetIds": [
+            "m-c380c7f7784a",
+            "m-50bb7cd87111",
+            "m-56d55d0a6c9f"
+          ]
+        },
+        {
+          "id": "pizzahut-grid-extra-2",
+          "type": "grid3",
+          "assetIds": [
+            "m-f0e66dc0906f",
+            "m-b9dea5434ace",
+            "m-c596c6d50f9c"
+          ]
         }
       ],
       "demo": false,
@@ -3389,6 +3407,78 @@
     }
   ],
   "media": [
+    {
+      "id": "m-c596c6d50f9c",
+      "kind": "image",
+      "src": "/media/pizzahut-social-18.gif",
+      "alt": "Pizza Hut — social post (animated)",
+      "width": 960,
+      "height": 720,
+      "mime": "image/gif",
+      "size": 365137,
+      "origin": "upload",
+      "createdAt": "2026-10-13T23:12:33.822Z"
+    },
+    {
+      "id": "m-b9dea5434ace",
+      "kind": "image",
+      "src": "/media/pizzahut-social-17.webp",
+      "alt": "Pizza Hut — social post",
+      "width": 960,
+      "height": 720,
+      "mime": "image/webp",
+      "size": 122908,
+      "origin": "upload",
+      "createdAt": "2026-10-13T23:12:33.820Z"
+    },
+    {
+      "id": "m-f0e66dc0906f",
+      "kind": "image",
+      "src": "/media/pizzahut-social-16.webp",
+      "alt": "Pizza Hut — social post",
+      "width": 960,
+      "height": 720,
+      "mime": "image/webp",
+      "size": 193140,
+      "origin": "upload",
+      "createdAt": "2026-10-13T23:12:33.772Z"
+    },
+    {
+      "id": "m-56d55d0a6c9f",
+      "kind": "image",
+      "src": "/media/pizzahut-social-15.webp",
+      "alt": "Pizza Hut — social post",
+      "width": 960,
+      "height": 720,
+      "mime": "image/webp",
+      "size": 176272,
+      "origin": "upload",
+      "createdAt": "2026-10-13T23:12:33.708Z"
+    },
+    {
+      "id": "m-50bb7cd87111",
+      "kind": "image",
+      "src": "/media/pizzahut-social-14.webp",
+      "alt": "Pizza Hut — social post",
+      "width": 960,
+      "height": 720,
+      "mime": "image/webp",
+      "size": 119244,
+      "origin": "upload",
+      "createdAt": "2026-10-13T23:12:33.644Z"
+    },
+    {
+      "id": "m-c380c7f7784a",
+      "kind": "image",
+      "src": "/media/pizzahut-social-13.webp",
+      "alt": "Pizza Hut — social post",
+      "width": 960,
+      "height": 720,
+      "mime": "image/webp",
+      "size": 173776,
+      "origin": "upload",
+      "createdAt": "2026-10-13T23:12:33.411Z"
+    },
     {
       "id": "m-75d95f2cc058",
       "kind": "video",
