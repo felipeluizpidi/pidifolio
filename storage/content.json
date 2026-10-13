@@ -283,10 +283,10 @@
       "challenge": "Zonacriativa came to us to make the VITA bottle stand out in a market saturated with similar products — a campaign that would not only grab attention but communicate what makes the product innovative and different.",
       "concept": "A complete digital campaign: influencer management, an exclusive shoot, a high-impact landing page, strategic social posts and a press kit — one integrated approach to communicate the product's innovation.",
       "process": "A single shoot carried the whole campaign: launch film, product stills, social content and press-kit visuals, all built around one color-blocked, lifestyle-first language. The bottle moved through gym, home and poolside scenes to make “cold 24h, hot 12h” feel like a daily habit rather than a spec sheet.",
-      "outcomes": "18,000,000+ impacts across the campaign's content\n4,300,000+ accounts reached on Instagram alone\n635,000+ content views on TikTok\n27,000+ landing page views\n+94% growth in the resellers section of Zonacriativa's site, H1 2024",
+      "outcomes": "18M+ impacts across the campaign's content\n4.3M+ accounts reached on Instagram alone\n635K+ content views on TikTok\n27K+ landing page views\n+94% growth in the resellers section of Zonacriativa's site, H1 2024",
       "credits": [
         {
-          "role": "Head of Design",
+          "role": "Head of Design · Audiovisual Direction · Shoot Creative Direction · Art Direction",
           "name": "Felipe Pidi"
         },
         {
@@ -452,8 +452,12 @@
         },
         {
           "id": "vita-b43",
-          "type": "image",
-          "assetId": "m-vita2-shoot-10"
+          "type": "asymmetric",
+          "assetIds": [
+            "m-vita2-shoot-10",
+            "m-vita2-shoot-09",
+            "m-vita2-shoot-04"
+          ]
         },
         {
           "id": "vita-b44",
@@ -474,7 +478,7 @@
         },
         {
           "id": "vita-b47",
-          "type": "grid3",
+          "type": "grid2",
           "assetIds": [
             "m-vita2-shoot-07",
             "m-vita2-shoot-08"
@@ -490,33 +494,21 @@
           ]
         },
         {
-          "id": "vita-b49",
-          "type": "image",
-          "assetId": "m-vita2-shoot-gif-01",
-          "caption": "Product reveal, looping clip"
-        },
-        {
           "id": "vita-b50",
           "type": "text",
           "heading": "Social",
-          "body": "Daily content for the brand's own channel — product drops, lifestyle loops and seasonal colorways.",
+          "body": "Daily content for the brand's own channel — product drops, lifestyle loops and the 'cold 24h, hot 12h' promise distilled into a single looping shot for stories.",
           "size": "lg"
         },
         {
           "id": "vita-b51",
-          "type": "grid2",
+          "type": "gallery",
           "assetIds": [
+            "m-vita2-shoot-gif-01",
             "m-vita2-social-gif-01",
-            "m-vita2-social-gif-02"
+            "m-vita2-social-gif-02",
+            "m-vita2-social-gif-03"
           ]
-        },
-        {
-          "id": "vita-b52",
-          "type": "imageText",
-          "assetId": "m-vita2-social-gif-03",
-          "heading": "24h cold, 12h hot",
-          "text": "The product promise distilled into a single looping shot for stories.",
-          "side": "left"
         },
         {
           "id": "vita-b53",
@@ -572,16 +564,16 @@
           "id": "vita-b60",
           "type": "filmstrip",
           "assetIds": [
-            "m-vita2-crew-gif-01",
-            "m-vita2-crew-gif-02",
-            "m-vita2-crew-gif-03",
-            "m-vita2-crew-gif-04"
+            "m-vita2-crew-clip-01",
+            "m-vita2-crew-clip-02",
+            "m-vita2-crew-clip-03",
+            "m-vita2-crew-clip-04"
           ]
         }
       ],
       "demo": false,
       "createdAt": "2026-10-09T15:00:23.868Z",
-      "updatedAt": "2026-10-12T22:46:44.874Z"
+      "updatedAt": "2026-10-12T23:59:53.668Z"
     },
     {
       "id": "p-jandaia",
@@ -799,7 +791,7 @@
       "challenge": "Launch pentonic — the CiS pen line — as a brand of its own, with its own products and lines, through a back-to-school campaign. To build reach and awareness it also needed its own social profile, with proprietary content and a visual and verbal identity.",
       "concept": "“pentonic — seu estilo em ação!” (your style in action) unites the products' function and minimal aesthetic into a personality. It grows from the brand's “driven by design” line, which suggests both motivation and movement.",
       "process": "An exclusive shoot, a launch film, an original soundtrack, influencer actions and a stream of sustaining content.",
-      "outcomes": "131,582,404 impressions across the content created\n160,182 visits to the brand profile\n231,174 active engagements\n+124,200% follower growth on the page",
+      "outcomes": "131.6M impressions across the content created\n160K visits to the brand profile\n231K active engagements\n+124,200% follower growth on the page",
       "credits": [
         {
           "role": "Head of Design",
@@ -918,7 +910,7 @@
       ],
       "demo": false,
       "createdAt": "2026-10-09T15:00:23.868Z",
-      "updatedAt": "2026-10-12T22:46:29.633Z"
+      "updatedAt": "2026-10-12T23:59:53.668Z"
     },
     {
       "id": "p-kfc",
@@ -6502,8 +6494,8 @@
       "kind": "image",
       "src": "/media/vita2-shoot-gif-01.gif",
       "alt": "VITA tumbler reveal — looping clip",
-      "width": 240,
-      "height": 427,
+      "width": 360,
+      "height": 640,
       "mime": "image/gif",
       "origin": "upload",
       "createdAt": "2026-10-12T17:31:17.428Z"
@@ -6579,8 +6571,8 @@
       "kind": "image",
       "src": "/media/vita2-social-gif-01.gif",
       "alt": "Social content — walking with the VITA bottle, looping clip",
-      "width": 240,
-      "height": 427,
+      "width": 360,
+      "height": 640,
       "mime": "image/gif",
       "origin": "upload",
       "createdAt": "2026-10-12T17:31:17.428Z"
@@ -6590,8 +6582,8 @@
       "kind": "image",
       "src": "/media/vita2-social-gif-02.gif",
       "alt": "Social content — changing settings, looping clip",
-      "width": 240,
-      "height": 427,
+      "width": 360,
+      "height": 640,
       "mime": "image/gif",
       "origin": "upload",
       "createdAt": "2026-10-12T17:31:17.428Z"
@@ -6601,8 +6593,8 @@
       "kind": "image",
       "src": "/media/vita2-social-gif-03.gif",
       "alt": "Social content — 24h cold, 12h hot, looping clip",
-      "width": 240,
-      "height": 240,
+      "width": 360,
+      "height": 360,
       "mime": "image/gif",
       "origin": "upload",
       "createdAt": "2026-10-12T17:31:17.428Z"
@@ -6685,48 +6677,96 @@
       "createdAt": "2026-10-12T17:31:17.428Z"
     },
     {
-      "id": "m-vita2-crew-gif-01",
+      "id": "m-vita2-crew-poster-01",
       "kind": "image",
-      "src": "/media/vita2-crew-gif-01.gif",
-      "alt": "Behind the scenes — recap clip",
-      "width": 240,
-      "height": 427,
-      "mime": "image/gif",
+      "src": "/media/vita2-crew-poster-01.webp",
+      "alt": "Behind the scenes — recap clip, poster frame",
+      "width": 640,
+      "height": 1138,
+      "mime": "image/webp",
       "origin": "upload",
-      "createdAt": "2026-10-12T17:31:17.428Z"
+      "createdAt": "2026-10-12T23:55:02.698Z"
     },
     {
-      "id": "m-vita2-crew-gif-02",
-      "kind": "image",
-      "src": "/media/vita2-crew-gif-02.gif",
-      "alt": "Behind the scenes — on set, looping clip",
-      "width": 240,
-      "height": 427,
-      "mime": "image/gif",
+      "id": "m-vita2-crew-clip-01",
+      "kind": "video",
+      "src": "/media/vita2-crew-clip-01.mp4",
+      "alt": "Behind the scenes — recap clip, looping video",
+      "width": 640,
+      "height": 1138,
+      "mime": "video/mp4",
+      "posterId": "m-vita2-crew-poster-01",
       "origin": "upload",
-      "createdAt": "2026-10-12T17:31:17.428Z"
+      "createdAt": "2026-10-12T23:55:02.698Z"
     },
     {
-      "id": "m-vita2-crew-gif-03",
+      "id": "m-vita2-crew-poster-02",
       "kind": "image",
-      "src": "/media/vita2-crew-gif-03.gif",
-      "alt": "Behind the scenes — directing the shot, looping clip",
-      "width": 240,
-      "height": 427,
-      "mime": "image/gif",
+      "src": "/media/vita2-crew-poster-02.webp",
+      "alt": "Behind the scenes — on set, poster frame",
+      "width": 640,
+      "height": 1138,
+      "mime": "image/webp",
       "origin": "upload",
-      "createdAt": "2026-10-12T17:31:17.428Z"
+      "createdAt": "2026-10-12T23:55:02.698Z"
     },
     {
-      "id": "m-vita2-crew-gif-04",
-      "kind": "image",
-      "src": "/media/vita2-crew-gif-04.gif",
-      "alt": "Behind the scenes — on location, looping clip",
-      "width": 240,
-      "height": 427,
-      "mime": "image/gif",
+      "id": "m-vita2-crew-clip-02",
+      "kind": "video",
+      "src": "/media/vita2-crew-clip-02.mp4",
+      "alt": "Behind the scenes — on set, looping video",
+      "width": 640,
+      "height": 1138,
+      "mime": "video/mp4",
+      "posterId": "m-vita2-crew-poster-02",
       "origin": "upload",
-      "createdAt": "2026-10-12T17:31:17.428Z"
+      "createdAt": "2026-10-12T23:55:02.698Z"
+    },
+    {
+      "id": "m-vita2-crew-poster-03",
+      "kind": "image",
+      "src": "/media/vita2-crew-poster-03.webp",
+      "alt": "Behind the scenes — directing the shot, poster frame",
+      "width": 640,
+      "height": 1138,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-12T23:55:02.698Z"
+    },
+    {
+      "id": "m-vita2-crew-clip-03",
+      "kind": "video",
+      "src": "/media/vita2-crew-clip-03.mp4",
+      "alt": "Behind the scenes — directing the shot, looping video",
+      "width": 640,
+      "height": 1138,
+      "mime": "video/mp4",
+      "posterId": "m-vita2-crew-poster-03",
+      "origin": "upload",
+      "createdAt": "2026-10-12T23:55:02.698Z"
+    },
+    {
+      "id": "m-vita2-crew-poster-04",
+      "kind": "image",
+      "src": "/media/vita2-crew-poster-04.webp",
+      "alt": "Behind the scenes — on location, poster frame",
+      "width": 640,
+      "height": 1138,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-12T23:55:02.698Z"
+    },
+    {
+      "id": "m-vita2-crew-clip-04",
+      "kind": "video",
+      "src": "/media/vita2-crew-clip-04.mp4",
+      "alt": "Behind the scenes — on location, looping video",
+      "width": 640,
+      "height": 1138,
+      "mime": "video/mp4",
+      "posterId": "m-vita2-crew-poster-04",
+      "origin": "upload",
+      "createdAt": "2026-10-12T23:55:02.698Z"
     }
   ]
 }

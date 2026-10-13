@@ -11,6 +11,12 @@ import { cvHref } from "@/lib/cv";
 
 export const revalidate = 300;
 
+/** "131,582,404 impressions across the content" → ["131,582,404", "impressions across the content"]. */
+function parseOutcomeLine(line: string): { value: string; label: string } {
+  const m = /^([+-]?\d[\d.,]*(?:[KkMmBb])?%?\+?)\s+(.+)$/.exec(line.trim());
+  return m ? { value: m[1], label: m[2] } : { value: "", label: line.trim() };
+}
+
 export async function generateStaticParams() {
   const { projects } = await getPublishedProjects();
   return projects.map((p) => ({ slug: p.slug }));
@@ -126,42 +132,73 @@ export default async function CasePage({ params }: { params: Promise<{ slug: str
             <p className="t-meta">
               <span className="text-[var(--accent)]">Scene {String(++n).padStart(2, "0")}</span> — Outcomes
             </p>
-            <div role="list" className="mt-7 space-y-5">
+            <dl
+              role="list"
+              className={`mt-7 grid grid-cols-1 border-t border-ivory/25 sm:grid-cols-2 lg:grid-cols-3 ${
+                p.outcomes.split("\n").filter((l) => l.trim()).length > 4 ? "xl:grid-cols-5" : "xl:grid-cols-4"
+              }`}
+            >
               {p.outcomes
                 .split("\n")
                 .filter((l) => l.trim())
-                .map((l, i) => (
-                  <Reveal key={i} delay={i * 0.06} role="listitem" className="t-heavy max-w-[30ch] text-[clamp(22px,2.9vw,48px)]">
-                    {l}
+                .map(parseOutcomeLine)
+                .map((o, i) => (
+                  <Reveal
+                    key={i}
+                    delay={i * 0.06}
+                    role="listitem"
+                    className="flex flex-col border-b border-ivory/15 py-6 pr-4 sm:py-7 xl:border-b-0 xl:border-r xl:px-5 xl:first:pl-0 xl:last:border-r-0"
+                  >
+                    <dt className="t-meta order-2 mt-3.5 max-w-[22ch] text-ivory/80">{o.label}</dt>
+                    <dd className="t-display order-1 break-words text-[clamp(32px,4.8vw,80px)] leading-[0.95]" style={{ color: "var(--accent)" }}>
+                      {o.value}
+                    </dd>
                   </Reveal>
                 ))}
-            </div>
+            </dl>
           </div>
         </section>
       )}
 
-      {p.credits.length > 0 && (
-        <section aria-label="Credits" className="gutter py-24">
-          <p className="t-meta mb-9 text-center text-ivory/50">— Credits —</p>
-          <dl className="mx-auto max-w-[720px] space-y-3.5">
-            {p.credits.map((c, i) => (
-              <div key={i} className="t-meta grid grid-cols-[1fr_auto_1fr] items-baseline gap-4">
-                <dt className="text-right text-ivory/60">{c.role}</dt>
-                <span aria-hidden className="h-px w-8 translate-y-[-3px] bg-ivory/30 md:w-16" />
-                <dd>
-                  {c.url ? (
-                    <a href={c.url} target="_blank" rel="noreferrer" className="link-wipe">
-                      {c.name}
-                    </a>
-                  ) : (
-                    c.name
-                  )}
-                </dd>
+      {p.credits.length > 0 && (() => {
+        const mine = p.credits.find((c) => c.name === s.name.full);
+        const others = p.credits.filter((c) => c !== mine);
+        const CreditLink = ({ c }: { c: (typeof p.credits)[number] }) =>
+          c.url ? (
+            <a href={c.url} target="_blank" rel="noreferrer" className="link-wipe">
+              {c.name}
+            </a>
+          ) : (
+            <>{c.name}</>
+          );
+        return (
+          <section aria-label="Credits" className="gutter py-24">
+            <p className="t-meta mb-9 text-center text-ivory/50">— Credits —</p>
+
+            {mine && (
+              <div className="mx-auto mb-16 max-w-[520px] text-center">
+                <p className="t-heavy text-[clamp(17px,1.8vw,22px)]">
+                  <CreditLink c={mine} />
+                </p>
+                <p className="t-meta mt-2 text-ivory/60">{mine.role}</p>
               </div>
-            ))}
-          </dl>
-        </section>
-      )}
+            )}
+
+            {others.length > 0 && (
+              <ul className="mx-auto grid max-w-[920px] grid-cols-2 gap-x-6 gap-y-6 sm:grid-cols-3 md:grid-cols-4">
+                {others.map((c, i) => (
+                  <li key={i} className="t-meta">
+                    <p className="text-ivory/50">{c.role}</p>
+                    <p className="mt-1">
+                      <CreditLink c={c} />
+                    </p>
+                  </li>
+                ))}
+              </ul>
+            )}
+          </section>
+        );
+      })()}
 
       {next && (
         <Link href={`/work/${next.slug}`} className="group relative block h-[80svh] min-h-[480px] overflow-hidden" aria-label={`Next project: ${next.title}`}>

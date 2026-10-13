@@ -4,7 +4,7 @@ import { useState } from "react";
 import clsx from "clsx";
 import type { Block, MediaAsset } from "@/lib/types";
 import { aspectOf, Media } from "../media/Media";
-import { EmbedPlayer, VideoPlayer } from "../media/Video";
+import { AmbientVideo, EmbedPlayer, VideoPlayer } from "../media/Video";
 import { Lightbox } from "../media/Lightbox";
 import { ClipReveal, Reveal } from "./Motion";
 
@@ -141,12 +141,22 @@ function BlockView({ b, ctx }: { b: Block; ctx: Ctx }) {
         <div className="-mx-[var(--gutter)] bg-[#141312] py-6">
           <div aria-hidden className="mb-3 h-2 bg-[repeating-linear-gradient(90deg,#2a2826_0_14px,transparent_14px_26px)]" />
           <ul className="flex snap-x snap-mandatory gap-3 overflow-x-auto px-[var(--gutter)] pb-2 [scrollbar-width:thin]" aria-label="Film strip — scroll horizontally">
-            {b.assetIds.map((id, i) => (
-              <li key={id + i} className="w-[78vw] shrink-0 snap-start sm:w-[48vw] lg:w-[34vw]">
-                <Frame id={id} ctx={ctx} sizes="(min-width:1024px) 34vw, 78vw" ratio="aspect-[3/2]" />
-                <span className="t-meta-sm mt-1.5 block text-ivory/50">Frame {String(i + 1).padStart(3, "0")}</span>
-              </li>
-            ))}
+            {b.assetIds.map((id, i) => {
+              const a = ctx.media[id];
+              return (
+                <li key={id + i} className="w-[78vw] shrink-0 snap-start sm:w-[48vw] lg:w-[34vw]">
+                  {a?.kind === "video" ? (
+                    // Silent, chrome-free loop — a clip in a reel, not a video player to operate.
+                    <div className="relative aspect-[3/2] overflow-hidden bg-smoke">
+                      <AmbientVideo src={a.src} poster={a.posterId ? ctx.media[a.posterId]?.src : undefined} mode="visible" />
+                    </div>
+                  ) : (
+                    <Frame id={id} ctx={ctx} sizes="(min-width:1024px) 34vw, 78vw" ratio="aspect-[3/2]" />
+                  )}
+                  <span className="t-meta-sm mt-1.5 block text-ivory/50">Frame {String(i + 1).padStart(3, "0")}</span>
+                </li>
+              );
+            })}
           </ul>
           <div aria-hidden className="mt-3 h-2 bg-[repeating-linear-gradient(90deg,#2a2826_0_14px,transparent_14px_26px)]" />
         </div>
@@ -154,10 +164,10 @@ function BlockView({ b, ctx }: { b: Block; ctx: Ctx }) {
     case "gallery":
       return (
         <div>
-          <ul className="grid grid-cols-2 gap-2 md:grid-cols-4">
+          <ul className="grid grid-cols-2 items-start gap-2 md:grid-cols-4">
             {b.assetIds.map((id, i) => (
               <li key={id + i}>
-                <Frame id={id} ctx={ctx} sizes="(min-width:768px) 25vw, 50vw" ratio="aspect-square" />
+                <Frame id={id} ctx={ctx} sizes="(min-width:768px) 25vw, 50vw" />
               </li>
             ))}
           </ul>
