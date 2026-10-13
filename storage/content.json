@@ -726,8 +726,8 @@
         "c-ai"
       ],
       "accent": "#F4E9D6",
-      "coverId": "m-8bf1e73be0fb",
-      "coverFocus": "right",
+      "coverId": "m-6da44b2f1757",
+      "coverFocus": "center",
       "featured": true,
       "featuredLayout": "poster",
       "archiveShape": "square",
@@ -793,15 +793,21 @@
           "size": "lg"
         },
         {
-          "id": "jandaia-b23",
-          "type": "gallery",
+          "id": "jandaia-b23a",
+          "type": "grid2",
           "assetIds": [
-            "m-jandaia-kv-01",
-            "m-jandaia-kv-02",
-            "m-jandaia-kv-03",
-            "m-jandaia-kv-04",
-            "m-jandaia-kv-05",
-            "m-jandaia-kv-06"
+            "m-jandaia-kv2-01",
+            "m-jandaia-kv2-02"
+          ]
+        },
+        {
+          "id": "jandaia-b23b",
+          "type": "grid2",
+          "assetIds": [
+            "m-jandaia-kv2-03",
+            "m-jandaia-kv2-04",
+            "m-jandaia-kv2-05",
+            "m-jandaia-kv2-06"
           ]
         },
         {
@@ -915,7 +921,7 @@
       ],
       "demo": false,
       "createdAt": "2026-10-09T15:00:23.868Z",
-      "updatedAt": "2026-10-13T17:14:02.382Z"
+      "updatedAt": "2026-10-13T17:21:13.132Z"
     },
     {
       "id": "p-diniz",
@@ -3201,6 +3207,18 @@
     }
   ],
   "media": [
+    {
+      "id": "m-6da44b2f1757",
+      "kind": "image",
+      "src": "/media/m-6da44b2f1757.png",
+      "alt": "v2 NOVO KV Janda.IA HERO COVER",
+      "width": 1920,
+      "height": 1080,
+      "mime": "image/png",
+      "size": 2902421,
+      "origin": "upload",
+      "createdAt": "2026-10-13T17:20:40.337Z"
+    },
     {
       "id": "m-8bf1e73be0fb",
       "kind": "image",
@@ -7446,6 +7464,72 @@
       "mime": "image/webp",
       "origin": "upload",
       "createdAt": "2026-10-13T17:05:40.532Z"
+    },
+    {
+      "id": "m-jandaia-kv2-01",
+      "kind": "image",
+      "src": "/media/jandaia-kv2-01.webp",
+      "alt": "JandaIA key visual — portrait with app, v2",
+      "width": 1080,
+      "height": 1920,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-13T17:21:13.132Z"
+    },
+    {
+      "id": "m-jandaia-kv2-02",
+      "kind": "image",
+      "src": "/media/jandaia-kv2-02.webp",
+      "alt": "JandaIA key visual — student selfie, v2",
+      "width": 1080,
+      "height": 1920,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-13T17:21:13.132Z"
+    },
+    {
+      "id": "m-jandaia-kv2-03",
+      "kind": "image",
+      "src": "/media/jandaia-kv2-03.webp",
+      "alt": "JandaIA key visual — student selfie, outdoor, v2",
+      "width": 1600,
+      "height": 900,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-13T17:21:13.132Z"
+    },
+    {
+      "id": "m-jandaia-kv2-04",
+      "kind": "image",
+      "src": "/media/jandaia-kv2-04.webp",
+      "alt": "JandaIA key visual — student selfie, park, v2",
+      "width": 1600,
+      "height": 900,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-13T17:21:13.132Z"
+    },
+    {
+      "id": "m-jandaia-kv2-05",
+      "kind": "image",
+      "src": "/media/jandaia-kv2-05.webp",
+      "alt": "JandaIA key visual — professional in office, v2",
+      "width": 1600,
+      "height": 900,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-13T17:21:13.132Z"
+    },
+    {
+      "id": "m-jandaia-kv2-06",
+      "kind": "image",
+      "src": "/media/jandaia-kv2-06.webp",
+      "alt": "JandaIA key visual — student with backpack, v2",
+      "width": 1600,
+      "height": 900,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-13T17:21:13.132Z"
     }
   ]
 }

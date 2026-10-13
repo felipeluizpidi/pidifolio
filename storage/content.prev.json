@@ -786,59 +786,6 @@
       ],
       "blocks": [
         {
-          "id": "jandaia-b12",
-          "type": "image",
-          "assetId": "m-bh-jandaia-01"
-        },
-        {
-          "id": "jandaia-b13",
-          "type": "grid2",
-          "assetIds": [
-            "m-bh-jandaia-02",
-            "m-bh-jandaia-03"
-          ]
-        },
-        {
-          "id": "jandaia-b14",
-          "type": "image",
-          "assetId": "m-bh-jandaia-04"
-        },
-        {
-          "id": "jandaia-b15",
-          "type": "grid3",
-          "assetIds": [
-            "m-bh-jandaia-05",
-            "m-bh-jandaia-06",
-            "m-bh-jandaia-07"
-          ]
-        },
-        {
-          "id": "jandaia-b16",
-          "type": "image",
-          "assetId": "m-bh-jandaia-09"
-        },
-        {
-          "id": "jandaia-b17",
-          "type": "grid2",
-          "assetIds": [
-            "m-bh-jandaia-08",
-            "m-bh-jandaia-10"
-          ]
-        },
-        {
-          "id": "jandaia-b20",
-          "type": "text",
-          "heading": "The film",
-          "body": "A short film introducing AiA, the virtual assistant at the heart of the app.",
-          "size": "lg"
-        },
-        {
-          "id": "jandaia-b21",
-          "type": "video",
-          "assetId": "m-jandaia-video-01",
-          "autoplay": false
-        },
-        {
           "id": "jandaia-b22",
           "type": "text",
           "heading": "Key Visual",
@@ -881,16 +828,30 @@
         },
         {
           "id": "jandaia-b27",
-          "type": "gallery",
+          "type": "image",
+          "assetId": "m-jandaia-brand-06"
+        },
+        {
+          "id": "jandaia-b27b",
+          "type": "grid2",
+          "assetIds": [
+            "m-jandaia-brand-02",
+            "m-jandaia-brand-05"
+          ]
+        },
+        {
+          "id": "jandaia-b27c",
+          "type": "grid3",
           "assetIds": [
             "m-jandaia-brand-01",
-            "m-jandaia-brand-02",
             "m-jandaia-brand-03",
-            "m-jandaia-brand-04",
-            "m-jandaia-brand-05",
-            "m-jandaia-brand-06",
-            "m-jandaia-brand-07"
+            "m-jandaia-brand-04"
           ]
+        },
+        {
+          "id": "jandaia-b27d",
+          "type": "image",
+          "assetId": "m-jandaia-brand-07"
         },
         {
           "id": "jandaia-b28",
@@ -900,17 +861,31 @@
           "size": "lg"
         },
         {
-          "id": "jandaia-b29",
-          "type": "gallery",
+          "id": "jandaia-b29a",
+          "type": "grid2",
           "assetIds": [
             "m-jandaia-ooh-01",
-            "m-jandaia-ooh-02",
+            "m-jandaia-ooh-04"
+          ]
+        },
+        {
+          "id": "jandaia-b29",
+          "type": "image",
+          "assetId": "m-jandaia-ooh-02"
+        },
+        {
+          "id": "jandaia-b29c",
+          "type": "grid3",
+          "assetIds": [
             "m-jandaia-ooh-03",
-            "m-jandaia-ooh-04",
-            "m-jandaia-ooh-05",
             "m-jandaia-ooh-06",
             "m-jandaia-ooh-07"
           ]
+        },
+        {
+          "id": "jandaia-b29d",
+          "type": "image",
+          "assetId": "m-jandaia-ooh-05"
         },
         {
           "id": "jandaia-b30",
@@ -923,11 +898,24 @@
           "id": "jandaia-b31",
           "type": "image",
           "assetId": "m-jandaia-social-01"
+        },
+        {
+          "id": "jandaia-b20",
+          "type": "text",
+          "heading": "The film",
+          "body": "A short film introducing AiA, the virtual assistant at the heart of the app.",
+          "size": "lg"
+        },
+        {
+          "id": "jandaia-b21",
+          "type": "video",
+          "assetId": "m-jandaia-video-01",
+          "autoplay": false
         }
       ],
       "demo": false,
       "createdAt": "2026-10-09T15:00:23.868Z",
-      "updatedAt": "2026-10-13T17:09:05.798Z"
+      "updatedAt": "2026-10-13T17:14:02.382Z"
     },
     {
       "id": "p-diniz",
@@ -3213,6 +3201,18 @@
     }
   ],
   "media": [
+    {
+      "id": "m-6da44b2f1757",
+      "kind": "image",
+      "src": "/media/m-6da44b2f1757.png",
+      "alt": "v2 NOVO KV Janda.IA HERO COVER",
+      "width": 1920,
+      "height": 1080,
+      "mime": "image/png",
+      "size": 2902421,
+      "origin": "upload",
+      "createdAt": "2026-10-13T17:20:40.337Z"
+    },
     {
       "id": "m-8bf1e73be0fb",
       "kind": "image",
