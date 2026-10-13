@@ -161,19 +161,29 @@ function BlockView({ b, ctx }: { b: Block; ctx: Ctx }) {
           <div aria-hidden className="mt-3 h-2 bg-[repeating-linear-gradient(90deg,#2a2826_0_14px,transparent_14px_26px)]" />
         </div>
       );
-    case "gallery":
+    case "gallery": {
+      // More than 4 and a wrapped grid runs long — scroll sideways instead.
+      const scroll = b.assetIds.length > 4;
       return (
         <div>
-          <ul className="grid grid-cols-2 items-start gap-2 md:grid-cols-4">
+          <ul
+            className={
+              scroll
+                ? "flex snap-x snap-mandatory gap-2 overflow-x-auto pb-2 [scrollbar-width:thin]"
+                : "grid grid-cols-2 items-start gap-2 md:grid-cols-4"
+            }
+            aria-label={scroll ? "Gallery — scroll horizontally" : undefined}
+          >
             {b.assetIds.map((id, i) => (
-              <li key={id + i}>
-                <Frame id={id} ctx={ctx} sizes="(min-width:768px) 25vw, 50vw" />
+              <li key={id + i} className={scroll ? "w-[44vw] shrink-0 snap-start sm:w-[28vw] lg:w-[22vw]" : undefined}>
+                <Frame id={id} ctx={ctx} sizes={scroll ? "(min-width:1024px) 22vw, (min-width:640px) 28vw, 44vw" : "(min-width:768px) 25vw, 50vw"} />
               </li>
             ))}
           </ul>
           <p className="t-meta mt-2 text-ivory/50">{b.assetIds.length} frames — tap to view</p>
         </div>
       );
+    }
     case "text":
       return (
         <Reveal className="mx-auto max-w-[1200px]">

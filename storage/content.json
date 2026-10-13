@@ -372,16 +372,18 @@
         },
         {
           "id": "nazca-b23",
-          "type": "gallery",
+          "type": "filmstrip",
           "assetIds": [
             "m-nazca-crew-01",
-            "m-nazca-crew-02"
+            "m-nazca-crew-02",
+            "m-nazca-crew-slate-01",
+            "m-nazca-crew-slate-02"
           ]
         }
       ],
       "demo": false,
       "createdAt": "2026-10-09T15:00:23.868Z",
-      "updatedAt": "2026-10-13T00:13:09.874Z"
+      "updatedAt": "2026-10-13T00:18:19.627Z"
     },
     {
       "id": "p-vita",
@@ -7028,6 +7030,28 @@
       "mime": "image/webp",
       "origin": "upload",
       "createdAt": "2026-10-13T00:13:09.874Z"
+    },
+    {
+      "id": "m-nazca-crew-slate-01",
+      "kind": "image",
+      "src": "/media/nazca-crew-slate-01.webp",
+      "alt": "Agência Ecco — agency",
+      "width": 1200,
+      "height": 800,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-13T00:18:19.627Z"
+    },
+    {
+      "id": "m-nazca-crew-slate-02",
+      "kind": "image",
+      "src": "/media/nazca-crew-slate-02.webp",
+      "alt": "Nazca — client",
+      "width": 1200,
+      "height": 800,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-13T00:18:19.627Z"
     }
   ]
 }
