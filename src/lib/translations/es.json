@@ -551,7 +551,12 @@
       "creditRoles": {
         "Brand Design": "Diseño de Marca"
       },
-      "subtitle": "Marca de tecnología"
+      "subtitle": "Marca de tecnología",
+      "blocks": {
+        "kizen-vid-01": {
+          "caption": "Animación del logo"
+        }
+      }
     },
     "p-frango": {
       "role": "Director de Arte Senior · The Heart",
