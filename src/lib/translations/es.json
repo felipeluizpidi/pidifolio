@@ -322,7 +322,15 @@
         "Agency": "Agencia",
         "Team": "Equipo"
       },
-      "subtitle": "Diseño de marca de podcast"
+      "subtitle": "Diseño de marca de podcast",
+      "blocks": {
+        "pod-vid-9f28e0": {
+          "caption": "El podcast, al aire"
+        },
+        "pod-vid-6313e3": {
+          "caption": "La identidad, en la app"
+        }
+      }
     },
     "p-hn": {
       "disciplines": [
@@ -335,7 +343,12 @@
         "Agency": "Agencia",
         "Team": "Equipo"
       },
-      "subtitle": "Diseño de marca"
+      "subtitle": "Diseño de marca",
+      "blocks": {
+        "hn-vid-6e9afe": {
+          "caption": "El símbolo, en movimiento"
+        }
+      }
     },
     "p-hallem": {
       "disciplines": [
@@ -347,7 +360,12 @@
         "Agency": "Agencia",
         "Team": "Equipo"
       },
-      "subtitle": "Diseño de marca para bufete de abogados"
+      "subtitle": "Diseño de marca para bufete de abogados",
+      "blocks": {
+        "hallem-vid-72d15f": {
+          "caption": "La identidad, en el sitio"
+        }
+      }
     },
     "p-cis": {
       "disciplines": [
@@ -368,6 +386,12 @@
         },
         "cis-b54": {
           "caption": "Film de lanzamiento — regreso a clases 2024"
+        },
+        "cis-emb-320e7d": {
+          "caption": "Film del press kit"
+        },
+        "cis-emb-84bf10": {
+          "caption": "Sitio de la campaña"
         }
       },
       "subtitle": "Campaña de regreso a clases"
@@ -397,6 +421,9 @@
       "blocks": {
         "ecco-b1": {
           "caption": "Film institucional"
+        },
+        "ecco-emb-fc7b0b": {
+          "caption": "Film del sitio"
         }
       },
       "subtitle": "Films institucionales"
@@ -442,7 +469,15 @@
         "Agency": "Agencia",
         "Team": "Equipo"
       },
-      "subtitle": "NowUni — regreso a clases"
+      "subtitle": "NowUni — regreso a clases",
+      "blocks": {
+        "uniball-vid-9da63b": {
+          "caption": "El film"
+        },
+        "uniball-vid-a566b1": {
+          "caption": "Un corte más corto"
+        }
+      }
     },
     "p-activas": {
       "disciplines": [
@@ -454,7 +489,15 @@
         "Agency": "Agencia",
         "Team": "Equipo"
       },
-      "subtitle": "Sistema B · identidad de marca"
+      "subtitle": "Sistema B · identidad de marca",
+      "blocks": {
+        "activas-vid-3c4bc0": {
+          "caption": "El film"
+        },
+        "activas-vid-22f27a": {
+          "caption": "Un corte más corto"
+        }
+      }
     },
     "p-calzany": {
       "disciplines": [
@@ -601,7 +644,18 @@
         "Agency": "Agencia",
         "Team": "Equipo"
       },
-      "subtitle": "Motion graphics de entrenamiento"
+      "subtitle": "Motion graphics de entrenamiento",
+      "blocks": {
+        "technos-vid-00c1f0": {
+          "caption": "Módulo de entrenamiento — Producto"
+        },
+        "technos-vid-75d590": {
+          "caption": "Módulo de entrenamiento — Bienestar"
+        },
+        "technos-vid-5f0950": {
+          "caption": "Módulo de entrenamiento — Film de marca"
+        }
+      }
     },
     "p-photo-retro": {
       "role": "Fotógrafo",

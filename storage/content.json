@@ -1316,6 +1316,20 @@
             "m-bh-pod-05",
             "m-bh-pod-06"
           ]
+        },
+        {
+          "id": "pod-vid-9f28e0",
+          "type": "video",
+          "assetId": "m-893df420e5d6",
+          "caption": "The podcast, on the air",
+          "autoplay": false
+        },
+        {
+          "id": "pod-vid-6313e3",
+          "type": "video",
+          "assetId": "m-ae2afdcf63ad",
+          "caption": "The identity, in the app",
+          "autoplay": false
         }
       ],
       "demo": false,
@@ -1426,6 +1440,13 @@
             "m-bh-hn-08",
             "m-bh-hn-10"
           ]
+        },
+        {
+          "id": "hn-vid-6e9afe",
+          "type": "video",
+          "assetId": "m-f206fe3f4b9d",
+          "caption": "The symbol, in motion",
+          "autoplay": false
         }
       ],
       "demo": false,
@@ -1525,6 +1546,13 @@
             "m-bh-hallem-09",
             "m-bh-hallem-10"
           ]
+        },
+        {
+          "id": "hallem-vid-72d15f",
+          "type": "video",
+          "assetId": "m-2cc20fde4e3a",
+          "caption": "The identity, on the website",
+          "autoplay": false
         }
       ],
       "demo": false,
@@ -1638,11 +1666,25 @@
             "m-bh-cis-07",
             "m-bh-cis-08"
           ]
+        },
+        {
+          "id": "cis-emb-320e7d",
+          "type": "video",
+          "assetId": "m-0f9a22adc28c",
+          "autoplay": false,
+          "caption": "Press kit film"
+        },
+        {
+          "id": "cis-emb-84bf10",
+          "type": "video",
+          "assetId": "m-d2ad8b1f62f9",
+          "autoplay": false,
+          "caption": "Campaign website"
         }
       ],
       "demo": false,
       "createdAt": "2026-10-09T15:00:23.868Z",
-      "updatedAt": "2026-10-12T22:46:29.633Z"
+      "updatedAt": "2026-10-13T22:13:37.022Z"
     },
     {
       "id": "p-exacta",
@@ -1848,11 +1890,18 @@
           "assetId": "m-285ad2d1ed50",
           "caption": "Audiovisual",
           "autoplay": false
+        },
+        {
+          "id": "ecco-emb-fc7b0b",
+          "type": "video",
+          "assetId": "m-29849f10f6c5",
+          "autoplay": false,
+          "caption": "Website film"
         }
       ],
       "demo": false,
       "createdAt": "2026-10-09T16:49:20.566Z",
-      "updatedAt": "2026-10-12T22:46:29.633Z"
+      "updatedAt": "2026-10-13T22:13:37.859Z"
     },
     {
       "id": "p-bbb",
@@ -2143,6 +2192,20 @@
           "id": "uniball-b24",
           "type": "image",
           "assetId": "m-bh-uniball-06"
+        },
+        {
+          "id": "uniball-vid-9da63b",
+          "type": "video",
+          "assetId": "m-4c644c120ca4",
+          "caption": "The film",
+          "autoplay": false
+        },
+        {
+          "id": "uniball-vid-a566b1",
+          "type": "video",
+          "assetId": "m-61a06776b0ca",
+          "caption": "A shorter cut",
+          "autoplay": false
         }
       ],
       "demo": false,
@@ -2242,6 +2305,20 @@
           "id": "activas-b32",
           "type": "image",
           "assetId": "m-bh-activas-08"
+        },
+        {
+          "id": "activas-vid-3c4bc0",
+          "type": "video",
+          "assetId": "m-074b96585a1e",
+          "caption": "The film",
+          "autoplay": false
+        },
+        {
+          "id": "activas-vid-22f27a",
+          "type": "video",
+          "assetId": "m-89a548b2709c",
+          "caption": "A shorter cut",
+          "autoplay": false
         }
       ],
       "demo": false,
@@ -2996,6 +3073,27 @@
           "id": "technos-b82",
           "type": "image",
           "assetId": "m-bh-technos-04"
+        },
+        {
+          "id": "technos-vid-00c1f0",
+          "type": "video",
+          "assetId": "m-36837970f3b0",
+          "caption": "Training module — Product",
+          "autoplay": false
+        },
+        {
+          "id": "technos-vid-75d590",
+          "type": "video",
+          "assetId": "m-7eb8bdd300a7",
+          "caption": "Training module — Wellbeing",
+          "autoplay": false
+        },
+        {
+          "id": "technos-vid-5f0950",
+          "type": "video",
+          "assetId": "m-bf6e0dac2686",
+          "caption": "Training module — Brand film",
+          "autoplay": false
         }
       ],
       "demo": false,
@@ -3208,6 +3306,353 @@
     }
   ],
   "media": [
+    {
+      "id": "m-29849f10f6c5",
+      "kind": "embed",
+      "src": "https://vimeo.com/1214050863",
+      "provider": "vimeo",
+      "alt": "Video - Site",
+      "width": 1920,
+      "height": 1080,
+      "posterId": "m-b2022da1a43e",
+      "origin": "remote",
+      "createdAt": "2026-10-13T22:13:37.859Z"
+    },
+    {
+      "id": "m-b2022da1a43e",
+      "kind": "image",
+      "src": "/media/m-b2022da1a43e.jpg",
+      "alt": "Video - Site — video cover",
+      "width": 1280,
+      "height": 960,
+      "mime": "image/jpeg",
+      "size": 92391,
+      "origin": "upload",
+      "createdAt": "2026-10-13T22:13:37.859Z"
+    },
+    {
+      "id": "m-d2ad8b1f62f9",
+      "kind": "embed",
+      "src": "https://vimeo.com/996235270",
+      "provider": "vimeo",
+      "alt": "Site - Campanha de Volta às Aulas da CiS - 2024",
+      "width": 1920,
+      "height": 1080,
+      "posterId": "m-2befbdc0bd64",
+      "origin": "remote",
+      "createdAt": "2026-10-13T22:13:37.022Z"
+    },
+    {
+      "id": "m-2befbdc0bd64",
+      "kind": "image",
+      "src": "/media/m-2befbdc0bd64.jpg",
+      "alt": "Site - Campanha de Volta às Aulas da CiS - 2024 — video cover",
+      "width": 1280,
+      "height": 960,
+      "mime": "image/jpeg",
+      "size": 78891,
+      "origin": "upload",
+      "createdAt": "2026-10-13T22:13:37.022Z"
+    },
+    {
+      "id": "m-0f9a22adc28c",
+      "kind": "embed",
+      "src": "https://vimeo.com/996385941",
+      "provider": "vimeo",
+      "alt": "Press Kit - Campanha de Volta às Aulas da CiS - 2024",
+      "width": 1920,
+      "height": 1080,
+      "posterId": "m-4dd274a15c8d",
+      "origin": "remote",
+      "createdAt": "2026-10-13T22:13:36.161Z"
+    },
+    {
+      "id": "m-4dd274a15c8d",
+      "kind": "image",
+      "src": "/media/m-4dd274a15c8d.jpg",
+      "alt": "Press Kit - Campanha de Volta às Aulas da CiS - 2024 — video cover",
+      "width": 1280,
+      "height": 960,
+      "mime": "image/jpeg",
+      "size": 76590,
+      "origin": "upload",
+      "createdAt": "2026-10-13T22:13:36.161Z"
+    },
+    {
+      "id": "m-bf6e0dac2686",
+      "kind": "video",
+      "src": "/media/technos-video-03.mp4",
+      "posterId": "m-bd6c6cee381a",
+      "alt": "Academia Technos — training module 3",
+      "width": 1280,
+      "height": 720,
+      "mime": "video/mp4",
+      "size": 16218546,
+      "origin": "upload",
+      "createdAt": "2026-10-13T22:13:31.594Z"
+    },
+    {
+      "id": "m-bd6c6cee381a",
+      "kind": "image",
+      "src": "/media/technos-video-03-poster.webp",
+      "alt": "Academia Technos — training module 3 — video cover",
+      "width": 1280,
+      "height": 720,
+      "mime": "image/webp",
+      "size": 24514,
+      "origin": "upload",
+      "createdAt": "2026-10-13T22:13:31.594Z"
+    },
+    {
+      "id": "m-7eb8bdd300a7",
+      "kind": "video",
+      "src": "/media/technos-video-02.mp4",
+      "posterId": "m-fc9067b3025f",
+      "alt": "Academia Technos — training module 2",
+      "width": 1280,
+      "height": 720,
+      "mime": "video/mp4",
+      "size": 21735966,
+      "origin": "upload",
+      "createdAt": "2026-10-13T22:13:31.594Z"
+    },
+    {
+      "id": "m-fc9067b3025f",
+      "kind": "image",
+      "src": "/media/technos-video-02-poster.webp",
+      "alt": "Academia Technos — training module 2 — video cover",
+      "width": 1280,
+      "height": 720,
+      "mime": "image/webp",
+      "size": 17956,
+      "origin": "upload",
+      "createdAt": "2026-10-13T22:13:31.594Z"
+    },
+    {
+      "id": "m-36837970f3b0",
+      "kind": "video",
+      "src": "/media/technos-video-01.mp4",
+      "posterId": "m-7c65024829ab",
+      "alt": "Academia Technos — training module 1",
+      "width": 1280,
+      "height": 720,
+      "mime": "video/mp4",
+      "size": 19960676,
+      "origin": "upload",
+      "createdAt": "2026-10-13T22:13:31.594Z"
+    },
+    {
+      "id": "m-7c65024829ab",
+      "kind": "image",
+      "src": "/media/technos-video-01-poster.webp",
+      "alt": "Academia Technos — training module 1 — video cover",
+      "width": 1280,
+      "height": 720,
+      "mime": "image/webp",
+      "size": 26584,
+      "origin": "upload",
+      "createdAt": "2026-10-13T22:13:31.594Z"
+    },
+    {
+      "id": "m-89a548b2709c",
+      "kind": "video",
+      "src": "/media/activas-video-02.mp4",
+      "posterId": "m-169f0db8291e",
+      "alt": "Activas — Sistema B cut",
+      "width": 1920,
+      "height": 1080,
+      "mime": "video/mp4",
+      "size": 360753,
+      "origin": "upload",
+      "createdAt": "2026-10-13T22:13:31.594Z"
+    },
+    {
+      "id": "m-169f0db8291e",
+      "kind": "image",
+      "src": "/media/activas-video-02-poster.webp",
+      "alt": "Activas — Sistema B cut — video cover",
+      "width": 1920,
+      "height": 1080,
+      "mime": "image/webp",
+      "size": 22484,
+      "origin": "upload",
+      "createdAt": "2026-10-13T22:13:31.594Z"
+    },
+    {
+      "id": "m-074b96585a1e",
+      "kind": "video",
+      "src": "/media/activas-video-01.mp4",
+      "posterId": "m-cc8023f375f3",
+      "alt": "Activas — Sistema B film",
+      "width": 1920,
+      "height": 1080,
+      "mime": "video/mp4",
+      "size": 2065819,
+      "origin": "upload",
+      "createdAt": "2026-10-13T22:13:31.594Z"
+    },
+    {
+      "id": "m-cc8023f375f3",
+      "kind": "image",
+      "src": "/media/activas-video-01-poster.webp",
+      "alt": "Activas — Sistema B film — video cover",
+      "width": 1920,
+      "height": 1080,
+      "mime": "image/webp",
+      "size": 82754,
+      "origin": "upload",
+      "createdAt": "2026-10-13T22:13:31.594Z"
+    },
+    {
+      "id": "m-61a06776b0ca",
+      "kind": "video",
+      "src": "/media/uniball-video-02.mp4",
+      "posterId": "m-69121e4aac25",
+      "alt": "NowUni — campaign cut",
+      "width": 1280,
+      "height": 670,
+      "mime": "video/mp4",
+      "size": 4506124,
+      "origin": "upload",
+      "createdAt": "2026-10-13T22:13:31.594Z"
+    },
+    {
+      "id": "m-69121e4aac25",
+      "kind": "image",
+      "src": "/media/uniball-video-02-poster.webp",
+      "alt": "NowUni — campaign cut — video cover",
+      "width": 1280,
+      "height": 670,
+      "mime": "image/webp",
+      "size": 77132,
+      "origin": "upload",
+      "createdAt": "2026-10-13T22:13:31.594Z"
+    },
+    {
+      "id": "m-4c644c120ca4",
+      "kind": "video",
+      "src": "/media/uniball-video-01.mp4",
+      "posterId": "m-bd1a7c13dfe6",
+      "alt": "NowUni — campaign film",
+      "width": 1280,
+      "height": 670,
+      "mime": "video/mp4",
+      "size": 5749039,
+      "origin": "upload",
+      "createdAt": "2026-10-13T22:13:31.594Z"
+    },
+    {
+      "id": "m-bd1a7c13dfe6",
+      "kind": "image",
+      "src": "/media/uniball-video-01-poster.webp",
+      "alt": "NowUni — campaign film — video cover",
+      "width": 1280,
+      "height": 670,
+      "mime": "image/webp",
+      "size": 17210,
+      "origin": "upload",
+      "createdAt": "2026-10-13T22:13:31.594Z"
+    },
+    {
+      "id": "m-2cc20fde4e3a",
+      "kind": "video",
+      "src": "/media/hallem-video-01.mp4",
+      "posterId": "m-48818bc1fd58",
+      "alt": "Hallem Advocacia — website",
+      "width": 1920,
+      "height": 1080,
+      "mime": "video/mp4",
+      "size": 3183922,
+      "origin": "upload",
+      "createdAt": "2026-10-13T22:13:31.594Z"
+    },
+    {
+      "id": "m-48818bc1fd58",
+      "kind": "image",
+      "src": "/media/hallem-video-01-poster.webp",
+      "alt": "Hallem Advocacia — website — video cover",
+      "width": 1920,
+      "height": 1080,
+      "mime": "image/webp",
+      "size": 185430,
+      "origin": "upload",
+      "createdAt": "2026-10-13T22:13:31.594Z"
+    },
+    {
+      "id": "m-f206fe3f4b9d",
+      "kind": "video",
+      "src": "/media/hn-video-01.mp4",
+      "posterId": "m-afbbc56415d3",
+      "alt": "HN — symbol animation",
+      "width": 1920,
+      "height": 1080,
+      "mime": "video/mp4",
+      "size": 190647,
+      "origin": "upload",
+      "createdAt": "2026-10-13T22:13:31.594Z"
+    },
+    {
+      "id": "m-afbbc56415d3",
+      "kind": "image",
+      "src": "/media/hn-video-01-poster.webp",
+      "alt": "HN — symbol animation — video cover",
+      "width": 1920,
+      "height": 1080,
+      "mime": "image/webp",
+      "size": 5128,
+      "origin": "upload",
+      "createdAt": "2026-10-13T22:13:31.594Z"
+    },
+    {
+      "id": "m-ae2afdcf63ad",
+      "kind": "video",
+      "src": "/media/pod-video-02.mp4",
+      "posterId": "m-bc9aa5ee5166",
+      "alt": "PDV — Pod do Varejo app",
+      "width": 1920,
+      "height": 1080,
+      "mime": "video/mp4",
+      "size": 1281510,
+      "origin": "upload",
+      "createdAt": "2026-10-13T22:13:31.594Z"
+    },
+    {
+      "id": "m-bc9aa5ee5166",
+      "kind": "image",
+      "src": "/media/pod-video-02-poster.webp",
+      "alt": "PDV — Pod do Varejo app — video cover",
+      "width": 1920,
+      "height": 1080,
+      "mime": "image/webp",
+      "size": 20884,
+      "origin": "upload",
+      "createdAt": "2026-10-13T22:13:31.594Z"
+    },
+    {
+      "id": "m-893df420e5d6",
+      "kind": "video",
+      "src": "/media/pod-video-01.mp4",
+      "posterId": "m-c77eb97b462b",
+      "alt": "PDV — Pod do Varejo",
+      "width": 1920,
+      "height": 1080,
+      "mime": "video/mp4",
+      "size": 740139,
+      "origin": "upload",
+      "createdAt": "2026-10-13T22:13:31.594Z"
+    },
+    {
+      "id": "m-c77eb97b462b",
+      "kind": "image",
+      "src": "/media/pod-video-01-poster.webp",
+      "alt": "PDV — Pod do Varejo — video cover",
+      "width": 1920,
+      "height": 1080,
+      "mime": "image/webp",
+      "size": 21174,
+      "origin": "upload",
+      "createdAt": "2026-10-13T22:13:31.594Z"
+    },
     {
       "id": "m-f25477ee9bb5",
       "kind": "image",
