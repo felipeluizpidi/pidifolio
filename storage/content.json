@@ -726,8 +726,9 @@
         "c-ai"
       ],
       "accent": "#F4E9D6",
-      "coverId": "m-6da44b2f1757",
+      "coverId": "m-6c4a3f4a812d",
       "coverFocus": "center",
+      "pageCoverId": "m-f25477ee9bb5",
       "featured": true,
       "featuredLayout": "poster",
       "archiveShape": "square",
@@ -921,7 +922,7 @@
       ],
       "demo": false,
       "createdAt": "2026-10-09T15:00:23.868Z",
-      "updatedAt": "2026-10-13T17:21:13.132Z"
+      "updatedAt": "2026-10-13T17:35:02.343Z"
     },
     {
       "id": "p-diniz",
@@ -3207,6 +3208,30 @@
     }
   ],
   "media": [
+    {
+      "id": "m-f25477ee9bb5",
+      "kind": "image",
+      "src": "/media/m-f25477ee9bb5.png",
+      "alt": "NOVO KV Janda.IA HERO COVER",
+      "width": 1920,
+      "height": 1080,
+      "mime": "image/png",
+      "size": 3295283,
+      "origin": "upload",
+      "createdAt": "2026-10-13T17:35:00.360Z"
+    },
+    {
+      "id": "m-6c4a3f4a812d",
+      "kind": "image",
+      "src": "/media/m-6c4a3f4a812d.png",
+      "alt": "V3 NOVO KV Janda.IAHERO COVER",
+      "width": 1920,
+      "height": 1080,
+      "mime": "image/png",
+      "size": 2886041,
+      "origin": "upload",
+      "createdAt": "2026-10-13T17:34:47.796Z"
+    },
     {
       "id": "m-6da44b2f1757",
       "kind": "image",
