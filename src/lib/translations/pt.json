@@ -329,6 +329,9 @@
         },
         "pod-vid-6313e3": {
           "caption": "A identidade, no app"
+        },
+        "pod-storefront-b1": {
+          "caption": "Vitrines de loja"
         }
       }
     },
@@ -347,6 +350,12 @@
       "blocks": {
         "hn-vid-6e9afe": {
           "caption": "O símbolo, em movimento"
+        },
+        "hn-new-hntote01we": {
+          "caption": "Sacolas"
+        },
+        "hn-new-hnwebsite0": {
+          "caption": "O site"
         }
       }
     },
@@ -364,6 +373,15 @@
       "blocks": {
         "hallem-vid-72d15f": {
           "caption": "A identidade, no site"
+        },
+        "hallem-new-381bf53f993f": {
+          "caption": "O site, no mundo real"
+        },
+        "hallem-new-07aa31ad889e": {
+          "caption": "Produtos de marca"
+        },
+        "hallem-new-dd8e5413bbc9": {
+          "caption": "O site"
         }
       }
     },

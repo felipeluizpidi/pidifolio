@@ -329,6 +329,9 @@
         },
         "pod-vid-6313e3": {
           "caption": "La identidad, en la app"
+        },
+        "pod-storefront-b1": {
+          "caption": "Vitrinas de tienda"
         }
       }
     },
@@ -347,6 +350,12 @@
       "blocks": {
         "hn-vid-6e9afe": {
           "caption": "El símbolo, en movimiento"
+        },
+        "hn-new-hntote01we": {
+          "caption": "Bolsas"
+        },
+        "hn-new-hnwebsite0": {
+          "caption": "El sitio web"
         }
       }
     },
@@ -364,6 +373,15 @@
       "blocks": {
         "hallem-vid-72d15f": {
           "caption": "La identidad, en el sitio"
+        },
+        "hallem-new-381bf53f993f": {
+          "caption": "El sitio, en el mundo real"
+        },
+        "hallem-new-07aa31ad889e": {
+          "caption": "Productos de marca"
+        },
+        "hallem-new-dd8e5413bbc9": {
+          "caption": "El sitio"
         }
       }
     },
