@@ -163,6 +163,13 @@ export default async function CasePage({ params }: { params: Promise<{ slug: str
       {p.credits.length > 0 && (() => {
         const mine = p.credits.find((c) => c.name === s.name.full);
         const others = p.credits.filter((c) => c !== mine);
+        // Same role, several people (e.g. two models) — one row, names listed together.
+        const grouped = others.reduce<{ role: string; people: typeof others }[]>((acc, c) => {
+          const g = acc.find((x) => x.role === c.role);
+          if (g) g.people.push(c);
+          else acc.push({ role: c.role, people: [c] });
+          return acc;
+        }, []);
         const CreditLink = ({ c }: { c: (typeof p.credits)[number] }) =>
           c.url ? (
             <a href={c.url} target="_blank" rel="noreferrer" className="link-wipe">
@@ -184,13 +191,18 @@ export default async function CasePage({ params }: { params: Promise<{ slug: str
               </div>
             )}
 
-            {others.length > 0 && (
+            {grouped.length > 0 && (
               <ul className="mx-auto grid max-w-[920px] grid-cols-2 gap-x-6 gap-y-6 sm:grid-cols-3 md:grid-cols-4">
-                {others.map((c, i) => (
+                {grouped.map((g, i) => (
                   <li key={i} className="t-meta">
-                    <p className="text-ivory/50">{c.role}</p>
+                    <p className="text-ivory/50">{g.role}</p>
                     <p className="mt-1">
-                      <CreditLink c={c} />
+                      {g.people.map((c, j) => (
+                        <span key={j}>
+                          <CreditLink c={c} />
+                          {j < g.people.length - 1 && ", "}
+                        </span>
+                      ))}
                     </p>
                   </li>
                 ))}
