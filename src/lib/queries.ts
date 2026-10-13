@@ -137,8 +137,9 @@ export async function getHomeData(locale: Locale = defaultLocale) {
     settings: translateSettings(content.settings, locale),
     categories: [...content.categories].sort((a, b) => a.order - b.order).map((c) => translateCategory(c, locale)),
     featured,
-    // Projects already shown in Selected Work are left out of the Archive.
-    archive: projects.filter((p) => !featured.includes(p)),
+    // Every project appears in the Archive too, but the ones already on Selected Work
+    // are deprioritized — the rest of the catalogue comes first, these come last.
+    archive: [...projects.filter((p) => !featured.includes(p)), ...projects.filter((p) => featured.includes(p))],
     media: Object.fromEntries(m) as Record<string, MediaAsset>,
   };
 }
