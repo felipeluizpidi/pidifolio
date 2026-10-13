@@ -14,6 +14,7 @@ export function resolveProject(p: Project, content: Content, index: number): Res
     number: pad(index + 1),
     cover: p.coverId ? m.get(p.coverId) : undefined,
     coverVideo: p.coverVideoId ? m.get(p.coverVideoId) : undefined,
+    pageCover: p.pageCoverId ? m.get(p.pageCoverId) : p.coverId ? m.get(p.coverId) : undefined,
     categories: content.categories.filter((c) => p.categoryIds.includes(c.id)).sort((a, b) => a.order - b.order),
   };
 }

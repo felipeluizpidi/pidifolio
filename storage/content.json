@@ -711,7 +711,7 @@
     {
       "id": "p-jandaia",
       "slug": "jandaia-app-brand-design",
-      "title": "JandaIA",
+      "title": "JANDA.IA",
       "subtitle": "App brand design",
       "client": "Cadernos Jandaia",
       "year": 2024,
@@ -735,8 +735,8 @@
       "order": 3,
       "overview": "Cadernos Jandaia, a stationery brand with decades of history, built JandaIA: an AI-powered app that stores, catalogs, organizes and gets more out of what students write in their physical notebooks — a digital extension of the brand, not a separate product.",
       "challenge": "JandaIA needed an identity that expressed its purpose — making learning easier and stronger — while staying connected to the parent brand, Cadernos Jandaia. It had to speak to students, teachers and professionals, reflect learning, tutoring and usability, and stand out in a crowded market.",
-      "concept": "We reinterpreted the speech balloon from the parent logo as a symbol of dialogue and exchange — the app's role in the user's life. A fluid, humane typeface keeps the brand approachable, and AiA, a virtual assistant, personifies the support the app offers.",
-      "process": "Modular boxes and a vibrant palette carry the flexibility and positivity of the product across app UI, characters, social and out-of-home.",
+      "concept": "We reinterpreted the speech balloon from the parent logo as a symbol of dialogue and exchange — the app's role in the user's life. A fluid, humane typeface keeps the brand approachable, and AiA, a virtual assistant, personifies the support the app offers.\n\nUnderneath it all sits a modular system: a kit of rounded, color-blocked shapes that behave like the app's own interface — cards, chat bubbles, shortcuts. The same blocks that organize a screen also build a headline, frame a character or structure a billboard, so every touchpoint reads as one language even as the format changes completely.",
+      "process": "That modularity is also what let the identity scale. The same set of boxes and a five-color palette recombine from section to section: tight grids for the app's UI, looser compositions for key visual photography, large single blocks for out-of-home, denser arrangements for social. Nothing is redrawn from scratch — the system just breathes differently depending on where it lands.",
       "outcomes": "",
       "credits": [
         {
@@ -789,7 +789,7 @@
           "id": "jandaia-b22",
           "type": "text",
           "heading": "Key Visual",
-          "body": "The campaign photography — real students and professionals, phone in hand, carrying the brand's voice.",
+          "body": "Real students and professionals, phone in hand, stand in for the stock photography a stationery brand could have defaulted to. The same modular blocks that structure the app's UI reappear here as color panels around each portrait — a first hint, before any interface shows up, that photography and product share one visual grammar.",
           "size": "lg"
         },
         {
@@ -814,7 +814,7 @@
           "id": "jandaia-b24",
           "type": "text",
           "heading": "App",
-          "body": "Home, search and the AiA chat — the product the identity had to carry.",
+          "body": "Home, search and the AiA chat — the screens the whole identity exists to serve. The rounded cards, bubbles and shortcuts aren't decoration borrowed from the brand; they're the brand's modular system doing its actual job, organizing what a student just wrote into something they can use again.",
           "size": "lg"
         },
         {
@@ -829,7 +829,7 @@
           "id": "jandaia-b26",
           "type": "text",
           "heading": "Brand system",
-          "body": "Colors, wordmark, the AiA character set and type carry the identity from app to out-of-home.",
+          "body": "The kit of parts made visible: six colors, a wordmark built from the same reinterpreted speech balloon, the AiA character set and a type system built to flex. Boxes recombine into logotypes, icons, patterns and character poses — one system, assembled differently each time, so nothing ever needs a one-off exception.",
           "size": "lg"
         },
         {
@@ -863,7 +863,7 @@
           "id": "jandaia-b28",
           "type": "text",
           "heading": "Out-of-home",
-          "body": "Billboards, screens and transit media translating the app into the physical world.",
+          "body": "Billboards, screens and transit media push the same modules to their largest scale. A block that reads as a chat bubble on a five-inch screen still reads as a chat bubble on a transit column — the real test of a system built from parts simple enough to survive any size.",
           "size": "lg"
         },
         {
@@ -897,7 +897,7 @@
           "id": "jandaia-b30",
           "type": "text",
           "heading": "Social",
-          "body": "Launch posts for the brand's own channels.",
+          "body": "Launch posts for the brand's own channels, built from the same block kit at feed scale — color panels, AiA poses and the wordmark recombined fast enough to keep a launch calendar full without the identity drifting.",
           "size": "lg"
         },
         {
@@ -909,7 +909,7 @@
           "id": "jandaia-b20",
           "type": "text",
           "heading": "The film",
-          "body": "A short film introducing AiA, the virtual assistant at the heart of the app.",
+          "body": "A short film closes the case by giving AiA a voice and a personality in motion — the assistant the whole modular system was quietly describing in static form, now carrying the brand's tone end to end.",
           "size": "lg"
         },
         {

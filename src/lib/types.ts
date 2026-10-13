@@ -83,6 +83,8 @@ export const projectSchema = z.object({
   coverVideoId: z.string().optional(),
   /** Which side of the cover survives when a layout crops it */
   coverFocus: z.enum(["left", "center", "right"]).default("center"),
+  /** Dedicated hero image for the case's own page — falls back to coverId when unset */
+  pageCoverId: z.string().optional(),
   featured: z.boolean().default(false),
   featuredLayout: featuredLayout.default("fullbleed"),
   archiveShape: archiveShape.default("landscape"),
@@ -189,5 +191,6 @@ export type ResolvedProject = Project & {
   number: string;
   cover?: MediaAsset;
   coverVideo?: MediaAsset;
+  pageCover?: MediaAsset;
   categories: Category[];
 };

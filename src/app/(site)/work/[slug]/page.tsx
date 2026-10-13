@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getProjectBySlug, getPublishedProjects } from "@/lib/queries";
-import { Media } from "@/components/media/Media";
+import { focusPosition, Media } from "@/components/media/Media";
 import { AmbientVideo } from "@/components/media/Video";
 import { CaseBlocks } from "@/components/site/CaseBlocks";
 import { MaskLines, Reveal } from "@/components/site/Motion";
@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     title: `${p.title}${p.subtitle ? ` — ${p.subtitle}` : ""}`,
     description,
     alternates: { canonical: `/work/${p.slug}` },
-    openGraph: { title: p.title, description, images: p.cover?.kind === "image" ? [{ url: p.cover.src }] : undefined },
+    openGraph: { title: p.title, description, images: p.pageCover?.kind === "image" ? [{ url: p.pageCover.src }] : undefined },
   };
 }
 
@@ -57,7 +57,7 @@ export default async function CasePage({ params }: { params: Promise<{ slug: str
   const data = await getProjectBySlug((await params).slug);
   if (!data) notFound();
   const { project: p, next, settings: s, media } = data;
-  const poster = p.coverVideo?.posterId ? media[p.coverVideo.posterId]?.src : p.cover?.src;
+  const poster = p.coverVideo?.posterId ? media[p.coverVideo.posterId]?.src : p.pageCover?.src;
   const chapters = [
     ["Overview", p.overview],
     ["Creative Challenge", p.challenge],
@@ -71,7 +71,7 @@ export default async function CasePage({ params }: { params: Promise<{ slug: str
       {/* Opening */}
       <header className="relative isolate flex h-[100svh] min-h-[560px] flex-col justify-end overflow-hidden">
         <div className="absolute inset-0 -z-10">
-          <Media asset={p.cover} sizes="100vw" priority emptyLabel="Cover image" />
+          <Media asset={p.pageCover} sizes="100vw" priority emptyLabel="Cover image" position={focusPosition(p.coverFocus)} />
           {p.coverVideo?.kind === "video" && <AmbientVideo src={p.coverVideo.src} poster={poster} />}
           <div className="absolute inset-0 bg-[linear-gradient(to_bottom,rgba(11,11,11,.6),transparent_30%,transparent_45%,rgba(11,11,11,.92))]" />
         </div>

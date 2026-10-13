@@ -237,9 +237,18 @@ export function ProjectEditor({ project, categories, media: initialMedia }: { pr
             </Field>
           </div>
           <div className="grid gap-4 sm:grid-cols-2">
-            <MediaField label="Cover image" value={p.coverId} onChange={(v) => set("coverId", v)} kinds={["image"]} media={media} onUploaded={addMedia} />
+            <MediaField label="Cover image (Home)" value={p.coverId} onChange={(v) => set("coverId", v)} kinds={["image"]} media={media} onUploaded={addMedia} />
             <MediaField label="Cover video (optional, silent preview)" value={p.coverVideoId} onChange={(v) => set("coverVideoId", v)} kinds={["video"]} media={media} onUploaded={addMedia} />
           </div>
+          <MediaField
+            label="Case page cover"
+            value={p.pageCoverId}
+            onChange={(v) => set("pageCoverId", v)}
+            kinds={["image"]}
+            media={media}
+            onUploaded={addMedia}
+            hint="Hero image at the top of this case's own page. Leave empty to reuse the Home cover above."
+          />
           <Field label="Cover focus" hint="Which side of the cover to keep when a layout crops it (e.g. text on the left)">
             <Select value={p.coverFocus} onChange={(e) => set("coverFocus", e.target.value as Project["coverFocus"])}>
               <option value="left">Left</option>

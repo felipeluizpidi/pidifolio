@@ -207,6 +207,7 @@ export function MediaField({
   media,
   onUploaded,
   ratio = "aspect-video",
+  hint,
 }: {
   label: string;
   value?: string;
@@ -215,6 +216,7 @@ export function MediaField({
   media: MediaAsset[];
   onUploaded: (a: MediaAsset) => void;
   ratio?: string;
+  hint?: string;
 }) {
   const [open, setOpen] = useState(false);
   const byId = Object.fromEntries(media.map((m) => [m.id, m]));
@@ -222,6 +224,7 @@ export function MediaField({
   return (
     <div>
       <span className="t-meta-sm mb-1.5 block text-ash">{label}</span>
+      {hint && <span className="mb-1.5 block text-[12px] text-ash/80">{hint}</span>}
       <div className="flex items-start gap-3">
         <button type="button" onClick={() => setOpen(true)} className={clsx("w-32 shrink-0 border border-ivory/20 hover:border-orange", ratio)} aria-label={`Choose ${label}`}>
           <MediaThumb asset={asset} media={byId} className="h-full w-full" />
