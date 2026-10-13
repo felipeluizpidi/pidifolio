@@ -731,7 +731,7 @@
       "archiveShape": "square",
       "published": true,
       "order": 3,
-      "overview": "",
+      "overview": "Cadernos Jandaia, a stationery brand with decades of history, built JandaIA: an AI-powered app that stores, catalogs, organizes and gets more out of what students write in their physical notebooks — a digital extension of the brand, not a separate product.",
       "challenge": "JandaIA needed an identity that expressed its purpose — making learning easier and stronger — while staying connected to the parent brand, Cadernos Jandaia. It had to speak to students, teachers and professionals, reflect learning, tutoring and usability, and stand out in a crowded market.",
       "concept": "We reinterpreted the speech balloon from the parent logo as a symbol of dialogue and exchange — the app's role in the user's life. A fluid, humane typeface keeps the brand approachable, and AiA, a virtual assistant, personifies the support the app offers.",
       "process": "Modular boxes and a vibrant palette carry the flexibility and positivity of the product across app UI, characters, social and out-of-home.",
@@ -747,22 +747,39 @@
           "url": "https://www.instagram.com/agenciaecco/"
         },
         {
-          "role": "Team",
-          "name": "Lucas Ananias"
+          "role": "Commercial Direction",
+          "name": "Ísis Vasques",
+          "url": "https://www.instagram.com/isis.vasques/"
         },
         {
-          "role": "Team",
-          "name": "Marcus David",
-          "url": "https://www.instagram.com/md.frame/"
+          "role": "Commercial Direction",
+          "name": "Marcelo Manha",
+          "url": "https://www.instagram.com/manha25/"
         },
         {
-          "role": "Team",
+          "role": "Account Service",
+          "name": "Thaís Macena",
+          "url": "https://www.instagram.com/thatamacena/"
+        },
+        {
+          "role": "Design",
           "name": "Caio Vinícius",
           "url": "https://www.instagram.com/caioka/"
         },
         {
-          "role": "Team",
-          "name": "Giovanna Marino"
+          "role": "Design",
+          "name": "Giovanna Marino",
+          "url": "https://www.instagram.com/ogigimari_/"
+        },
+        {
+          "role": "Design",
+          "name": "Lucas Ananias",
+          "url": "https://www.instagram.com/elnanias/"
+        },
+        {
+          "role": "Design",
+          "name": "Marcus David",
+          "url": "https://www.instagram.com/md.frame/"
         }
       ],
       "blocks": [
@@ -805,11 +822,104 @@
             "m-bh-jandaia-08",
             "m-bh-jandaia-10"
           ]
+        },
+        {
+          "id": "jandaia-b20",
+          "type": "text",
+          "heading": "The film",
+          "body": "A short film introducing AiA, the virtual assistant at the heart of the app."
+        },
+        {
+          "id": "jandaia-b21",
+          "type": "video",
+          "assetId": "m-jandaia-video-01",
+          "autoplay": false
+        },
+        {
+          "id": "jandaia-b22",
+          "type": "text",
+          "heading": "Key Visual",
+          "body": "The campaign photography — real students and professionals, phone in hand, carrying the brand's voice."
+        },
+        {
+          "id": "jandaia-b23",
+          "type": "gallery",
+          "assetIds": [
+            "m-jandaia-kv-01",
+            "m-jandaia-kv-02",
+            "m-jandaia-kv-03",
+            "m-jandaia-kv-04",
+            "m-jandaia-kv-05",
+            "m-jandaia-kv-06"
+          ]
+        },
+        {
+          "id": "jandaia-b24",
+          "type": "text",
+          "heading": "App",
+          "body": "Home, search and the AiA chat — the product the identity had to carry."
+        },
+        {
+          "id": "jandaia-b25",
+          "type": "grid2",
+          "assetIds": [
+            "m-jandaia-app-01",
+            "m-jandaia-app-02"
+          ]
+        },
+        {
+          "id": "jandaia-b26",
+          "type": "text",
+          "heading": "Brand system",
+          "body": "Colors, wordmark, the AiA character set and type carry the identity from app to out-of-home."
+        },
+        {
+          "id": "jandaia-b27",
+          "type": "gallery",
+          "assetIds": [
+            "m-jandaia-brand-01",
+            "m-jandaia-brand-02",
+            "m-jandaia-brand-03",
+            "m-jandaia-brand-04",
+            "m-jandaia-brand-05",
+            "m-jandaia-brand-06",
+            "m-jandaia-brand-07"
+          ]
+        },
+        {
+          "id": "jandaia-b28",
+          "type": "text",
+          "heading": "Out-of-home",
+          "body": "Billboards, screens and transit media translating the app into the physical world."
+        },
+        {
+          "id": "jandaia-b29",
+          "type": "gallery",
+          "assetIds": [
+            "m-jandaia-ooh-01",
+            "m-jandaia-ooh-02",
+            "m-jandaia-ooh-03",
+            "m-jandaia-ooh-04",
+            "m-jandaia-ooh-05",
+            "m-jandaia-ooh-06",
+            "m-jandaia-ooh-07"
+          ]
+        },
+        {
+          "id": "jandaia-b30",
+          "type": "text",
+          "heading": "Social",
+          "body": "Launch posts for the brand's own channels."
+        },
+        {
+          "id": "jandaia-b31",
+          "type": "image",
+          "assetId": "m-jandaia-social-01"
         }
       ],
       "demo": false,
       "createdAt": "2026-10-09T15:00:23.868Z",
-      "updatedAt": "2026-10-12T22:46:29.633Z"
+      "updatedAt": "2026-10-13T17:05:40.532Z"
     },
     {
       "id": "p-diniz",
@@ -7052,6 +7162,282 @@
       "mime": "image/webp",
       "origin": "upload",
       "createdAt": "2026-10-13T00:18:19.627Z"
+    },
+    {
+      "id": "m-jandaia-video-poster",
+      "kind": "image",
+      "src": "/media/jandaia-video-poster.webp",
+      "alt": "JandaIA — campaign film, poster frame",
+      "width": 1600,
+      "height": 900,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-13T17:05:40.532Z"
+    },
+    {
+      "id": "m-jandaia-video-01",
+      "kind": "video",
+      "src": "/media/jandaia-video-01.mp4",
+      "alt": "JandaIA — campaign film",
+      "width": 1920,
+      "height": 1080,
+      "mime": "video/mp4",
+      "origin": "upload",
+      "createdAt": "2026-10-13T17:05:40.532Z",
+      "posterId": "m-jandaia-video-poster"
+    },
+    {
+      "id": "m-jandaia-kv-01",
+      "kind": "image",
+      "src": "/media/jandaia-kv-01.webp",
+      "alt": "JandaIA key visual — portrait with app",
+      "width": 1080,
+      "height": 1920,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-13T17:05:40.532Z"
+    },
+    {
+      "id": "m-jandaia-kv-02",
+      "kind": "image",
+      "src": "/media/jandaia-kv-02.webp",
+      "alt": "JandaIA key visual — your biggest study ally",
+      "width": 1600,
+      "height": 900,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-13T17:05:40.532Z"
+    },
+    {
+      "id": "m-jandaia-kv-03",
+      "kind": "image",
+      "src": "/media/jandaia-kv-03.webp",
+      "alt": "JandaIA key visual — student selfie, outdoor",
+      "width": 1600,
+      "height": 900,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-13T17:05:40.532Z"
+    },
+    {
+      "id": "m-jandaia-kv-04",
+      "kind": "image",
+      "src": "/media/jandaia-kv-04.webp",
+      "alt": "JandaIA key visual — student selfie, park",
+      "width": 1600,
+      "height": 900,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-13T17:05:40.532Z"
+    },
+    {
+      "id": "m-jandaia-kv-05",
+      "kind": "image",
+      "src": "/media/jandaia-kv-05.webp",
+      "alt": "JandaIA key visual — student with backpack",
+      "width": 1600,
+      "height": 900,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-13T17:05:40.532Z"
+    },
+    {
+      "id": "m-jandaia-kv-06",
+      "kind": "image",
+      "src": "/media/jandaia-kv-06.webp",
+      "alt": "JandaIA key visual — professional with tablet",
+      "width": 1600,
+      "height": 900,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-13T17:05:40.532Z"
+    },
+    {
+      "id": "m-jandaia-app-01",
+      "kind": "image",
+      "src": "/media/jandaia-app-01.webp",
+      "alt": "JandaIA app — home and AiA chat screens",
+      "width": 1600,
+      "height": 900,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-13T17:05:40.532Z"
+    },
+    {
+      "id": "m-jandaia-app-02",
+      "kind": "image",
+      "src": "/media/jandaia-app-02.webp",
+      "alt": "JandaIA app — notebook screen on phone",
+      "width": 1600,
+      "height": 900,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-13T17:05:40.532Z"
+    },
+    {
+      "id": "m-jandaia-brand-01",
+      "kind": "image",
+      "src": "/media/jandaia-brand-01.webp",
+      "alt": "JandaIA brand colors",
+      "width": 1600,
+      "height": 900,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-13T17:05:40.532Z"
+    },
+    {
+      "id": "m-jandaia-brand-02",
+      "kind": "image",
+      "src": "/media/jandaia-brand-02.webp",
+      "alt": "JandaIA wordmark",
+      "width": 1600,
+      "height": 900,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-13T17:05:40.532Z"
+    },
+    {
+      "id": "m-jandaia-brand-03",
+      "kind": "image",
+      "src": "/media/jandaia-brand-03.webp",
+      "alt": "JandaIA — AiA character variants",
+      "width": 1600,
+      "height": 900,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-13T17:05:40.532Z"
+    },
+    {
+      "id": "m-jandaia-brand-04",
+      "kind": "image",
+      "src": "/media/jandaia-brand-04.webp",
+      "alt": "JandaIA typography — Public Sans",
+      "width": 1600,
+      "height": 900,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-13T17:05:40.532Z"
+    },
+    {
+      "id": "m-jandaia-brand-05",
+      "kind": "image",
+      "src": "/media/jandaia-brand-05.webp",
+      "alt": "JandaIA app icon on a phone",
+      "width": 1600,
+      "height": 900,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-13T17:05:40.532Z"
+    },
+    {
+      "id": "m-jandaia-brand-06",
+      "kind": "image",
+      "src": "/media/jandaia-brand-06.webp",
+      "alt": "JandaIA brand moodboard",
+      "width": 1600,
+      "height": 900,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-13T17:05:40.532Z"
+    },
+    {
+      "id": "m-jandaia-brand-07",
+      "kind": "image",
+      "src": "/media/jandaia-brand-07.webp",
+      "alt": "JandaIA brand system overview",
+      "width": 1600,
+      "height": 900,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-13T17:05:40.532Z"
+    },
+    {
+      "id": "m-jandaia-ooh-01",
+      "kind": "image",
+      "src": "/media/jandaia-ooh-01.webp",
+      "alt": "JandaIA — LED billboard mockup",
+      "width": 1600,
+      "height": 1067,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-13T17:05:40.532Z"
+    },
+    {
+      "id": "m-jandaia-ooh-02",
+      "kind": "image",
+      "src": "/media/jandaia-ooh-02.webp",
+      "alt": "JandaIA — indoor billboard mockup",
+      "width": 1600,
+      "height": 1067,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-13T17:05:40.532Z"
+    },
+    {
+      "id": "m-jandaia-ooh-03",
+      "kind": "image",
+      "src": "/media/jandaia-ooh-03.webp",
+      "alt": "JandaIA — circular LED screen mockup",
+      "width": 1600,
+      "height": 1067,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-13T17:05:40.532Z"
+    },
+    {
+      "id": "m-jandaia-ooh-04",
+      "kind": "image",
+      "src": "/media/jandaia-ooh-04.webp",
+      "alt": "JandaIA — vertical billboard mockup",
+      "width": 1600,
+      "height": 1067,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-13T17:05:40.532Z"
+    },
+    {
+      "id": "m-jandaia-ooh-05",
+      "kind": "image",
+      "src": "/media/jandaia-ooh-05.webp",
+      "alt": "JandaIA — digital screen mockup",
+      "width": 1600,
+      "height": 1067,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-13T17:05:40.532Z"
+    },
+    {
+      "id": "m-jandaia-ooh-06",
+      "kind": "image",
+      "src": "/media/jandaia-ooh-06.webp",
+      "alt": "JandaIA — subway column mockup",
+      "width": 1600,
+      "height": 900,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-13T17:05:40.532Z"
+    },
+    {
+      "id": "m-jandaia-ooh-07",
+      "kind": "image",
+      "src": "/media/jandaia-ooh-07.webp",
+      "alt": "JandaIA — digital totem mockup",
+      "width": 1600,
+      "height": 900,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-13T17:05:40.532Z"
+    },
+    {
+      "id": "m-jandaia-social-01",
+      "kind": "image",
+      "src": "/media/jandaia-social-01.webp",
+      "alt": "JandaIA — Instagram post mockups",
+      "width": 1600,
+      "height": 900,
+      "mime": "image/webp",
+      "origin": "upload",
+      "createdAt": "2026-10-13T17:05:40.532Z"
     }
   ]
 }
