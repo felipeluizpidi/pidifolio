@@ -2174,6 +2174,14 @@
           "id": "linx-b18",
           "type": "image",
           "assetId": "m-bh-linx-11"
+        },
+        {
+          "id": "linx-grid-extra",
+          "type": "grid2",
+          "assetIds": [
+            "m-a49c3f1e0a67",
+            "m-06922d996d59"
+          ]
         }
       ],
       "demo": false,
@@ -3374,6 +3382,30 @@
     }
   ],
   "media": [
+    {
+      "id": "m-06922d996d59",
+      "kind": "image",
+      "src": "/media/linx-magazine-01.webp",
+      "alt": "Linx — magazine spread",
+      "width": 1400,
+      "height": 732,
+      "mime": "image/webp",
+      "size": 165304,
+      "origin": "upload",
+      "createdAt": "2026-10-13T22:57:50.314Z"
+    },
+    {
+      "id": "m-a49c3f1e0a67",
+      "kind": "image",
+      "src": "/media/linx-book-01.webp",
+      "alt": "Linx — book mockup",
+      "width": 1400,
+      "height": 732,
+      "mime": "image/webp",
+      "size": 55852,
+      "origin": "upload",
+      "createdAt": "2026-10-13T22:57:50.229Z"
+    },
     {
       "id": "m-28889fd58a16",
       "kind": "image",
