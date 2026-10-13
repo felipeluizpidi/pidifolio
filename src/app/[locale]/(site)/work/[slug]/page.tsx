@@ -8,6 +8,9 @@ import { CaseBlocks } from "@/components/site/CaseBlocks";
 import { MaskLines, Reveal } from "@/components/site/Motion";
 import { Contact } from "@/components/site/Contact";
 import { cvHref } from "@/lib/cv";
+import { getDictionary, type Dict } from "@/lib/dictionary";
+import { isLocale, locales, type Locale } from "@/lib/i18n";
+import { fmt } from "@/lib/format";
 
 export const revalidate = 300;
 
@@ -19,28 +22,30 @@ function parseOutcomeLine(line: string): { value: string; label: string } {
 
 export async function generateStaticParams() {
   const { projects } = await getPublishedProjects();
-  return projects.map((p) => ({ slug: p.slug }));
+  return locales.flatMap((locale) => projects.map((p) => ({ locale, slug: p.slug })));
 }
 
-export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
-  const data = await getProjectBySlug((await params).slug);
+export async function generateMetadata({ params }: { params: Promise<{ locale: string; slug: string }> }): Promise<Metadata> {
+  const { locale: rawLocale, slug } = await params;
+  const locale = isLocale(rawLocale) ? rawLocale : "en";
+  const data = await getProjectBySlug(slug, locale);
   if (!data) return {};
   const { project: p } = data;
   const description = (p.overview || p.subtitle || p.title).slice(0, 160);
   return {
     title: `${p.title}${p.subtitle ? ` — ${p.subtitle}` : ""}`,
     description,
-    alternates: { canonical: `/work/${p.slug}` },
+    alternates: { canonical: `/${locale}/work/${p.slug}` },
     openGraph: { title: p.title, description, images: p.pageCover?.kind === "image" ? [{ url: p.pageCover.src }] : undefined },
   };
 }
 
-function Chapter({ n, label, text }: { n: number; label: string; text: string }) {
+function Chapter({ n, label, text, dict }: { n: number; label: string; text: string; dict: Dict }) {
   if (!text.trim()) return null;
   return (
     <Reveal className="grid gap-5 border-t border-ivory/25 py-9 md:grid-cols-12 md:py-14">
       <p className="t-meta md:col-span-3">
-        <span className="text-[var(--accent)]">Scene {String(n).padStart(2, "0")}</span>
+        <span className="text-[var(--accent)]">{dict.scene} {String(n).padStart(2, "0")}</span>
         <br />
         {label}
       </p>
@@ -53,16 +58,20 @@ function Chapter({ n, label, text }: { n: number; label: string; text: string })
   );
 }
 
-export default async function CasePage({ params }: { params: Promise<{ slug: string }> }) {
-  const data = await getProjectBySlug((await params).slug);
+export default async function CasePage({ params }: { params: Promise<{ locale: string; slug: string }> }) {
+  const { locale: rawLocale, slug } = await params;
+  if (!isLocale(rawLocale)) notFound();
+  const locale: Locale = rawLocale;
+  const dict: Dict = getDictionary(locale);
+  const data = await getProjectBySlug(slug, locale);
   if (!data) notFound();
   const { project: p, next, settings: s, media } = data;
   const poster = p.coverVideo?.posterId ? media[p.coverVideo.posterId]?.src : p.pageCover?.src;
   const chapters = [
-    ["Overview", p.overview],
-    ["Creative Challenge", p.challenge],
-    ["Concept & Direction", p.concept],
-    ["Process", p.process],
+    [dict.chapterOverview, p.overview],
+    [dict.chapterChallenge, p.challenge],
+    [dict.chapterConcept, p.concept],
+    [dict.chapterProcess, p.process],
   ] as const;
   let n = 0;
 
@@ -76,15 +85,15 @@ export default async function CasePage({ params }: { params: Promise<{ slug: str
           <div className="absolute inset-0 bg-[linear-gradient(to_bottom,rgba(11,11,11,.6),transparent_30%,transparent_45%,rgba(11,11,11,.92))]" />
         </div>
         <div className="gutter absolute inset-x-0 top-[calc(var(--nav-h)+8px)] flex justify-between">
-          <Link href="/#work" className="t-meta link-wipe">
-            ← Back to the index
+          <Link href={`/${locale}/#work`} className="t-meta link-wipe">
+            {dict.backToIndex}
           </Link>
           <span className="t-meta text-right">
-            Project {p.number}
+            {fmt(dict.project, { n: p.number })}
             {p.demo && (
               <>
                 <br />
-                <span className="bg-ivory px-1 text-ink">Demo content</span>
+                <span className="bg-ivory px-1 text-ink">{dict.demoContent}</span>
               </>
             )}
           </span>
@@ -101,10 +110,10 @@ export default async function CasePage({ params }: { params: Promise<{ slug: str
       {/* Metadata */}
       <dl className="gutter t-meta grid grid-cols-2 gap-y-6 border-y border-ivory/25 py-6 md:grid-cols-4">
         {[
-          ["Client", p.client || "—"],
-          ["Year", String(p.year)],
-          ["Role", p.role || "—"],
-          ["Disciplines", p.disciplines.join(", ") || "—"],
+          [dict.client, p.client || "—"],
+          [dict.year, String(p.year)],
+          [dict.role, p.role || "—"],
+          [dict.disciplines, p.disciplines.join(", ") || "—"],
         ].map(([k, v]) => (
           <div key={k} className="pr-4">
             <dt className="text-ivory/50">{k}</dt>
@@ -114,15 +123,15 @@ export default async function CasePage({ params }: { params: Promise<{ slug: str
       </dl>
 
       <div className="gutter py-14 md:py-24">
-        {chapters.map(([label, text]) => (text.trim() ? <Chapter key={label} n={++n} label={label} text={text} /> : null))}
+        {chapters.map(([label, text]) => (text.trim() ? <Chapter key={label} n={++n} label={label} text={text} dict={dict} /> : null))}
       </div>
 
       {p.blocks.length > 0 && (
         <section aria-label="Visual gallery" className="gutter pb-28">
           <p className="t-meta mb-9 border-t border-ivory/25 pt-5">
-            <span className="text-[var(--accent)]">Scene {String(++n).padStart(2, "0")}</span> — Visual gallery
+            <span className="text-[var(--accent)]">{dict.scene} {String(++n).padStart(2, "0")}</span> — {dict.visualGallery}
           </p>
-          <CaseBlocks blocks={p.blocks} media={media} />
+          <CaseBlocks blocks={p.blocks} media={media} dict={dict} />
         </section>
       )}
 
@@ -130,7 +139,7 @@ export default async function CasePage({ params }: { params: Promise<{ slug: str
         <section aria-label="Outcomes" className="gutter pb-24">
           <div className="border-t border-ivory/25 pt-5">
             <p className="t-meta">
-              <span className="text-[var(--accent)]">Scene {String(++n).padStart(2, "0")}</span> — Outcomes
+              <span className="text-[var(--accent)]">{dict.scene} {String(++n).padStart(2, "0")}</span> — {dict.outcomes}
             </p>
             <dl
               role="list"
@@ -180,7 +189,7 @@ export default async function CasePage({ params }: { params: Promise<{ slug: str
           );
         return (
           <section aria-label="Credits" className="gutter py-24">
-            <p className="t-meta mb-9 text-center text-ivory/50">— Credits —</p>
+            <p className="t-meta mb-9 text-center text-ivory/50">{dict.credits}</p>
 
             {mine && (
               <div className="mx-auto mb-16 max-w-[520px] text-center">
@@ -213,27 +222,27 @@ export default async function CasePage({ params }: { params: Promise<{ slug: str
       })()}
 
       {next && (
-        <Link href={`/work/${next.slug}`} className="group relative block h-[80svh] min-h-[480px] overflow-hidden" aria-label={`Next project: ${next.title}`}>
+        <Link href={`/${locale}/work/${next.slug}`} className="group relative block h-[80svh] min-h-[480px] overflow-hidden" aria-label={`Next project: ${next.title}`}>
           <div className="absolute inset-0 transition-transform duration-[1400ms] ease-[cubic-bezier(.2,.7,.15,1)] group-hover:scale-[1.04]">
             <Media asset={next.cover} sizes="100vw" emptyLabel="Next project" />
           </div>
           <div className="absolute inset-0 bg-ink/50 transition-colors duration-700 group-hover:bg-ink/30" />
           <div className="gutter absolute inset-0 flex flex-col justify-between py-8">
             <p className="t-meta flex justify-between">
-              <span>Next reel</span>
-              <span>Project {next.number}</span>
+              <span>{dict.nextReel}</span>
+              <span>{fmt(dict.project, { n: next.number })}</span>
             </p>
             <div>
               <p className="t-display text-[clamp(61px,13.6vw,255px)]" style={{ color: next.accent }}>
                 {next.title}
               </p>
-              <p className="t-meta mt-2.5">Continue →</p>
+              <p className="t-meta mt-2.5">{dict.continueArrow}</p>
             </div>
           </div>
         </Link>
       )}
 
-      <Contact s={s} cvHref={cvHref(s, media)} />
+      <Contact s={s} cvHref={cvHref(s, media)} locale={locale} dict={dict} />
     </article>
   );
 }

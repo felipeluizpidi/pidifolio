@@ -5,11 +5,13 @@ import Link from "next/link";
 import { motion } from "motion/react";
 import clsx from "clsx";
 import type { MediaAsset, ResolvedProject, Settings } from "@/lib/types";
+import type { Dict } from "@/lib/dictionary";
+import { fmt } from "@/lib/format";
 import { focusPosition, Media } from "../media/Media";
 import { AmbientVideo } from "../media/Video";
 import { ClipReveal, EASE, MaskLines, Reveal } from "./Motion";
 
-type P = { p: ResolvedProject; media: Record<string, MediaAsset>; i: number };
+type P = { p: ResolvedProject; media: Record<string, MediaAsset>; i: number; dict: Dict };
 
 const metaLine = (p: ResolvedProject) =>
   [p.categories[0]?.filterLabel ?? p.disciplines[0], p.disciplines[1], String(p.year)].filter(Boolean).join(" / ");
@@ -21,7 +23,7 @@ export function onAccent(hex: string) {
   return 0.299 * r + 0.587 * g + 0.114 * b > 150 ? "#0B0B0B" : "#F4E9D6";
 }
 
-function Cover({ p, media, hover, sizes, mode = "hover", priority }: P & { hover: boolean; sizes: string; mode?: "hover" | "visible"; priority?: boolean }) {
+function Cover({ p, media, hover, sizes, mode = "hover", priority }: Omit<P, "dict"> & { hover: boolean; sizes: string; mode?: "hover" | "visible"; priority?: boolean }) {
   const poster = p.coverVideo?.posterId ? media[p.coverVideo.posterId]?.src : p.cover?.src;
   return (
     <>
@@ -33,20 +35,20 @@ function Cover({ p, media, hover, sizes, mode = "hover", priority }: P & { hover
   );
 }
 
-function ViewButton({ hover, color }: { hover: boolean; color?: string }) {
+function ViewButton({ hover, color, dict }: { hover: boolean; color?: string; dict: Dict }) {
   return (
     <span className="t-meta inline-flex items-center gap-3" style={{ color }}>
       <span className="relative overflow-hidden">
-        <span className={clsx("block transition-transform duration-500", hover && "lg:-translate-y-full")}>View project ↗</span>
+        <span className={clsx("block transition-transform duration-500", hover && "lg:-translate-y-full")}>{dict.viewProject}</span>
         <span aria-hidden className={clsx("absolute inset-0 hidden translate-y-full transition-transform duration-500 lg:block", hover && "lg:translate-y-0")}>
-          View case study ↗
+          {dict.viewCaseStudy}
         </span>
       </span>
     </span>
   );
 }
 
-function FullBleed({ p, media, i }: P) {
+function FullBleed({ p, media, i, dict }: P) {
   const [hover, setHover] = useState(false);
   return (
     <Link
@@ -61,7 +63,7 @@ function FullBleed({ p, media, i }: P) {
         <Cover p={p} media={media} i={i} hover={hover} sizes="100vw" mode="visible" />
         <div className="absolute inset-0 bg-[linear-gradient(to_top,rgba(11,11,11,.88),rgba(11,11,11,.35)_55%,transparent_80%)]" />
         <div className="t-meta absolute right-[var(--gutter)] top-5 text-right">
-          Project {p.number}
+          {fmt(dict.project, { n: p.number })}
           <br />
           {p.client || p.title}
         </div>
@@ -76,7 +78,7 @@ function FullBleed({ p, media, i }: P) {
               {p.subtitle}
             </p>
             <p className="t-meta">{metaLine(p)}</p>
-            <ViewButton hover={hover} />
+            <ViewButton hover={hover} dict={dict} />
           </div>
         </div>
       </ClipReveal>
@@ -84,7 +86,7 @@ function FullBleed({ p, media, i }: P) {
   );
 }
 
-function Split({ p, media, i }: P) {
+function Split({ p, media, i, dict }: P) {
   const [hover, setHover] = useState(false);
   const flip = i % 2 === 1;
   const fg = onAccent(p.accent);
@@ -100,7 +102,7 @@ function Split({ p, media, i }: P) {
       </ClipReveal>
       <div className="relative flex flex-col justify-between gap-12 p-[var(--gutter)] py-9 lg:col-span-5 lg:py-12" style={{ background: p.accent, color: fg }}>
         <div className="flex items-start justify-between">
-          <span className="t-meta">Project {p.number}</span>
+          <span className="t-meta">{fmt(dict.project, { n: p.number })}</span>
           <span className="t-meta text-right">{p.client}</span>
         </div>
         <div>
@@ -112,14 +114,14 @@ function Split({ p, media, i }: P) {
         </div>
         <div className="flex flex-wrap items-end justify-between gap-3 border-t pt-3" style={{ borderColor: `${fg}55` }}>
           <p className="t-meta">{metaLine(p)}</p>
-          <ViewButton hover={hover} />
+          <ViewButton hover={hover} dict={dict} />
         </div>
       </div>
     </Link>
   );
 }
 
-function Poster({ p, media, i }: P) {
+function Poster({ p, media, i, dict }: P) {
   const [hover, setHover] = useState(false);
   const fg = onAccent(p.accent);
   const words = p.title.toUpperCase().split(" ");
@@ -135,7 +137,7 @@ function Poster({ p, media, i }: P) {
     >
       <div className="t-meta flex justify-between">
         <span>
-          Project {p.number}
+          {fmt(dict.project, { n: p.number })}
           <br />
           {p.client}
         </span>
@@ -160,7 +162,7 @@ function Poster({ p, media, i }: P) {
       </div>
       <div className="mt-7 flex flex-wrap items-end justify-between gap-3.5 border-t pt-3.5" style={{ borderColor: `${fg}55` }}>
         <span className="t-meta">{metaLine(p)}</span>
-        <ViewButton hover={hover} />
+        <ViewButton hover={hover} dict={dict} />
       </div>
     </Link>
   );
@@ -176,7 +178,7 @@ function sequenceFrames(p: ResolvedProject, media: Record<string, MediaAsset>) {
   return [pool[0], p.cover, pool[1]];
 }
 
-function Sequence({ p, media, i }: P) {
+function Sequence({ p, media, i, dict }: P) {
   const [hover, setHover] = useState(false);
   const positions = ["0% 50%", "50% 50%", "100% 50%"];
   const frames = sequenceFrames(p, media);
@@ -192,7 +194,7 @@ function Sequence({ p, media, i }: P) {
           <MaskLines lines={[p.title]} />
         </h3>
         <span className="t-meta mb-3 sm:text-right">
-          Project {p.number}
+          {fmt(dict.project, { n: p.number })}
           <br />
           {metaLine(p)}
         </span>
@@ -227,19 +229,19 @@ function Sequence({ p, media, i }: P) {
       </div>
       <div className="mt-5 flex flex-wrap items-end justify-between gap-3.5">
         <p className="t-heavy text-[clamp(16px,1.7vw,26px)]">{p.subtitle}</p>
-        <ViewButton hover={hover} />
+        <ViewButton hover={hover} dict={dict} />
       </div>
     </Link>
   );
 }
 
-export function SelectedWork({ s, projects, media }: { s: Settings; projects: ResolvedProject[]; media: Record<string, MediaAsset> }) {
+export function SelectedWork({ s, projects, media, dict }: { s: Settings; projects: ResolvedProject[]; media: Record<string, MediaAsset>; dict: Dict }) {
   return (
     <section id="work" aria-labelledby="work-title" className="bg-ink">
       <header className="relative bg-red px-[var(--gutter)] pb-7 pt-[calc(var(--nav-h)+28px)] text-ink md:pb-9">
         <div className="t-meta flex justify-between">
-          <span>Scene 02 / Selected Work</span>
-          <span>{String(projects.length).padStart(2, "0")} features</span>
+          <span>{dict.sceneSelectedWork}</span>
+          <span>{fmt(dict.features, { n: String(projects.length).padStart(2, "0") })}</span>
         </div>
         <div className="mt-7 grid gap-7 lg:grid-cols-12 lg:items-end">
           <h2 id="work-title" className="t-display text-[clamp(71px,16.2vw,289px)] lg:col-span-9">
@@ -252,7 +254,7 @@ export function SelectedWork({ s, projects, media }: { s: Settings; projects: Re
       </header>
 
       {projects.length === 0 ? (
-        <p className="t-meta gutter py-24 text-center text-ash">No featured projects yet — mark projects as featured in /admin.</p>
+        <p className="t-meta gutter py-24 text-center text-ash">{dict.noFeatured}</p>
       ) : (
         <ol className="flex flex-col gap-[calc(var(--gutter)*1.15)] py-[calc(var(--gutter)*1.15)]">
           {projects.map((p, i) => {
@@ -260,7 +262,7 @@ export function SelectedWork({ s, projects, media }: { s: Settings; projects: Re
             return (
               <li key={p.id}>
                 {/* Featured reels are numbered on their own: 01, 02, 03… */}
-                <L p={{ ...p, number: String(i + 1).padStart(2, "0") }} media={media} i={i} />
+                <L p={{ ...p, number: String(i + 1).padStart(2, "0") }} media={media} i={i} dict={dict} />
               </li>
             );
           })}

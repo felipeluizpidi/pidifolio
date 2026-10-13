@@ -3,12 +3,14 @@
 import { useState } from "react";
 import clsx from "clsx";
 import type { Block, MediaAsset } from "@/lib/types";
+import type { Dict } from "@/lib/dictionary";
+import { fmt } from "@/lib/format";
 import { aspectOf, Media } from "../media/Media";
 import { AmbientVideo, EmbedPlayer, VideoPlayer } from "../media/Video";
 import { Lightbox } from "../media/Lightbox";
 import { ClipReveal, Reveal } from "./Motion";
 
-type Ctx = { media: Record<string, MediaAsset>; open: (id: string) => void };
+type Ctx = { media: Record<string, MediaAsset>; open: (id: string) => void; dict: Dict };
 
 /** Clickable media frame — opens the lightbox. Videos/embeds render their player. */
 function Frame({ id, ctx, sizes, ratio, className, autoplay }: { id: string; ctx: Ctx; sizes: string; ratio?: string; className?: string; autoplay?: boolean }) {
@@ -153,7 +155,7 @@ function BlockView({ b, ctx }: { b: Block; ctx: Ctx }) {
                   ) : (
                     <Frame id={id} ctx={ctx} sizes="(min-width:1024px) 34vw, 78vw" ratio="aspect-[3/2]" />
                   )}
-                  <span className="t-meta-sm mt-1.5 block text-ivory/50">Frame {String(i + 1).padStart(3, "0")}</span>
+                  <span className="t-meta-sm mt-1.5 block text-ivory/50">{ctx.dict.frame} {String(i + 1).padStart(3, "0")}</span>
                 </li>
               );
             })}
@@ -180,7 +182,7 @@ function BlockView({ b, ctx }: { b: Block; ctx: Ctx }) {
               </li>
             ))}
           </ul>
-          <p className="t-meta mt-2 text-ivory/50">{b.assetIds.length} frames — tap to view</p>
+          <p className="t-meta mt-2 text-ivory/50">{fmt(ctx.dict.framesTapToView, { n: b.assetIds.length })}</p>
         </div>
       );
     }
@@ -196,14 +198,14 @@ function BlockView({ b, ctx }: { b: Block; ctx: Ctx }) {
   }
 }
 
-export function CaseBlocks({ blocks, media }: { blocks: Block[]; media: Record<string, MediaAsset> }) {
+export function CaseBlocks({ blocks, media, dict }: { blocks: Block[]; media: Record<string, MediaAsset>; dict: Dict }) {
   // Every image across all blocks is part of one lightbox sequence.
   const images = blocks
     .flatMap((b) => ("assetIds" in b ? b.assetIds : "assetId" in b ? [b.assetId] : []))
     .filter((id, i, arr) => media[id]?.kind === "image" && arr.indexOf(id) === i)
     .map((id) => media[id]);
   const [index, setIndex] = useState<number | null>(null);
-  const ctx: Ctx = { media, open: (id) => setIndex(images.findIndex((m) => m.id === id)) };
+  const ctx: Ctx = { media, dict, open: (id) => setIndex(images.findIndex((m) => m.id === id)) };
 
   return (
     <>

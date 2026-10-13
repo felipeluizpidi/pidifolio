@@ -5,17 +5,14 @@ import Link from "next/link";
 import { AnimatePresence, motion } from "motion/react";
 import clsx from "clsx";
 import type { Category, ResolvedProject, Settings } from "@/lib/types";
+import type { Dict } from "@/lib/dictionary";
+import { fmt } from "@/lib/format";
 import { focusPosition, Media } from "../media/Media";
 import { EASE, MaskLines, Reveal } from "./Motion";
 import { onAccent } from "./SelectedWork";
 
 type Sort = "index" | "newest" | "oldest" | "az";
-const SORTS: { id: Sort; label: string }[] = [
-  { id: "index", label: "Index" },
-  { id: "newest", label: "Newest" },
-  { id: "oldest", label: "Oldest" },
-  { id: "az", label: "A–Z" },
-];
+const pad2 = (n: number) => String(n).padStart(2, "0");
 
 /** Archive shows at most this many titles until "View more" is pressed. */
 const PREVIEW_COUNT = 6;
@@ -37,7 +34,7 @@ const SHAPE = {
   type: { span: "md:col-span-3 lg:col-span-4", ratio: "aspect-[4/5]" },
 } as const;
 
-function Card({ p }: { p: ResolvedProject }) {
+function Card({ p, dict }: { p: ResolvedProject; dict: Dict }) {
   const shape = SHAPE[p.archiveShape];
   const cats = p.categories.map((c) => c.filterLabel).join(" · ");
   if (p.archiveShape === "type") {
@@ -64,7 +61,7 @@ function Card({ p }: { p: ResolvedProject }) {
         </div>
         <span className="t-meta absolute left-3 top-3 bg-ink px-1.5 py-0.5 text-ivory">№ {p.number}</span>
         <span className="t-meta absolute right-3 top-3 translate-y-1 bg-ivory px-1.5 py-0.5 text-ink opacity-0 transition-all duration-300 group-hover:translate-y-0 group-hover:opacity-100">
-          View ↗
+          {dict.view}
         </span>
       </div>
       <div className="mt-3.5 grid grid-cols-[1fr_auto] items-end gap-x-4 border-t border-ink/25 pt-2.5">
@@ -76,10 +73,17 @@ function Card({ p }: { p: ResolvedProject }) {
   );
 }
 
-export function Archive({ s, categories, projects }: { s: Settings; categories: Category[]; projects: ResolvedProject[] }) {
+export function Archive({ s, categories, projects, dict }: { s: Settings; categories: Category[]; projects: ResolvedProject[]; dict: Dict }) {
   const [filter, setFilter] = useState<string>("all");
   const [sort, setSort] = useState<Sort>("index");
   const [expanded, setExpanded] = useState(false);
+
+  const SORTS: { id: Sort; label: string }[] = [
+    { id: "index", label: dict.sortIndex },
+    { id: "newest", label: dict.sortNewest },
+    { id: "oldest", label: dict.sortOldest },
+    { id: "az", label: dict.sortAz },
+  ];
 
   const counts = useMemo(() => {
     const c: Record<string, number> = { all: projects.length };
@@ -99,15 +103,15 @@ export function Archive({ s, categories, projects }: { s: Settings; categories: 
   const shown = expanded ? visible : previewOf(visible);
   const hidden = visible.length - shown.length;
 
-  const filters = [{ id: "all", label: "All" }, ...categories.map((c) => ({ id: c.id, label: c.filterLabel }))];
+  const filters = [{ id: "all", label: dict.all }, ...categories.map((c) => ({ id: c.id, label: c.filterLabel }))];
   const activeCat = categories.find((c) => c.id === filter);
 
   return (
     <section id="archive" aria-labelledby="archive-title" className="bg-ivory text-ink">
       <div className="gutter pb-20 pt-[calc(var(--nav-h)+28px)] md:pb-28">
         <div className="t-meta flex justify-between">
-          <span>Scene 03 / The Archive</span>
-          <span>{String(projects.length).padStart(2, "0")} titles</span>
+          <span>{dict.sceneArchive}</span>
+          <span>{fmt(dict.titlesCount, { n: pad2(projects.length) })}</span>
         </div>
 
         <div className="mt-7 grid gap-9 lg:grid-cols-12">
@@ -155,7 +159,7 @@ export function Archive({ s, categories, projects }: { s: Settings; categories: 
             })}
           </div>
           <label className="t-meta flex items-center gap-2">
-            Sort
+            {dict.sort}
             <select value={sort} onChange={(e) => setSort(e.target.value as Sort)} className="t-meta h-10 cursor-pointer border border-ink/30 bg-transparent px-2">
               {SORTS.map((o) => (
                 <option key={o.id} value={o.id}>
@@ -167,7 +171,7 @@ export function Archive({ s, categories, projects }: { s: Settings; categories: 
         </div>
 
         <p className="t-meta mt-5 text-ink/60" aria-live="polite">
-          {activeCat ? `${activeCat.index} — ${activeCat.title}` : "All disciplines"} · {visible.length} {visible.length === 1 ? "title" : "titles"}
+          {activeCat ? `${activeCat.index} — ${activeCat.title}` : dict.allDisciplines} · {visible.length} {visible.length === 1 ? dict.titleSingular : dict.titlePlural}
         </p>
 
         <motion.ul layout className="mt-7 grid grid-flow-row-dense grid-cols-1 gap-x-[var(--gutter)] gap-y-14 md:grid-cols-6 lg:grid-cols-12">
@@ -182,7 +186,7 @@ export function Archive({ s, categories, projects }: { s: Settings; categories: 
                 exit={{ opacity: 0, scale: 0.97 }}
                 transition={{ duration: 0.55, ease: EASE }}
               >
-                <Card p={p} />
+                <Card p={p} dict={dict} />
               </motion.li>
             ))}
           </AnimatePresence>
@@ -196,17 +200,17 @@ export function Archive({ s, categories, projects }: { s: Settings; categories: 
               onClick={() => setExpanded(true)}
               className="t-meta flex h-12 items-center gap-2 border border-ink px-6 transition-colors hover:bg-ink hover:text-ivory"
             >
-              View more <sup className="text-[9px] opacity-60">+{String(hidden).padStart(2, "0")}</sup>
+              {dict.viewMore} <sup className="text-[9px] opacity-60">+{String(hidden).padStart(2, "0")}</sup>
             </button>
           </div>
         )}
 
         {visible.length === 0 && (
           <div className="mt-7 flex flex-col items-start gap-5 border border-dashed border-ink/40 p-9 md:p-14">
-            <span className="t-display text-[clamp(41px,6vw,94px)] text-ink/20">Coming soon.</span>
-            <p className="t-meta">No titles in this programme yet.</p>
+            <span className="t-display text-[clamp(41px,6vw,94px)] text-ink/20">{dict.comingSoon}</span>
+            <p className="t-meta">{dict.noTitlesYet}</p>
             <button type="button" className="t-meta link-wipe" onClick={() => setFilter("all")}>
-              ← Back to all disciplines
+              {dict.backToAllDisciplines}
             </button>
           </div>
         )}

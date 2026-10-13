@@ -4,6 +4,8 @@ import { headers } from "next/headers";
 import { addMessage, contactAllowed } from "@/lib/messages";
 import { READ_ONLY } from "@/lib/store";
 import { contactMessageInput } from "@/lib/types";
+import { defaultLocale, isLocale, type Locale } from "@/lib/i18n";
+import { getDictionary } from "@/lib/dictionary";
 
 export type ContactState = {
   status: "idle" | "sent" | "error";
@@ -13,7 +15,8 @@ export type ContactState = {
 };
 
 /** Public action — no session; validated, honeypotted and rate-limited. */
-export async function sendContactMessage(_: ContactState, form: FormData): Promise<ContactState> {
+export async function sendContactMessage(_: ContactState, form: FormData, locale: Locale = defaultLocale): Promise<ContactState> {
+  const dict = getDictionary(isLocale(locale) ? locale : defaultLocale);
   const values = {
     name: String(form.get("name") ?? ""),
     email: String(form.get("email") ?? ""),
@@ -24,23 +27,24 @@ export async function sendContactMessage(_: ContactState, form: FormData): Promi
 
   const parsed = contactMessageInput.safeParse(values);
   if (!parsed.success) {
+    const errByField = { name: dict.errName, email: dict.errEmail, message: dict.errMessage };
     const fieldErrors: ContactState["fieldErrors"] = {};
     for (const issue of parsed.error.issues) {
-      const k = issue.path[0] as keyof NonNullable<ContactState["fieldErrors"]>;
-      fieldErrors[k] ??= issue.message;
+      const k = issue.path[0] as keyof typeof errByField;
+      fieldErrors[k] ??= errByField[k];
     }
     return { status: "error", fieldErrors, values };
   }
 
   const h = await headers();
   const ip = h.get("x-forwarded-for")?.split(",")[0]?.trim() || h.get("x-real-ip") || "local";
-  if (!contactAllowed(ip)) return { status: "error", error: "Too many messages in a row — please try again in a few minutes.", values };
-  if (READ_ONLY) return { status: "error", error: "The form is offline on this deployment — please use the email or WhatsApp links.", values };
+  if (!contactAllowed(ip)) return { status: "error", error: dict.errRateLimit, values };
+  if (READ_ONLY) return { status: "error", error: dict.errOffline, values };
 
   try {
     await addMessage(parsed.data);
     return { status: "sent" };
   } catch {
-    return { status: "error", error: "Couldn't send right now — please use the email or WhatsApp links.", values };
+    return { status: "error", error: dict.errGeneric, values };
   }
 }

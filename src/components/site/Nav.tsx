@@ -6,14 +6,18 @@ import { usePathname } from "next/navigation";
 import { AnimatePresence, motion } from "motion/react";
 import clsx from "clsx";
 import { EASE } from "./Motion";
+import type { Dict } from "@/lib/dictionary";
+import { locales, localeFlags, localeNames, type Locale } from "@/lib/i18n";
 
-export const SECTIONS = [
-  { id: "home", label: "Home" },
-  { id: "work", label: "Selected Work" },
-  { id: "archive", label: "Archive" },
-  { id: "about", label: "About" },
-  { id: "contact", label: "Contact" },
-] as const;
+function sectionsOf(dict: Dict) {
+  return [
+    { id: "home", label: dict.nav.home },
+    { id: "work", label: dict.nav.work },
+    { id: "archive", label: dict.nav.archive },
+    { id: "about", label: dict.nav.about },
+    { id: "contact", label: dict.nav.contact },
+  ] as const;
+}
 
 function Timecode() {
   const [t, setT] = useState<string | null>(null);
@@ -35,9 +39,36 @@ function Timecode() {
   return <span className="tabular-nums">{t ?? "00:00:00:00"}</span>;
 }
 
-export function Nav({ name, email, links }: { name: string; email: string; links: { key: string; label: string; href: string }[] }) {
+/** Swaps the locale segment of the current path, keeping the rest (e.g. /en/work/x → /pt/work/x). */
+function localeHref(pathname: string, locale: Locale) {
+  const rest = pathname.split("/").slice(2).join("/");
+  return `/${locale}${rest ? `/${rest}` : ""}`;
+}
+
+function LocaleSwitcher({ locale, pathname }: { locale: Locale; pathname: string }) {
+  return (
+    <ul className="flex items-center gap-2" aria-label="Language">
+      {locales.map((l) => (
+        <li key={l}>
+          <Link
+            href={localeHref(pathname, l)}
+            aria-current={l === locale ? "true" : undefined}
+            aria-label={localeNames[l]}
+            title={localeNames[l]}
+            className={clsx("block text-[17px] leading-none transition-opacity", l === locale ? "opacity-100" : "opacity-45 hover:opacity-80")}
+          >
+            {localeFlags[l]}
+          </Link>
+        </li>
+      ))}
+    </ul>
+  );
+}
+
+export function Nav({ name, email, links, locale, dict }: { name: string; email: string; links: { key: string; label: string; href: string }[]; locale: Locale; dict: Dict }) {
   const pathname = usePathname();
-  const onHome = pathname === "/";
+  const SECTIONS = sectionsOf(dict);
+  const onHome = pathname === `/${locale}`;
   const [active, setActive] = useState<string>("home");
   const [open, setOpen] = useState(false);
   const initials = name
@@ -57,6 +88,7 @@ export function Nav({ name, email, links }: { name: string; email: string; links
       if (el) io.observe(el);
     });
     return () => io.disconnect();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [onHome]);
 
   useEffect(() => {
@@ -67,14 +99,14 @@ export function Nav({ name, email, links }: { name: string; email: string; links
     return () => window.removeEventListener("keydown", onKey);
   }, [open]);
 
-  const href = (id: string) => (onHome ? `#${id}` : `/#${id}`);
+  const href = (id: string) => (onHome ? `#${id}` : `/${locale}/#${id}`);
 
   return (
     <>
       <header className="gutter fixed inset-x-0 top-0 z-50 flex h-[var(--nav-h)] items-center justify-between text-ivory mix-blend-difference">
         <Link href={href("home")} className="t-meta flex items-center gap-2" aria-label={`${name} — home`}>
           <span className="font-heavy text-[15px] tracking-tight">{initials}®</span>
-          <span className="hidden sm:inline">— Portfolio 2026</span>
+          <span className="hidden sm:inline">{dict.tagline}</span>
         </Link>
 
         <nav aria-label="Primary" className="hidden lg:block">
@@ -94,19 +126,22 @@ export function Nav({ name, email, links }: { name: string; email: string; links
           </ol>
         </nav>
 
-        <div className="t-meta hidden items-center gap-2 lg:flex" aria-hidden>
-          <span className="rec-dot h-2 w-2 rounded-full bg-ivory" />
-          REC <Timecode />
+        <div className="hidden items-center gap-5 lg:flex">
+          <LocaleSwitcher locale={locale} pathname={pathname} />
+          <div className="t-meta flex items-center gap-2" aria-hidden>
+            <span className="rec-dot h-2 w-2 rounded-full bg-ivory" />
+            {dict.rec} <Timecode />
+          </div>
         </div>
 
         <button
           type="button"
-          className="t-meta flex h-11 items-center gap-2 lg:hidden"
+          className="t-meta flex h-11 shrink-0 items-center gap-1.5 lg:hidden"
           onClick={() => setOpen(true)}
           aria-expanded={open}
           aria-controls="mobile-menu"
         >
-          Menu <span className="flex flex-col gap-[3px]"><span className="block h-[1.5px] w-5 bg-ivory" /><span className="block h-[1.5px] w-5 bg-ivory" /></span>
+          {dict.menu} <span className="flex flex-col gap-[3px]"><span className="block h-[1.5px] w-5 bg-ivory" /><span className="block h-[1.5px] w-5 bg-ivory" /></span>
         </button>
       </header>
 
@@ -116,7 +151,7 @@ export function Nav({ name, email, links }: { name: string; email: string; links
             id="mobile-menu"
             role="dialog"
             aria-modal="true"
-            aria-label="Menu"
+            aria-label={dict.menu}
             className="gutter fixed inset-0 z-[60] flex flex-col bg-red pb-6 text-ink"
             initial={{ clipPath: "inset(0 0 100% 0)" }}
             animate={{ clipPath: "inset(0 0 0% 0)" }}
@@ -124,9 +159,9 @@ export function Nav({ name, email, links }: { name: string; email: string; links
             transition={{ duration: 0.55, ease: EASE }}
           >
             <div className="flex h-[var(--nav-h)] items-center justify-between">
-              <span className="t-meta">Scene index</span>
+              <span className="t-meta">{dict.sceneIndex}</span>
               <button type="button" className="t-meta h-11" onClick={() => setOpen(false)} autoFocus>
-                Close ✕
+                {dict.close}
               </button>
             </div>
             <nav aria-label="Mobile" className="flex flex-1 flex-col justify-center">
@@ -148,6 +183,9 @@ export function Nav({ name, email, links }: { name: string; email: string; links
                 ))}
               </ol>
             </nav>
+            <div className="flex items-center gap-4 border-t border-ink/25 py-4">
+              <LocaleSwitcher locale={locale} pathname={pathname} />
+            </div>
             <div className="t-meta grid grid-cols-2 gap-3">
               {email && <a href={`mailto:${email}`} className="col-span-2 normal-case tracking-normal">{email}</a>}
               {links.map((l) => (

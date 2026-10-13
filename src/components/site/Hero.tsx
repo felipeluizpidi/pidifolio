@@ -4,6 +4,7 @@ import { getImageProps } from "next/image";
 import { motion, useScroll, useTransform } from "motion/react";
 import { useRef } from "react";
 import type { MediaAsset, Settings } from "@/lib/types";
+import type { Dict } from "@/lib/dictionary";
 import { EASE, MaskLines } from "./Motion";
 
 function ArtDirectedPortrait({ desktop, mobile }: { desktop?: MediaAsset; mobile?: MediaAsset }) {
@@ -23,7 +24,7 @@ function ArtDirectedPortrait({ desktop, mobile }: { desktop?: MediaAsset; mobile
   );
 }
 
-export function Hero({ s, desktop, mobile }: { s: Settings; desktop?: MediaAsset; mobile?: MediaAsset }) {
+export function Hero({ s, desktop, mobile, dict }: { s: Settings; desktop?: MediaAsset; mobile?: MediaAsset; dict: Dict }) {
   const ref = useRef<HTMLElement>(null);
   const { scrollYProgress } = useScroll({ target: ref, offset: ["start start", "end start"] });
   const imgY = useTransform(scrollYProgress, [0, 1], ["0%", "14%"]);
@@ -58,9 +59,9 @@ export function Hero({ s, desktop, mobile }: { s: Settings; desktop?: MediaAsset
       {/* Top metadata */}
       <div className="gutter absolute inset-x-0 top-[calc(var(--nav-h)+8px)] flex justify-between gap-4">
         <motion.p className="t-meta max-w-[48%] md:max-w-none" {...fade(1.0)}>
-          Frame 001 / Creative Direction
+          {dict.heroFrame}
           <br />
-          <span className="text-ivory/60">35mm / Digital / Art Direction</span>
+          <span className="text-ivory/60">{dict.heroFormat}</span>
         </motion.p>
         <motion.ul className="t-meta max-w-[48%] text-right md:max-w-none" {...fade(1.1)}>
           {s.hero.meta.slice(0, 2).map((m) => (
@@ -104,11 +105,11 @@ export function Hero({ s, desktop, mobile }: { s: Settings; desktop?: MediaAsset
         {...fade(1.4)}
         className="gutter absolute inset-x-0 bottom-0 hidden h-[52px] items-center justify-between border-t border-ivory/20 md:flex"
       >
-        <span className="t-meta">{s.hero.meta[2] ?? "Selected works / 2026"}</span>
+        <span className="t-meta">{s.hero.meta[2] ?? dict.heroFallbackMeta}</span>
         <a href="#work" className="t-meta group flex items-center gap-3">
           <span className="link-wipe">{s.hero.cta}</span> ↓
         </a>
-        <span className="t-meta text-ivory/60">Aspect 2.39 : 1 — Scene 01</span>
+        <span className="t-meta text-ivory/60">{dict.heroAspect}</span>
       </motion.div>
 
       {/* Scroll cue */}
@@ -119,7 +120,7 @@ export function Hero({ s, desktop, mobile }: { s: Settings; desktop?: MediaAsset
         className="absolute bottom-[132px] right-[var(--gutter)] flex flex-col items-center gap-2 md:bottom-[84px] md:left-1/2 md:right-auto"
       >
         <span className="scroll-cue relative block h-[72px] w-px bg-ivory/30" />
-        <span className="t-meta-sm md:hidden">Scroll</span>
+        <span className="t-meta-sm md:hidden">{dict.scroll}</span>
       </motion.a>
     </section>
   );

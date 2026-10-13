@@ -2,7 +2,9 @@
 
 import { useActionState } from "react";
 import clsx from "clsx";
-import { sendContactMessage, type ContactState } from "@/app/(site)/contact-action";
+import { sendContactMessage, type ContactState } from "@/lib/contact-action";
+import type { Dict } from "@/lib/dictionary";
+import type { Locale } from "@/lib/i18n";
 
 const field =
   "mt-1.5 block w-full border-0 border-b-2 border-ink/40 bg-transparent px-0 py-2 text-[17px] text-ink placeholder:text-ink/45 focus:border-ink focus:outline-none focus:ring-0 md:text-[19px]";
@@ -16,25 +18,26 @@ function Err({ id, children }: { id: string; children?: string }) {
   );
 }
 
-export function ContactForm({ email }: { email?: string }) {
-  const [state, action, pending] = useActionState<ContactState, FormData>(sendContactMessage, { status: "idle" });
+export function ContactForm({ email, locale, dict }: { email?: string; locale: Locale; dict: Dict }) {
+  const action = (state: ContactState, form: FormData) => sendContactMessage(state, form, locale);
+  const [state, formAction, pending] = useActionState<ContactState, FormData>(action, { status: "idle" });
   const fe = state.fieldErrors ?? {};
 
   if (state.status === "sent") {
     return (
       <div role="status" className="border-2 border-ink p-6 md:p-8">
-        <p className="t-meta">Message received</p>
-        <p className="t-heavy mt-3 text-[clamp(22px,2.4vw,36px)]">Thanks — I&apos;ll get back to you soon.</p>
+        <p className="t-meta">{dict.messageReceived}</p>
+        <p className="t-heavy mt-3 text-[clamp(22px,2.4vw,36px)]">{dict.thanksReply}</p>
       </div>
     );
   }
 
   return (
-    <form action={action} noValidate className="relative grid gap-7" aria-describedby={state.error ? "contact-error" : undefined}>
-      <p className="t-meta">Send a message</p>
+    <form action={formAction} noValidate className="relative grid gap-7" aria-describedby={state.error ? "contact-error" : undefined}>
+      <p className="t-meta">{dict.sendAMessage}</p>
       <div className="grid gap-7 md:grid-cols-2">
         <label className="block">
-          <span className="t-meta">Name</span>
+          <span className="t-meta">{dict.name}</span>
           <input
             name="name"
             autoComplete="name"
@@ -44,12 +47,12 @@ export function ContactForm({ email }: { email?: string }) {
             aria-invalid={!!fe.name}
             aria-describedby={fe.name ? "err-name" : undefined}
             className={field}
-            placeholder="Your name"
+            placeholder={dict.namePlaceholder}
           />
           <Err id="err-name">{fe.name}</Err>
         </label>
         <label className="block">
-          <span className="t-meta">Email</span>
+          <span className="t-meta">{dict.email}</span>
           <input
             name="email"
             type="email"
@@ -60,13 +63,13 @@ export function ContactForm({ email }: { email?: string }) {
             aria-invalid={!!fe.email}
             aria-describedby={fe.email ? "err-email" : undefined}
             className={field}
-            placeholder="you@company.com"
+            placeholder={dict.emailPlaceholder}
           />
           <Err id="err-email">{fe.email}</Err>
         </label>
       </div>
       <label className="block">
-        <span className="t-meta">Message</span>
+        <span className="t-meta">{dict.message}</span>
         <textarea
           name="message"
           required
@@ -76,14 +79,14 @@ export function ContactForm({ email }: { email?: string }) {
           aria-invalid={!!fe.message}
           aria-describedby={fe.message ? "err-message" : undefined}
           className={clsx(field, "resize-y")}
-          placeholder="Tell me about the project, the brief or the role."
+          placeholder={dict.messagePlaceholder}
         />
         <Err id="err-message">{fe.message}</Err>
       </label>
       {/* Honeypot — hidden from people and assistive tech */}
       <div aria-hidden className="absolute left-[-10000px] top-auto h-px w-px overflow-hidden">
         <label>
-          Company <input name="company" tabIndex={-1} autoComplete="off" />
+          {dict.company} <input name="company" tabIndex={-1} autoComplete="off" />
         </label>
       </div>
       <div className="flex flex-wrap items-center gap-x-6 gap-y-3">
@@ -92,7 +95,7 @@ export function ContactForm({ email }: { email?: string }) {
           disabled={pending}
           className="t-meta h-12 bg-ink px-6 text-ivory transition-colors hover:bg-ivory hover:text-ink disabled:opacity-60"
         >
-          {pending ? "Sending…" : "Send message →"}
+          {pending ? dict.sending : dict.sendMessage}
         </button>
         {state.error && (
           <p id="contact-error" role="alert" className="t-meta text-ivory">

@@ -1,14 +1,15 @@
 import type { Settings } from "@/lib/types";
+import type { Dict } from "@/lib/dictionary";
 import { Reveal } from "./Motion";
 
 /** Opening-credit strip of career figures — sits between the hero and the first project. */
-export function CareerStats({ s }: { s: Settings }) {
+export function CareerStats({ s, dict }: { s: Settings; dict: Dict }) {
   const items = s.about.metrics.filter((m) => m.value.trim() && m.label.trim());
   if (!items.length) return null;
   return (
     <section aria-labelledby="numbers-title" className="gutter bg-ink pb-12 pt-10 text-ivory md:pb-16 md:pt-14">
       <div className="t-meta flex justify-between gap-6">
-        <h2 id="numbers-title">Career in numbers</h2>
+        <h2 id="numbers-title">{dict.careerNumbers}</h2>
         <span className="text-ivory/60">{s.hero.meta[2] ?? ""}</span>
       </div>
       <dl className="mt-7 grid grid-cols-2 border-t border-ivory/25 md:grid-cols-3 xl:grid-cols-6">

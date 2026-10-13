@@ -1,4 +1,5 @@
 import type { Settings } from "./types";
+import type { Dict } from "./dictionary";
 
 export const whatsappHref = (digits?: string) => (digits ? `https://wa.me/${digits}` : undefined);
 
@@ -16,10 +17,12 @@ export function instagramHandle(url?: string) {
 }
 
 /** Every social link that is set, in display order. */
-export function socialLinks(s: Settings) {
+export function socialLinks(s: Settings, dict?: Dict) {
+  const profile = dict?.profileLink ?? "Profile ↗";
+  const portfolio = dict?.portfolioLink ?? "Portfolio ↗";
   return [
-    { key: "linkedin", label: "LinkedIn", value: "Profile ↗", href: s.social.linkedin },
-    { key: "behance", label: "Behance", value: "Portfolio ↗", href: s.social.behance },
+    { key: "linkedin", label: "LinkedIn", value: profile, href: s.social.linkedin },
+    { key: "behance", label: "Behance", value: portfolio, href: s.social.behance },
     { key: "instagram", label: "Instagram", value: `${instagramHandle(s.social.instagram)} ↗`, href: s.social.instagram },
     { key: "whatsapp", label: "WhatsApp", value: `${formatWhatsapp(s.social.whatsapp)} ↗`, href: whatsappHref(s.social.whatsapp) },
   ].filter((l): l is typeof l & { href: string } => !!l.href);

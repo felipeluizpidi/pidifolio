@@ -21,6 +21,9 @@
     -webkit-text-size-adjust: 100%;
     scroll-behavior: smooth;
     scroll-padding-top: var(--nav-h);
+    /* Keeps wide elements (e.g. the discipline marquee, longer in pt/es) from stretching
+       the fixed-position viewport, even though body already clips visually. */
+    overflow-x: clip;
   }
   body {
     @apply font-sans antialiased;

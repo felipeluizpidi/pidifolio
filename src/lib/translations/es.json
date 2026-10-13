@@ -1,0 +1,645 @@
+{
+  "settings": {
+    "role": "Director Creativo Asociado & AI Creative Lead",
+    "hero": {
+      "roleLines": [
+        "Director Creativo",
+        "Asociado y AI Lead"
+      ],
+      "lead": "Branding, campañas 360° y pipelines de IA por nodos — más de 12 años convirtiendo estrategia en sistemas visuales que equipos enteros pueden ejecutar.",
+      "meta": [
+        "Ubicado en São Paulo, Brasil",
+        "Disponible en todo el mundo",
+        "Trabajos seleccionados / 2014—2026"
+      ],
+      "cta": "Explora el trabajo"
+    },
+    "selectedWork": {
+      "headline": [
+        "Trabajos",
+        "Seleccionados."
+      ],
+      "subtitle": "Campañas, sistemas de marca y producción con IA — dirigidos desde el concepto hasta la ejecución."
+    },
+    "archive": {
+      "headline": [
+        "El",
+        "Archivo."
+      ],
+      "subtitle": "Disciplinas diferentes. Una sola visión creativa."
+    },
+    "about": {
+      "headline": [
+        "La persona",
+        "detrás del trabajo."
+      ],
+      "bio": [
+        "Felipe Pidi construye procesos creativos desde 2014 — pero el trabajo nunca fue solo hacer piezas buenas. En más de 12 años en publicidad, branding y campañas 360°, aprendió a convertir estrategia en lenguaje visual, y lenguaje visual en algo que un equipo entero puede ejecutar con consistencia.",
+        "Ha trabajado en campañas integradas, films, retail e identidades de marca, en producciones con equipos de más de 30 personas. Como Head of Design en Agência Ecco, lideró un equipo de más de 10 diseñadores y rediseñó el flujo entre creación, planificación y cuentas — reduciendo el retrabajo en 28% y acelerando la entrega en 25%.",
+        "Hoy, como AI Creative Lead en Jotacom, aplica la misma lógica a la IA. No se trata solo de generar imágenes, sino de construir sistemas creativos repetibles: alrededor de 25 estilos visuales estructurados como pipelines por nodos en Flora y Magnific, convirtiendo ~2 horas de prueba y error en 20–30 minutos, sin perder dirección de arte ni identidad de marca. La IA no sustituye el pensamiento creativo — exige más dirección.",
+        "Marcas en el camino: Mercado Livre, UOL, NIO, Duolingo, KFC, Mercedes-Benz, PwC, CPFL, Stabilo, Uni-ball, Posca, Dr. Scholl's, Banco24Horas, Linx, Starbucks, Pizza Hut y Óticas Diniz."
+      ],
+      "disciplines": [
+        "Dirección Creativa",
+        "Dirección de Arte",
+        "Identidad de Marca",
+        "Sistemas Creativos de IA",
+        "Liderazgo de Diseño",
+        "Dirección de Set y Film"
+      ],
+      "metrics": [
+        {
+          "label": "Años en publicidad, branding y campañas 360°"
+        },
+        {
+          "label": "Campañas entregadas"
+        },
+        {
+          "label": "Sistemas de identidad de marca"
+        },
+        {
+          "label": "Diseñadores liderados como Head of Design"
+        },
+        {
+          "label": "Retrabajo tras rediseñar el flujo creativo"
+        },
+        {
+          "label": "Entrega más rápida en todo el equipo de diseño"
+        }
+      ]
+    },
+    "contact": {
+      "headline": [
+        "Hagamos",
+        "algo",
+        "inolvidable."
+      ],
+      "copy": "¿Necesitas un líder creativo que diseñe el flujo de trabajo, no solo la pieza? Hablemos — campañas, marcas y producción con IA a escala.",
+      "availability": "Freelance y full-time · Remoto, en todo el mundo"
+    },
+    "footer": {
+      "tagline": "Hecho con intención."
+    },
+    "seo": {
+      "title": "Felipe Pidi — Director Creativo y AI Creative Lead",
+      "description": "Portafolio de Felipe Pidi, Director Creativo Asociado y AI Creative Lead en São Paulo. Más de 12 años en branding, campañas 360° y pipelines de producción con IA por nodos."
+    }
+  },
+  "categories": {
+    "c-direction": {
+      "title": "Dirección Creativa y Campañas",
+      "filterLabel": "Dirección",
+      "description": "Desarrollo de campañas, conceptos creativos, publicidad, dirección de arte y comunicación integrada."
+    },
+    "c-branding": {
+      "title": "Identidad de Marca y Sistemas de Diseño",
+      "filterLabel": "Branding",
+      "description": "Branding, sistemas de identidad, lenguajes visuales, manuales de marca y diseño gráfico."
+    },
+    "c-ai": {
+      "title": "IA Generativa y Experimentación",
+      "filterLabel": "IA Generativa",
+      "description": "Flujos de trabajo con IA, automatización creativa, exploración visual, producción generativa y proyectos experimentales."
+    },
+    "c-motion": {
+      "title": "Film, Motion y Narrativa Visual",
+      "filterLabel": "Motion",
+      "description": "Films de lanzamiento, dirección de set, producción audiovisual y narrativas visuales."
+    },
+    "c-photo": {
+      "title": "Fotografía",
+      "filterLabel": "Fotografía",
+      "description": "Sesiones de retrato y ensayos fotográficos firmados como @olhosdefelipe."
+    }
+  },
+  "projects": {
+    "p-nazca": {
+      "role": "Dirección de Arte",
+      "disciplines": [
+        "Campaña",
+        "Dirección de Arte",
+        "Fotografía"
+      ],
+      "overview": "#ExperimenteSentir — una campaña de cuidado capilar para Nazca construida alrededor de la sensación. Cada etapa del cuidado del cabello se convierte en una sensación para probar: “Sinta cada versão de você” (siente cada versión de ti).",
+      "challenge": "Nazca, marca nacional de cuidado capilar y de piel con más de 40 años en el mercado, necesitaba primero repensar su presencia en redes sociales — luego, con los resultados llegando, fuimos invitados a liderar el reposicionamiento completo de la marca.",
+      "concept": "Fotografía cálida y cercana a la piel, junto a un sistema tipográfico editorial, lleva una única idea sensorial a través de key visuals, fotos de producto, social y vía pública.",
+      "process": "Un plan de comunicación completo on y off-line que cubre cada punto de contacto, del retail a lo digital: press kits, films, redes sociales, campañas y asociaciones con influencers y B2B, con contenido always-on producido internamente. Un diagnóstico de marca definió un tono verbal claro y una identidad visual construida para llevar esa fuerza y ese cuidado renovados.",
+      "outcomes": "+581% interacción promedio\n+277% alcance\n+44% seguidores en LinkedIn\n+4.457% seguidores en TikTok",
+      "creditRoles": {
+        "Agency": "Agencia",
+        "Creative Direction": "Dirección Creativa",
+        "Social Media": "Social Media",
+        "Account Executive": "Ejecutivo de Cuentas",
+        "Audiovisual Direction & Photography": "Dirección Audiovisual y Fotografía",
+        "Makeup": "Maquillaje",
+        "Stylist": "Estilismo",
+        "Model": "Modelo",
+        "Nazca Team": "Equipo Nazca"
+      },
+      "blocks": {
+        "nazca-b1": {
+          "heading": "La idea",
+          "body": "Cada fase tiene su propia forma de sentir."
+        },
+        "nazca-b20": {
+          "heading": "Shooting",
+          "body": "En el set de la campaña — color, textura y el producto en mano."
+        },
+        "nazca-b22": {
+          "heading": "Backstage y equipo",
+          "body": "En el set, con el equipo que lo hizo posible."
+        }
+      }
+    },
+    "p-vita": {
+      "disciplines": [
+        "Campaña",
+        "Fotografía",
+        "Film"
+      ],
+      "overview": "“Abra, beba, VITA, repita!” — la campaña de lanzamiento de la botella térmica VITA, la nueva línea insignia de Zonacriativa, con sesión propia, film de lanzamiento, campaña social y press kit.",
+      "challenge": "Zonacriativa nos buscó para hacer que la botella VITA se destacara en un mercado saturado de productos similares — una campaña que no solo llamara la atención, sino que comunicara lo que hace que el producto sea innovador y diferente.",
+      "concept": "Una campaña digital completa: gestión de influencers, una sesión exclusiva, una landing page de alto impacto, publicaciones estratégicas en redes y un press kit — un enfoque integrado para comunicar la innovación del producto.",
+      "process": "Una sola sesión sostuvo toda la campaña: film de lanzamiento, fotos de producto, contenido social e imágenes del press kit, todo construido alrededor de un lenguaje de bloques de color enfocado en lifestyle. La botella pasó por escenas de gimnasio, casa y piscina para hacer que “frío 24h, caliente 12h” se sintiera como un hábito diario y no como una ficha técnica.",
+      "outcomes": "18M+ impactos en el contenido de la campaña\n4,3M+ cuentas alcanzadas solo en Instagram\n635K+ visualizaciones de contenido en TikTok\n27K+ visualizaciones de la landing page\n+94% de crecimiento en la sección de revendedores del sitio de Zonacriativa, primer semestre de 2024",
+      "creditRoles": {
+        "Head of Design · Audiovisual Direction · Shoot Creative Direction · Art Direction": "Head of Design · Dirección Audiovisual · Dirección Creativa de la Sesión · Dirección de Arte",
+        "Agency": "Agencia",
+        "Commercial Direction": "Dirección Comercial",
+        "Account Service": "Servicio de Cuentas",
+        "Planning": "Planificación",
+        "Media": "Medios",
+        "Copywriting": "Redacción",
+        "Social Media": "Social Media",
+        "Social Media Coordinator": "Coordinación de Social Media",
+        "Creative Direction": "Dirección Creativa",
+        "Art Direction": "Dirección de Arte",
+        "Photography & Editing": "Fotografía y Edición",
+        "Model": "Modelo",
+        "Makeup": "Maquillaje",
+        "Stylist": "Estilismo"
+      },
+      "blocks": {
+        "vita-b31": {
+          "caption": "Film principal"
+        },
+        "vita-b33": {
+          "heading": "Frío 24h, caliente 12h",
+          "text": "Una promesa de producto convertida en un lenguaje visual audaz, con bloques de color, para social, landing page y press kit."
+        },
+        "vita-b40": {
+          "heading": "El film",
+          "body": "La campaña completa reunida en una sola pieza — del concepto al corte final."
+        },
+        "vita-b41": {
+          "caption": "VITA Tumbler — Presentación final"
+        },
+        "vita-b42": {
+          "heading": "Shooting",
+          "body": "Una sesión dedicada explorando color, movimiento y el producto en el día a día."
+        },
+        "vita-b50": {
+          "heading": "Social",
+          "body": "Contenido diario para el canal propio de la marca — lanzamientos de producto, loops de lifestyle y la promesa “frío 24h, caliente 12h” destilada en una sola toma en loop para historias."
+        },
+        "vita-b55": {
+          "heading": "Press kit",
+          "body": "Imágenes de unboxing y detalles de empaque preparados para prensa y socios."
+        },
+        "vita-b59": {
+          "heading": "Backstage y equipo",
+          "body": "En el set, con el equipo que lo hizo posible."
+        }
+      }
+    },
+    "p-jandaia": {
+      "subtitle": "Diseño de marca de la app",
+      "disciplines": [
+        "Identidad de Marca",
+        "Diseño de Personaje",
+        "UI"
+      ],
+      "overview": "Cadernos Jandaia, marca de papelería con décadas de historia, creó JandaIA: una app con IA que almacena, cataloga, organiza y saca más partido a lo que los estudiantes escriben en sus cuadernos físicos — una extensión digital de la marca, no un producto aparte.",
+      "challenge": "JandaIA necesitaba una identidad que expresara su propósito — hacer el aprendizaje más fácil y más fuerte — manteniéndose conectada con la marca madre, Cadernos Jandaia. Tenía que hablarle a estudiantes, profesores y profesionales, reflejar aprendizaje, tutoría y usabilidad, y destacarse en un mercado concurrido.",
+      "concept": "Reinterpretamos el globo de diálogo del logo de la marca madre como símbolo de diálogo e intercambio — el papel de la app en la vida del usuario. Una tipografía fluida y humana mantiene la marca cercana, y AiA, una asistente virtual, personifica el soporte que ofrece la app.\n\nDebajo de todo esto hay un sistema modular: un kit de formas redondeadas y en bloques de color que se comportan como la propia interfaz de la app — tarjetas, globos de chat, atajos. Los mismos bloques que organizan una pantalla también construyen un titular, enmarcan un personaje o estructuran una valla publicitaria, haciendo que cada punto de contacto suene como un mismo idioma aunque el formato cambie por completo.",
+      "process": "Esa modularidad también es lo que permitió que la identidad escalara. El mismo conjunto de bloques y una paleta de cinco colores se recombinan de sección en sección: grillas ajustadas para la UI de la app, composiciones más sueltas para la fotografía del key visual, bloques únicos y grandes para vía pública, arreglos más densos para social. Nada se redibuja desde cero — el sistema simplemente respira distinto según dónde aterrice.",
+      "creditRoles": {
+        "Agency": "Agencia",
+        "Commercial Direction": "Dirección Comercial",
+        "Account Service": "Servicio de Cuentas",
+        "Design": "Diseño"
+      },
+      "blocks": {
+        "jandaia-b22": {
+          "heading": "Key Visual",
+          "body": "Estudiantes y profesionales reales, celular en mano, reemplazan el banco de imágenes genérico que una marca de papelería podría haber elegido por defecto. Los mismos bloques modulares que estructuran la UI de la app reaparecen aquí como paneles de color alrededor de cada retrato — una primera pista, antes de que aparezca cualquier interfaz, de que fotografía y producto comparten la misma gramática visual."
+        },
+        "jandaia-b24": {
+          "heading": "App",
+          "body": "Home, búsqueda y el chat de AiA — las pantallas para las que existe toda la identidad. Las tarjetas redondeadas, los globos y los atajos no son decoración prestada de la marca; son el sistema modular de la marca haciendo su trabajo real, organizando lo que un estudiante acaba de escribir en algo que puede volver a usar."
+        },
+        "jandaia-b26": {
+          "heading": "Sistema de marca",
+          "body": "El kit de piezas hecho visible: seis colores, un logotipo construido a partir del mismo globo de diálogo reinterpretado, el set de personajes de AiA y un sistema tipográfico construido para flexionar. Los bloques se recombinan en logotipos, íconos, patrones y poses de personaje — un solo sistema, armado de forma distinta cada vez, sin necesitar nunca una excepción puntual."
+        },
+        "jandaia-b28": {
+          "heading": "Vía pública",
+          "body": "Vallas publicitarias, pantallas y medios de transporte llevan los mismos módulos a su mayor escala. Un bloque que se lee como un globo de chat en una pantalla de cinco pulgadas sigue leyéndose como un globo de chat en una columna de transporte — la verdadera prueba de un sistema construido con piezas lo bastante simples para sobrevivir a cualquier tamaño."
+        },
+        "jandaia-b30": {
+          "heading": "Social",
+          "body": "Publicaciones de lanzamiento para los canales propios de la marca, construidas a partir del mismo kit de bloques en escala de feed — paneles de color, poses de AiA y el logotipo recombinados lo bastante rápido para mantener un calendario de lanzamiento lleno sin que la identidad se desvíe."
+        },
+        "jandaia-b20": {
+          "heading": "El film",
+          "body": "Un cortometraje cierra el caso dándole a AiA una voz y una personalidad en movimiento — la asistente que todo el sistema modular venía describiendo en silencio de forma estática, ahora llevando el tono de la marca de principio a fin."
+        }
+      }
+    },
+    "p-diniz": {
+      "subtitle": "Campaña nacional impulsada por IA",
+      "role": "ACD (con IA) · DDAO Creative Lab",
+      "disciplines": [
+        "Campaña",
+        "Dirección de Arte",
+        "IA Generativa"
+      ],
+      "overview": "Campaña nacional para Óticas Diniz — “Qualidade que o Brasil ama” (calidad que Brasil ama) — producida en el DDAO Creative Lab con un flujo de trabajo híbrido de IA y diseño.",
+      "concept": "Casting, escenas y luz generados y dirigidos artísticamente para leerse como una sola campaña fotográfica: luz urbana cálida, rostros con sensación real y un sistema de retail en rojo vibrante para promociones como la liquidación de aniversario.",
+      "process": "Imágenes generativas (Midjourney, Visual Electric, Adobe Firefly) dirigidas contra criterios explícitos de calidad para evitar resultados genéricos y mantener la intención de la dirección de arte, luego finalizadas en Adobe Creative Cloud.",
+      "creditRoles": {
+        "Associate Creative Director": "Director Creativo Asociado",
+        "Studio": "Estudio"
+      }
+    },
+    "p-pentonic": {
+      "disciplines": [
+        "Campaña",
+        "Dirección de Arte",
+        "Social"
+      ],
+      "challenge": "Lanzar pentonic — la línea de bolígrafos de CiS — como una marca propia, con productos y líneas propias, a través de una campaña de regreso a clases. Para generar alcance y reconocimiento, también necesitaba un perfil social propio, con contenido propio e identidad visual y verbal.",
+      "concept": "“pentonic — seu estilo em ação!” (tu estilo en acción) une la función de los productos y la estética minimalista en una personalidad. La idea nace de la línea “driven by design” de la marca, que sugiere motivación y movimiento a la vez.",
+      "process": "Una sesión exclusiva, un film de lanzamiento, banda sonora original, acciones con influencers y un flujo continuo de contenido de sostenimiento.",
+      "outcomes": "131,6M impresiones en el contenido creado\n160K visitas al perfil de la marca\n231K interacciones activas\n+124.200% de crecimiento de seguidores en la página",
+      "creditRoles": {
+        "Head of Design": "Head of Design",
+        "Agency": "Agencia",
+        "Team": "Equipo"
+      },
+      "blocks": {
+        "pentonic-b19": {
+          "caption": "Film del caso de la campaña"
+        },
+        "pentonic-b30": {
+          "caption": "El equipo"
+        }
+      }
+    },
+    "p-kfc": {
+      "role": "Director de Arte Senior · The Heart",
+      "disciplines": [
+        "Dirección de Arte",
+        "Campaña",
+        "Retail"
+      ],
+      "overview": "Dirección de arte para KFC en The Heart: lanzamientos de producto, promociones y retail — desde el Chicken Hot Dog y Bites hasta el Super Bowl y Black Friday — llevados a social, punto de venta y vía pública.",
+      "creditRoles": {
+        "Senior Art Director": "Director de Arte Senior",
+        "Agency": "Agencia",
+        "Team": "Equipo"
+      },
+      "subtitle": "Dirección de arte"
+    },
+    "p-pod": {
+      "disciplines": [
+        "Identidad de Marca",
+        "Ilustración"
+      ],
+      "challenge": "Linx Retail — la mayor software house de América Latina — nos pidió crear la identidad visual de su nuevo podcast, el PDV, el Pod do Varejo, y transformar sus premisas en una imagen contundente y representativa.",
+      "concept": "Una identidad que habla con el presente manteniendo una esencia a la vez nostálgica y futurista. Una paleta vibrante inspirada en la marca madre Linx, un logo dibujado como globos de diálogo para la conversación y el intercambio, y gráficos para distintas formas de expresión e identidad.",
+      "creditRoles": {
+        "Agency": "Agencia",
+        "Team": "Equipo"
+      },
+      "subtitle": "Diseño de marca de podcast"
+    },
+    "p-hn": {
+      "disciplines": [
+        "Identidad de Marca",
+        "Empaque",
+        "Ilustración"
+      ],
+      "overview": "Identidad de marca para HN, marca de insumos de salud cuya promesa es cuidar a quienes cuidan — “Cuidamos de quem cuida” (cuidamos a quien cuida). Un símbolo amigable en forma de cruz, un sistema de colores vibrante y un lenguaje de ilustración recorren desde el empaque hasta los uniformes y la campaña.",
+      "creditRoles": {
+        "Agency": "Agencia",
+        "Team": "Equipo"
+      },
+      "subtitle": "Diseño de marca"
+    },
+    "p-hallem": {
+      "disciplines": [
+        "Identidad de Marca",
+        "Editorial"
+      ],
+      "overview": "Diseño de marca para Hallem Advocacia, un bufete de abogados que quería sonar humano — “somos jurídicos, mas sem juridiquês” (somos legales, pero sin jerga legal). Un logotipo cursivo, una paleta cálida en naranja y violeta y layouts editoriales en papelería, señalética y social.",
+      "creditRoles": {
+        "Agency": "Agencia",
+        "Team": "Equipo"
+      },
+      "subtitle": "Diseño de marca para bufete de abogados"
+    },
+    "p-cis": {
+      "disciplines": [
+        "Campaña",
+        "Fotografía",
+        "Film"
+      ],
+      "challenge": "Una campaña de regreso a clases para CiS — marca de papelería con casi 30 años de historia y un portafolio variado — para fortalecer su presencia digital con un concepto que reforzara su tono de voz animado y propio.",
+      "concept": "La narrativa captura la esencia de la marca — soluciones prácticas y divertidas para los desafíos del día a día — y destaca el atributo principal del producto hero: la línea Spiro. “Desenrolar” significa resolver las cosas: con CiS, resuelves lo que venga.",
+      "process": "La identidad visual fue construida para llevar lo que la línea significa para sus consumidores: creatividad, autenticidad, alegría, consistencia y ese famoso poder de resolver cualquier situación.",
+      "creditRoles": {
+        "Agency": "Agencia",
+        "Team": "Equipo"
+      },
+      "blocks": {
+        "cis-b52": {
+          "body": "Resolver es tener actitud, es relajarte, es encontrar respuestas. ¡Con CiS, resolvemos lo que venga!"
+        },
+        "cis-b54": {
+          "caption": "Film de lanzamiento — regreso a clases 2024"
+        }
+      },
+      "subtitle": "Campaña de regreso a clases"
+    },
+    "p-exacta": {
+      "disciplines": [
+        "Identidad de Marca",
+        "Sistema Visual"
+      ],
+      "overview": "Identidad para Exacta Works, empresa de tecnología — “Powered by people” (impulsada por personas). Gradientes luminosos de azul a violeta y un perfil humano le dan calidez a una marca tecnológica, aplicados en digital, eventos y merchandising.",
+      "creditRoles": {
+        "Agency": "Agencia",
+        "Team": "Equipo"
+      }
+    },
+    "p-ecco": {
+      "disciplines": [
+        "Film",
+        "Motion Graphics",
+        "Identidad de Marca"
+      ],
+      "overview": "Films institucionales para Agência Ecco — la propia historia de la agencia contada a través de su trabajo, con animación, motion graphics y el lenguaje visual de la marca.",
+      "creditRoles": {
+        "Agency": "Agencia",
+        "Team": "Equipo"
+      },
+      "blocks": {
+        "ecco-b1": {
+          "caption": "Film institucional"
+        }
+      },
+      "subtitle": "Films institucionales"
+    },
+    "p-bbb": {
+      "disciplines": [
+        "Empaque",
+        "Dirección de Arte",
+        "Redacción"
+      ],
+      "challenge": "Multishow, del Grupo Globo, nos pidió un press kit divertido, práctico y bonito para “BBB – A Eliminação”, el programa que recibe a los participantes justo después de salir de la casa.",
+      "concept": "Dos direcciones creativas dieron forma a la narrativa. Menos del 1% de los brasileños ha participado alguna vez del programa en 24 ediciones — así que “ex-BBB” es un título vitalicio, usado con orgullo. Y “O Brasil tá vendo” (Brasil está mirando) resume la vida en la casa: dentro o fuera, todos los ojos están sobre ellos.",
+      "process": "El kit final incluía un ring light y un micrófono de alta gama — para que los participantes siguieran brillando en sus contenidos — además de una carta especial anunciando su ascenso oficial al cargo vitalicio de “ex-BBB”.",
+      "creditRoles": {
+        "Agency": "Agencia",
+        "Team": "Equipo"
+      }
+    },
+    "p-linx": {
+      "disciplines": [
+        "Campaña",
+        "Social",
+        "Editorial"
+      ],
+      "challenge": "Linx — gigante tecnológico especializado en software para la transformación digital del retail — nos pidió potenciar la comunicación de la marca en redes sociales, con una redacción bien trabajada, temas relevantes y una identidad visual sólida.",
+      "concept": "Creamos el concepto, la identidad visual y el plan para “Tem Linx pra Tudo” (Hay Linx para todo), la primera campaña institucional de Linx, mostrando la amplitud de sus productos y llevando la marca a la rutina diaria de minoristas y consumidores finales. #TemLinxPraTudo y #TemLinxEmTodoLugar guiaron el despliegue.",
+      "process": "Además de las publicaciones sociales, diagramamos piezas de contenido enriquecido donde la identidad se aplica con confianza — informativa, pero envolvente y dinámica gracias a los colores y elementos visuales elegidos.",
+      "creditRoles": {
+        "Agency": "Agencia",
+        "Team": "Equipo"
+      }
+    },
+    "p-uniball": {
+      "role": "Diseñador Senior · Agência Ecco",
+      "disciplines": [
+        "Campaña",
+        "Social",
+        "Dirección de Arte"
+      ],
+      "overview": "Campaña de regreso a clases 2023 para Uni-ball construida sobre la nostalgia — “NowUni”. Recordar quién fuiste y transmitir ese mensaje a la próxima generación: Uni conecta generaciones.",
+      "creditRoles": {
+        "Senior Designer": "Diseñador Senior",
+        "Agency": "Agencia",
+        "Team": "Equipo"
+      },
+      "subtitle": "NowUni — regreso a clases"
+    },
+    "p-activas": {
+      "disciplines": [
+        "Identidad de Marca",
+        "Sistema Visual"
+      ],
+      "overview": "Identidad de marca para Activas, parte del Sistema B — un monograma “B” contundente que enmarca naturaleza y personas, una paleta cálida y un sistema de imágenes flexible en papelería, social y merchandising.",
+      "creditRoles": {
+        "Agency": "Agencia",
+        "Team": "Equipo"
+      },
+      "subtitle": "Sistema B · identidad de marca"
+    },
+    "p-calzany": {
+      "disciplines": [
+        "Identidad de Marca",
+        "Empaque"
+      ],
+      "overview": "Identidad de marca para Calzany, calzones artesanales — un monograma “C” divertido, patrones a cuadros, color vibrante y una voz contundente (“¡Huuum!”) en empaque, menú, uniformes y señalética.",
+      "creditRoles": {
+        "Brand Design": "Diseño de Marca"
+      },
+      "subtitle": "Calzones artesanales"
+    },
+    "p-kizen": {
+      "disciplines": [
+        "Identidad de Marca",
+        "Ilustración"
+      ],
+      "overview": "Identidad de marca para Kizen Technology — una marca circular radiante y un sistema de colores vibrante, presentados en manual de marca y aplicaciones.",
+      "creditRoles": {
+        "Brand Design": "Diseño de Marca"
+      },
+      "subtitle": "Marca de tecnología"
+    },
+    "p-frango": {
+      "role": "Director de Arte Senior · The Heart",
+      "disciplines": [
+        "Campaña",
+        "Retail",
+        "Dirección de Arte"
+      ],
+      "overview": "“No Frango Assado tem. No Frango Assado dá.” (En Frango Assado lo tiene, Frango Assado lo da) — campaña para Rede Frango Assado, la cadena de restaurantes y conveniencia de carretera, convirtiendo los esenciales de viaje en key visuals contundentes con bloques de color.",
+      "creditRoles": {
+        "Senior Art Director": "Director de Arte Senior",
+        "Agency": "Agencia",
+        "Team": "Equipo"
+      }
+    },
+    "p-imovelweb": {
+      "role": "Director de Arte · The Heart",
+      "disciplines": [
+        "Campaña",
+        "Social",
+        "Dirección de Arte"
+      ],
+      "overview": "“Shippados” — campaña para Imovelweb, el portal inmobiliario, emparejando personas con sus casas ideales en un lenguaje visual pop, naranja y pensado para social.",
+      "creditRoles": {
+        "Art Director": "Director de Arte",
+        "Agency": "Agencia",
+        "Team": "Equipo"
+      }
+    },
+    "p-pizzahut": {
+      "role": "Director de Arte",
+      "disciplines": [
+        "Social",
+        "Dirección de Arte"
+      ],
+      "overview": "Redes sociales para Pizza Hut Brasil — publicaciones de actualidad y conversación para fechas y momentos pop, desde el Día del Niño hasta Halloween.",
+      "creditRoles": {
+        "Art Direction": "Dirección de Arte"
+      },
+      "subtitle": "Redes sociales"
+    },
+    "p-lideranca": {
+      "disciplines": [
+        "Identidad de Marca"
+      ],
+      "overview": "Diseño de marca para Liderança Digital, marca de cobranzas y servicios financieros.",
+      "creditRoles": {
+        "Brand Design": "Diseño de Marca"
+      },
+      "subtitle": "Marca de servicios financieros"
+    },
+    "p-dome": {
+      "disciplines": [
+        "Identidad de Marca"
+      ],
+      "overview": "Identidad visual para Dome Seguros, marca de seguros.",
+      "creditRoles": {
+        "Brand Design": "Diseño de Marca"
+      },
+      "subtitle": "Marca de seguros"
+    },
+    "p-flogoral": {
+      "role": "Director de Arte · Grupo Rái",
+      "disciplines": [
+        "Social",
+        "Dirección de Arte"
+      ],
+      "overview": "Publicaciones especiales del Día del Rock para Flogoral (Aché), creadas en Agência Rái.",
+      "creditRoles": {
+        "Art Director": "Director de Arte",
+        "Agency": "Agencia",
+        "Team": "Equipo"
+      },
+      "subtitle": "Día del Rock"
+    },
+    "p-ofner": {
+      "role": "Director de Arte · Grupo Rái",
+      "disciplines": [
+        "Key Visual",
+        "Dirección de Arte"
+      ],
+      "overview": "Key visual anunciando las nuevas cajas de chocolate de Lojas Ofner, creado en Grupo Rái.",
+      "creditRoles": {
+        "Art Director": "Director de Arte",
+        "Agency": "Agencia",
+        "Team": "Equipo"
+      },
+      "subtitle": "Nuevas cajas de chocolate"
+    },
+    "p-mariana": {
+      "disciplines": [
+        "Identidad de Marca"
+      ],
+      "overview": "Identidad de marca para la fotógrafa Mariana Moraes.",
+      "creditRoles": {
+        "Brand Design": "Diseño de Marca"
+      },
+      "subtitle": "Marca de estudio fotográfico"
+    },
+    "p-gifpizza": {
+      "role": "Director de Arte",
+      "disciplines": [
+        "Social",
+        "Motion Graphics"
+      ],
+      "overview": "Convertimos el Facebook de Pizza Hut en un hub de GIFs — GIF Delivery.",
+      "creditRoles": {
+        "Art Direction": "Dirección de Arte",
+        "Agency": "Agencia",
+        "Team": "Equipo"
+      }
+    },
+    "p-technos": {
+      "role": "Diseñador · Torrada Criativa",
+      "disciplines": [
+        "Motion Graphics",
+        "Storyboard"
+      ],
+      "overview": "Motion graphics para Academia Technos, el programa de entrenamiento del equipo Technos — creado en Torrada Criativa.",
+      "creditRoles": {
+        "Storyboard & Motion": "Storyboard y Motion",
+        "Agency": "Agencia",
+        "Team": "Equipo"
+      },
+      "subtitle": "Motion graphics de entrenamiento"
+    },
+    "p-photo-retro": {
+      "role": "Fotógrafo",
+      "disciplines": [
+        "Fotografía",
+        "Retrato"
+      ],
+      "overview": "Serie de retratos fotografiada como @olhosdefelipe — luz neón, atardecer y noche en verde azulado y naranja.",
+      "creditRoles": {
+        "Photography": "Fotografía"
+      },
+      "subtitle": "Serie de retratos"
+    },
+    "p-adriella": {
+      "role": "Fotógrafo",
+      "disciplines": [
+        "Fotografía",
+        "Retrato"
+      ],
+      "overview": "Sesión de retrato callejero con Adriella Stormovski, fotografiada como @olhosdefelipe.",
+      "creditRoles": {
+        "Photography": "Fotografía",
+        "Model": "Modelo"
+      },
+      "subtitle": "Sesión de retrato"
+    },
+    "p-renata": {
+      "role": "Fotógrafo",
+      "disciplines": [
+        "Fotografía",
+        "Retrato"
+      ],
+      "overview": "Ensayo fotográfico nocturno con Renata Ayumi, fotografiado como @olhosdefelipe.",
+      "creditRoles": {
+        "Photography": "Fotografía",
+        "Model": "Modelo"
+      },
+      "subtitle": "Ensayo fotográfico"
+    }
+  }
+}
