@@ -1231,6 +1231,30 @@
             "m-bh-kfc-09",
             "m-bh-kfc-10"
           ]
+        },
+        {
+          "id": "kfc-new-eb11595e907e",
+          "type": "image",
+          "assetId": "m-eb11595e907e",
+          "caption": "Baldelícia"
+        },
+        {
+          "id": "kfc-new-fb5722943adc",
+          "type": "image",
+          "assetId": "m-fb5722943adc",
+          "caption": "Incomparáveis"
+        },
+        {
+          "id": "kfc-new-264d8be19d13",
+          "type": "image",
+          "assetId": "m-264d8be19d13",
+          "caption": "Marcelo Ferreira"
+        },
+        {
+          "id": "kfc-new-28889fd58a16",
+          "type": "image",
+          "assetId": "m-28889fd58a16",
+          "caption": "Pedaço? Me dá um pedaço?"
         }
       ],
       "demo": false,
@@ -3350,6 +3374,54 @@
     }
   ],
   "media": [
+    {
+      "id": "m-28889fd58a16",
+      "kind": "image",
+      "src": "/media/kfc-pedaco-01.webp",
+      "alt": "KFC — Pedaço?",
+      "width": 1920,
+      "height": 1080,
+      "mime": "image/webp",
+      "size": 165062,
+      "origin": "upload",
+      "createdAt": "2026-10-13T22:54:14.930Z"
+    },
+    {
+      "id": "m-264d8be19d13",
+      "kind": "image",
+      "src": "/media/kfc-marcelo-01.webp",
+      "alt": "KFC — Marcelo Ferreira",
+      "width": 1080,
+      "height": 1080,
+      "mime": "image/webp",
+      "size": 105796,
+      "origin": "upload",
+      "createdAt": "2026-10-13T22:54:14.830Z"
+    },
+    {
+      "id": "m-fb5722943adc",
+      "kind": "image",
+      "src": "/media/kfc-incomparaveis-01.webp",
+      "alt": "KFC — Incomparáveis",
+      "width": 2000,
+      "height": 3031,
+      "mime": "image/webp",
+      "size": 1137356,
+      "origin": "upload",
+      "createdAt": "2026-10-13T22:54:14.763Z"
+    },
+    {
+      "id": "m-eb11595e907e",
+      "kind": "image",
+      "src": "/media/kfc-baldelicia-01.webp",
+      "alt": "KFC — Baldelícia",
+      "width": 2000,
+      "height": 3031,
+      "mime": "image/webp",
+      "size": 745836,
+      "origin": "upload",
+      "createdAt": "2026-10-13T22:54:14.093Z"
+    },
     {
       "id": "m-267ceb418187",
       "kind": "image",
@@ -6678,10 +6750,10 @@
       "kind": "image",
       "src": "/media/bh-kfc-01.webp",
       "alt": "KFC — art direction, frame 1",
-      "width": 1400,
-      "height": 2121,
+      "width": 2000,
+      "height": 3031,
       "mime": "image/webp",
-      "size": 850290,
+      "size": 1575280,
       "origin": "upload",
       "createdAt": "2026-10-09T15:00:23.868Z"
     },
@@ -6690,10 +6762,10 @@
       "kind": "image",
       "src": "/media/bh-kfc-02.webp",
       "alt": "KFC — art direction, frame 2",
-      "width": 1400,
-      "height": 2121,
+      "width": 2000,
+      "height": 3031,
       "mime": "image/webp",
-      "size": 529312,
+      "size": 842308,
       "origin": "upload",
       "createdAt": "2026-10-09T15:00:23.868Z"
     },
@@ -6702,10 +6774,10 @@
       "kind": "image",
       "src": "/media/bh-kfc-03.webp",
       "alt": "KFC — art direction, frame 3",
-      "width": 1400,
-      "height": 788,
+      "width": 1920,
+      "height": 1080,
       "mime": "image/webp",
-      "size": 240378,
+      "size": 376382,
       "origin": "upload",
       "createdAt": "2026-10-09T15:00:23.868Z"
     },
@@ -6717,7 +6789,7 @@
       "width": 1080,
       "height": 1920,
       "mime": "image/webp",
-      "size": 430900,
+      "size": 425680,
       "origin": "upload",
       "createdAt": "2026-10-09T15:00:23.868Z"
     },
@@ -6729,7 +6801,7 @@
       "width": 1080,
       "height": 1920,
       "mime": "image/webp",
-      "size": 459522,
+      "size": 456378,
       "origin": "upload",
       "createdAt": "2026-10-09T15:00:23.868Z"
     },
@@ -6741,7 +6813,7 @@
       "width": 1080,
       "height": 1920,
       "mime": "image/webp",
-      "size": 426264,
+      "size": 426030,
       "origin": "upload",
       "createdAt": "2026-10-09T15:00:23.868Z"
     },
@@ -6750,10 +6822,10 @@
       "kind": "image",
       "src": "/media/bh-kfc-07.webp",
       "alt": "KFC — art direction, frame 7",
-      "width": 1400,
-      "height": 788,
+      "width": 1920,
+      "height": 1080,
       "mime": "image/webp",
-      "size": 65068,
+      "size": 99646,
       "origin": "upload",
       "createdAt": "2026-10-09T15:00:23.868Z"
     },
@@ -6762,10 +6834,10 @@
       "kind": "image",
       "src": "/media/bh-kfc-08.webp",
       "alt": "KFC — art direction, frame 8",
-      "width": 1400,
-      "height": 1050,
+      "width": 2000,
+      "height": 1500,
       "mime": "image/webp",
-      "size": 107616,
+      "size": 179466,
       "origin": "upload",
       "createdAt": "2026-10-09T15:00:23.868Z"
     },
@@ -6774,10 +6846,10 @@
       "kind": "image",
       "src": "/media/bh-kfc-09.webp",
       "alt": "KFC — art direction, frame 9",
-      "width": 1400,
-      "height": 1131,
+      "width": 2000,
+      "height": 1615,
       "mime": "image/webp",
-      "size": 85636,
+      "size": 142690,
       "origin": "upload",
       "createdAt": "2026-10-09T15:00:23.868Z"
     },
@@ -6786,10 +6858,10 @@
       "kind": "image",
       "src": "/media/bh-kfc-10.webp",
       "alt": "KFC — art direction, frame 10",
-      "width": 1400,
-      "height": 1050,
+      "width": 2000,
+      "height": 1500,
       "mime": "image/webp",
-      "size": 77486,
+      "size": 122886,
       "origin": "upload",
       "createdAt": "2026-10-09T15:00:23.868Z"
     },

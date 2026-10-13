@@ -309,7 +309,21 @@
         "Agency": "Agência",
         "Team": "Equipe"
       },
-      "subtitle": "Direção de arte"
+      "subtitle": "Direção de arte",
+      "blocks": {
+        "kfc-new-eb11595e907e": {
+          "caption": "Baldelícia"
+        },
+        "kfc-new-fb5722943adc": {
+          "caption": "Incomparáveis"
+        },
+        "kfc-new-264d8be19d13": {
+          "caption": "Marcelo Ferreira"
+        },
+        "kfc-new-28889fd58a16": {
+          "caption": "Pedaço? Me dá um pedaço?"
+        }
+      }
     },
     "p-pod": {
       "disciplines": [
