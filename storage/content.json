@@ -191,10 +191,10 @@
       "archiveShape": "landscape",
       "published": true,
       "order": 1,
-      "overview": "#ExperimenteSentir — a haircare campaign for Nazca built around sensation. Every phase of hair care becomes a feeling to try: “Sinta cada versão de você” (feel every version of you).",
-      "challenge": "Nazca, a national haircare and skincare brand with 40+ years in the market, first needed to rethink its presence on social media — then, as results came in, was invited to lead the brand's full repositioning.",
-      "concept": "Warm, skin-close photography and an editorial type system carry one sensory idea across key visuals, product shots, social and out-of-home.",
-      "process": "A full on- and off-line communication plan covering every touchpoint, from retail to digital: press kits, films, social media, campaigns and influencer/B2B partnerships, with always-on content produced in-house. One brand diagnostic set a clear verbal tone and a visual identity built to carry that renewed strength and care.",
+      "overview": "#ExperimenteSentir — a haircare campaign for Nazca that treats care as an experience following each person through different moments and versions of themselves: “Sinta cada versão de você” (feel every version of you). Product, sensation and identity come together so texture, touch and everyday gestures carry a promise that goes beyond the packaging.",
+      "challenge": "Nazca, a haircare and skincare brand with 40+ years in the market, needed to renew its relationship with consumers and partners. The work began with its digital presence and grew into a full brand repositioning, connecting that tradition to a communication that's closer, more expressive and centered on care.",
+      "concept": "The campaign translates that sensory territory into a language built to run across product imagery, portraits and brand communication alike — not a tagline, but a shared visual temperature.",
+      "process": "Art direction stays close to skin, hair and hands — tight portraits, product-in-use shots and texture details give care a tactile presence. Warm photography favors proximity, while condensed type paired with gestural display lettering sets the message's strength against the experience's delicacy. The same sensory treatment runs through key visuals, product shots and campaign materials, keeping packaging recognizable while giving it new meaning through the body and the gesture.",
       "outcomes": "+581% average engagement\n+277% reach\n+44% LinkedIn followers\n+4,457% TikTok followers",
       "credits": [
         {
@@ -966,6 +966,12 @@
       ],
       "blocks": [
         {
+          "id": "diniz-b-brasildiniz",
+          "type": "embed",
+          "url": "https://www.youtube.com/watch?v=lVfx32yzLt4",
+          "caption": "Brasil Diniz, 33 anos — the brand's institutional anniversary film, a separate production from the AI campaign below: directed by Thiago Eva for Balboa Filmes, with creative by DDAO."
+        },
+        {
           "id": "diniz-b7",
           "type": "image",
           "assetId": "m-bh-diniz-04"
@@ -1000,12 +1006,6 @@
             "m-bh-diniz-07",
             "m-bh-diniz-09"
           ]
-        },
-        {
-          "id": "diniz-b-brasildiniz",
-          "type": "embed",
-          "url": "https://www.youtube.com/watch?v=ItYcqmGKNH8",
-          "caption": "Brasil Diniz, 33 anos — the brand's institutional anniversary film, a separate production from the AI campaign above: directed by Thiago Eva for Balboa Filmes, with creative by DDAO."
         }
       ],
       "demo": false,
@@ -1040,7 +1040,7 @@
       "overview": "Pentonic's first back-to-school campaign as its own brand — stepping out from under the CiS portfolio with a visual language built to carry its “driven by design” signature across launch, social and retail.",
       "challenge": "Launch pentonic — the CiS pen line — as a brand of its own, with its own products and lines, through a back-to-school campaign. To build reach and awareness it also needed its own social profile, with proprietary content and a visual and verbal identity.",
       "concept": "“pentonic — seu estilo em ação!” (your style in action) unites the products' function and minimal aesthetic into a personality. It grows from the brand's “driven by design” line, which suggests both motivation and movement.",
-      "process": "An exclusive shoot, a launch film, an original soundtrack, influencer actions and a stream of sustaining content.",
+      "process": "A high-impact minimalist shoot — product, color and gesture hold the attention, with compositions that foreground the pens' design and the relationship between finish and the style of whoever's holding them. Portraits and close hand shots borrow from fashion and design editorial, carried across a launch film, an original soundtrack, influencer actions and a stream of sustaining content.",
       "outcomes": "131.6M impressions across the content created\n160K visits to the brand profile\n231K active engagements\n+124,200% follower growth on the page",
       "credits": [
         {
@@ -1292,7 +1292,7 @@
       "order": 7,
       "overview": "Brand identity for Pod do Varejo (PDV), Linx's own podcast — turning retail conversations into a show with a presence of its own, built to stay recognizably part of the Linx universe.",
       "challenge": "Linx Retail — the largest software house in Latin America — asked us to create the visual identity of its new podcast, PDV, the Pod do Varejo, and turn its premises into a striking, representative image.",
-      "concept": "An identity that talks to the present while keeping an essence both nostalgic and futuristic. A vivid palette inspired by the Linx parent brand, a logo drawn as speech balloons for conversation and exchange, and graphics for different forms of expression and identity.",
+      "concept": "An identity that speaks to the present while holding onto something both nostalgic and futuristic. PDV — a familiar retail abbreviation — takes on new meaning as the podcast's own name, offering a direct way in for the audience. A vivid palette inspired by the Linx parent brand, a logo built from speech-balloon shapes for conversation and exchange, and graphics for different forms of expression complete the identity.",
       "process": "The system runs across a full graphic identity, digital applications, motion pieces and storefront simulations — one vocabulary flexible enough to vary composition while keeping the core signals of recognition.",
       "outcomes": "",
       "credits": [
@@ -1399,7 +1399,7 @@
       "overview": "Brand identity for HN, a healthcare-supplies brand whose promise is caring for those who care — “Cuidamos de quem cuida”. A friendly plus-shaped symbol, a bright color system and an illustration language run from packaging to uniforms and campaign.",
       "challenge": "HN needed its rebranding to read as more than a facelift — the goal was to put care at the center of the brand, for a category that lives on trust, clarity and fast product recognition.",
       "concept": "“Cuidando de quem cuida” (caring for those who care) reframes HN around the people who sustain healthcare's daily routine — turning a hospital-supplies brand into a warmer, more human presence.",
-      "process": "A cross-shaped symbol, rounded lettering, high-contrast color and a cast of illustrated people carry the idea from kraft packaging — where red and blue read against the paper — through uniforms, bags, communication materials and the brand's digital presence.",
+      "process": "A cross-shaped symbol, rounded lettering, high-contrast color and a cast of illustrated people carry the idea from kraft packaging — where red and blue read against the paper — through uniforms, bags, communication materials and the brand's digital presence. Illustration keeps care a recurring presence while the symbol gives the brand one compact, fast sign of recognition.",
       "outcomes": "",
       "credits": [
         {
@@ -1527,7 +1527,7 @@
       "overview": "Brand design for Hallem Advocacia, a law firm that wanted to sound human — “somos jurídicos, mas sem juridiquês” (legal, without the legalese). A script wordmark, a warm orange-and-purple palette and editorial layouts across stationery, signage and social.",
       "challenge": "Hallem wanted to express two things at once: legal intelligence built for business, and real closeness with every client — without losing the rigor the work demands.",
       "concept": "“Inteligência legal” (legal intelligence) brings specialism and human connection into the same territory, trading legalese for a tone that's confident but easy to read.",
-      "process": "A handwritten signature gives the wordmark a personal gesture; purple — already tied to the brand — pairs with orange and supporting tones for warmth, while an editorial system of clear hierarchy and type contrast carries it across stationery, signage, social and the website.",
+      "process": "A handwritten signature gives the wordmark a personal gesture; purple — already tied to the brand — pairs with orange and supporting tones for warmth, while an editorial system of clear hierarchy and type contrast carries it across stationery, signage, social, the website and branded objects.",
       "outcomes": "",
       "credits": [
         {
@@ -1652,8 +1652,8 @@
       "order": 10,
       "overview": "“Desenrola com CiS” — a back-to-school campaign built around the Spiro line, turning CiS's stationery into a partner for getting ideas out into the world.",
       "challenge": "A back-to-school campaign for CiS — a stationery brand with almost 30 years of history and a varied portfolio — to strengthen its digital presence with a concept that reinforced its upbeat, proprietary tone of voice.",
-      "concept": "The narrative captures the brand's essence — practical, fun solutions for everyday challenges — and spotlights the hero product's main attribute: the Spiro line. “Desenrolar” means to sort things out: with CiS, you sort out whatever comes.",
-      "process": "The visual identity was built to carry what the line means to its consumers: creativity, authenticity, joy, consistency and that famous power to desenrolar in any situation.",
+      "concept": "The narrative captures the brand's essence — practical, fun solutions for everyday challenges — and spotlights the hero product's main attribute: the Spiro line. “Desenrolar” means to sort things out: with CiS, you sort out whatever comes. The identity was built to carry what the line means to its fans: creativity, authenticity, joy and consistency — and that signature ability to desenrolar whatever comes.",
+      "process": "Color, spiral shapes and the products themselves build a playful universe; photography and the launch film give the concept a body through portraits, gestures and situations that play up creativity and personality, with the Spiro line's own spiral drawing as a concrete link between product and graphic language. The system runs into digital pieces, a campaign site and a press kit of 140+ products for contest winners and influencers — a box that extends the campaign's visual experience into a physical touchpoint with the brand's portfolio.",
       "outcomes": "",
       "credits": [
         {
@@ -1786,7 +1786,7 @@
       "overview": "Identity for Exacta Works, a technology company — “Powered by people”. Luminous blue-to-violet gradients and a human profile bring warmth to a tech brand, applied across digital, events and merchandise.",
       "challenge": "Exacta Works needed an identity that read as both transformation-ready and human — a tech brand that doesn't lose people in the pitch.",
       "concept": "“Powered by people” puts the team, not the stack, at the center of the offer — tech communicated through warmth rather than abstraction.",
-      "process": "Luminous blue-to-violet gradients sit against portrait photography, contour lines and a direct-reading typeface; the same graphic system carries across digital applications, events and branded materials, flexible enough for both expressive key visuals and content-driven pieces.",
+      "process": "Luminous blue-to-violet gradients sit against portrait photography, contour lines and a direct-reading typeface; the same graphic system carries across digital applications, events and branded materials, flexible enough for both expressive key visuals and content-driven pieces. Beyond the visual system, the agency also produced rich content pieces and a prospecting landing page that pair brand expression with the company's solutions.",
       "outcomes": "",
       "credits": [
         {
@@ -2004,7 +2004,7 @@
       "overview": "",
       "challenge": "Multishow, from Grupo Globo, asked us for a fun, practical and beautiful press kit for “BBB – A Eliminação”, the show that welcomes housemates right after they leave the house.",
       "concept": "Two creative directions shaped the storytelling. Fewer than 1% of Brazilians have ever been on the show in 24 editions — so “ex-BBB” is a lifetime title, worn with pride. And “O Brasil tá vendo” (Brazil is watching) sums up life in the house: inside or out, every eye is on them.",
-      "process": "The final kit carried a ring light and a high-end microphone — so the housemates keep shining in their content — plus a special letter announcing their official promotion to the lifetime role of “ex-BBB”.",
+      "process": "Packaging, art direction and copy work together as one unboxing experience: the box organizes gear like lighting and a microphone — so the housemates keep shining in their content — alongside materials that give context to the delivery, plus a special letter announcing their official promotion to the lifetime role of “ex-BBB”. The graphic communication follows the product from first contact through discovering every item inside.",
       "outcomes": "",
       "credits": [
         {
@@ -2089,9 +2089,9 @@
       "published": true,
       "order": 14,
       "overview": "",
-      "challenge": "Linx — a technology giant specialised in software for retail's digital transformation — asked us to boost the brand's communication on social media, with well-crafted copy, relevant topics and a solid visual identity.",
-      "concept": "We created the concept, visual identity and plan for “Tem Linx pra Tudo” (There's Linx for everything), Linx's first institutional campaign, showing the breadth of its products and putting the brand into the daily routine of retailers and end consumers. #TemLinxPraTudo and #TemLinxEmTodoLugar guided the rollout.",
-      "process": "Beyond social posts, we laid out rich content pieces where the identity is applied with confidence — informative, but engaging and dynamic thanks to the colors and visual elements chosen.",
+      "challenge": "Linx's solutions show up in many moments of retail operations, but that reach isn't always visible to the public. The brand needed its communication to make that breadth clearer, build relevance and bring technology closer to the situations where it actually makes a difference — well-crafted copy, relevant topics and a solid visual identity across social media.",
+      "concept": "We created the concept, visual identity and plan for “Tem Linx pra Tudo” (There's Linx for everything), Linx's first institutional campaign, showing the breadth of its products and putting the brand into the daily routine of retailers and end consumers, linking management, payment and other services to everyday needs that retailers and consumers already recognize. #TemLinxPraTudo and #TemLinxEmTodoLugar guided the rollout.",
+      "process": "Color and graphic elements give rhythm to an extensive offer, with compositions that balance brand presence and information hierarchy so each piece can spotlight one solution inside the same visual universe. Beyond social posts, we laid out rich content pieces where the identity is applied with confidence — informative, but engaging and dynamic thanks to the colors and visual elements chosen.",
       "outcomes": "",
       "credits": [
         {
