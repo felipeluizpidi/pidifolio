@@ -157,13 +157,16 @@
 .marquee {
   animation: marquee 38s linear infinite;
 }
+.marquee-slow {
+  animation: marquee 110s linear infinite;
+}
 @keyframes marquee {
   to { transform: translateX(-50%); }
 }
 
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
-  .grain, .rec-dot, .scroll-cue::after, .marquee { animation: none !important; }
+  .grain, .rec-dot, .scroll-cue::after, .marquee, .marquee-slow { animation: none !important; }
   *, *::before, *::after {
     transition-duration: 0.01ms !important;
     animation-duration: 0.01ms !important;

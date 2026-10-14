@@ -270,6 +270,12 @@
       "creditRoles": {
         "Associate Creative Director": "Diretor Criativo Associado",
         "Studio": "Estúdio"
+      },
+      "challenge": "A campanha precisava de uma presença visual consistente entre imagens de marca e comunicação de varejo — identificação, estilo e clareza comercial construídos a partir do mesmo sistema, incluindo peças como a liquidação de aniversário.",
+      "blocks": {
+        "diniz-b-brasildiniz": {
+          "caption": "Brasil Diniz, 33 anos — o filme institucional de aniversário da marca, uma produção separada da campanha com IA acima: direção de Thiago Eva pela Balboa Filmes, com criação da DDAO."
+        }
       }
     },
     "p-pentonic": {
@@ -294,7 +300,8 @@
         "pentonic-b30": {
           "caption": "A equipe"
         }
-      }
+      },
+      "overview": "A primeira campanha de volta às aulas da pentonic como marca própria — saindo do guarda-chuva do portfólio CiS com uma linguagem visual construída para carregar sua assinatura “driven by design” no lançamento, nas redes e no varejo."
     },
     "p-kfc": {
       "role": "Diretor de Arte Sênior · The Heart",
@@ -347,7 +354,9 @@
         "pod-storefront-b1": {
           "caption": "Vitrines de loja"
         }
-      }
+      },
+      "overview": "Identidade de marca para o Pod do Varejo (PDV), podcast da própria Linx — transformando conversas do varejo em um programa com presença própria, mantendo uma conexão reconhecível com o universo Linx.",
+      "process": "O sistema se desdobra em identidade gráfica completa, aplicações digitais, peças em movimento e simulações de vitrine — um vocabulário flexível o suficiente para variar a composição sem perder os sinais centrais de reconhecimento."
     },
     "p-hn": {
       "disciplines": [
@@ -371,7 +380,10 @@
         "hn-new-hnwebsite0": {
           "caption": "O site"
         }
-      }
+      },
+      "challenge": "O rebranding da HN precisava ser mais do que um retoque visual — o objetivo era colocar o cuidado no centro da marca, numa categoria que vive de confiança, clareza e identificação rápida dos produtos.",
+      "concept": "“Cuidando de quem cuida” reposiciona a HN em torno das pessoas que sustentam a rotina da saúde — transformando uma marca de suprimentos hospitalares em uma presença mais humana e acolhedora.",
+      "process": "Um símbolo em forma de cruz, lettering arredondado, cores de alto contraste e um elenco de ilustrações de pessoas levam essa ideia da embalagem em kraft — onde vermelho e azul se destacam sobre o papel — até uniformes, sacolas, materiais de comunicação e a presença digital da marca."
     },
     "p-hallem": {
       "disciplines": [
@@ -397,7 +409,10 @@
         "hallem-new-dd8e5413bbc9": {
           "caption": "O site"
         }
-      }
+      },
+      "challenge": "A Hallem queria expressar duas coisas ao mesmo tempo: inteligência jurídica voltada aos negócios e proximidade real com cada cliente — sem perder o rigor que o trabalho exige.",
+      "concept": "“Inteligência legal” aproxima especialização e relação humana, trocando o juridiquês por um tom confiante e fácil de entender.",
+      "process": "Uma assinatura manuscrita dá um gesto pessoal ao logotipo; o roxo, já associado à marca, se combina com laranja e tons de apoio para dar calor, enquanto um sistema editorial de hierarquia clara e contraste tipográfico percorre papelaria, sinalização, redes sociais e o site."
     },
     "p-cis": {
       "disciplines": [
@@ -423,7 +438,8 @@
           "caption": "Site da campanha"
         }
       },
-      "subtitle": "Campanha de volta às aulas"
+      "subtitle": "Campanha de volta às aulas",
+      "overview": "“Desenrola com CiS” — uma campanha de volta às aulas construída em torno da linha Spiro, transformando a papelaria da CiS em parceira para colocar ideias no mundo."
     },
     "p-exacta": {
       "disciplines": [
@@ -434,7 +450,10 @@
       "creditRoles": {
         "Agency": "Agência",
         "Team": "Equipe"
-      }
+      },
+      "challenge": "A Exacta Works precisava de uma identidade que parecesse, ao mesmo tempo, pronta para a transformação e humana — uma marca de tecnologia que não perde as pessoas de vista.",
+      "concept": "“Powered by people” coloca o time, não a stack, no centro da oferta — tecnologia comunicada por calor humano, não por abstração.",
+      "process": "Gradientes luminosos entre azul e violeta convivem com fotografia de retrato, linhas de contorno e uma tipografia de leitura direta; o mesmo sistema gráfico percorre aplicações digitais, eventos e materiais de marca, flexível o bastante para composições expressivas e peças de conteúdo."
     },
     "p-ecco": {
       "disciplines": [
@@ -455,7 +474,10 @@
           "caption": "Filme do site"
         }
       },
-      "subtitle": "Filmes institucionais"
+      "subtitle": "Filmes institucionais",
+      "challenge": "Comunicar a própria agência exige dar forma única a trabalhos feitos para clientes, linguagens e formatos muito diferentes — sem achatar nenhum deles.",
+      "concept": "Os filmes usam o próprio repertório da Ecco para contar sua história: entender o negócio, construir a estratégia, transformar ideias em comunicação.",
+      "process": "Trabalhos da agência, animação, motion graphics e elementos da identidade se organizam em três formatos — um filme institucional, uma peça de audiovisual e o filme do site — cada um uma porta de entrada diferente para o mesmo portfólio e a mesma identidade."
     },
     "p-bbb": {
       "disciplines": [
@@ -506,7 +528,10 @@
         "uniball-vid-a566b1": {
           "caption": "Um corte mais curto"
         }
-      }
+      },
+      "challenge": "A uni queria que sua campanha de volta às aulas de 2023 fosse além de vender canetas — o objetivo era reconectar gerações em torno dos instrumentos de escrita da marca através de uma memória cultural compartilhada.",
+      "concept": "“#NOWuni” parte da cultura dos VJs e das referências pop dos anos 1990 e 2000, combinando nostalgia com uma voz contemporânea em fotografia, filme, influenciadores, site e press kit.",
+      "process": "Uma fotografia de referência editorial de moda dá aos produtos um lugar dentro da expressão pessoal — cor, atitude e styling atravessam um sistema tipográfico expressivo, texturas de colagem e padrões, se estendendo a filme, conteúdo e um press kit com cinco linhas da marca."
     },
     "p-activas": {
       "disciplines": [
@@ -526,7 +551,10 @@
         "activas-vid-22f27a": {
           "caption": "Um corte mais curto"
         }
-      }
+      },
+      "challenge": "A certificação B da Activas abriu uma nova oportunidade de comunicação — a marca precisava dar visibilidade a esse reconhecimento e conectá-lo a seus compromissos ambientais, sociais e de governança.",
+      "concept": "Uma moldura gráfica em forma de “B” transforma a certificação em uma janela para a natureza e as pessoas — aproximando um marco institucional de um registro visual mais sensível.",
+      "process": "A moldura se repete em papelaria, conteúdo social, materiais de marca e peças em movimento, permitindo que o mesmo recurso comporte imagens diferentes sem perder a unidade da mensagem — ampliando a certificação além da aplicação isolada do selo."
     },
     "p-calzany": {
       "disciplines": [

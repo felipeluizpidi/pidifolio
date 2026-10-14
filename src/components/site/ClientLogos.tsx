@@ -12,7 +12,7 @@ export function ClientLogos({ clients, media, dict }: { clients: ClientLogo[]; m
         {dict.clientsHeadline}
       </h2>
       <div className="relative mt-6 overflow-hidden">
-        <div className="marquee flex w-max items-center gap-16 whitespace-nowrap">
+        <div className="marquee-slow flex w-max items-center gap-16 whitespace-nowrap">
           {[...row, ...row].map((c, i) => (
             <img
               key={`${c.id}-${i}`}
