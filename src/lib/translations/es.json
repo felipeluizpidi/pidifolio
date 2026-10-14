@@ -439,6 +439,10 @@
         },
         "cis-emb-84bf10": {
           "caption": "Sitio de la campaña"
+        },
+        "cis-b-crew-heading": {
+          "heading": "Equipo",
+          "body": "En el set con el equipo que lo hizo posible."
         }
       },
       "subtitle": "Campaña de regreso a clases",

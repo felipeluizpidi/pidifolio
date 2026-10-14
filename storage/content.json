@@ -1754,6 +1754,18 @@
             "m-2043229b47f8",
             "m-267ceb418187"
           ]
+        },
+        {
+          "id": "cis-b-crew-heading",
+          "type": "text",
+          "heading": "Crew",
+          "body": "On set with the team that made it happen.",
+          "size": "lg"
+        },
+        {
+          "id": "cis-b-crew-photo",
+          "type": "image",
+          "assetId": "m-30599f557e76"
         }
       ],
       "demo": false,
@@ -3413,6 +3425,18 @@
     }
   ],
   "media": [
+    {
+      "id": "m-30599f557e76",
+      "kind": "image",
+      "src": "/media/cis-crew-01.webp",
+      "alt": "Desenrola com CiS — the crew behind the campaign",
+      "width": 2000,
+      "height": 1333,
+      "mime": "image/webp",
+      "size": 296774,
+      "origin": "upload",
+      "createdAt": "2026-10-14T04:11:41.584Z"
+    },
     {
       "id": "m-logo-f6b1dfe259",
       "kind": "image",
