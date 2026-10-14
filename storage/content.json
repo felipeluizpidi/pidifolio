@@ -3426,6 +3426,66 @@
   ],
   "media": [
     {
+      "id": "m-logo-59ce14e143",
+      "kind": "image",
+      "src": "/media/logo-globo.png",
+      "alt": "Globo logo",
+      "width": 1391,
+      "height": 400,
+      "mime": "image/png",
+      "size": 37636,
+      "origin": "upload",
+      "createdAt": "2026-10-14T04:25:42.963Z"
+    },
+    {
+      "id": "m-logo-4a4dc0d71e",
+      "kind": "image",
+      "src": "/media/logo-paramount.png",
+      "alt": "Paramount Pictures logo",
+      "width": 507,
+      "height": 398,
+      "mime": "image/png",
+      "size": 28804,
+      "origin": "upload",
+      "createdAt": "2026-10-14T04:25:42.963Z"
+    },
+    {
+      "id": "m-logo-265b4131fb",
+      "kind": "image",
+      "src": "/media/logo-frangoassado.png",
+      "alt": "Frango Assado logo",
+      "width": 811,
+      "height": 392,
+      "mime": "image/png",
+      "size": 51972,
+      "origin": "upload",
+      "createdAt": "2026-10-14T04:25:42.963Z"
+    },
+    {
+      "id": "m-logo-6df072c0de",
+      "kind": "image",
+      "src": "/media/logo-simparic.png",
+      "alt": "Simparic logo",
+      "width": 2446,
+      "height": 400,
+      "mime": "image/png",
+      "size": 31643,
+      "origin": "upload",
+      "createdAt": "2026-10-14T04:25:42.963Z"
+    },
+    {
+      "id": "m-logo-aa99009d5a",
+      "kind": "image",
+      "src": "/media/logo-lepok.png",
+      "alt": "Lepok logo",
+      "width": 868,
+      "height": 386,
+      "mime": "image/png",
+      "size": 12572,
+      "origin": "upload",
+      "createdAt": "2026-10-14T04:25:42.963Z"
+    },
+    {
       "id": "m-30599f557e76",
       "kind": "image",
       "src": "/media/cis-crew-01.webp",
@@ -3550,10 +3610,10 @@
       "kind": "image",
       "src": "/media/logo-passeidireto.png",
       "alt": "Passei Direto logo",
-      "width": 392,
-      "height": 393,
+      "width": 2951,
+      "height": 392,
       "mime": "image/png",
-      "size": 8304,
+      "size": 70181,
       "origin": "upload",
       "createdAt": "2026-10-14T03:16:18.794Z"
     },
@@ -3670,10 +3730,10 @@
       "kind": "image",
       "src": "/media/logo-imovelweb.png",
       "alt": "ImovelWeb logo",
-      "width": 561,
-      "height": 133,
+      "width": 960,
+      "height": 185,
       "mime": "image/png",
-      "size": 15666,
+      "size": 16795,
       "origin": "upload",
       "createdAt": "2026-10-14T03:16:18.794Z"
     },
@@ -3742,10 +3802,10 @@
       "kind": "image",
       "src": "/media/logo-centernorte.png",
       "alt": "Shopping Center Norte logo",
-      "width": 676,
-      "height": 333,
+      "width": 1396,
+      "height": 245,
       "mime": "image/png",
-      "size": 14009,
+      "size": 23649,
       "origin": "upload",
       "createdAt": "2026-10-14T03:16:18.794Z"
     },
@@ -8874,6 +8934,31 @@
       "id": "client-zoetis",
       "name": "Zoetis",
       "logoId": "m-logo-f6b1dfe259"
+    },
+    {
+      "id": "client-lepok",
+      "name": "Lepok",
+      "logoId": "m-logo-aa99009d5a"
+    },
+    {
+      "id": "client-simparic",
+      "name": "Simparic",
+      "logoId": "m-logo-6df072c0de"
+    },
+    {
+      "id": "client-frangoassado",
+      "name": "Frango Assado",
+      "logoId": "m-logo-265b4131fb"
+    },
+    {
+      "id": "client-paramount",
+      "name": "Paramount Pictures",
+      "logoId": "m-logo-4a4dc0d71e"
+    },
+    {
+      "id": "client-globo",
+      "name": "Globo",
+      "logoId": "m-logo-59ce14e143"
     }
   ]
 }
