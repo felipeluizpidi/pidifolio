@@ -160,6 +160,15 @@ export const settingsSchema = z.object({
 });
 export type Settings = z.infer<typeof settingsSchema>;
 
+/* ───────────────────────── Client logos ───────────────────────── */
+
+export const clientLogoSchema = z.object({
+  id: z.string(),
+  name: z.string(),
+  logoId: z.string(),
+});
+export type ClientLogo = z.infer<typeof clientLogoSchema>;
+
 /* ───────────────────────── Store ───────────────────────── */
 
 export const contentSchema = z.object({
@@ -168,6 +177,7 @@ export const contentSchema = z.object({
   categories: z.array(categorySchema),
   projects: z.array(projectSchema),
   media: z.array(mediaAssetSchema),
+  clients: z.array(clientLogoSchema).default([]),
 });
 export type Content = z.infer<typeof contentSchema>;
 

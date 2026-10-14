@@ -1,4 +1,5 @@
 import { Hero } from "@/components/site/Hero";
+import { ClientLogos } from "@/components/site/ClientLogos";
 import { CareerStats } from "@/components/site/CareerStats";
 import { SelectedWork } from "@/components/site/SelectedWork";
 import { Archive } from "@/components/site/Archive";
@@ -32,7 +33,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
   if (!isLocale(rawLocale)) notFound();
   const locale: Locale = rawLocale;
   const dict = getDictionary(locale);
-  const { settings: s, categories, featured, archive, media } = await getHomeData(locale);
+  const { settings: s, categories, featured, archive, media, clients } = await getHomeData(locale);
   const cv = cvHref(s, media);
   const jsonLd = {
     "@context": "https://schema.org",
@@ -46,6 +47,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Hero s={s} desktop={media[s.hero.portraitDesktopId ?? ""]} mobile={media[s.hero.portraitMobileId ?? ""]} dict={dict} />
+      <ClientLogos clients={clients} media={media} dict={dict} />
       <CareerStats s={s} dict={dict} />
       <Marquee items={s.about.disciplines} />
       <SelectedWork s={s} projects={featured} media={media} dict={dict} />

@@ -3408,6 +3408,342 @@
   ],
   "media": [
     {
+      "id": "m-logo-f6b1dfe259",
+      "kind": "image",
+      "src": "/media/logo-zoetis.png",
+      "alt": "Zoetis logo",
+      "width": 1063,
+      "height": 400,
+      "mime": "image/png",
+      "size": 30550,
+      "origin": "upload",
+      "createdAt": "2026-10-14T03:16:18.794Z"
+    },
+    {
+      "id": "m-logo-70c2a28dff",
+      "kind": "image",
+      "src": "/media/logo-uol.png",
+      "alt": "UOL logo",
+      "width": 1105,
+      "height": 400,
+      "mime": "image/png",
+      "size": 23426,
+      "origin": "upload",
+      "createdAt": "2026-10-14T03:16:18.794Z"
+    },
+    {
+      "id": "m-logo-dfcff67e16",
+      "kind": "image",
+      "src": "/media/logo-uniball.png",
+      "alt": "uni-ball logo",
+      "width": 2134,
+      "height": 382,
+      "mime": "image/png",
+      "size": 52680,
+      "origin": "upload",
+      "createdAt": "2026-10-14T03:16:18.794Z"
+    },
+    {
+      "id": "m-logo-17ad99247b",
+      "kind": "image",
+      "src": "/media/logo-starbucks.png",
+      "alt": "Starbucks logo",
+      "width": 386,
+      "height": 387,
+      "mime": "image/png",
+      "size": 8528,
+      "origin": "upload",
+      "createdAt": "2026-10-14T03:16:18.794Z"
+    },
+    {
+      "id": "m-logo-fb926c628f",
+      "kind": "image",
+      "src": "/media/logo-stabilo.png",
+      "alt": "STABILO logo",
+      "width": 390,
+      "height": 76,
+      "mime": "image/png",
+      "size": 6040,
+      "origin": "upload",
+      "createdAt": "2026-10-14T03:16:18.794Z"
+    },
+    {
+      "id": "m-logo-e35c1ba1f0",
+      "kind": "image",
+      "src": "/media/logo-sosma.png",
+      "alt": "SOS Mata Atlântica logo",
+      "width": 1290,
+      "height": 400,
+      "mime": "image/png",
+      "size": 39257,
+      "origin": "upload",
+      "createdAt": "2026-10-14T03:16:18.794Z"
+    },
+    {
+      "id": "m-logo-5b9cd26506",
+      "kind": "image",
+      "src": "/media/logo-pwc.png",
+      "alt": "PwC logo",
+      "width": 279,
+      "height": 136,
+      "mime": "image/png",
+      "size": 4170,
+      "origin": "upload",
+      "createdAt": "2026-10-14T03:16:18.794Z"
+    },
+    {
+      "id": "m-logo-c8b5c2b163",
+      "kind": "image",
+      "src": "/media/logo-posca.png",
+      "alt": "POSCA logo",
+      "width": 1409,
+      "height": 398,
+      "mime": "image/png",
+      "size": 39418,
+      "origin": "upload",
+      "createdAt": "2026-10-14T03:16:18.794Z"
+    },
+    {
+      "id": "m-logo-cf8d08375a",
+      "kind": "image",
+      "src": "/media/logo-pizzahut.png",
+      "alt": "Pizza Hut logo",
+      "width": 476,
+      "height": 400,
+      "mime": "image/png",
+      "size": 21507,
+      "origin": "upload",
+      "createdAt": "2026-10-14T03:16:18.794Z"
+    },
+    {
+      "id": "m-logo-29e4f07308",
+      "kind": "image",
+      "src": "/media/logo-passeidireto.png",
+      "alt": "Passei Direto logo",
+      "width": 392,
+      "height": 393,
+      "mime": "image/png",
+      "size": 8304,
+      "origin": "upload",
+      "createdAt": "2026-10-14T03:16:18.794Z"
+    },
+    {
+      "id": "m-logo-30cec208e5",
+      "kind": "image",
+      "src": "/media/logo-oticasdiniz.png",
+      "alt": "Óticas Diniz logo",
+      "width": 360,
+      "height": 99,
+      "mime": "image/png",
+      "size": 3177,
+      "origin": "upload",
+      "createdAt": "2026-10-14T03:16:18.794Z"
+    },
+    {
+      "id": "m-logo-135c1d70ca",
+      "kind": "image",
+      "src": "/media/logo-nio.png",
+      "alt": "NIO logo",
+      "width": 934,
+      "height": 326,
+      "mime": "image/png",
+      "size": 18736,
+      "origin": "upload",
+      "createdAt": "2026-10-14T03:16:18.794Z"
+    },
+    {
+      "id": "m-logo-a52fe166fc",
+      "kind": "image",
+      "src": "/media/logo-nazca.png",
+      "alt": "Nazca Cosméticos logo",
+      "width": 628,
+      "height": 399,
+      "mime": "image/png",
+      "size": 22021,
+      "origin": "upload",
+      "createdAt": "2026-10-14T03:16:18.794Z"
+    },
+    {
+      "id": "m-logo-2b505e01b2",
+      "kind": "image",
+      "src": "/media/logo-multishow.png",
+      "alt": "Multishow logo",
+      "width": 799,
+      "height": 398,
+      "mime": "image/png",
+      "size": 22659,
+      "origin": "upload",
+      "createdAt": "2026-10-14T03:16:18.794Z"
+    },
+    {
+      "id": "m-logo-2a7b969c8b",
+      "kind": "image",
+      "src": "/media/logo-mercedes.png",
+      "alt": "Mercedes-Benz logo",
+      "width": 596,
+      "height": 400,
+      "mime": "image/png",
+      "size": 21952,
+      "origin": "upload",
+      "createdAt": "2026-10-14T03:16:18.794Z"
+    },
+    {
+      "id": "m-logo-f51849223b",
+      "kind": "image",
+      "src": "/media/logo-mercadolivre.png",
+      "alt": "Mercado Livre logo",
+      "width": 1016,
+      "height": 400,
+      "mime": "image/png",
+      "size": 30126,
+      "origin": "upload",
+      "createdAt": "2026-10-14T03:16:18.794Z"
+    },
+    {
+      "id": "m-logo-eb891c2f1b",
+      "kind": "image",
+      "src": "/media/logo-linx.png",
+      "alt": "Linx logo",
+      "width": 655,
+      "height": 387,
+      "mime": "image/png",
+      "size": 20645,
+      "origin": "upload",
+      "createdAt": "2026-10-14T03:16:18.794Z"
+    },
+    {
+      "id": "m-logo-f5a2cd7e95",
+      "kind": "image",
+      "src": "/media/logo-kfc.png",
+      "alt": "KFC logo",
+      "width": 1297,
+      "height": 400,
+      "mime": "image/png",
+      "size": 30589,
+      "origin": "upload",
+      "createdAt": "2026-10-14T03:16:18.794Z"
+    },
+    {
+      "id": "m-logo-cb844cad2e",
+      "kind": "image",
+      "src": "/media/logo-jandaia.png",
+      "alt": "Jandaia logo",
+      "width": 781,
+      "height": 210,
+      "mime": "image/png",
+      "size": 6767,
+      "origin": "upload",
+      "createdAt": "2026-10-14T03:16:18.794Z"
+    },
+    {
+      "id": "m-logo-aca7685982",
+      "kind": "image",
+      "src": "/media/logo-imovelweb.png",
+      "alt": "ImovelWeb logo",
+      "width": 561,
+      "height": 133,
+      "mime": "image/png",
+      "size": 15666,
+      "origin": "upload",
+      "createdAt": "2026-10-14T03:16:18.794Z"
+    },
+    {
+      "id": "m-logo-904b36e04d",
+      "kind": "image",
+      "src": "/media/logo-echoenergia.png",
+      "alt": "Echoenergia logo",
+      "width": 370,
+      "height": 77,
+      "mime": "image/png",
+      "size": 3830,
+      "origin": "upload",
+      "createdAt": "2026-10-14T03:16:18.794Z"
+    },
+    {
+      "id": "m-logo-cda101b521",
+      "kind": "image",
+      "src": "/media/logo-duolingo.png",
+      "alt": "Duolingo logo",
+      "width": 1585,
+      "height": 400,
+      "mime": "image/png",
+      "size": 45738,
+      "origin": "upload",
+      "createdAt": "2026-10-14T03:16:18.794Z"
+    },
+    {
+      "id": "m-logo-21df43ca11",
+      "kind": "image",
+      "src": "/media/logo-drscholls.png",
+      "alt": "Dr. Scholl's logo",
+      "width": 364,
+      "height": 194,
+      "mime": "image/png",
+      "size": 6980,
+      "origin": "upload",
+      "createdAt": "2026-10-14T03:16:18.794Z"
+    },
+    {
+      "id": "m-logo-f6d8b3559d",
+      "kind": "image",
+      "src": "/media/logo-cpfl.png",
+      "alt": "CPFL Energia logo",
+      "width": 472,
+      "height": 346,
+      "mime": "image/png",
+      "size": 16851,
+      "origin": "upload",
+      "createdAt": "2026-10-14T03:16:18.794Z"
+    },
+    {
+      "id": "m-logo-c822782616",
+      "kind": "image",
+      "src": "/media/logo-cis.png",
+      "alt": "CiS logo",
+      "width": 721,
+      "height": 363,
+      "mime": "image/png",
+      "size": 21373,
+      "origin": "upload",
+      "createdAt": "2026-10-14T03:16:18.794Z"
+    },
+    {
+      "id": "m-logo-c6d0941be3",
+      "kind": "image",
+      "src": "/media/logo-centernorte.png",
+      "alt": "Shopping Center Norte logo",
+      "width": 676,
+      "height": 333,
+      "mime": "image/png",
+      "size": 14009,
+      "origin": "upload",
+      "createdAt": "2026-10-14T03:16:18.794Z"
+    },
+    {
+      "id": "m-logo-9ba0a5d20d",
+      "kind": "image",
+      "src": "/media/logo-banco24horas.png",
+      "alt": "Banco24Horas logo",
+      "width": 1888,
+      "height": 218,
+      "mime": "image/png",
+      "size": 21846,
+      "origin": "upload",
+      "createdAt": "2026-10-14T03:16:18.794Z"
+    },
+    {
+      "id": "m-logo-15580e540d",
+      "kind": "image",
+      "src": "/media/logo-activas.png",
+      "alt": "Activas logo",
+      "width": 534,
+      "height": 382,
+      "mime": "image/png",
+      "size": 8124,
+      "origin": "upload",
+      "createdAt": "2026-10-14T03:16:18.794Z"
+    },
+    {
       "id": "m-c596c6d50f9c",
       "kind": "image",
       "src": "/media/pizzahut-social-18.gif",
@@ -8366,6 +8702,148 @@
       "mime": "image/webp",
       "origin": "upload",
       "createdAt": "2026-10-13T17:21:13.132Z"
+    }
+  ],
+  "clients": [
+    {
+      "id": "client-activas",
+      "name": "Activas",
+      "logoId": "m-logo-15580e540d"
+    },
+    {
+      "id": "client-banco24horas",
+      "name": "Banco24Horas",
+      "logoId": "m-logo-9ba0a5d20d"
+    },
+    {
+      "id": "client-centernorte",
+      "name": "Shopping Center Norte",
+      "logoId": "m-logo-c6d0941be3"
+    },
+    {
+      "id": "client-cis",
+      "name": "CiS",
+      "logoId": "m-logo-c822782616"
+    },
+    {
+      "id": "client-cpfl",
+      "name": "CPFL Energia",
+      "logoId": "m-logo-f6d8b3559d"
+    },
+    {
+      "id": "client-drscholls",
+      "name": "Dr. Scholl's",
+      "logoId": "m-logo-21df43ca11"
+    },
+    {
+      "id": "client-duolingo",
+      "name": "Duolingo",
+      "logoId": "m-logo-cda101b521"
+    },
+    {
+      "id": "client-echoenergia",
+      "name": "Echoenergia",
+      "logoId": "m-logo-904b36e04d"
+    },
+    {
+      "id": "client-imovelweb",
+      "name": "ImovelWeb",
+      "logoId": "m-logo-aca7685982"
+    },
+    {
+      "id": "client-jandaia",
+      "name": "Jandaia",
+      "logoId": "m-logo-cb844cad2e"
+    },
+    {
+      "id": "client-kfc",
+      "name": "KFC",
+      "logoId": "m-logo-f5a2cd7e95"
+    },
+    {
+      "id": "client-linx",
+      "name": "Linx",
+      "logoId": "m-logo-eb891c2f1b"
+    },
+    {
+      "id": "client-mercadolivre",
+      "name": "Mercado Livre",
+      "logoId": "m-logo-f51849223b"
+    },
+    {
+      "id": "client-mercedes",
+      "name": "Mercedes-Benz",
+      "logoId": "m-logo-2a7b969c8b"
+    },
+    {
+      "id": "client-multishow",
+      "name": "Multishow",
+      "logoId": "m-logo-2b505e01b2"
+    },
+    {
+      "id": "client-nazca",
+      "name": "Nazca Cosméticos",
+      "logoId": "m-logo-a52fe166fc"
+    },
+    {
+      "id": "client-nio",
+      "name": "NIO",
+      "logoId": "m-logo-135c1d70ca"
+    },
+    {
+      "id": "client-oticasdiniz",
+      "name": "Óticas Diniz",
+      "logoId": "m-logo-30cec208e5"
+    },
+    {
+      "id": "client-passeidireto",
+      "name": "Passei Direto",
+      "logoId": "m-logo-29e4f07308"
+    },
+    {
+      "id": "client-pizzahut",
+      "name": "Pizza Hut",
+      "logoId": "m-logo-cf8d08375a"
+    },
+    {
+      "id": "client-posca",
+      "name": "POSCA",
+      "logoId": "m-logo-c8b5c2b163"
+    },
+    {
+      "id": "client-pwc",
+      "name": "PwC",
+      "logoId": "m-logo-5b9cd26506"
+    },
+    {
+      "id": "client-sosma",
+      "name": "SOS Mata Atlântica",
+      "logoId": "m-logo-e35c1ba1f0"
+    },
+    {
+      "id": "client-stabilo",
+      "name": "STABILO",
+      "logoId": "m-logo-fb926c628f"
+    },
+    {
+      "id": "client-starbucks",
+      "name": "Starbucks",
+      "logoId": "m-logo-17ad99247b"
+    },
+    {
+      "id": "client-uniball",
+      "name": "uni-ball",
+      "logoId": "m-logo-dfcff67e16"
+    },
+    {
+      "id": "client-uol",
+      "name": "UOL",
+      "logoId": "m-logo-70c2a28dff"
+    },
+    {
+      "id": "client-zoetis",
+      "name": "Zoetis",
+      "logoId": "m-logo-f6b1dfe259"
     }
   ]
 }

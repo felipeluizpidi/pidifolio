@@ -17,6 +17,8 @@ const en = {
 
   careerNumbers: "Career in numbers",
 
+  clientsHeadline: "Brands I've worked with",
+
   viewProject: "View project ↗",
   viewCaseStudy: "View case study ↗",
   project: "Project {n}",
@@ -123,6 +125,8 @@ const pt: typeof en = {
 
   careerNumbers: "Carreira em números",
 
+  clientsHeadline: "Marcas com quem já trabalhei",
+
   viewProject: "Ver projeto ↗",
   viewCaseStudy: "Ver estudo de caso ↗",
   project: "Projeto {n}",
@@ -228,6 +232,8 @@ const es: typeof en = {
   scroll: "Desplazar",
 
   careerNumbers: "Carrera en números",
+
+  clientsHeadline: "Marcas con las que trabajé",
 
   viewProject: "Ver proyecto ↗",
   viewCaseStudy: "Ver caso de estudio ↗",

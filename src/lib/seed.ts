@@ -286,4 +286,5 @@ export const seedContent: Content = {
   ],
   projects,
   media,
+  clients: [],
 };
