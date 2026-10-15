@@ -11,8 +11,6 @@ import { getDictionary, type Dict } from "@/lib/dictionary";
 import { isLocale, locales, type Locale } from "@/lib/i18n";
 import { fmt } from "@/lib/format";
 
-export const revalidate = 300;
-
 /** "131,582,404 impressions across the content" → ["131,582,404", "impressions across the content"]. */
 function parseOutcomeLine(line: string): { value: string; label: string } {
   const m = /^([+-]?\d[\d.,]*(?:[KkMmBb])?%?\+?)\s+(.+)$/.exec(line.trim());

@@ -7,7 +7,6 @@ export const alt = "Felipe Pidi — AI Creative & Design Leader";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 export const runtime = "nodejs";
-export const revalidate = 300;
 
 export default async function OG() {
   const s = await getSettings();

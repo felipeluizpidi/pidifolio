@@ -10,8 +10,6 @@ import { getDictionary } from "@/lib/dictionary";
 import { isLocale, type Locale } from "@/lib/i18n";
 import { notFound } from "next/navigation";
 
-export const revalidate = 300;
-
 function Marquee({ items }: { items: string[] }) {
   const row = [...items, ...items];
   return (
