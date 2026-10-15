@@ -47,7 +47,7 @@
         "The person",
         "behind the work."
       ],
-      "portraitId": "ph-about",
+      "portraitId": "m-5767541b3716",
       "bio": [
         "Felipe Pidi has been building creative processes since 2014 — but the work was never only about making good pieces. Across 12+ years in advertising, branding and 360° campaigns, he learned to turn strategy into visual language, and visual language into something a whole team can execute with consistency.",
         "He has worked on integrated campaigns, films, retail and brand identities, on productions with crews of 30+. As Head of Design at Agência Ecco he led a team of 10+ designers and redesigned the flow between creative, planning and accounts — cutting rework by 28% and speeding up delivery by 25%.",
@@ -191,10 +191,10 @@
       "archiveShape": "landscape",
       "published": true,
       "order": 1,
-      "overview": "#ExperimenteSentir — a haircare campaign for Nazca built around sensation. Every phase of hair care becomes a feeling to try: “Sinta cada versão de você” (feel every version of you).",
-      "challenge": "Nazca, a national haircare and skincare brand with 40+ years in the market, first needed to rethink its presence on social media — then, as results came in, was invited to lead the brand's full repositioning.",
-      "concept": "Warm, skin-close photography and an editorial type system carry one sensory idea across key visuals, product shots, social and out-of-home.",
-      "process": "A full on- and off-line communication plan covering every touchpoint, from retail to digital: press kits, films, social media, campaigns and influencer/B2B partnerships, with always-on content produced in-house. One brand diagnostic set a clear verbal tone and a visual identity built to carry that renewed strength and care.",
+      "overview": "#ExperimenteSentir — a haircare campaign for Nazca that treats care as an experience following each person through different moments and versions of themselves: “Sinta cada versão de você” (feel every version of you). Product, sensation and identity come together so texture, touch and everyday gestures carry a promise that goes beyond the packaging.",
+      "challenge": "Nazca, a haircare and skincare brand with 40+ years in the market, needed to renew its relationship with consumers and partners. The work began with its digital presence and grew into a full brand repositioning, connecting that tradition to a communication that's closer, more expressive and centered on care.",
+      "concept": "The campaign translates that sensory territory into a language built to run across product imagery, portraits and brand communication alike — not a tagline, but a shared visual temperature.",
+      "process": "Art direction stays close to skin, hair and hands — tight portraits, product-in-use shots and texture details give care a tactile presence. Warm photography favors proximity, while condensed type paired with gestural display lettering sets the message's strength against the experience's delicacy. The same sensory treatment runs through key visuals, product shots and campaign materials, keeping packaging recognizable while giving it new meaning through the body and the gesture.",
       "outcomes": "+581% average engagement\n+277% reach\n+44% LinkedIn followers\n+4,457% TikTok followers",
       "credits": [
         {
@@ -949,10 +949,10 @@
       "archiveShape": "landscape",
       "published": true,
       "order": 4,
-      "overview": "National campaign for Óticas Diniz — “Qualidade que o Brasil ama” (quality Brazil loves) — produced at DDAO Creative Lab with a hybrid AI + design workflow.",
-      "challenge": "",
-      "concept": "Casting, scenes and light generated and art-directed to read as one photographic campaign: warm city light, real-feeling faces and a bold red retail system for promos like the anniversary sale.",
-      "process": "Generative imagery (Midjourney, Visual Electric, Adobe Firefly) directed against explicit quality criteria to avoid generic outputs and keep the art-direction intent, then finished in Adobe Creative Cloud.",
+      "overview": "National campaign for Óticas Diniz, built around the signature “Qualidade que o Brasil ama” (quality Brazil loves) to bring the brand closer to its audience's everyday life — produced at DDAO Creative Lab through a hybrid AI-and-design workflow.",
+      "challenge": "The visual challenge was building one consistent presence across brand imagery and retail communication — identification, style and commercial clarity combined into a single system, from lifestyle portraits to promotional pieces like the anniversary sale.",
+      "concept": "The creative direction connects characters, settings and light into one shared language — able to present the glasses in scenes of everyday use and still carry retail messaging without breaking continuity.",
+      "process": "Imagery generated in Midjourney, Visual Electric and Adobe Firefly, art-directed for casting, scene and light so the set reads as a single photographic campaign, then finished in Adobe Creative Cloud. In the opening image, the close portrait, warm light and urban setting place the product inside a personal-style experience; the same treatment carries the brand's red and a retail-minded graphic system, keeping the identity recognizable between brand compositions and offer pieces.",
       "outcomes": "",
       "credits": [
         {
@@ -965,6 +965,12 @@
         }
       ],
       "blocks": [
+        {
+          "id": "diniz-b-brasildiniz",
+          "type": "embed",
+          "url": "https://www.youtube.com/watch?v=lVfx32yzLt4",
+          "caption": "Brasil Diniz, 33 anos — the brand's institutional anniversary film, a separate production from the AI campaign below: directed by Thiago Eva for Balboa Filmes, with creative by DDAO."
+        },
         {
           "id": "diniz-b7",
           "type": "image",
@@ -1031,10 +1037,10 @@
       "archiveShape": "landscape",
       "published": true,
       "order": 5,
-      "overview": "",
+      "overview": "Pentonic's first back-to-school campaign as its own brand — stepping out from under the CiS portfolio with a visual language built to carry its “driven by design” signature across launch, social and retail.",
       "challenge": "Launch pentonic — the CiS pen line — as a brand of its own, with its own products and lines, through a back-to-school campaign. To build reach and awareness it also needed its own social profile, with proprietary content and a visual and verbal identity.",
       "concept": "“pentonic — seu estilo em ação!” (your style in action) unites the products' function and minimal aesthetic into a personality. It grows from the brand's “driven by design” line, which suggests both motivation and movement.",
-      "process": "An exclusive shoot, a launch film, an original soundtrack, influencer actions and a stream of sustaining content.",
+      "process": "A high-impact minimalist shoot — product, color and gesture hold the attention, with compositions that foreground the pens' design and the relationship between finish and the style of whoever's holding them. Portraits and close hand shots borrow from fashion and design editorial, carried across a launch film, an original soundtrack, influencer actions and a stream of sustaining content.",
       "outcomes": "131.6M impressions across the content created\n160K visits to the brand profile\n231K active engagements\n+124,200% follower growth on the page",
       "credits": [
         {
@@ -1231,6 +1237,30 @@
             "m-bh-kfc-09",
             "m-bh-kfc-10"
           ]
+        },
+        {
+          "id": "kfc-new-eb11595e907e",
+          "type": "image",
+          "assetId": "m-eb11595e907e",
+          "caption": "Baldelícia"
+        },
+        {
+          "id": "kfc-new-fb5722943adc",
+          "type": "image",
+          "assetId": "m-fb5722943adc",
+          "caption": "Incomparáveis"
+        },
+        {
+          "id": "kfc-new-264d8be19d13",
+          "type": "image",
+          "assetId": "m-264d8be19d13",
+          "caption": "Marcelo Ferreira"
+        },
+        {
+          "id": "kfc-new-28889fd58a16",
+          "type": "image",
+          "assetId": "m-28889fd58a16",
+          "caption": "Pedaço? Me dá um pedaço?"
         }
       ],
       "demo": false,
@@ -1260,10 +1290,10 @@
       "archiveShape": "square",
       "published": true,
       "order": 7,
-      "overview": "",
+      "overview": "Brand identity for Pod do Varejo (PDV), Linx's own podcast — turning retail conversations into a show with a presence of its own, built to stay recognizably part of the Linx universe.",
       "challenge": "Linx Retail — the largest software house in Latin America — asked us to create the visual identity of its new podcast, PDV, the Pod do Varejo, and turn its premises into a striking, representative image.",
-      "concept": "An identity that talks to the present while keeping an essence both nostalgic and futuristic. A vivid palette inspired by the Linx parent brand, a logo drawn as speech balloons for conversation and exchange, and graphics for different forms of expression and identity.",
-      "process": "",
+      "concept": "An identity that speaks to the present while holding onto something both nostalgic and futuristic. PDV — a familiar retail abbreviation — takes on new meaning as the podcast's own name, offering a direct way in for the audience. A vivid palette inspired by the Linx parent brand, a logo built from speech-balloon shapes for conversation and exchange, and graphics for different forms of expression complete the identity.",
+      "process": "The system runs across a full graphic identity, digital applications, motion pieces and storefront simulations — one vocabulary flexible enough to vary composition while keeping the core signals of recognition.",
       "outcomes": "",
       "credits": [
         {
@@ -1330,6 +1360,12 @@
           "assetId": "m-ae2afdcf63ad",
           "caption": "The identity, in the app",
           "autoplay": false
+        },
+        {
+          "id": "pod-storefront-b1",
+          "type": "image",
+          "assetId": "m-8046fe01b511",
+          "caption": "Storefront windows"
         }
       ],
       "demo": false,
@@ -1361,9 +1397,9 @@
       "published": true,
       "order": 8,
       "overview": "Brand identity for HN, a healthcare-supplies brand whose promise is caring for those who care — “Cuidamos de quem cuida”. A friendly plus-shaped symbol, a bright color system and an illustration language run from packaging to uniforms and campaign.",
-      "challenge": "",
-      "concept": "",
-      "process": "",
+      "challenge": "HN needed its rebranding to read as more than a facelift — the goal was to put care at the center of the brand, for a category that lives on trust, clarity and fast product recognition.",
+      "concept": "“Cuidando de quem cuida” (caring for those who care) reframes HN around the people who sustain healthcare's daily routine — turning a hospital-supplies brand into a warmer, more human presence.",
+      "process": "A cross-shaped symbol, rounded lettering, high-contrast color and a cast of illustrated people carry the idea from kraft packaging — where red and blue read against the paper — through uniforms, bags, communication materials and the brand's digital presence. Illustration keeps care a recurring presence while the symbol gives the brand one compact, fast sign of recognition.",
       "outcomes": "",
       "credits": [
         {
@@ -1447,6 +1483,18 @@
           "assetId": "m-f206fe3f4b9d",
           "caption": "The symbol, in motion",
           "autoplay": false
+        },
+        {
+          "id": "hn-new-hntote01we",
+          "type": "image",
+          "assetId": "m-6054584041d1",
+          "caption": "Tote bags"
+        },
+        {
+          "id": "hn-new-hnwebsite0",
+          "type": "image",
+          "assetId": "m-47425b3fa7cb",
+          "caption": "The website"
         }
       ],
       "demo": false,
@@ -1477,9 +1525,9 @@
       "published": true,
       "order": 9,
       "overview": "Brand design for Hallem Advocacia, a law firm that wanted to sound human — “somos jurídicos, mas sem juridiquês” (legal, without the legalese). A script wordmark, a warm orange-and-purple palette and editorial layouts across stationery, signage and social.",
-      "challenge": "",
-      "concept": "",
-      "process": "",
+      "challenge": "Hallem wanted to express two things at once: legal intelligence built for business, and real closeness with every client — without losing the rigor the work demands.",
+      "concept": "“Inteligência legal” (legal intelligence) brings specialism and human connection into the same territory, trading legalese for a tone that's confident but easy to read.",
+      "process": "A handwritten signature gives the wordmark a personal gesture; purple — already tied to the brand — pairs with orange and supporting tones for warmth, while an editorial system of clear hierarchy and type contrast carries it across stationery, signage, social, the website and branded objects.",
       "outcomes": "",
       "credits": [
         {
@@ -1553,6 +1601,24 @@
           "assetId": "m-2cc20fde4e3a",
           "caption": "The identity, on the website",
           "autoplay": false
+        },
+        {
+          "id": "hallem-new-381bf53f993f",
+          "type": "image",
+          "assetId": "m-381bf53f993f",
+          "caption": "The website, out in the world"
+        },
+        {
+          "id": "hallem-new-07aa31ad889e",
+          "type": "image",
+          "assetId": "m-07aa31ad889e",
+          "caption": "Merchandise"
+        },
+        {
+          "id": "hallem-new-dd8e5413bbc9",
+          "type": "image",
+          "assetId": "m-dd8e5413bbc9",
+          "caption": "The website"
         }
       ],
       "demo": false,
@@ -1584,10 +1650,10 @@
       "archiveShape": "landscape",
       "published": true,
       "order": 10,
-      "overview": "",
+      "overview": "“Desenrola com CiS” — a back-to-school campaign built around the Spiro line, turning CiS's stationery into a partner for getting ideas out into the world.",
       "challenge": "A back-to-school campaign for CiS — a stationery brand with almost 30 years of history and a varied portfolio — to strengthen its digital presence with a concept that reinforced its upbeat, proprietary tone of voice.",
-      "concept": "The narrative captures the brand's essence — practical, fun solutions for everyday challenges — and spotlights the hero product's main attribute: the Spiro line. “Desenrolar” means to sort things out: with CiS, you sort out whatever comes.",
-      "process": "The visual identity was built to carry what the line means to its consumers: creativity, authenticity, joy, consistency and that famous power to desenrolar in any situation.",
+      "concept": "The narrative captures the brand's essence — practical, fun solutions for everyday challenges — and spotlights the hero product's main attribute: the Spiro line. “Desenrolar” means to sort things out: with CiS, you sort out whatever comes. The identity was built to carry what the line means to its fans: creativity, authenticity, joy and consistency — and that signature ability to desenrolar whatever comes.",
+      "process": "Color, spiral shapes and the products themselves build a playful universe; photography and the launch film give the concept a body through portraits, gestures and situations that play up creativity and personality, with the Spiro line's own spiral drawing as a concrete link between product and graphic language. The system runs into digital pieces, a campaign site and a press kit of 140+ products for contest winners and influencers — a box that extends the campaign's visual experience into a physical touchpoint with the brand's portfolio.",
       "outcomes": "",
       "credits": [
         {
@@ -1669,18 +1735,42 @@
         },
         {
           "id": "cis-emb-320e7d",
-          "type": "embed",
-          "url": "https://vimeo.com/996385941"
+          "type": "video",
+          "assetId": "m-0f9a22adc28c",
+          "caption": "Press kit film",
+          "autoplay": false
         },
         {
           "id": "cis-emb-84bf10",
-          "type": "embed",
-          "url": "https://vimeo.com/996235270"
+          "type": "video",
+          "assetId": "m-d2ad8b1f62f9",
+          "caption": "Campaign website",
+          "autoplay": false
+        },
+        {
+          "id": "cis-grid-extra",
+          "type": "grid2",
+          "assetIds": [
+            "m-2043229b47f8",
+            "m-267ceb418187"
+          ]
+        },
+        {
+          "id": "cis-b-crew-heading",
+          "type": "text",
+          "heading": "Crew",
+          "body": "On set with the team that made it happen.",
+          "size": "lg"
+        },
+        {
+          "id": "cis-b-crew-photo",
+          "type": "image",
+          "assetId": "m-30599f557e76"
         }
       ],
       "demo": false,
       "createdAt": "2026-10-09T15:00:23.868Z",
-      "updatedAt": "2026-10-12T22:46:29.633Z"
+      "updatedAt": "2026-10-13T22:13:37.022Z"
     },
     {
       "id": "p-exacta",
@@ -1706,9 +1796,9 @@
       "published": true,
       "order": 11,
       "overview": "Identity for Exacta Works, a technology company — “Powered by people”. Luminous blue-to-violet gradients and a human profile bring warmth to a tech brand, applied across digital, events and merchandise.",
-      "challenge": "",
-      "concept": "",
-      "process": "",
+      "challenge": "Exacta Works needed an identity that read as both transformation-ready and human — a tech brand that doesn't lose people in the pitch.",
+      "concept": "“Powered by people” puts the team, not the stack, at the center of the offer — tech communicated through warmth rather than abstraction.",
+      "process": "Luminous blue-to-violet gradients sit against portrait photography, contour lines and a direct-reading typeface; the same graphic system carries across digital applications, events and branded materials, flexible enough for both expressive key visuals and content-driven pieces. Beyond the visual system, the agency also produced rich content pieces and a prospecting landing page that pair brand expression with the company's solutions.",
       "outcomes": "",
       "credits": [
         {
@@ -1807,9 +1897,9 @@
       "published": true,
       "order": 12,
       "overview": "Institutional films for Agência Ecco — the agency's own story told through its work, with animation, motion graphics and the brand's visual language.",
-      "challenge": "",
-      "concept": "",
-      "process": "",
+      "challenge": "Communicating the agency itself means giving a shared shape to work made for many different clients, languages and formats — without flattening any of it.",
+      "concept": "The films use Ecco's own body of work to tell its story: understanding a business, building the strategy, turning ideas into communication.",
+      "process": "Agency work, animation, motion graphics and brand elements are organized into three formats — an institutional film, an audiovisual reel and the site's own film — each a different entry point into the same portfolio and the same identity.",
       "outcomes": "",
       "credits": [
         {
@@ -1889,13 +1979,15 @@
         },
         {
           "id": "ecco-emb-fc7b0b",
-          "type": "embed",
-          "url": "https://vimeo.com/1214050863"
+          "type": "video",
+          "assetId": "m-29849f10f6c5",
+          "caption": "Website film",
+          "autoplay": false
         }
       ],
       "demo": false,
       "createdAt": "2026-10-09T16:49:20.566Z",
-      "updatedAt": "2026-10-12T22:46:29.633Z"
+      "updatedAt": "2026-10-13T22:13:37.859Z"
     },
     {
       "id": "p-bbb",
@@ -1924,7 +2016,7 @@
       "overview": "",
       "challenge": "Multishow, from Grupo Globo, asked us for a fun, practical and beautiful press kit for “BBB – A Eliminação”, the show that welcomes housemates right after they leave the house.",
       "concept": "Two creative directions shaped the storytelling. Fewer than 1% of Brazilians have ever been on the show in 24 editions — so “ex-BBB” is a lifetime title, worn with pride. And “O Brasil tá vendo” (Brazil is watching) sums up life in the house: inside or out, every eye is on them.",
-      "process": "The final kit carried a ring light and a high-end microphone — so the housemates keep shining in their content — plus a special letter announcing their official promotion to the lifetime role of “ex-BBB”.",
+      "process": "Packaging, art direction and copy work together as one unboxing experience: the box organizes gear like lighting and a microphone — so the housemates keep shining in their content — alongside materials that give context to the delivery, plus a special letter announcing their official promotion to the lifetime role of “ex-BBB”. The graphic communication follows the product from first contact through discovering every item inside.",
       "outcomes": "",
       "credits": [
         {
@@ -2009,9 +2101,9 @@
       "published": true,
       "order": 14,
       "overview": "",
-      "challenge": "Linx — a technology giant specialised in software for retail's digital transformation — asked us to boost the brand's communication on social media, with well-crafted copy, relevant topics and a solid visual identity.",
-      "concept": "We created the concept, visual identity and plan for “Tem Linx pra Tudo” (There's Linx for everything), Linx's first institutional campaign, showing the breadth of its products and putting the brand into the daily routine of retailers and end consumers. #TemLinxPraTudo and #TemLinxEmTodoLugar guided the rollout.",
-      "process": "Beyond social posts, we laid out rich content pieces where the identity is applied with confidence — informative, but engaging and dynamic thanks to the colors and visual elements chosen.",
+      "challenge": "Linx's solutions show up in many moments of retail operations, but that reach isn't always visible to the public. The brand needed its communication to make that breadth clearer, build relevance and bring technology closer to the situations where it actually makes a difference — well-crafted copy, relevant topics and a solid visual identity across social media.",
+      "concept": "We created the concept, visual identity and plan for “Tem Linx pra Tudo” (There's Linx for everything), Linx's first institutional campaign, showing the breadth of its products and putting the brand into the daily routine of retailers and end consumers, linking management, payment and other services to everyday needs that retailers and consumers already recognize. #TemLinxPraTudo and #TemLinxEmTodoLugar guided the rollout.",
+      "process": "Color and graphic elements give rhythm to an extensive offer, with compositions that balance brand presence and information hierarchy so each piece can spotlight one solution inside the same visual universe. Beyond social posts, we laid out rich content pieces where the identity is applied with confidence — informative, but engaging and dynamic thanks to the colors and visual elements chosen.",
       "outcomes": "",
       "credits": [
         {
@@ -2100,6 +2192,14 @@
           "id": "linx-b18",
           "type": "image",
           "assetId": "m-bh-linx-11"
+        },
+        {
+          "id": "linx-grid-extra",
+          "type": "grid2",
+          "assetIds": [
+            "m-a49c3f1e0a67",
+            "m-06922d996d59"
+          ]
         }
       ],
       "demo": false,
@@ -2131,9 +2231,9 @@
       "published": true,
       "order": 15,
       "overview": "Back-to-school 2023 campaign for Uni-ball built on nostalgia — “NowUni”. Remembering who you were and passing that message on to the next generation: Uni connects generations.",
-      "challenge": "",
-      "concept": "",
-      "process": "",
+      "challenge": "Uni wanted its back-to-school 2023 push to do more than sell pens — the goal was to reconnect generations around the brand's writing instruments through shared cultural memory.",
+      "concept": "“#NOWuni” borrows from VJ culture and the pop references of the ’90s and 2000s, pairing nostalgia with a present-tense voice across photography, film, influencers, site and press kit.",
+      "process": "Fashion-editorial photography gives the products a place inside personal style — color, attitude and styling carry through an expressive type system, collage textures and patterns, extending into film, content and a press kit spanning five of the brand's lines.",
       "outcomes": "",
       "credits": [
         {
@@ -2230,9 +2330,9 @@
       "published": true,
       "order": 16,
       "overview": "Brand identity for Activas, part of Sistema B — a bold “B” monogram that frames nature and people, a warm palette and a flexible image system across stationery, social and merchandise.",
-      "challenge": "",
-      "concept": "",
-      "process": "",
+      "challenge": "Activas' B Corp certification opened a new communication opportunity — the brand needed to make that recognition visible and tie it to its environmental, social and governance commitments.",
+      "concept": "A “B”-shaped graphic frame turns the certification into a window onto nature and people — pairing an institutional milestone with a more sensory, lived-in visual register.",
+      "process": "The frame recurs across stationery, social content, branded materials and motion pieces, so the same device can hold different imagery without losing the unity of the message — extending the certification beyond a single seal.",
       "outcomes": "",
       "credits": [
         {
@@ -2458,6 +2558,13 @@
           "id": "kizen-b45",
           "type": "image",
           "assetId": "m-bh-kizen-01"
+        },
+        {
+          "id": "kizen-vid-01",
+          "type": "video",
+          "assetId": "m-75d95f2cc058",
+          "caption": "Logo animation",
+          "autoplay": false
         }
       ],
       "demo": false,
@@ -2703,6 +2810,24 @@
           "id": "pizzahut-b68",
           "type": "image",
           "assetId": "m-bh-pizzahut-12"
+        },
+        {
+          "id": "pizzahut-grid-extra-1",
+          "type": "grid3",
+          "assetIds": [
+            "m-c380c7f7784a",
+            "m-50bb7cd87111",
+            "m-56d55d0a6c9f"
+          ]
+        },
+        {
+          "id": "pizzahut-grid-extra-2",
+          "type": "grid3",
+          "assetIds": [
+            "m-f0e66dc0906f",
+            "m-b9dea5434ace",
+            "m-c596c6d50f9c"
+          ]
         }
       ],
       "demo": false,
@@ -3088,11 +3213,6 @@
           "assetId": "m-bf6e0dac2686",
           "caption": "Training module — Brand film",
           "autoplay": false
-        },
-        {
-          "id": "technos-emb-376890",
-          "type": "embed",
-          "url": "https://vimeo.com/112958608"
         }
       ],
       "demo": false,
@@ -3305,6 +3425,773 @@
     }
   ],
   "media": [
+    {
+      "id": "m-0bd5957aeef0",
+      "kind": "file",
+      "src": "/media/m-0bd5957aeef0.pdf",
+      "alt": "EN OUT26Felipe Luiz CV",
+      "mime": "application/pdf",
+      "size": 77420,
+      "origin": "upload",
+      "createdAt": "2026-10-15T02:27:05.829Z"
+    },
+    {
+      "id": "m-5767541b3716",
+      "kind": "image",
+      "src": "/media/m-5767541b3716.png",
+      "alt": "Imagem do ChatGPT 14 de out. de 2026, 23 26 06",
+      "width": 1122,
+      "height": 1402,
+      "mime": "image/png",
+      "size": 2273920,
+      "origin": "upload",
+      "createdAt": "2026-10-15T02:26:39.842Z"
+    },
+    {
+      "id": "m-logo-59ce14e143",
+      "kind": "image",
+      "src": "/media/logo-globo.png",
+      "alt": "Globo logo",
+      "width": 1391,
+      "height": 400,
+      "mime": "image/png",
+      "size": 37636,
+      "origin": "upload",
+      "createdAt": "2026-10-14T04:25:42.963Z"
+    },
+    {
+      "id": "m-logo-4a4dc0d71e",
+      "kind": "image",
+      "src": "/media/logo-paramount.png",
+      "alt": "Paramount Pictures logo",
+      "width": 507,
+      "height": 398,
+      "mime": "image/png",
+      "size": 28804,
+      "origin": "upload",
+      "createdAt": "2026-10-14T04:25:42.963Z"
+    },
+    {
+      "id": "m-logo-265b4131fb",
+      "kind": "image",
+      "src": "/media/logo-frangoassado.png",
+      "alt": "Frango Assado logo",
+      "width": 811,
+      "height": 392,
+      "mime": "image/png",
+      "size": 51972,
+      "origin": "upload",
+      "createdAt": "2026-10-14T04:25:42.963Z"
+    },
+    {
+      "id": "m-logo-6df072c0de",
+      "kind": "image",
+      "src": "/media/logo-simparic.png",
+      "alt": "Simparic logo",
+      "width": 2446,
+      "height": 400,
+      "mime": "image/png",
+      "size": 31643,
+      "origin": "upload",
+      "createdAt": "2026-10-14T04:25:42.963Z"
+    },
+    {
+      "id": "m-logo-aa99009d5a",
+      "kind": "image",
+      "src": "/media/logo-lepok.png",
+      "alt": "Lepok logo",
+      "width": 868,
+      "height": 386,
+      "mime": "image/png",
+      "size": 12572,
+      "origin": "upload",
+      "createdAt": "2026-10-14T04:25:42.963Z"
+    },
+    {
+      "id": "m-30599f557e76",
+      "kind": "image",
+      "src": "/media/cis-crew-01.webp",
+      "alt": "Desenrola com CiS — the crew behind the campaign",
+      "width": 2000,
+      "height": 1333,
+      "mime": "image/webp",
+      "size": 296774,
+      "origin": "upload",
+      "createdAt": "2026-10-14T04:11:41.584Z"
+    },
+    {
+      "id": "m-logo-f6b1dfe259",
+      "kind": "image",
+      "src": "/media/logo-zoetis.png",
+      "alt": "Zoetis logo",
+      "width": 1063,
+      "height": 400,
+      "mime": "image/png",
+      "size": 30550,
+      "origin": "upload",
+      "createdAt": "2026-10-14T03:16:18.794Z"
+    },
+    {
+      "id": "m-logo-70c2a28dff",
+      "kind": "image",
+      "src": "/media/logo-uol.png",
+      "alt": "UOL logo",
+      "width": 1105,
+      "height": 400,
+      "mime": "image/png",
+      "size": 23426,
+      "origin": "upload",
+      "createdAt": "2026-10-14T03:16:18.794Z"
+    },
+    {
+      "id": "m-logo-dfcff67e16",
+      "kind": "image",
+      "src": "/media/logo-uniball.png",
+      "alt": "uni-ball logo",
+      "width": 2134,
+      "height": 382,
+      "mime": "image/png",
+      "size": 52680,
+      "origin": "upload",
+      "createdAt": "2026-10-14T03:16:18.794Z"
+    },
+    {
+      "id": "m-logo-17ad99247b",
+      "kind": "image",
+      "src": "/media/logo-starbucks.png",
+      "alt": "Starbucks logo",
+      "width": 386,
+      "height": 387,
+      "mime": "image/png",
+      "size": 8528,
+      "origin": "upload",
+      "createdAt": "2026-10-14T03:16:18.794Z"
+    },
+    {
+      "id": "m-logo-fb926c628f",
+      "kind": "image",
+      "src": "/media/logo-stabilo.png",
+      "alt": "STABILO logo",
+      "width": 390,
+      "height": 76,
+      "mime": "image/png",
+      "size": 6040,
+      "origin": "upload",
+      "createdAt": "2026-10-14T03:16:18.794Z"
+    },
+    {
+      "id": "m-logo-e35c1ba1f0",
+      "kind": "image",
+      "src": "/media/logo-sosma.png",
+      "alt": "SOS Mata Atlântica logo",
+      "width": 1290,
+      "height": 400,
+      "mime": "image/png",
+      "size": 39257,
+      "origin": "upload",
+      "createdAt": "2026-10-14T03:16:18.794Z"
+    },
+    {
+      "id": "m-logo-5b9cd26506",
+      "kind": "image",
+      "src": "/media/logo-pwc.png",
+      "alt": "PwC logo",
+      "width": 279,
+      "height": 136,
+      "mime": "image/png",
+      "size": 4170,
+      "origin": "upload",
+      "createdAt": "2026-10-14T03:16:18.794Z"
+    },
+    {
+      "id": "m-logo-c8b5c2b163",
+      "kind": "image",
+      "src": "/media/logo-posca.png",
+      "alt": "POSCA logo",
+      "width": 1409,
+      "height": 398,
+      "mime": "image/png",
+      "size": 39418,
+      "origin": "upload",
+      "createdAt": "2026-10-14T03:16:18.794Z"
+    },
+    {
+      "id": "m-logo-cf8d08375a",
+      "kind": "image",
+      "src": "/media/logo-pizzahut.png",
+      "alt": "Pizza Hut logo",
+      "width": 476,
+      "height": 400,
+      "mime": "image/png",
+      "size": 21507,
+      "origin": "upload",
+      "createdAt": "2026-10-14T03:16:18.794Z"
+    },
+    {
+      "id": "m-logo-29e4f07308",
+      "kind": "image",
+      "src": "/media/logo-passeidireto.png",
+      "alt": "Passei Direto logo",
+      "width": 2951,
+      "height": 392,
+      "mime": "image/png",
+      "size": 70181,
+      "origin": "upload",
+      "createdAt": "2026-10-14T03:16:18.794Z"
+    },
+    {
+      "id": "m-logo-30cec208e5",
+      "kind": "image",
+      "src": "/media/logo-oticasdiniz.png",
+      "alt": "Óticas Diniz logo",
+      "width": 360,
+      "height": 99,
+      "mime": "image/png",
+      "size": 3177,
+      "origin": "upload",
+      "createdAt": "2026-10-14T03:16:18.794Z"
+    },
+    {
+      "id": "m-logo-135c1d70ca",
+      "kind": "image",
+      "src": "/media/logo-nio.png",
+      "alt": "NIO logo",
+      "width": 934,
+      "height": 326,
+      "mime": "image/png",
+      "size": 18736,
+      "origin": "upload",
+      "createdAt": "2026-10-14T03:16:18.794Z"
+    },
+    {
+      "id": "m-logo-a52fe166fc",
+      "kind": "image",
+      "src": "/media/logo-nazca.png",
+      "alt": "Nazca Cosméticos logo",
+      "width": 628,
+      "height": 399,
+      "mime": "image/png",
+      "size": 22021,
+      "origin": "upload",
+      "createdAt": "2026-10-14T03:16:18.794Z"
+    },
+    {
+      "id": "m-logo-2b505e01b2",
+      "kind": "image",
+      "src": "/media/logo-multishow.png",
+      "alt": "Multishow logo",
+      "width": 799,
+      "height": 398,
+      "mime": "image/png",
+      "size": 22659,
+      "origin": "upload",
+      "createdAt": "2026-10-14T03:16:18.794Z"
+    },
+    {
+      "id": "m-logo-2a7b969c8b",
+      "kind": "image",
+      "src": "/media/logo-mercedes.png",
+      "alt": "Mercedes-Benz logo",
+      "width": 596,
+      "height": 400,
+      "mime": "image/png",
+      "size": 21952,
+      "origin": "upload",
+      "createdAt": "2026-10-14T03:16:18.794Z"
+    },
+    {
+      "id": "m-logo-f51849223b",
+      "kind": "image",
+      "src": "/media/logo-mercadolivre.png",
+      "alt": "Mercado Livre logo",
+      "width": 1016,
+      "height": 400,
+      "mime": "image/png",
+      "size": 30126,
+      "origin": "upload",
+      "createdAt": "2026-10-14T03:16:18.794Z"
+    },
+    {
+      "id": "m-logo-eb891c2f1b",
+      "kind": "image",
+      "src": "/media/logo-linx.png",
+      "alt": "Linx logo",
+      "width": 655,
+      "height": 387,
+      "mime": "image/png",
+      "size": 20645,
+      "origin": "upload",
+      "createdAt": "2026-10-14T03:16:18.794Z"
+    },
+    {
+      "id": "m-logo-f5a2cd7e95",
+      "kind": "image",
+      "src": "/media/logo-kfc.png",
+      "alt": "KFC logo",
+      "width": 1297,
+      "height": 400,
+      "mime": "image/png",
+      "size": 30589,
+      "origin": "upload",
+      "createdAt": "2026-10-14T03:16:18.794Z"
+    },
+    {
+      "id": "m-logo-cb844cad2e",
+      "kind": "image",
+      "src": "/media/logo-jandaia.png",
+      "alt": "Jandaia logo",
+      "width": 781,
+      "height": 210,
+      "mime": "image/png",
+      "size": 6767,
+      "origin": "upload",
+      "createdAt": "2026-10-14T03:16:18.794Z"
+    },
+    {
+      "id": "m-logo-aca7685982",
+      "kind": "image",
+      "src": "/media/logo-imovelweb.png",
+      "alt": "ImovelWeb logo",
+      "width": 960,
+      "height": 185,
+      "mime": "image/png",
+      "size": 16795,
+      "origin": "upload",
+      "createdAt": "2026-10-14T03:16:18.794Z"
+    },
+    {
+      "id": "m-logo-904b36e04d",
+      "kind": "image",
+      "src": "/media/logo-echoenergia.png",
+      "alt": "Echoenergia logo",
+      "width": 370,
+      "height": 77,
+      "mime": "image/png",
+      "size": 3830,
+      "origin": "upload",
+      "createdAt": "2026-10-14T03:16:18.794Z"
+    },
+    {
+      "id": "m-logo-cda101b521",
+      "kind": "image",
+      "src": "/media/logo-duolingo.png",
+      "alt": "Duolingo logo",
+      "width": 1585,
+      "height": 400,
+      "mime": "image/png",
+      "size": 45738,
+      "origin": "upload",
+      "createdAt": "2026-10-14T03:16:18.794Z"
+    },
+    {
+      "id": "m-logo-21df43ca11",
+      "kind": "image",
+      "src": "/media/logo-drscholls.png",
+      "alt": "Dr. Scholl's logo",
+      "width": 364,
+      "height": 194,
+      "mime": "image/png",
+      "size": 6980,
+      "origin": "upload",
+      "createdAt": "2026-10-14T03:16:18.794Z"
+    },
+    {
+      "id": "m-logo-f6d8b3559d",
+      "kind": "image",
+      "src": "/media/logo-cpfl.png",
+      "alt": "CPFL Energia logo",
+      "width": 472,
+      "height": 346,
+      "mime": "image/png",
+      "size": 16851,
+      "origin": "upload",
+      "createdAt": "2026-10-14T03:16:18.794Z"
+    },
+    {
+      "id": "m-logo-c822782616",
+      "kind": "image",
+      "src": "/media/logo-cis.png",
+      "alt": "CiS logo",
+      "width": 721,
+      "height": 363,
+      "mime": "image/png",
+      "size": 21373,
+      "origin": "upload",
+      "createdAt": "2026-10-14T03:16:18.794Z"
+    },
+    {
+      "id": "m-logo-c6d0941be3",
+      "kind": "image",
+      "src": "/media/logo-centernorte.png",
+      "alt": "Shopping Center Norte logo",
+      "width": 1396,
+      "height": 245,
+      "mime": "image/png",
+      "size": 23649,
+      "origin": "upload",
+      "createdAt": "2026-10-14T03:16:18.794Z"
+    },
+    {
+      "id": "m-logo-9ba0a5d20d",
+      "kind": "image",
+      "src": "/media/logo-banco24horas.png",
+      "alt": "Banco24Horas logo",
+      "width": 1888,
+      "height": 218,
+      "mime": "image/png",
+      "size": 21846,
+      "origin": "upload",
+      "createdAt": "2026-10-14T03:16:18.794Z"
+    },
+    {
+      "id": "m-logo-15580e540d",
+      "kind": "image",
+      "src": "/media/logo-activas.png",
+      "alt": "Activas logo",
+      "width": 534,
+      "height": 382,
+      "mime": "image/png",
+      "size": 8124,
+      "origin": "upload",
+      "createdAt": "2026-10-14T03:16:18.794Z"
+    },
+    {
+      "id": "m-c596c6d50f9c",
+      "kind": "image",
+      "src": "/media/pizzahut-social-18.gif",
+      "alt": "Pizza Hut — social post (animated)",
+      "width": 960,
+      "height": 720,
+      "mime": "image/gif",
+      "size": 365137,
+      "origin": "upload",
+      "createdAt": "2026-10-13T23:12:33.822Z"
+    },
+    {
+      "id": "m-b9dea5434ace",
+      "kind": "image",
+      "src": "/media/pizzahut-social-17.webp",
+      "alt": "Pizza Hut — social post",
+      "width": 960,
+      "height": 720,
+      "mime": "image/webp",
+      "size": 122908,
+      "origin": "upload",
+      "createdAt": "2026-10-13T23:12:33.820Z"
+    },
+    {
+      "id": "m-f0e66dc0906f",
+      "kind": "image",
+      "src": "/media/pizzahut-social-16.webp",
+      "alt": "Pizza Hut — social post",
+      "width": 960,
+      "height": 720,
+      "mime": "image/webp",
+      "size": 193140,
+      "origin": "upload",
+      "createdAt": "2026-10-13T23:12:33.772Z"
+    },
+    {
+      "id": "m-56d55d0a6c9f",
+      "kind": "image",
+      "src": "/media/pizzahut-social-15.webp",
+      "alt": "Pizza Hut — social post",
+      "width": 960,
+      "height": 720,
+      "mime": "image/webp",
+      "size": 176272,
+      "origin": "upload",
+      "createdAt": "2026-10-13T23:12:33.708Z"
+    },
+    {
+      "id": "m-50bb7cd87111",
+      "kind": "image",
+      "src": "/media/pizzahut-social-14.webp",
+      "alt": "Pizza Hut — social post",
+      "width": 960,
+      "height": 720,
+      "mime": "image/webp",
+      "size": 119244,
+      "origin": "upload",
+      "createdAt": "2026-10-13T23:12:33.644Z"
+    },
+    {
+      "id": "m-c380c7f7784a",
+      "kind": "image",
+      "src": "/media/pizzahut-social-13.webp",
+      "alt": "Pizza Hut — social post",
+      "width": 960,
+      "height": 720,
+      "mime": "image/webp",
+      "size": 173776,
+      "origin": "upload",
+      "createdAt": "2026-10-13T23:12:33.411Z"
+    },
+    {
+      "id": "m-75d95f2cc058",
+      "kind": "video",
+      "src": "/media/kizen-video-01.mp4",
+      "posterId": "m-f99d36089182",
+      "alt": "Kizen Technology — logo animation",
+      "width": 1920,
+      "height": 1080,
+      "mime": "video/mp4",
+      "size": 40757,
+      "origin": "upload",
+      "createdAt": "2026-10-13T23:02:51.993Z"
+    },
+    {
+      "id": "m-f99d36089182",
+      "kind": "image",
+      "src": "/media/kizen-video-01-poster.webp",
+      "alt": "Kizen Technology — logo animation cover",
+      "width": 1920,
+      "height": 1080,
+      "mime": "image/webp",
+      "size": 9388,
+      "origin": "upload",
+      "createdAt": "2026-10-13T23:02:51.993Z"
+    },
+    {
+      "id": "m-06922d996d59",
+      "kind": "image",
+      "src": "/media/linx-magazine-01.webp",
+      "alt": "Linx — magazine spread",
+      "width": 1400,
+      "height": 732,
+      "mime": "image/webp",
+      "size": 165304,
+      "origin": "upload",
+      "createdAt": "2026-10-13T22:57:50.314Z"
+    },
+    {
+      "id": "m-a49c3f1e0a67",
+      "kind": "image",
+      "src": "/media/linx-book-01.webp",
+      "alt": "Linx — book mockup",
+      "width": 1400,
+      "height": 732,
+      "mime": "image/webp",
+      "size": 55852,
+      "origin": "upload",
+      "createdAt": "2026-10-13T22:57:50.229Z"
+    },
+    {
+      "id": "m-28889fd58a16",
+      "kind": "image",
+      "src": "/media/kfc-pedaco-01.webp",
+      "alt": "KFC — Pedaço?",
+      "width": 1920,
+      "height": 1080,
+      "mime": "image/webp",
+      "size": 165062,
+      "origin": "upload",
+      "createdAt": "2026-10-13T22:54:14.930Z"
+    },
+    {
+      "id": "m-264d8be19d13",
+      "kind": "image",
+      "src": "/media/kfc-marcelo-01.webp",
+      "alt": "KFC — Marcelo Ferreira",
+      "width": 1080,
+      "height": 1080,
+      "mime": "image/webp",
+      "size": 105796,
+      "origin": "upload",
+      "createdAt": "2026-10-13T22:54:14.830Z"
+    },
+    {
+      "id": "m-fb5722943adc",
+      "kind": "image",
+      "src": "/media/kfc-incomparaveis-01.webp",
+      "alt": "KFC — Incomparáveis",
+      "width": 2000,
+      "height": 3031,
+      "mime": "image/webp",
+      "size": 1137356,
+      "origin": "upload",
+      "createdAt": "2026-10-13T22:54:14.763Z"
+    },
+    {
+      "id": "m-eb11595e907e",
+      "kind": "image",
+      "src": "/media/kfc-baldelicia-01.webp",
+      "alt": "KFC — Baldelícia",
+      "width": 2000,
+      "height": 3031,
+      "mime": "image/webp",
+      "size": 745836,
+      "origin": "upload",
+      "createdAt": "2026-10-13T22:54:14.093Z"
+    },
+    {
+      "id": "m-267ceb418187",
+      "kind": "image",
+      "src": "/media/cis-portrait-10.webp",
+      "alt": "Desenrola com CiS — campaign portrait",
+      "width": 2000,
+      "height": 3000,
+      "mime": "image/webp",
+      "size": 956866,
+      "origin": "upload",
+      "createdAt": "2026-10-13T22:47:32.797Z"
+    },
+    {
+      "id": "m-2043229b47f8",
+      "kind": "image",
+      "src": "/media/cis-portrait-09.webp",
+      "alt": "Desenrola com CiS — campaign portrait",
+      "width": 2000,
+      "height": 3000,
+      "mime": "image/webp",
+      "size": 830014,
+      "origin": "upload",
+      "createdAt": "2026-10-13T22:47:32.281Z"
+    },
+    {
+      "id": "m-dd8e5413bbc9",
+      "kind": "image",
+      "src": "/media/hallem-tablet-01.webp",
+      "alt": "Hallem Advocacia — tablet mockup",
+      "width": 1920,
+      "height": 1080,
+      "mime": "image/webp",
+      "size": 62958,
+      "origin": "upload",
+      "createdAt": "2026-10-13T22:41:58.748Z"
+    },
+    {
+      "id": "m-07aa31ad889e",
+      "kind": "image",
+      "src": "/media/hallem-bottles-01.webp",
+      "alt": "Hallem Advocacia — water bottles",
+      "width": 1920,
+      "height": 1080,
+      "mime": "image/webp",
+      "size": 46312,
+      "origin": "upload",
+      "createdAt": "2026-10-13T22:41:58.661Z"
+    },
+    {
+      "id": "m-381bf53f993f",
+      "kind": "image",
+      "src": "/media/hallem-storefront-01.webp",
+      "alt": "Hallem Advocacia — storefront laptop",
+      "width": 1920,
+      "height": 1080,
+      "mime": "image/webp",
+      "size": 253608,
+      "origin": "upload",
+      "createdAt": "2026-10-13T22:41:58.593Z"
+    },
+    {
+      "id": "m-47425b3fa7cb",
+      "kind": "image",
+      "src": "/media/hn-website-01.webp",
+      "alt": "HN — website",
+      "width": 1920,
+      "height": 1080,
+      "mime": "image/webp",
+      "size": 64780,
+      "origin": "upload",
+      "createdAt": "2026-10-13T22:39:50.240Z"
+    },
+    {
+      "id": "m-6054584041d1",
+      "kind": "image",
+      "src": "/media/hn-tote-01.webp",
+      "alt": "HN — tote bags",
+      "width": 1920,
+      "height": 1080,
+      "mime": "image/webp",
+      "size": 61780,
+      "origin": "upload",
+      "createdAt": "2026-10-13T22:39:50.162Z"
+    },
+    {
+      "id": "m-8046fe01b511",
+      "kind": "image",
+      "src": "/media/pod-storefront-01.webp",
+      "alt": "PDV — Pod do Varejo storefront windows",
+      "width": 1920,
+      "height": 1080,
+      "mime": "image/webp",
+      "size": 295364,
+      "origin": "upload",
+      "createdAt": "2026-10-13T22:36:58.248Z"
+    },
+    {
+      "id": "m-29849f10f6c5",
+      "kind": "embed",
+      "src": "https://vimeo.com/1214050863",
+      "posterId": "m-b2022da1a43e",
+      "alt": "Video - Site",
+      "width": 1920,
+      "height": 1080,
+      "provider": "vimeo",
+      "origin": "remote",
+      "createdAt": "2026-10-13T22:13:37.859Z"
+    },
+    {
+      "id": "m-b2022da1a43e",
+      "kind": "image",
+      "src": "/media/m-b2022da1a43e.jpg",
+      "alt": "Video - Site — video cover",
+      "width": 1280,
+      "height": 960,
+      "mime": "image/jpeg",
+      "size": 92391,
+      "origin": "upload",
+      "createdAt": "2026-10-13T22:13:37.859Z"
+    },
+    {
+      "id": "m-d2ad8b1f62f9",
+      "kind": "embed",
+      "src": "https://vimeo.com/996235270",
+      "posterId": "m-2befbdc0bd64",
+      "alt": "Site - Campanha de Volta às Aulas da CiS - 2024",
+      "width": 1920,
+      "height": 1080,
+      "provider": "vimeo",
+      "origin": "remote",
+      "createdAt": "2026-10-13T22:13:37.022Z"
+    },
+    {
+      "id": "m-2befbdc0bd64",
+      "kind": "image",
+      "src": "/media/m-2befbdc0bd64.jpg",
+      "alt": "Site - Campanha de Volta às Aulas da CiS - 2024 — video cover",
+      "width": 1280,
+      "height": 960,
+      "mime": "image/jpeg",
+      "size": 78891,
+      "origin": "upload",
+      "createdAt": "2026-10-13T22:13:37.022Z"
+    },
+    {
+      "id": "m-0f9a22adc28c",
+      "kind": "embed",
+      "src": "https://vimeo.com/996385941",
+      "posterId": "m-4dd274a15c8d",
+      "alt": "Press Kit - Campanha de Volta às Aulas da CiS - 2024",
+      "width": 1920,
+      "height": 1080,
+      "provider": "vimeo",
+      "origin": "remote",
+      "createdAt": "2026-10-13T22:13:36.161Z"
+    },
+    {
+      "id": "m-4dd274a15c8d",
+      "kind": "image",
+      "src": "/media/m-4dd274a15c8d.jpg",
+      "alt": "Press Kit - Campanha de Volta às Aulas da CiS - 2024 — video cover",
+      "width": 1280,
+      "height": 960,
+      "mime": "image/jpeg",
+      "size": 76590,
+      "origin": "upload",
+      "createdAt": "2026-10-13T22:13:36.161Z"
+    },
     {
       "id": "m-bf6e0dac2686",
       "kind": "video",
@@ -4245,10 +5132,10 @@
       "kind": "image",
       "src": "/media/bh-activas-01.webp",
       "alt": "Activas — Sistema B · brand identity, frame 1",
-      "width": 1400,
-      "height": 788,
+      "width": 1920,
+      "height": 1080,
       "mime": "image/webp",
-      "size": 210074,
+      "size": 329806,
       "origin": "upload",
       "createdAt": "2026-10-09T16:49:20.566Z"
     },
@@ -4257,10 +5144,10 @@
       "kind": "image",
       "src": "/media/bh-activas-02.webp",
       "alt": "Activas — Sistema B · brand identity, frame 2",
-      "width": 1400,
-      "height": 788,
+      "width": 1920,
+      "height": 1080,
       "mime": "image/webp",
-      "size": 8140,
+      "size": 12482,
       "origin": "upload",
       "createdAt": "2026-10-09T16:49:20.566Z"
     },
@@ -4269,10 +5156,10 @@
       "kind": "image",
       "src": "/media/bh-activas-03.webp",
       "alt": "Activas — Sistema B · brand identity, frame 3",
-      "width": 1400,
-      "height": 788,
+      "width": 1920,
+      "height": 1080,
       "mime": "image/webp",
-      "size": 126696,
+      "size": 235954,
       "origin": "upload",
       "createdAt": "2026-10-09T16:49:20.566Z"
     },
@@ -4281,10 +5168,10 @@
       "kind": "image",
       "src": "/media/bh-activas-04.webp",
       "alt": "Activas — Sistema B · brand identity, frame 4",
-      "width": 1400,
-      "height": 788,
+      "width": 1920,
+      "height": 1080,
       "mime": "image/webp",
-      "size": 108890,
+      "size": 194278,
       "origin": "upload",
       "createdAt": "2026-10-09T16:49:20.566Z"
     },
@@ -4293,10 +5180,10 @@
       "kind": "image",
       "src": "/media/bh-activas-05.webp",
       "alt": "Activas — Sistema B · brand identity, frame 5",
-      "width": 1400,
-      "height": 788,
+      "width": 1920,
+      "height": 1080,
       "mime": "image/webp",
-      "size": 33734,
+      "size": 52706,
       "origin": "upload",
       "createdAt": "2026-10-09T16:49:20.566Z"
     },
@@ -4305,10 +5192,10 @@
       "kind": "image",
       "src": "/media/bh-activas-06.webp",
       "alt": "Activas — Sistema B · brand identity, frame 6",
-      "width": 1400,
-      "height": 788,
+      "width": 1920,
+      "height": 1080,
       "mime": "image/webp",
-      "size": 46136,
+      "size": 75312,
       "origin": "upload",
       "createdAt": "2026-10-09T16:49:20.566Z"
     },
@@ -4317,10 +5204,10 @@
       "kind": "image",
       "src": "/media/bh-activas-07.webp",
       "alt": "Activas — Sistema B · brand identity, frame 7",
-      "width": 1400,
-      "height": 788,
+      "width": 1920,
+      "height": 1080,
       "mime": "image/webp",
-      "size": 67928,
+      "size": 104946,
       "origin": "upload",
       "createdAt": "2026-10-09T16:49:20.566Z"
     },
@@ -4329,10 +5216,10 @@
       "kind": "image",
       "src": "/media/bh-activas-08.webp",
       "alt": "Activas — Sistema B · brand identity, frame 8",
-      "width": 1400,
-      "height": 1050,
+      "width": 3000,
+      "height": 2250,
       "mime": "image/webp",
-      "size": 343632,
+      "size": 1672740,
       "origin": "upload",
       "createdAt": "2026-10-09T16:49:20.566Z"
     },
@@ -4353,10 +5240,10 @@
       "kind": "image",
       "src": "/media/bh-calzany-01.webp",
       "alt": "Calzany — Handmade calzones, frame 1",
-      "width": 1400,
-      "height": 656,
+      "width": 1920,
+      "height": 900,
       "mime": "image/webp",
-      "size": 10898,
+      "size": 17270,
       "origin": "upload",
       "createdAt": "2026-10-09T16:49:20.566Z"
     },
@@ -4365,10 +5252,10 @@
       "kind": "image",
       "src": "/media/bh-calzany-02.webp",
       "alt": "Calzany — Handmade calzones, frame 2",
-      "width": 1400,
-      "height": 656,
+      "width": 1920,
+      "height": 900,
       "mime": "image/webp",
-      "size": 13564,
+      "size": 19850,
       "origin": "upload",
       "createdAt": "2026-10-09T16:49:20.566Z"
     },
@@ -4377,10 +5264,10 @@
       "kind": "image",
       "src": "/media/bh-calzany-03.webp",
       "alt": "Calzany — Handmade calzones, frame 3",
-      "width": 1400,
-      "height": 656,
+      "width": 1920,
+      "height": 900,
       "mime": "image/webp",
-      "size": 84068,
+      "size": 125786,
       "origin": "upload",
       "createdAt": "2026-10-09T16:49:20.566Z"
     },
@@ -4389,10 +5276,10 @@
       "kind": "image",
       "src": "/media/bh-calzany-04.webp",
       "alt": "Calzany — Handmade calzones, frame 4",
-      "width": 1400,
-      "height": 656,
+      "width": 1920,
+      "height": 900,
       "mime": "image/webp",
-      "size": 171818,
+      "size": 334638,
       "origin": "upload",
       "createdAt": "2026-10-09T16:49:20.566Z"
     },
@@ -4401,10 +5288,10 @@
       "kind": "image",
       "src": "/media/bh-calzany-05.webp",
       "alt": "Calzany — Handmade calzones, frame 5",
-      "width": 1400,
-      "height": 656,
+      "width": 1920,
+      "height": 900,
       "mime": "image/webp",
-      "size": 103654,
+      "size": 231842,
       "origin": "upload",
       "createdAt": "2026-10-09T16:49:20.566Z"
     },
@@ -4413,10 +5300,10 @@
       "kind": "image",
       "src": "/media/bh-calzany-06.webp",
       "alt": "Calzany — Handmade calzones, frame 6",
-      "width": 1400,
-      "height": 656,
+      "width": 1920,
+      "height": 900,
       "mime": "image/webp",
-      "size": 156502,
+      "size": 405154,
       "origin": "upload",
       "createdAt": "2026-10-09T16:49:20.566Z"
     },
@@ -4425,10 +5312,10 @@
       "kind": "image",
       "src": "/media/bh-calzany-07.webp",
       "alt": "Calzany — Handmade calzones, frame 7",
-      "width": 1400,
-      "height": 656,
+      "width": 1920,
+      "height": 900,
       "mime": "image/webp",
-      "size": 118710,
+      "size": 200822,
       "origin": "upload",
       "createdAt": "2026-10-09T16:49:20.566Z"
     },
@@ -4437,10 +5324,10 @@
       "kind": "image",
       "src": "/media/bh-calzany-08.webp",
       "alt": "Calzany — Handmade calzones, frame 8",
-      "width": 1400,
-      "height": 656,
+      "width": 1920,
+      "height": 900,
       "mime": "image/webp",
-      "size": 112862,
+      "size": 262052,
       "origin": "upload",
       "createdAt": "2026-10-09T16:49:20.566Z"
     },
@@ -4449,10 +5336,10 @@
       "kind": "image",
       "src": "/media/bh-calzany-09.webp",
       "alt": "Calzany — Handmade calzones, frame 9",
-      "width": 1400,
-      "height": 656,
+      "width": 1920,
+      "height": 900,
       "mime": "image/webp",
-      "size": 156454,
+      "size": 238560,
       "origin": "upload",
       "createdAt": "2026-10-09T16:49:20.566Z"
     },
@@ -4461,10 +5348,10 @@
       "kind": "image",
       "src": "/media/bh-calzany-10.webp",
       "alt": "Calzany — Handmade calzones, frame 10",
-      "width": 1400,
-      "height": 656,
+      "width": 1920,
+      "height": 900,
       "mime": "image/webp",
-      "size": 132178,
+      "size": 322140,
       "origin": "upload",
       "createdAt": "2026-10-09T16:49:20.566Z"
     },
@@ -4473,10 +5360,10 @@
       "kind": "image",
       "src": "/media/bh-calzany-11.webp",
       "alt": "Calzany — Handmade calzones, frame 11",
-      "width": 1400,
-      "height": 656,
+      "width": 1920,
+      "height": 900,
       "mime": "image/webp",
-      "size": 59288,
+      "size": 88272,
       "origin": "upload",
       "createdAt": "2026-10-09T16:49:20.566Z"
     },
@@ -4485,10 +5372,10 @@
       "kind": "image",
       "src": "/media/bh-calzany-12.webp",
       "alt": "Calzany — Handmade calzones, frame 12",
-      "width": 1400,
-      "height": 656,
+      "width": 1920,
+      "height": 900,
       "mime": "image/webp",
-      "size": 255566,
+      "size": 565062,
       "origin": "upload",
       "createdAt": "2026-10-09T16:49:20.566Z"
     },
@@ -4509,10 +5396,10 @@
       "kind": "image",
       "src": "/media/bh-imovelweb-01.webp",
       "alt": "Imovelweb — Shippados, frame 1",
-      "width": 1400,
-      "height": 824,
+      "width": 2000,
+      "height": 1177,
       "mime": "image/webp",
-      "size": 269336,
+      "size": 439812,
       "origin": "upload",
       "createdAt": "2026-10-09T16:49:20.566Z"
     },
@@ -4521,10 +5408,10 @@
       "kind": "image",
       "src": "/media/bh-imovelweb-02.webp",
       "alt": "Imovelweb — Shippados, frame 2",
-      "width": 1400,
-      "height": 560,
+      "width": 2000,
+      "height": 800,
       "mime": "image/webp",
-      "size": 117280,
+      "size": 173162,
       "origin": "upload",
       "createdAt": "2026-10-09T16:49:20.566Z"
     },
@@ -4533,10 +5420,10 @@
       "kind": "image",
       "src": "/media/bh-imovelweb-03.webp",
       "alt": "Imovelweb — Shippados, frame 3",
-      "width": 1400,
-      "height": 665,
+      "width": 2000,
+      "height": 950,
       "mime": "image/webp",
-      "size": 120546,
+      "size": 202272,
       "origin": "upload",
       "createdAt": "2026-10-09T16:49:20.566Z"
     },
@@ -4545,10 +5432,10 @@
       "kind": "image",
       "src": "/media/bh-imovelweb-04.webp",
       "alt": "Imovelweb — Shippados, frame 4",
-      "width": 1400,
-      "height": 560,
+      "width": 2000,
+      "height": 800,
       "mime": "image/webp",
-      "size": 171586,
+      "size": 276720,
       "origin": "upload",
       "createdAt": "2026-10-09T16:49:20.566Z"
     },
@@ -4557,10 +5444,10 @@
       "kind": "image",
       "src": "/media/bh-imovelweb-05.webp",
       "alt": "Imovelweb — Shippados, frame 5",
-      "width": 1400,
-      "height": 560,
+      "width": 2000,
+      "height": 800,
       "mime": "image/webp",
-      "size": 197262,
+      "size": 327424,
       "origin": "upload",
       "createdAt": "2026-10-09T16:49:20.566Z"
     },
@@ -4569,10 +5456,10 @@
       "kind": "image",
       "src": "/media/bh-imovelweb-06.webp",
       "alt": "Imovelweb — Shippados, frame 6",
-      "width": 1400,
-      "height": 431,
+      "width": 2000,
+      "height": 616,
       "mime": "image/webp",
-      "size": 130220,
+      "size": 230704,
       "origin": "upload",
       "createdAt": "2026-10-09T16:49:20.566Z"
     },
@@ -4593,10 +5480,10 @@
       "kind": "image",
       "src": "/media/bh-lideranca-01.webp",
       "alt": "Liderança Digital — Financial services brand, frame 1",
-      "width": 1400,
-      "height": 10339,
+      "width": 1980,
+      "height": 14623,
       "mime": "image/webp",
-      "size": 908142,
+      "size": 1184622,
       "origin": "upload",
       "createdAt": "2026-10-09T16:49:20.566Z"
     },
@@ -4617,10 +5504,10 @@
       "kind": "image",
       "src": "/media/bh-kizen-01.webp",
       "alt": "Kizen — Technology brand, frame 1",
-      "width": 1400,
-      "height": 7150,
+      "width": 1980,
+      "height": 10112,
       "mime": "image/webp",
-      "size": 820218,
+      "size": 1160708,
       "origin": "upload",
       "createdAt": "2026-10-09T16:49:20.566Z"
     },
@@ -4677,10 +5564,10 @@
       "kind": "image",
       "src": "/media/bh-frango-01.webp",
       "alt": "Frango Assado — No Frango Assado tem, frame 1",
-      "width": 1400,
-      "height": 788,
+      "width": 1920,
+      "height": 1080,
       "mime": "image/webp",
-      "size": 109582,
+      "size": 179776,
       "origin": "upload",
       "createdAt": "2026-10-09T16:49:20.566Z"
     },
@@ -4689,10 +5576,10 @@
       "kind": "image",
       "src": "/media/bh-frango-02.webp",
       "alt": "Frango Assado — No Frango Assado tem, frame 2",
-      "width": 1400,
-      "height": 788,
+      "width": 1920,
+      "height": 1080,
       "mime": "image/webp",
-      "size": 122932,
+      "size": 212970,
       "origin": "upload",
       "createdAt": "2026-10-09T16:49:20.566Z"
     },
@@ -4701,10 +5588,10 @@
       "kind": "image",
       "src": "/media/bh-frango-03.webp",
       "alt": "Frango Assado — No Frango Assado tem, frame 3",
-      "width": 1400,
-      "height": 788,
+      "width": 1920,
+      "height": 1080,
       "mime": "image/webp",
-      "size": 100100,
+      "size": 162628,
       "origin": "upload",
       "createdAt": "2026-10-09T16:49:20.566Z"
     },
@@ -4713,10 +5600,10 @@
       "kind": "image",
       "src": "/media/bh-frango-04.webp",
       "alt": "Frango Assado — No Frango Assado tem, frame 4",
-      "width": 1400,
-      "height": 788,
+      "width": 1920,
+      "height": 1080,
       "mime": "image/webp",
-      "size": 108434,
+      "size": 174600,
       "origin": "upload",
       "createdAt": "2026-10-09T16:49:20.566Z"
     },
@@ -5037,10 +5924,10 @@
       "kind": "image",
       "src": "/media/bh-technos-01.webp",
       "alt": "Academia Technos — Training motion graphics, frame 1",
-      "width": 1400,
-      "height": 788,
+      "width": 1920,
+      "height": 1080,
       "mime": "image/webp",
-      "size": 16490,
+      "size": 23836,
       "origin": "upload",
       "createdAt": "2026-10-09T16:49:20.566Z"
     },
@@ -5049,10 +5936,10 @@
       "kind": "image",
       "src": "/media/bh-technos-02.webp",
       "alt": "Academia Technos — Training motion graphics, frame 2",
-      "width": 1400,
-      "height": 788,
+      "width": 1920,
+      "height": 1080,
       "mime": "image/webp",
-      "size": 88670,
+      "size": 126822,
       "origin": "upload",
       "createdAt": "2026-10-09T16:49:20.566Z"
     },
@@ -5061,10 +5948,10 @@
       "kind": "image",
       "src": "/media/bh-technos-03.webp",
       "alt": "Academia Technos — Training motion graphics, frame 3",
-      "width": 1400,
-      "height": 788,
+      "width": 1920,
+      "height": 1080,
       "mime": "image/webp",
-      "size": 62028,
+      "size": 84182,
       "origin": "upload",
       "createdAt": "2026-10-09T16:49:20.566Z"
     },
@@ -5073,10 +5960,10 @@
       "kind": "image",
       "src": "/media/bh-technos-04.webp",
       "alt": "Academia Technos — Training motion graphics, frame 4",
-      "width": 1400,
-      "height": 788,
+      "width": 1920,
+      "height": 1080,
       "mime": "image/webp",
-      "size": 53596,
+      "size": 78170,
       "origin": "upload",
       "createdAt": "2026-10-09T16:49:20.566Z"
     },
@@ -5817,10 +6704,10 @@
       "kind": "image",
       "src": "/media/bh-hn-01.webp",
       "alt": "HN — brand design, frame 1",
-      "width": 1400,
-      "height": 788,
+      "width": 1920,
+      "height": 1080,
       "mime": "image/webp",
-      "size": 37642,
+      "size": 52202,
       "origin": "upload",
       "createdAt": "2026-10-09T15:00:23.868Z"
     },
@@ -5829,10 +6716,10 @@
       "kind": "image",
       "src": "/media/bh-hn-02.webp",
       "alt": "HN — brand design, frame 2",
-      "width": 1400,
-      "height": 788,
+      "width": 1920,
+      "height": 1080,
       "mime": "image/webp",
-      "size": 9994,
+      "size": 14344,
       "origin": "upload",
       "createdAt": "2026-10-09T15:00:23.868Z"
     },
@@ -5841,10 +6728,10 @@
       "kind": "image",
       "src": "/media/bh-hn-03.webp",
       "alt": "HN — brand design, frame 3",
-      "width": 1400,
-      "height": 788,
+      "width": 1920,
+      "height": 1080,
       "mime": "image/webp",
-      "size": 16080,
+      "size": 24618,
       "origin": "upload",
       "createdAt": "2026-10-09T15:00:23.868Z"
     },
@@ -5853,10 +6740,10 @@
       "kind": "image",
       "src": "/media/bh-hn-04.webp",
       "alt": "HN — brand design, frame 4",
-      "width": 1400,
-      "height": 788,
+      "width": 1920,
+      "height": 1080,
       "mime": "image/webp",
-      "size": 42590,
+      "size": 67922,
       "origin": "upload",
       "createdAt": "2026-10-09T15:00:23.868Z"
     },
@@ -5865,10 +6752,10 @@
       "kind": "image",
       "src": "/media/bh-hn-05.webp",
       "alt": "HN — brand design, frame 5",
-      "width": 1400,
-      "height": 788,
+      "width": 1920,
+      "height": 1080,
       "mime": "image/webp",
-      "size": 31642,
+      "size": 55164,
       "origin": "upload",
       "createdAt": "2026-10-09T15:00:23.868Z"
     },
@@ -5877,10 +6764,10 @@
       "kind": "image",
       "src": "/media/bh-hn-06.webp",
       "alt": "HN — brand design, frame 6",
-      "width": 1400,
-      "height": 788,
+      "width": 1920,
+      "height": 1080,
       "mime": "image/webp",
-      "size": 92906,
+      "size": 177276,
       "origin": "upload",
       "createdAt": "2026-10-09T15:00:23.868Z"
     },
@@ -5889,10 +6776,10 @@
       "kind": "image",
       "src": "/media/bh-hn-07.webp",
       "alt": "HN — brand design, frame 7",
-      "width": 1400,
-      "height": 788,
+      "width": 1920,
+      "height": 1080,
       "mime": "image/webp",
-      "size": 74278,
+      "size": 171462,
       "origin": "upload",
       "createdAt": "2026-10-09T15:00:23.868Z"
     },
@@ -5901,10 +6788,10 @@
       "kind": "image",
       "src": "/media/bh-hn-08.webp",
       "alt": "HN — brand design, frame 8",
-      "width": 1400,
-      "height": 788,
+      "width": 1920,
+      "height": 1080,
       "mime": "image/webp",
-      "size": 47984,
+      "size": 67886,
       "origin": "upload",
       "createdAt": "2026-10-09T15:00:23.868Z"
     },
@@ -5913,10 +6800,10 @@
       "kind": "image",
       "src": "/media/bh-hn-09.webp",
       "alt": "HN — brand design, frame 9",
-      "width": 1400,
-      "height": 788,
+      "width": 1920,
+      "height": 1080,
       "mime": "image/webp",
-      "size": 63540,
+      "size": 106416,
       "origin": "upload",
       "createdAt": "2026-10-09T15:00:23.868Z"
     },
@@ -5925,10 +6812,10 @@
       "kind": "image",
       "src": "/media/bh-hn-10.webp",
       "alt": "HN — brand design, frame 10",
-      "width": 1400,
-      "height": 788,
+      "width": 1920,
+      "height": 1080,
       "mime": "image/webp",
-      "size": 155266,
+      "size": 309978,
       "origin": "upload",
       "createdAt": "2026-10-09T15:00:23.868Z"
     },
@@ -5949,10 +6836,10 @@
       "kind": "image",
       "src": "/media/bh-hallem-02.webp",
       "alt": "Hallem Advocacia — brand design, frame 2",
-      "width": 1200,
-      "height": 675,
+      "width": 1920,
+      "height": 1080,
       "mime": "image/webp",
-      "size": 11108,
+      "size": 17856,
       "origin": "upload",
       "createdAt": "2026-10-09T15:00:23.868Z"
     },
@@ -5961,10 +6848,10 @@
       "kind": "image",
       "src": "/media/bh-hallem-03.webp",
       "alt": "Hallem Advocacia — brand design, frame 3",
-      "width": 1200,
-      "height": 675,
+      "width": 1920,
+      "height": 1080,
       "mime": "image/webp",
-      "size": 87194,
+      "size": 215310,
       "origin": "upload",
       "createdAt": "2026-10-09T15:00:23.868Z"
     },
@@ -5973,10 +6860,10 @@
       "kind": "image",
       "src": "/media/bh-hallem-04.webp",
       "alt": "Hallem Advocacia — brand design, frame 4",
-      "width": 1200,
-      "height": 675,
+      "width": 1920,
+      "height": 1080,
       "mime": "image/webp",
-      "size": 11060,
+      "size": 18810,
       "origin": "upload",
       "createdAt": "2026-10-09T15:00:23.868Z"
     },
@@ -5985,10 +6872,10 @@
       "kind": "image",
       "src": "/media/bh-hallem-05.webp",
       "alt": "Hallem Advocacia — brand design, frame 5",
-      "width": 1200,
-      "height": 675,
+      "width": 1920,
+      "height": 1080,
       "mime": "image/webp",
-      "size": 85196,
+      "size": 161374,
       "origin": "upload",
       "createdAt": "2026-10-09T15:00:23.868Z"
     },
@@ -5997,10 +6884,10 @@
       "kind": "image",
       "src": "/media/bh-hallem-06.webp",
       "alt": "Hallem Advocacia — brand design, frame 6",
-      "width": 1200,
-      "height": 675,
+      "width": 1920,
+      "height": 1080,
       "mime": "image/webp",
-      "size": 40022,
+      "size": 73896,
       "origin": "upload",
       "createdAt": "2026-10-09T15:00:23.868Z"
     },
@@ -6009,10 +6896,10 @@
       "kind": "image",
       "src": "/media/bh-hallem-07.webp",
       "alt": "Hallem Advocacia — brand design, frame 7",
-      "width": 1200,
-      "height": 675,
+      "width": 1920,
+      "height": 1080,
       "mime": "image/webp",
-      "size": 27490,
+      "size": 69286,
       "origin": "upload",
       "createdAt": "2026-10-09T15:00:23.868Z"
     },
@@ -6021,10 +6908,10 @@
       "kind": "image",
       "src": "/media/bh-hallem-08.webp",
       "alt": "Hallem Advocacia — brand design, frame 8",
-      "width": 1200,
-      "height": 675,
+      "width": 1920,
+      "height": 1080,
       "mime": "image/webp",
-      "size": 25608,
+      "size": 49894,
       "origin": "upload",
       "createdAt": "2026-10-09T15:00:23.868Z"
     },
@@ -6033,10 +6920,10 @@
       "kind": "image",
       "src": "/media/bh-hallem-09.webp",
       "alt": "Hallem Advocacia — brand design, frame 9",
-      "width": 1200,
-      "height": 675,
+      "width": 1920,
+      "height": 1080,
       "mime": "image/webp",
-      "size": 66784,
+      "size": 172132,
       "origin": "upload",
       "createdAt": "2026-10-09T15:00:23.868Z"
     },
@@ -6045,10 +6932,10 @@
       "kind": "image",
       "src": "/media/bh-hallem-10.webp",
       "alt": "Hallem Advocacia — brand design, frame 10",
-      "width": 1200,
-      "height": 675,
+      "width": 1920,
+      "height": 1080,
       "mime": "image/webp",
-      "size": 48086,
+      "size": 89656,
       "origin": "upload",
       "createdAt": "2026-10-09T15:00:23.868Z"
     },
@@ -6057,10 +6944,10 @@
       "kind": "image",
       "src": "/media/bh-pod-01.webp",
       "alt": "Pod do Varejo — brand design, frame 1",
-      "width": 1400,
-      "height": 788,
+      "width": 1920,
+      "height": 1080,
       "mime": "image/webp",
-      "size": 85480,
+      "size": 133320,
       "origin": "upload",
       "createdAt": "2026-10-09T15:00:23.868Z"
     },
@@ -6081,10 +6968,10 @@
       "kind": "image",
       "src": "/media/bh-pod-03.webp",
       "alt": "Pod do Varejo — brand design, frame 3",
-      "width": 1400,
-      "height": 788,
+      "width": 1920,
+      "height": 1080,
       "mime": "image/webp",
-      "size": 74432,
+      "size": 125948,
       "origin": "upload",
       "createdAt": "2026-10-09T15:00:23.868Z"
     },
@@ -6093,10 +6980,10 @@
       "kind": "image",
       "src": "/media/bh-pod-04.webp",
       "alt": "Pod do Varejo — brand design, frame 4",
-      "width": 1400,
-      "height": 788,
+      "width": 1920,
+      "height": 1080,
       "mime": "image/webp",
-      "size": 61148,
+      "size": 91602,
       "origin": "upload",
       "createdAt": "2026-10-09T15:00:23.868Z"
     },
@@ -6105,10 +6992,10 @@
       "kind": "image",
       "src": "/media/bh-pod-05.webp",
       "alt": "Pod do Varejo — brand design, frame 5",
-      "width": 1400,
-      "height": 788,
+      "width": 1920,
+      "height": 1080,
       "mime": "image/webp",
-      "size": 54556,
+      "size": 95356,
       "origin": "upload",
       "createdAt": "2026-10-09T15:00:23.868Z"
     },
@@ -6117,10 +7004,10 @@
       "kind": "image",
       "src": "/media/bh-pod-06.webp",
       "alt": "Pod do Varejo — brand design, frame 6",
-      "width": 1400,
-      "height": 788,
+      "width": 1920,
+      "height": 1080,
       "mime": "image/webp",
-      "size": 27922,
+      "size": 47108,
       "origin": "upload",
       "createdAt": "2026-10-09T15:00:23.868Z"
     },
@@ -6153,10 +7040,10 @@
       "kind": "image",
       "src": "/media/bh-cis-03.webp",
       "alt": "Desenrola com CiS — campaign, frame 3",
-      "width": 1400,
-      "height": 2100,
+      "width": 2000,
+      "height": 3000,
       "mime": "image/webp",
-      "size": 137842,
+      "size": 220450,
       "origin": "upload",
       "createdAt": "2026-10-09T15:00:23.868Z"
     },
@@ -6165,10 +7052,10 @@
       "kind": "image",
       "src": "/media/bh-cis-04.webp",
       "alt": "Desenrola com CiS — campaign, frame 4",
-      "width": 1400,
-      "height": 2100,
+      "width": 2000,
+      "height": 3000,
       "mime": "image/webp",
-      "size": 236712,
+      "size": 459138,
       "origin": "upload",
       "createdAt": "2026-10-09T15:00:23.868Z"
     },
@@ -6177,10 +7064,10 @@
       "kind": "image",
       "src": "/media/bh-cis-05.webp",
       "alt": "Desenrola com CiS — campaign, frame 5",
-      "width": 1400,
-      "height": 2100,
+      "width": 2000,
+      "height": 3000,
       "mime": "image/webp",
-      "size": 315012,
+      "size": 532220,
       "origin": "upload",
       "createdAt": "2026-10-09T15:00:23.868Z"
     },
@@ -6189,10 +7076,10 @@
       "kind": "image",
       "src": "/media/bh-cis-06.webp",
       "alt": "Desenrola com CiS — campaign, frame 6",
-      "width": 1400,
-      "height": 2100,
+      "width": 2000,
+      "height": 3000,
       "mime": "image/webp",
-      "size": 250852,
+      "size": 443040,
       "origin": "upload",
       "createdAt": "2026-10-09T15:00:23.868Z"
     },
@@ -6201,10 +7088,10 @@
       "kind": "image",
       "src": "/media/bh-cis-07.webp",
       "alt": "Desenrola com CiS — campaign, frame 7",
-      "width": 1400,
-      "height": 2100,
+      "width": 2000,
+      "height": 3000,
       "mime": "image/webp",
-      "size": 106336,
+      "size": 178154,
       "origin": "upload",
       "createdAt": "2026-10-09T15:00:23.868Z"
     },
@@ -6213,10 +7100,10 @@
       "kind": "image",
       "src": "/media/bh-cis-08.webp",
       "alt": "Desenrola com CiS — campaign, frame 8",
-      "width": 1400,
-      "height": 2100,
+      "width": 2000,
+      "height": 3000,
       "mime": "image/webp",
-      "size": 360758,
+      "size": 909070,
       "origin": "upload",
       "createdAt": "2026-10-09T15:00:23.868Z"
     },
@@ -6465,10 +7352,10 @@
       "kind": "image",
       "src": "/media/bh-kfc-01.webp",
       "alt": "KFC — art direction, frame 1",
-      "width": 1400,
-      "height": 2121,
+      "width": 2000,
+      "height": 3031,
       "mime": "image/webp",
-      "size": 850290,
+      "size": 1575280,
       "origin": "upload",
       "createdAt": "2026-10-09T15:00:23.868Z"
     },
@@ -6477,10 +7364,10 @@
       "kind": "image",
       "src": "/media/bh-kfc-02.webp",
       "alt": "KFC — art direction, frame 2",
-      "width": 1400,
-      "height": 2121,
+      "width": 2000,
+      "height": 3031,
       "mime": "image/webp",
-      "size": 529312,
+      "size": 842308,
       "origin": "upload",
       "createdAt": "2026-10-09T15:00:23.868Z"
     },
@@ -6489,10 +7376,10 @@
       "kind": "image",
       "src": "/media/bh-kfc-03.webp",
       "alt": "KFC — art direction, frame 3",
-      "width": 1400,
-      "height": 788,
+      "width": 1920,
+      "height": 1080,
       "mime": "image/webp",
-      "size": 240378,
+      "size": 376382,
       "origin": "upload",
       "createdAt": "2026-10-09T15:00:23.868Z"
     },
@@ -6504,7 +7391,7 @@
       "width": 1080,
       "height": 1920,
       "mime": "image/webp",
-      "size": 430900,
+      "size": 425680,
       "origin": "upload",
       "createdAt": "2026-10-09T15:00:23.868Z"
     },
@@ -6516,7 +7403,7 @@
       "width": 1080,
       "height": 1920,
       "mime": "image/webp",
-      "size": 459522,
+      "size": 456378,
       "origin": "upload",
       "createdAt": "2026-10-09T15:00:23.868Z"
     },
@@ -6528,7 +7415,7 @@
       "width": 1080,
       "height": 1920,
       "mime": "image/webp",
-      "size": 426264,
+      "size": 426030,
       "origin": "upload",
       "createdAt": "2026-10-09T15:00:23.868Z"
     },
@@ -6537,10 +7424,10 @@
       "kind": "image",
       "src": "/media/bh-kfc-07.webp",
       "alt": "KFC — art direction, frame 7",
-      "width": 1400,
-      "height": 788,
+      "width": 1920,
+      "height": 1080,
       "mime": "image/webp",
-      "size": 65068,
+      "size": 99646,
       "origin": "upload",
       "createdAt": "2026-10-09T15:00:23.868Z"
     },
@@ -6549,10 +7436,10 @@
       "kind": "image",
       "src": "/media/bh-kfc-08.webp",
       "alt": "KFC — art direction, frame 8",
-      "width": 1400,
-      "height": 1050,
+      "width": 2000,
+      "height": 1500,
       "mime": "image/webp",
-      "size": 107616,
+      "size": 179466,
       "origin": "upload",
       "createdAt": "2026-10-09T15:00:23.868Z"
     },
@@ -6561,10 +7448,10 @@
       "kind": "image",
       "src": "/media/bh-kfc-09.webp",
       "alt": "KFC — art direction, frame 9",
-      "width": 1400,
-      "height": 1131,
+      "width": 2000,
+      "height": 1615,
       "mime": "image/webp",
-      "size": 85636,
+      "size": 142690,
       "origin": "upload",
       "createdAt": "2026-10-09T15:00:23.868Z"
     },
@@ -6573,10 +7460,10 @@
       "kind": "image",
       "src": "/media/bh-kfc-10.webp",
       "alt": "KFC — art direction, frame 10",
-      "width": 1400,
-      "height": 1050,
+      "width": 2000,
+      "height": 1500,
       "mime": "image/webp",
-      "size": 77486,
+      "size": 122886,
       "origin": "upload",
       "createdAt": "2026-10-09T15:00:23.868Z"
     },
@@ -7927,6 +8814,173 @@
       "mime": "image/webp",
       "origin": "upload",
       "createdAt": "2026-10-13T17:21:13.132Z"
+    }
+  ],
+  "clients": [
+    {
+      "id": "client-activas",
+      "name": "Activas",
+      "logoId": "m-logo-15580e540d"
+    },
+    {
+      "id": "client-banco24horas",
+      "name": "Banco24Horas",
+      "logoId": "m-logo-9ba0a5d20d"
+    },
+    {
+      "id": "client-centernorte",
+      "name": "Shopping Center Norte",
+      "logoId": "m-logo-c6d0941be3"
+    },
+    {
+      "id": "client-cis",
+      "name": "CiS",
+      "logoId": "m-logo-c822782616"
+    },
+    {
+      "id": "client-cpfl",
+      "name": "CPFL Energia",
+      "logoId": "m-logo-f6d8b3559d"
+    },
+    {
+      "id": "client-drscholls",
+      "name": "Dr. Scholl's",
+      "logoId": "m-logo-21df43ca11"
+    },
+    {
+      "id": "client-duolingo",
+      "name": "Duolingo",
+      "logoId": "m-logo-cda101b521"
+    },
+    {
+      "id": "client-echoenergia",
+      "name": "Echoenergia",
+      "logoId": "m-logo-904b36e04d"
+    },
+    {
+      "id": "client-imovelweb",
+      "name": "ImovelWeb",
+      "logoId": "m-logo-aca7685982"
+    },
+    {
+      "id": "client-jandaia",
+      "name": "Jandaia",
+      "logoId": "m-logo-cb844cad2e"
+    },
+    {
+      "id": "client-kfc",
+      "name": "KFC",
+      "logoId": "m-logo-f5a2cd7e95"
+    },
+    {
+      "id": "client-linx",
+      "name": "Linx",
+      "logoId": "m-logo-eb891c2f1b"
+    },
+    {
+      "id": "client-mercadolivre",
+      "name": "Mercado Livre",
+      "logoId": "m-logo-f51849223b"
+    },
+    {
+      "id": "client-mercedes",
+      "name": "Mercedes-Benz",
+      "logoId": "m-logo-2a7b969c8b"
+    },
+    {
+      "id": "client-multishow",
+      "name": "Multishow",
+      "logoId": "m-logo-2b505e01b2"
+    },
+    {
+      "id": "client-nazca",
+      "name": "Nazca Cosméticos",
+      "logoId": "m-logo-a52fe166fc"
+    },
+    {
+      "id": "client-nio",
+      "name": "NIO",
+      "logoId": "m-logo-135c1d70ca"
+    },
+    {
+      "id": "client-oticasdiniz",
+      "name": "Óticas Diniz",
+      "logoId": "m-logo-30cec208e5"
+    },
+    {
+      "id": "client-passeidireto",
+      "name": "Passei Direto",
+      "logoId": "m-logo-29e4f07308"
+    },
+    {
+      "id": "client-pizzahut",
+      "name": "Pizza Hut",
+      "logoId": "m-logo-cf8d08375a"
+    },
+    {
+      "id": "client-posca",
+      "name": "POSCA",
+      "logoId": "m-logo-c8b5c2b163"
+    },
+    {
+      "id": "client-pwc",
+      "name": "PwC",
+      "logoId": "m-logo-5b9cd26506"
+    },
+    {
+      "id": "client-sosma",
+      "name": "SOS Mata Atlântica",
+      "logoId": "m-logo-e35c1ba1f0"
+    },
+    {
+      "id": "client-stabilo",
+      "name": "STABILO",
+      "logoId": "m-logo-fb926c628f"
+    },
+    {
+      "id": "client-starbucks",
+      "name": "Starbucks",
+      "logoId": "m-logo-17ad99247b"
+    },
+    {
+      "id": "client-uniball",
+      "name": "uni-ball",
+      "logoId": "m-logo-dfcff67e16"
+    },
+    {
+      "id": "client-uol",
+      "name": "UOL",
+      "logoId": "m-logo-70c2a28dff"
+    },
+    {
+      "id": "client-zoetis",
+      "name": "Zoetis",
+      "logoId": "m-logo-f6b1dfe259"
+    },
+    {
+      "id": "client-lepok",
+      "name": "Lepok",
+      "logoId": "m-logo-aa99009d5a"
+    },
+    {
+      "id": "client-simparic",
+      "name": "Simparic",
+      "logoId": "m-logo-6df072c0de"
+    },
+    {
+      "id": "client-frangoassado",
+      "name": "Frango Assado",
+      "logoId": "m-logo-265b4131fb"
+    },
+    {
+      "id": "client-paramount",
+      "name": "Paramount Pictures",
+      "logoId": "m-logo-4a4dc0d71e"
+    },
+    {
+      "id": "client-globo",
+      "name": "Globo",
+      "logoId": "m-logo-59ce14e143"
     }
   ]
 }

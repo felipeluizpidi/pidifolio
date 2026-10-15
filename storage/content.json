@@ -47,7 +47,7 @@
         "The person",
         "behind the work."
       ],
-      "portraitId": "ph-about",
+      "portraitId": "m-5767541b3716",
       "bio": [
         "Felipe Pidi has been building creative processes since 2014 — but the work was never only about making good pieces. Across 12+ years in advertising, branding and 360° campaigns, he learned to turn strategy into visual language, and visual language into something a whole team can execute with consistency.",
         "He has worked on integrated campaigns, films, retail and brand identities, on productions with crews of 30+. As Head of Design at Agência Ecco he led a team of 10+ designers and redesigned the flow between creative, planning and accounts — cutting rework by 28% and speeding up delivery by 25%.",
@@ -106,7 +106,9 @@
       "instagram": "https://www.instagram.com/olhosdefelipe/",
       "whatsapp": "5511983829395"
     },
-    "cv": {},
+    "cv": {
+      "assetId": "m-0bd5957aeef0"
+    },
     "footer": {
       "signature": "Felipe Pidi © 2026",
       "tagline": "Made with intention."
@@ -1737,15 +1739,15 @@
           "id": "cis-emb-320e7d",
           "type": "video",
           "assetId": "m-0f9a22adc28c",
-          "autoplay": false,
-          "caption": "Press kit film"
+          "caption": "Press kit film",
+          "autoplay": false
         },
         {
           "id": "cis-emb-84bf10",
           "type": "video",
           "assetId": "m-d2ad8b1f62f9",
-          "autoplay": false,
-          "caption": "Campaign website"
+          "caption": "Campaign website",
+          "autoplay": false
         },
         {
           "id": "cis-grid-extra",
@@ -1981,8 +1983,8 @@
           "id": "ecco-emb-fc7b0b",
           "type": "video",
           "assetId": "m-29849f10f6c5",
-          "autoplay": false,
-          "caption": "Website film"
+          "caption": "Website film",
+          "autoplay": false
         }
       ],
       "demo": false,
@@ -3426,6 +3428,28 @@
   ],
   "media": [
     {
+      "id": "m-0bd5957aeef0",
+      "kind": "file",
+      "src": "/media/m-0bd5957aeef0.pdf",
+      "alt": "EN OUT26Felipe Luiz CV",
+      "mime": "application/pdf",
+      "size": 77420,
+      "origin": "upload",
+      "createdAt": "2026-10-15T02:27:05.829Z"
+    },
+    {
+      "id": "m-5767541b3716",
+      "kind": "image",
+      "src": "/media/m-5767541b3716.png",
+      "alt": "Imagem do ChatGPT 14 de out. de 2026, 23 26 06",
+      "width": 1122,
+      "height": 1402,
+      "mime": "image/png",
+      "size": 2273920,
+      "origin": "upload",
+      "createdAt": "2026-10-15T02:26:39.842Z"
+    },
+    {
       "id": "m-logo-59ce14e143",
       "kind": "image",
       "src": "/media/logo-globo.png",
@@ -4102,11 +4126,11 @@
       "id": "m-29849f10f6c5",
       "kind": "embed",
       "src": "https://vimeo.com/1214050863",
-      "provider": "vimeo",
+      "posterId": "m-b2022da1a43e",
       "alt": "Video - Site",
       "width": 1920,
       "height": 1080,
-      "posterId": "m-b2022da1a43e",
+      "provider": "vimeo",
       "origin": "remote",
       "createdAt": "2026-10-13T22:13:37.859Z"
     },
@@ -4126,11 +4150,11 @@
       "id": "m-d2ad8b1f62f9",
       "kind": "embed",
       "src": "https://vimeo.com/996235270",
-      "provider": "vimeo",
+      "posterId": "m-2befbdc0bd64",
       "alt": "Site - Campanha de Volta às Aulas da CiS - 2024",
       "width": 1920,
       "height": 1080,
-      "posterId": "m-2befbdc0bd64",
+      "provider": "vimeo",
       "origin": "remote",
       "createdAt": "2026-10-13T22:13:37.022Z"
     },
@@ -4150,11 +4174,11 @@
       "id": "m-0f9a22adc28c",
       "kind": "embed",
       "src": "https://vimeo.com/996385941",
-      "provider": "vimeo",
+      "posterId": "m-4dd274a15c8d",
       "alt": "Press Kit - Campanha de Volta às Aulas da CiS - 2024",
       "width": 1920,
       "height": 1080,
-      "posterId": "m-4dd274a15c8d",
+      "provider": "vimeo",
       "origin": "remote",
       "createdAt": "2026-10-13T22:13:36.161Z"
     },
