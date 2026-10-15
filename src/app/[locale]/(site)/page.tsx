@@ -6,7 +6,6 @@ import { Archive } from "@/components/site/Archive";
 import { About } from "@/components/site/About";
 import { Contact } from "@/components/site/Contact";
 import { getHomeData } from "@/lib/queries";
-import { cvHref } from "@/lib/cv";
 import { getDictionary } from "@/lib/dictionary";
 import { isLocale, type Locale } from "@/lib/i18n";
 import { notFound } from "next/navigation";
@@ -34,7 +33,6 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
   const locale: Locale = rawLocale;
   const dict = getDictionary(locale);
   const { settings: s, categories, featured, archive, media, clients } = await getHomeData(locale);
-  const cv = cvHref(s, media);
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Person",
@@ -52,8 +50,8 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
       <Marquee items={s.about.disciplines} />
       <SelectedWork s={s} projects={featured} media={media} dict={dict} />
       <Archive s={s} categories={categories} projects={archive} dict={dict} />
-      <About s={s} portrait={media[s.about.portraitId ?? ""]} cvHref={cv} dict={dict} />
-      <Contact s={s} cvHref={cv} locale={locale} dict={dict} />
+      <About s={s} portrait={media[s.about.portraitId ?? ""]} dict={dict} />
+      <Contact s={s} locale={locale} dict={dict} />
     </>
   );
 }

@@ -47,7 +47,6 @@ const en = {
   portraitBw: "Portrait — B&W",
   figOne: "Fig. 01 — {name}",
   disciplines: "Disciplines",
-  downloadCv: "Download CV ↓",
 
   sceneContact: "Scene 05 / Contact",
   nowCasting: "Now casting",
@@ -59,7 +58,6 @@ const en = {
   role: "Role",
   shotIn: "Shot in",
   reels: "Reels",
-  cv: "CV",
   backToFrameUp: "Back to frame 001 ↑",
 
   messageReceived: "Message received",
@@ -155,7 +153,6 @@ const pt: typeof en = {
   portraitBw: "Retrato — P&B",
   figOne: "Fig. 01 — {name}",
   disciplines: "Disciplinas",
-  downloadCv: "Baixar currículo ↓",
 
   sceneContact: "Cena 05 / Contato",
   nowCasting: "Em seleção",
@@ -167,7 +164,6 @@ const pt: typeof en = {
   role: "Cargo",
   shotIn: "Filmado em",
   reels: "Redes",
-  cv: "Currículo",
   backToFrameUp: "Voltar ao quadro 001 ↑",
 
   messageReceived: "Mensagem recebida",
@@ -263,7 +259,6 @@ const es: typeof en = {
   portraitBw: "Retrato — B&N",
   figOne: "Fig. 01 — {name}",
   disciplines: "Disciplinas",
-  downloadCv: "Descargar CV ↓",
 
   sceneContact: "Escena 05 / Contacto",
   nowCasting: "En selección",
@@ -275,7 +270,6 @@ const es: typeof en = {
   role: "Cargo",
   shotIn: "Filmado en",
   reels: "Redes",
-  cv: "CV",
   backToFrameUp: "Volver al cuadro 001 ↑",
 
   messageReceived: "Mensaje recibido",

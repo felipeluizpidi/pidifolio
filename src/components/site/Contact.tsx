@@ -5,7 +5,7 @@ import { socialLinks } from "@/lib/social";
 import { MaskLines, Reveal } from "./Motion";
 import { ContactForm } from "./ContactForm";
 
-export function Contact({ s, cvHref, locale, dict }: { s: Settings; cvHref?: string; locale: Locale; dict: Dict }) {
+export function Contact({ s, locale, dict }: { s: Settings; locale: Locale; dict: Dict }) {
   const c = s.contact;
   const links = socialLinks(s, dict);
   return (
@@ -85,11 +85,6 @@ export function Contact({ s, cvHref, locale, dict }: { s: Settings; cvHref?: str
                   {l.label}
                 </a>
               ))}
-              {cvHref && (
-                <a className="link-wipe" href={cvHref} download>
-                  {dict.cv}
-                </a>
-              )}
             </p>
           </div>
         </div>

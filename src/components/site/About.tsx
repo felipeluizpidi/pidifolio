@@ -5,7 +5,7 @@ import { socialLinks } from "@/lib/social";
 import { Media } from "../media/Media";
 import { ClipReveal, MaskLines, Reveal } from "./Motion";
 
-export function About({ s, portrait, cvHref, dict }: { s: Settings; portrait?: MediaAsset; cvHref?: string; dict: Dict }) {
+export function About({ s, portrait, dict }: { s: Settings; portrait?: MediaAsset; dict: Dict }) {
   const a = s.about;
   return (
     <section id="about" aria-labelledby="about-title" className="relative bg-ink text-ivory">
@@ -61,11 +61,6 @@ export function About({ s, portrait, cvHref, dict }: { s: Settings; portrait?: M
               {l.label} ↗
             </a>
           ))}
-          {cvHref && (
-            <a href={cvHref} download className="bg-ivory px-3 py-2 text-ink transition-colors hover:bg-red hover:text-ivory">
-              {dict.downloadCv}
-            </a>
-          )}
         </div>
       </div>
     </section>

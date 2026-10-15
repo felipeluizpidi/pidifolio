@@ -7,7 +7,6 @@ import { AmbientVideo } from "@/components/media/Video";
 import { CaseBlocks } from "@/components/site/CaseBlocks";
 import { MaskLines, Reveal } from "@/components/site/Motion";
 import { Contact } from "@/components/site/Contact";
-import { cvHref } from "@/lib/cv";
 import { getDictionary, type Dict } from "@/lib/dictionary";
 import { isLocale, locales, type Locale } from "@/lib/i18n";
 import { fmt } from "@/lib/format";
@@ -242,7 +241,7 @@ export default async function CasePage({ params }: { params: Promise<{ locale: s
         </Link>
       )}
 
-      <Contact s={s} cvHref={cvHref(s, media)} locale={locale} dict={dict} />
+      <Contact s={s} locale={locale} dict={dict} />
     </article>
   );
 }
