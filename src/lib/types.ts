@@ -139,6 +139,7 @@ export const settingsSchema = z.object({
     bio: z.array(z.string()),
     disciplines: z.array(z.string()),
     metrics: z.array(z.object({ value: z.string(), label: z.string() })),
+    experience: z.array(z.object({ role: z.string(), company: z.string(), period: z.string() })).default([]),
   }),
   contact: z.object({
     headline: z.array(z.string()),

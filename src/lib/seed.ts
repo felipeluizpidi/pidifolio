@@ -243,8 +243,8 @@ export const seedContent: Content = {
       bio: [
         "Felipe Pidi has been building creative processes since 2014 — but the work was never only about making good pieces. Across 12+ years in advertising, branding and 360° campaigns, he learned to turn strategy into visual language, and visual language into something a whole team can execute with consistency.",
         "He has worked on integrated campaigns, films, retail and brand identities, on productions with crews of 30+. As Head of Design at Agência Ecco he led a team of 10+ designers and redesigned the flow between creative, planning and accounts — cutting rework by 28% and speeding up delivery by 25%.",
-        "Today, as AI Creative Lead at Jotacom, he applies the same logic to AI. Not just generating images, but building repeatable creative systems: around 25 visual styles structured as node pipelines in Flora and Magnific, turning ~2 hours of trial and error into 20–30 minutes while protecting art direction and brand identity. AI doesn't replace creative thinking — it demands more direction.",
-        "Brands along the way: Mercado Livre, UOL, NIO, Duolingo, KFC, Mercedes-Benz, PwC, CPFL, Stabilo, Uni-ball, Posca, Dr. Scholl's, Banco24Horas, Linx, Starbucks, Pizza Hut and Óticas Diniz.",
+        "His move into AI-driven creative leadership started at DDAO Creative Lab, where as Associate Creative Director he built hybrid AI + design workflows, set quality criteria for AI-generated work and signed the creative direction of Óticas Diniz's national campaign. Today, as AI Creative Lead at Jotacom, he applies that same discipline at a wider scale: around 25 visual styles structured as node pipelines in Flora, ComfyUI and Magnific, turning roughly 2 hours of trial and error into 20–30 minutes, while protecting art direction and brand consistency. AI doesn't replace creative thinking — it demands more direction.",
+        "Brands along the way: Mercado Livre, UOL, NIO, Duolingo, KFC, Mercedes-Benz, PwC, CPFL, Stabilo, Uni-ball, Posca, Dr. Scholl's, Banco24Horas, Linx, Starbucks, Pizza Hut, Unilever and Óticas Diniz.",
       ],
       disciplines: ["Creative Direction", "Art Direction", "Brand Identity", "AI Creative Systems", "Design Leadership", "Set & Film Direction"],
       metrics: [
@@ -254,6 +254,17 @@ export const seedContent: Content = {
         { value: "10+", label: "Designers led as Head of Design" },
         { value: "−28%", label: "Rework after redesigning the creative workflow" },
         { value: "+25%", label: "Faster delivery across the design team" },
+      ],
+      experience: [
+        { role: "AI Creative Lead", company: "Jotacom — The Cross Performance Agency", period: "Feb 2026 — Present" },
+        { role: "Associate Creative Director (AI-Driven)", company: "DDAO Creative Lab", period: "Feb 2025 — Feb 2026" },
+        { role: "Head of Design", company: "Agência Ecco", period: "Apr 2022 — Feb 2025" },
+        { role: "Senior Designer", company: "The Heart Comunicação", period: "Feb 2019 — Feb 2022" },
+        { role: "Mid-Level Art Director", company: "Valtech", period: "Aug 2018 — Feb 2019" },
+        { role: "On/Off Art Director", company: "Blue Media Bureau", period: "Oct 2016 — Aug 2018" },
+        { role: "Art Assistant → Art Director", company: "Grupo Rái", period: "Oct 2015 — Oct 2016" },
+        { role: "Designer", company: "Iungo", period: "Jan 2015 — Oct 2015" },
+        { role: "Designer", company: "Torrada Criativa", period: "Apr 2014 — Dec 2014" },
       ],
     },
     contact: {

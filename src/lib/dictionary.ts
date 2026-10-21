@@ -47,6 +47,7 @@ const en = {
   portraitBw: "Portrait — B&W",
   figOne: "Fig. 01 — {name}",
   disciplines: "Disciplines",
+  experience: "Experience",
 
   sceneContact: "Scene 05 / Contact",
   nowCasting: "Now casting",
@@ -153,6 +154,7 @@ const pt: typeof en = {
   portraitBw: "Retrato — P&B",
   figOne: "Fig. 01 — {name}",
   disciplines: "Disciplinas",
+  experience: "Experiência",
 
   sceneContact: "Cena 05 / Contato",
   nowCasting: "Em seleção",
@@ -259,6 +261,7 @@ const es: typeof en = {
   portraitBw: "Retrato — B&N",
   figOne: "Fig. 01 — {name}",
   disciplines: "Disciplinas",
+  experience: "Experiencia",
 
   sceneContact: "Escena 05 / Contacto",
   nowCasting: "En selección",

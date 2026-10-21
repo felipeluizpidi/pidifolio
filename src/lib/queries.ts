@@ -24,7 +24,7 @@ type SettingsTranslation = Partial<{
   hero: Partial<{ roleLines: string[]; lead: string; meta: string[]; cta: string }>;
   selectedWork: Partial<{ headline: string[]; subtitle: string }>;
   archive: Partial<{ headline: string[]; subtitle: string }>;
-  about: Partial<{ headline: string[]; bio: string[]; disciplines: string[]; metrics: { label: string }[] }>;
+  about: Partial<{ headline: string[]; bio: string[]; disciplines: string[]; metrics: { label: string }[]; experience: { role: string; period: string }[] }>;
   contact: Partial<{ headline: string[]; copy: string; availability: string }>;
   footer: Partial<{ signature: string; tagline: string }>;
   seo: Partial<{ title: string; description: string }>;
@@ -93,6 +93,11 @@ function translateSettings(s: Settings, locale: Locale): Settings {
       bio: t.about?.bio ?? s.about.bio,
       disciplines: t.about?.disciplines ?? s.about.disciplines,
       metrics: s.about.metrics.map((m, i) => ({ value: m.value, label: t.about?.metrics?.[i]?.label ?? m.label })),
+      experience: s.about.experience.map((e, i) => ({
+        company: e.company,
+        role: t.about?.experience?.[i]?.role ?? e.role,
+        period: t.about?.experience?.[i]?.period ?? e.period,
+      })),
     },
     contact: { ...s.contact, headline: t.contact?.headline ?? s.contact.headline, copy: t.contact?.copy ?? s.contact.copy, availability: t.contact?.availability ?? s.contact.availability },
     footer: { ...s.footer, signature: t.footer?.signature ?? s.footer.signature, tagline: t.footer?.tagline ?? s.footer.tagline },

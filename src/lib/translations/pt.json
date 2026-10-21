@@ -34,10 +34,10 @@
         "por trás do trabalho."
       ],
       "bio": [
-        "Felipe Pidi constrói processos criativos desde 2014 — mas o trabalho nunca foi só sobre fazer peças boas. Em mais de 12 anos em publicidade, branding e campanhas 360°, ele aprendeu a transformar estratégia em linguagem visual, e linguagem visual em algo que um time inteiro consegue executar com consistência.",
-        "Já trabalhou em campanhas integradas, filmes, varejo e identidades de marca, em produções com equipes de mais de 30 pessoas. Como Head of Design na Agência Ecco, liderou um time de mais de 10 designers e redesenhou o fluxo entre criação, planejamento e atendimento — reduzindo retrabalho em 28% e acelerando a entrega em 25%.",
-        "Hoje, como AI Creative Lead na Jotacom, aplica a mesma lógica à IA. Não é só gerar imagens, é construir sistemas criativos repetíveis: cerca de 25 estilos visuais estruturados como pipelines por nós no Flora e no Magnific, transformando ~2 horas de tentativa e erro em 20–30 minutos, sem perder direção de arte nem identidade de marca. IA não substitui o pensamento criativo — ela exige mais direção.",
-        "Marcas pelo caminho: Mercado Livre, UOL, NIO, Duolingo, KFC, Mercedes-Benz, PwC, CPFL, Stabilo, Uni-ball, Posca, Dr. Scholl's, Banco24Horas, Linx, Starbucks, Pizza Hut e Óticas Diniz."
+        "Felipe Pidi constrói processos criativos desde 2014 — mas o trabalho nunca foi só sobre fazer boas peças. Em mais de 12 anos em publicidade, branding e campanhas 360°, ele aprendeu a transformar estratégia em linguagem visual, e linguagem visual em algo que um time inteiro consegue executar com consistência.",
+        "Atuou em campanhas integradas, filmes, varejo e identidades de marca, em produções com equipes de 30+ profissionais. Como Head de Design na Agência Ecco, liderou um time de 10+ designers e redesenhou o fluxo entre criação, planejamento e atendimento — reduzindo retrabalho em 28% e acelerando a entrega em 25%.",
+        "Sua entrada na liderança criativa orientada por IA começou no DDAO Creative Lab, onde como Diretor Criativo Associado estruturou workflows híbridos de IA + design, definiu critérios de qualidade para materiais gerados com IA e assinou a direção criativa da campanha nacional das Óticas Diniz. Hoje, como AI Creative Lead na Jotacom, aplica essa mesma disciplina em maior escala: cerca de 25 estilos visuais estruturados em pipelines de nodes com Flora, ComfyUI e Magnific, transformando aproximadamente 2 horas de tentativa e erro em 20 a 30 minutos, preservando direção de arte e consistência de marca. IA não substitui o pensamento criativo — ela exige mais direção.",
+        "Marcas pelo caminho: Mercado Livre, UOL, NIO, Duolingo, KFC, Mercedes-Benz, PwC, CPFL, Stabilo, Uni-ball, Posca, Dr. Scholl's, Banco24Horas, Linx, Starbucks, Pizza Hut, Unilever e Óticas Diniz."
       ],
       "disciplines": [
         "Direção Criativa",
@@ -65,6 +65,44 @@
         },
         {
           "label": "Entrega mais rápida em todo o time de design"
+        }
+      ],
+      "experience": [
+        {
+          "role": "AI Creative Lead",
+          "period": "Fev 2026 — Atual"
+        },
+        {
+          "role": "ACD — Associate Creative Director (AI-Driven)",
+          "period": "Fev 2025 — Fev 2026"
+        },
+        {
+          "role": "Head de Design",
+          "period": "Abr 2022 — Fev 2025"
+        },
+        {
+          "role": "Designer Sênior",
+          "period": "Fev 2019 — Fev 2022"
+        },
+        {
+          "role": "Diretor de Arte Pleno",
+          "period": "Ago 2018 — Fev 2019"
+        },
+        {
+          "role": "Diretor de Arte On/Off",
+          "period": "Out 2016 — Ago 2018"
+        },
+        {
+          "role": "Assistente de Arte → Diretor de Arte",
+          "period": "Out 2015 — Out 2016"
+        },
+        {
+          "role": "Designer",
+          "period": "Jan 2015 — Out 2015"
+        },
+        {
+          "role": "Designer",
+          "period": "Abr 2014 — Dez 2014"
         }
       ]
     },

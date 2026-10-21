@@ -18,7 +18,7 @@ export function ClientLogos({ clients, media, dict }: { clients: ClientLogo[]; m
               key={`${c.id}-${i}`}
               src={c.logo!.src}
               alt={c.name}
-              className="h-6 w-auto shrink-0 opacity-70 grayscale md:h-7"
+              className="h-6 w-auto shrink-0 opacity-90 grayscale md:h-7"
               loading="lazy"
             />
           ))}

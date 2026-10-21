@@ -34,10 +34,10 @@
         "detrás del trabajo."
       ],
       "bio": [
-        "Felipe Pidi construye procesos creativos desde 2014 — pero el trabajo nunca fue solo hacer piezas buenas. En más de 12 años en publicidad, branding y campañas 360°, aprendió a convertir estrategia en lenguaje visual, y lenguaje visual en algo que un equipo entero puede ejecutar con consistencia.",
-        "Ha trabajado en campañas integradas, films, retail e identidades de marca, en producciones con equipos de más de 30 personas. Como Head of Design en Agência Ecco, lideró un equipo de más de 10 diseñadores y rediseñó el flujo entre creación, planificación y cuentas — reduciendo el retrabajo en 28% y acelerando la entrega en 25%.",
-        "Hoy, como AI Creative Lead en Jotacom, aplica la misma lógica a la IA. No se trata solo de generar imágenes, sino de construir sistemas creativos repetibles: alrededor de 25 estilos visuales estructurados como pipelines por nodos en Flora y Magnific, convirtiendo ~2 horas de prueba y error en 20–30 minutos, sin perder dirección de arte ni identidad de marca. La IA no sustituye el pensamiento creativo — exige más dirección.",
-        "Marcas en el camino: Mercado Livre, UOL, NIO, Duolingo, KFC, Mercedes-Benz, PwC, CPFL, Stabilo, Uni-ball, Posca, Dr. Scholl's, Banco24Horas, Linx, Starbucks, Pizza Hut y Óticas Diniz."
+        "Felipe Pidi construye procesos creativos desde 2014 — pero el trabajo nunca fue solo hacer buenas piezas. En más de 12 años en publicidad, branding y campañas 360°, aprendió a convertir estrategia en lenguaje visual, y lenguaje visual en algo que todo un equipo puede ejecutar con consistencia.",
+        "Trabajó en campañas integradas, filmes, retail e identidades de marca, en producciones con equipos de 30+ profesionales. Como Head of Design en Agência Ecco, lideró un equipo de 10+ diseñadores y rediseñó el flujo entre creación, planificación y atención — reduciendo el retrabajo en 28% y acelerando la entrega en 25%.",
+        "Su entrada al liderazgo creativo impulsado por IA comenzó en DDAO Creative Lab, donde como Director Creativo Asociado construyó flujos híbridos de IA + diseño, definió criterios de calidad para materiales generados con IA y firmó la dirección creativa de la campaña nacional de Óticas Diniz. Hoy, como AI Creative Lead en Jotacom, aplica esa misma disciplina a mayor escala: cerca de 25 estilos visuales estructurados en pipelines de nodos con Flora, ComfyUI y Magnific, convirtiendo aproximadamente 2 horas de prueba y error en 20 a 30 minutos, protegiendo la dirección de arte y la consistencia de marca. La IA no reemplaza el pensamiento creativo — exige más dirección.",
+        "Marcas en el camino: Mercado Livre, UOL, NIO, Duolingo, KFC, Mercedes-Benz, PwC, CPFL, Stabilo, Uni-ball, Posca, Dr. Scholl's, Banco24Horas, Linx, Starbucks, Pizza Hut, Unilever y Óticas Diniz."
       ],
       "disciplines": [
         "Dirección Creativa",
@@ -65,6 +65,44 @@
         },
         {
           "label": "Entrega más rápida en todo el equipo de diseño"
+        }
+      ],
+      "experience": [
+        {
+          "role": "AI Creative Lead",
+          "period": "Feb 2026 — Actual"
+        },
+        {
+          "role": "Director Creativo Asociado (impulsado por IA)",
+          "period": "Feb 2025 — Feb 2026"
+        },
+        {
+          "role": "Head of Design",
+          "period": "Abr 2022 — Feb 2025"
+        },
+        {
+          "role": "Diseñador Sénior",
+          "period": "Feb 2019 — Feb 2022"
+        },
+        {
+          "role": "Director de Arte Pleno",
+          "period": "Ago 2018 — Feb 2019"
+        },
+        {
+          "role": "Director de Arte On/Off",
+          "period": "Oct 2016 — Ago 2018"
+        },
+        {
+          "role": "Asistente de Arte → Director de Arte",
+          "period": "Oct 2015 — Oct 2016"
+        },
+        {
+          "role": "Diseñador",
+          "period": "Ene 2015 — Oct 2015"
+        },
+        {
+          "role": "Diseñador",
+          "period": "Abr 2014 — Dic 2014"
         }
       ]
     },

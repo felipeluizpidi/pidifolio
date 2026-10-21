@@ -55,6 +55,28 @@ export function About({ s, portrait, dict }: { s: Settings; portrait?: MediaAsse
           </div>
         </div>
 
+        {a.experience.length > 0 && (
+          <div className="mt-14">
+            <p className="t-meta mb-3.5 text-ivory/60">{dict.experience}</p>
+            <div role="list" className="border-t border-ivory/25">
+              {a.experience.map((e, i) => (
+                <Reveal
+                  key={`${e.company}-${e.period}`}
+                  delay={i * 0.03}
+                  role="listitem"
+                  className="flex flex-col justify-between gap-1 border-b border-ivory/25 py-3 sm:flex-row sm:items-baseline sm:gap-4"
+                >
+                  <span className="min-w-0">
+                    <span className="t-heavy block text-[clamp(16px,1.6vw,20px)] text-ivory">{e.role}</span>
+                    <span className="t-meta-sm block text-ivory/60">{e.company}</span>
+                  </span>
+                  <span className="t-meta shrink-0 text-ivory/50 sm:text-right">{e.period}</span>
+                </Reveal>
+              ))}
+            </div>
+          </div>
+        )}
+
         <div className="t-meta mt-14 flex flex-wrap items-center gap-x-8 gap-y-3.5">
           {socialLinks(s, dict).map((l) => (
             <a key={l.key} href={l.href} target="_blank" rel="noreferrer" className="link-wipe">
